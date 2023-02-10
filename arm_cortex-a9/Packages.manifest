@@ -1,0 +1,181 @@
+Package: luci-app-modeminfo
+Version: 0.3.0-2
+Depends: libc, luci-compat, modeminfo
+Source: feeds/kiddin9/luci-app-modeminfo
+SourceName: luci-app-modeminfo
+License: GPLv3
+Section: luci
+SourceDateEpoch: 1676055469
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 5339
+Filename: luci-app-modeminfo_0.3.0-2_all.ipk
+Size: 6135
+SHA256sum: 2be2821c22f897c1a283065655542dc096a64eaed931c465a22c26f4b2c778cd
+Description:  Information dashboard for 3G/LTE dongle
+
+Package: modeminfo-qmi
+Version: 0.3.1-1
+Depends: libc, modeminfo, qmi-utils
+Source: feeds/kiddin9/modeminfo
+SourceName: modeminfo-qmi
+Section: opt
+SourceDateEpoch: 1676055469
+Maintainer: Konstantine Shevlakov <shevlakov@132lan.ru>
+Architecture: all
+Installed-Size: 2378
+Filename: modeminfo-qmi_0.3.1-1_all.ipk
+Size: 3107
+SHA256sum: 3add01423311aa0297e44e8f552ce2a3af91aaeb3074551b29ccfb05b836154b
+Description:  QMI addon for modeminfo
+
+Package: modeminfo-serial-dell
+Version: 0.3.1-1
+Depends: libc, modeminfo, kmod-usb-serial-option, atinout
+Source: feeds/kiddin9/modeminfo
+SourceName: modeminfo-serial-dell
+Section: opt
+SourceDateEpoch: 1676055469
+Maintainer: Konstantine Shevlakov <shevlakov@132lan.ru>
+Architecture: all
+Installed-Size: 1205
+Filename: modeminfo-serial-dell_0.3.1-1_all.ipk
+Size: 1969
+SHA256sum: 908e11277b3f66a29f6670823c582706319e2c0b751976d865863d01b8330fc7
+Description:  Dell DW5821e serial addon for modeminfo
+
+Package: modeminfo-serial-fibocom
+Version: 0.3.1-1
+Depends: libc, modeminfo, kmod-usb-serial-option, atinout
+Source: feeds/kiddin9/modeminfo
+SourceName: modeminfo-serial-fibocom
+Section: opt
+SourceDateEpoch: 1676055469
+Maintainer: Konstantine Shevlakov <shevlakov@132lan.ru>
+Architecture: all
+Installed-Size: 1196
+Filename: modeminfo-serial-fibocom_0.3.1-1_all.ipk
+Size: 1975
+SHA256sum: 29c3a5a32d321695a6d4d09b665e17b462fc5fc8fc4cac77a3ae8ffea2367e4a
+Description:  FIBOCOM NL668/678 serial addon for modeminfo
+
+Package: modeminfo-serial-huawei
+Version: 0.3.1-1
+Depends: libc, modeminfo, kmod-usb-serial-option, atinout
+Source: feeds/kiddin9/modeminfo
+SourceName: modeminfo-serial-huawei
+Section: opt
+SourceDateEpoch: 1676055469
+Maintainer: Konstantine Shevlakov <shevlakov@132lan.ru>
+Architecture: all
+Installed-Size: 1312
+Filename: modeminfo-serial-huawei_0.3.1-1_all.ipk
+Size: 2069
+SHA256sum: b437e95b714b0a1dcc5eb593c6d9545041c219441d98c7abd3bb140381e7b924
+Description:  HUAWEI serial addon for modeminfo
+
+Package: modeminfo-serial-quectel
+Version: 0.3.1-1
+Depends: libc, modeminfo, kmod-usb-serial-option, atinout
+Source: feeds/kiddin9/modeminfo
+SourceName: modeminfo-serial-quectel
+Section: opt
+SourceDateEpoch: 1676055469
+Maintainer: Konstantine Shevlakov <shevlakov@132lan.ru>
+Architecture: all
+Installed-Size: 1310
+Filename: modeminfo-serial-quectel_0.3.1-1_all.ipk
+Size: 2076
+SHA256sum: a8aff56ccf75be692feea6472ff5d668799e52e83f1ac01499a9c7e3b4a81a1b
+Description:  QUECTEL serial addon for modeminfo
+
+Package: modeminfo-serial-sierra
+Version: 0.3.1-1
+Depends: libc, modeminfo, kmod-usb-serial-qualcomm, atinout
+Source: feeds/kiddin9/modeminfo
+SourceName: modeminfo-serial-sierra
+Section: opt
+SourceDateEpoch: 1676055469
+Maintainer: Konstantine Shevlakov <shevlakov@132lan.ru>
+Architecture: all
+Installed-Size: 1192
+Filename: modeminfo-serial-sierra_0.3.1-1_all.ipk
+Size: 1963
+SHA256sum: aa2e022ef17e8cab1373d8fdfdaf4f921333db5b43c7c284bd1b2727e0dd6fce
+Description:  Sierra Wireless EM7455 serial addon for modeminfo
+
+Package: modeminfo-serial-simcom
+Version: 0.3.1-1
+Depends: libc, modeminfo, kmod-usb-serial-option, atinout
+Source: feeds/kiddin9/modeminfo
+SourceName: modeminfo-serial-simcom
+Section: opt
+SourceDateEpoch: 1676055469
+Maintainer: Konstantine Shevlakov <shevlakov@132lan.ru>
+Architecture: all
+Installed-Size: 1226
+Filename: modeminfo-serial-simcom_0.3.1-1_all.ipk
+Size: 1987
+SHA256sum: 98ff4dfee52410fe56c370b32908073283db659920f82f8940a2bb8f122ef887
+Description:  SIMCOM serial addon for modeminfo
+
+Package: modeminfo-serial-telit
+Version: 0.3.1-1
+Depends: libc, modeminfo, kmod-usb-serial-option, atinout
+Source: feeds/kiddin9/modeminfo
+SourceName: modeminfo-serial-telit
+Section: opt
+SourceDateEpoch: 1676055469
+Maintainer: Konstantine Shevlakov <shevlakov@132lan.ru>
+Architecture: all
+Installed-Size: 1132
+Filename: modeminfo-serial-telit_0.3.1-1_all.ipk
+Size: 1910
+SHA256sum: dd7c464f82e7d04318cb70f5ac91fe2a58cb90d78456c58653f82750f4302133
+Description:  TELIT LN940/T77W678/HP4220 serial addon for modeminfo
+
+Package: modeminfo-serial-xmm
+Version: 0.3.1-1
+Depends: libc, modeminfo, kmod-usb-acm, atinout
+Source: feeds/kiddin9/modeminfo
+SourceName: modeminfo-serial-xmm
+Section: opt
+SourceDateEpoch: 1676055469
+Maintainer: Konstantine Shevlakov <shevlakov@132lan.ru>
+Architecture: all
+Installed-Size: 1519
+Filename: modeminfo-serial-xmm_0.3.1-1_all.ipk
+Size: 2303
+SHA256sum: cd2cd64ab1c2cc1b18d4f5c3e8f8db6426884344c61aa470be666da238a9acee
+Description:  FIBOCOM L850/L860 Intel XMM chips serial addon for modeminfo
+
+Package: modeminfo-telegram
+Version: 0.3.1-1
+Depends: libc, modeminfo, telegrambot
+Source: feeds/kiddin9/modeminfo
+SourceName: modeminfo-telegram
+Section: opt
+SourceDateEpoch: 1676055469
+Maintainer: Konstantine Shevlakov <shevlakov@132lan.ru>
+Architecture: all
+Installed-Size: 800
+Filename: modeminfo-telegram_0.3.1-1_all.ipk
+Size: 1533
+SHA256sum: f5db3cdcc983f6f9708567cf4c407dd846d9c18046b6cdd0b3ae5f7b36dd0f58
+Description:  Plugin for telegrambot
+
+Package: modeminfo
+Version: 0.3.1-1
+Depends: libc, comgt
+Source: feeds/kiddin9/modeminfo
+SourceName: modeminfo
+Section: net
+SourceDateEpoch: 1676055469
+Maintainer: Konstantine Shevlakov <shevlakov@132lan.ru>
+Architecture: all
+Installed-Size: 3411
+Filename: modeminfo_0.3.1-1_all.ipk
+Size: 4160
+SHA256sum: fcdbf5d396fb3eabf295668ea7429fb4d69cc79adccff864d7923e801b3220f3
+Description:  Signal information for 3G/LTE dongle
+
