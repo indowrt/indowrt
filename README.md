@@ -24,6 +24,9 @@
 
 + Thank you **kiddin9**[openwrt firmware and plugin download](https://op.dllkids.xyz/op/firmware/)
 
++ [All Member Group Facebook Indo Wrt (internet networking of dd-wrt and openwrt)
+ ]( https://web.facebook.com/groups/xderm)
+
 #### Instructions
 Tambahkan custom feeds di Repo masing-masing sesuai architecture Router Masing2
 ```yaml
