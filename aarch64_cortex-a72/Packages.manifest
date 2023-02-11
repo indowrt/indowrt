@@ -1,3 +1,746 @@
+Package: 3ginfo-lite
+Version: 20190418
+Depends: libc, comgt
+Source: feeds/kiddin9/3ginfo
+SourceName: 3ginfo-lite
+Section: net
+SourceDateEpoch: 1676058076
+Maintainer: Cezary Jackiewicz <cezary@eko.one.pl>
+Architecture: all
+Installed-Size: 15818
+Filename: 3ginfo-lite_20190418_all.ipk
+Size: 16559
+SHA256sum: e09424e2cc178e4b134145ebf8b2ebe524e4dd21716a413d8c3ce69c9cd78863
+Description:  Information about status of 3G/4G modem (lite version)
+
+Package: 3ginfo-qmisignal
+Version: 20190418
+Depends: libc, uqmi
+Source: feeds/kiddin9/3ginfo
+SourceName: 3ginfo-qmisignal
+Section: net
+SourceDateEpoch: 1676058076
+Maintainer: Cezary Jackiewicz <cezary@eko.one.pl>
+Architecture: all
+Installed-Size: 2255
+Filename: 3ginfo-qmisignal_20190418_all.ipk
+Size: 3024
+SHA256sum: d16de3d53183e2fb213840b8e5802bb2a4d60c5d7f74fc4538e6db0c4daad38b
+Description:  Information about status of 3G/4G modem (qmi signal)
+
+Package: 3ginfo-text
+Version: 20190418
+Depends: libc, comgt
+Source: feeds/kiddin9/3ginfo
+SourceName: 3ginfo-text
+Section: net
+SourceDateEpoch: 1676058076
+Maintainer: Cezary Jackiewicz <cezary@eko.one.pl>
+Architecture: all
+Installed-Size: 23018
+Filename: 3ginfo-text_20190418_all.ipk
+Size: 23868
+SHA256sum: e08981a17b00d53963d1f6fd2fa996bd5eba45ee4286117c8f0a23dc1f709ae2
+Description:  Information about status of 3G/4G modem (text version)
+
+Package: 3ginfo
+Version: 20190418
+Depends: libc, 3ginfo-text
+Source: feeds/kiddin9/3ginfo
+SourceName: 3ginfo
+Section: net
+SourceDateEpoch: 1676058076
+Maintainer: Cezary Jackiewicz <cezary@eko.one.pl>
+Architecture: all
+Installed-Size: 11265
+Filename: 3ginfo_20190418_all.ipk
+Size: 12016
+SHA256sum: 37dcbc0f686e61bdadb53ce4b3e61c399fbeabb8b3e960750b2474eb333c4327
+Description:  Information about status of 3G/4G modem
+
+Package: 3proxy-common
+Version: 0.9.4
+Depends: libc, 3proxy
+Source: feeds/kiddin9/3proxy
+SourceName: 3proxy-common
+License: GPLv2
+LicenseFiles: LICENSE
+Section: opt
+SourceDateEpoch: 1676058076
+Maintainer: muziling <lls924@gmail.com>
+Architecture: aarch64_cortex-a72
+Installed-Size: 118084
+Filename: 3proxy-common_0.9.4_aarch64_cortex-a72.ipk
+Size: 118608
+SHA256sum: 0e64e6e440759e04e5223970c46caa682aaa132067b19c1ebf867ed689acd1d0
+Description:  3proxy addional servers
+
+Package: 3proxy-sql
+Version: 0.9.4
+Depends: libc, 3proxy
+Source: feeds/kiddin9/3proxy
+SourceName: 3proxy-sql
+License: GPLv2
+LicenseFiles: LICENSE
+Section: opt
+SourceDateEpoch: 1676058076
+Maintainer: muziling <lls924@gmail.com>
+Architecture: all
+Installed-Size: 14011
+Filename: 3proxy-sql_0.9.4_all.ipk
+Size: 14633
+SHA256sum: 858525195987e5763740868ef0413e4f014da8cb4826dc8bea9ed65bad69fcb0
+Description:  3proxy sql template
+
+Package: 3proxy
+Version: 0.9.4
+Depends: libc, libpthread, libopenssl1.1
+Source: feeds/kiddin9/3proxy
+SourceName: 3proxy
+License: GPLv2
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1676058076
+Maintainer: muziling <lls924@gmail.com>
+Architecture: aarch64_cortex-a72
+Installed-Size: 111006
+Filename: 3proxy_0.9.4_aarch64_cortex-a72.ipk
+Size: 111625
+SHA256sum: 3f794f856b2c689d607ab4e4acc65fb76a29e2b0d71e6983ad7bbdde9fdf2ef0
+Description:  3APA3A 3proxy tiny proxy servers
+
+Package: accel-ppp
+Version: 1.11.2-1
+Depends: libc, libpcre, libopenssl1.1, libpthread, librt, libatomic1
+Source: feeds/kiddin9/accel-ppp
+SourceName: accel-ppp
+License: GPL-2.0
+Section: net
+SourceDateEpoch: 1676058076
+Maintainer: Alex Paraskeva <sim201010@gmail.com>
+Architecture: aarch64_cortex-a72
+Installed-Size: 344191
+Filename: accel-ppp_1.11.2-1_aarch64_cortex-a72.ipk
+Size: 344598
+SHA256sum: 70f22f3ed1cbde23c3465e8a86ea69dbc55b78bf21ed0a2e03dfdc52344dc500
+Description:  accel-ppp VPN server
+
+Package: adguardhome
+Version: 0.108.0-b.26-1
+Depends: libc, ca-bundle
+Source: feeds/kiddin9/adguardhome
+SourceName: adguardhome
+License: GPL-3.0-only
+LicenseFiles: LICENSE.txt
+Section: net
+SourceDateEpoch: 1676058076
+Maintainer: Dobroslaw Kijowski <dobo90@gmail.com>
+Architecture: aarch64_cortex-a72
+Installed-Size: 8807934
+Filename: adguardhome_0.108.0-b.26-1_aarch64_cortex-a72.ipk
+Size: 8787159
+SHA256sum: e3c9e2ff3e93baeee6b75c116eb2323e30472fe95a5f9e6cfab921d417dd5951
+Description:  Free and open source, powerful network-wide ads and trackers blocking DNS server.
+
+Package: alist
+Version: 3.10.1-1
+Depends: libc
+Source: feeds/kiddin9/alist
+SourceName: alist
+License: GPL-3.0
+Section: net
+SourceDateEpoch: 1676058076
+Maintainer: sbwml <admin@cooluc.com>
+Architecture: aarch64_cortex-a72
+Installed-Size: 12788942
+Filename: alist_3.10.1-1_aarch64_cortex-a72.ipk
+Size: 12727743
+SHA256sum: 56aa6f9f095b8ce318bd7481763c9bace70e9a5705c9f3e9b9565e14ba2d0dc4
+Description:  A file list program that supports multiple storage
+
+Package: atinout
+Version: 0.9.1
+Depends: libc
+Source: feeds/kiddin9/atinout
+SourceName: atinout
+License: GPLv2
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1676058076
+Maintainer: Adrian Guenter <a@gntr.me>
+Architecture: aarch64_cortex-a72
+Installed-Size: 3416
+Filename: atinout_0.9.1_aarch64_cortex-a72.ipk
+Size: 4189
+SHA256sum: 97b5116d3baf6515d3d6c6a213bea7dcd1ddbb59714165f497556c09aaa8fa06
+Description:  Atinout is a program that will execute AT commands in sequence and
+ capture the response from the modem.
+
+Package: badvpn
+Version: 1.999.130-1
+Depends: libc, librt, libpthread, libudev, libudev-zero, libnss, libopenssl1.1, coreutils, coreutils-stdbuf, openssl-util
+Source: feeds/kiddin9/badvpn
+SourceName: badvpn
+Section: net
+SourceDateEpoch: 1676058076
+Maintainer: helmiau
+Architecture: aarch64_cortex-a72
+Installed-Size: 135904
+Filename: badvpn_1.999.130-1_aarch64_cortex-a72.ipk
+Size: 136693
+SHA256sum: 98ee95e83e0fabbc26b7c1f9309a83e00ef847d079d3c3ea8dddbf04af7aa364
+Description:  BadVPN
+
+Package: brook
+Version: 20230122-1
+Depends: libc, ca-bundle
+Source: feeds/kiddin9/brook
+SourceName: brook
+License: GPL-3.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1676058076
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: aarch64_cortex-a72
+Installed-Size: 5291523
+Filename: brook_20230122-1_aarch64_cortex-a72.ipk
+Size: 5215001
+SHA256sum: ebe7280387779fbe6dfd89bb190e76fe2a023105259ed578e0f6010e9f2a435f
+Description:  Brook is a cross-platform strong encryption and not detectable proxy.
+ Zero-Configuration.
+
+Package: cellled
+Version: 0.0.1-1
+Depends: libc
+Source: feeds/kiddin9/cellled
+SourceName: cellled
+Section: opt
+SourceDateEpoch: 1676058076
+Maintainer: Konstantine Shevlakov <shevlakov@132lan.ru>
+Architecture: all
+Installed-Size: 1873
+Filename: cellled_0.0.1-1_all.ipk
+Size: 2587
+SHA256sum: 3833cdc3f618dab17dceb6aef1d30e50ae7aa3b14434fefab3c3ac9f9c15bdda
+Description:  Indicate LED cellular signal signal strength.
+
+Package: chinadns-ng
+Version: 1.0-beta.25-1
+Depends: libc, ipset
+Source: feeds/kiddin9/chinadns-ng
+SourceName: chinadns-ng
+License: AGPL-3.0-only
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1676058076
+Maintainer: pexcn <i@pexcn.me>
+Architecture: aarch64_cortex-a72
+Installed-Size: 17860
+Filename: chinadns-ng_1.0-beta.25-1_aarch64_cortex-a72.ipk
+Size: 18639
+SHA256sum: 8c385be98a4547d1e777da14e3584d3e40b9fa7736d55035c586677014756635
+Description:  ChinaDNS next generation, refactoring with epoll and ipset.
+
+Package: corkscrew
+Version: 2.0-1
+Depends: libc
+Source: feeds/kiddin9/corkscrew
+SourceName: corkscrew
+Section: net
+SourceDateEpoch: 1676058076
+Maintainer: Galih Prastowo Aji <galih.prastowo@gmail.com>
+Architecture: aarch64_cortex-a72
+Installed-Size: 3430
+Filename: corkscrew_2.0-1_aarch64_cortex-a72.ipk
+Size: 4146
+SHA256sum: db10eba53a2bf737da826586ea87bf986927f1021e1caa01559165fd009db93d
+Description:  Tunneling SSH through HTTP proxies.
+
+Package: dns2socks
+Version: 2.1-2
+Depends: libc, libpthread
+Source: feeds/kiddin9/dns2socks
+SourceName: dns2socks
+License: BSD-3-Clause
+Section: net
+SourceDateEpoch: 1676058076
+Maintainer: ghostmaker
+Architecture: aarch64_cortex-a72
+Installed-Size: 11194
+Filename: dns2socks_2.1-2_aarch64_cortex-a72.ipk
+Size: 11999
+SHA256sum: a6924c0d452827e254da737e0acf8999284066bc85c5cec0a6d8a906cc6f1442
+Description:  This is a command line utility to resolve DNS requests via
+ a SOCKS tunnel like Tor or a HTTP proxy.
+
+Package: dns2tcp
+Version: 1.1.0-1
+Depends: libc
+Source: feeds/kiddin9/dns2tcp
+SourceName: dns2tcp
+License: AGPL-3.0-only
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1676058076
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: aarch64_cortex-a72
+Installed-Size: 12041
+Filename: dns2tcp_1.1.0-1_aarch64_cortex-a72.ipk
+Size: 12825
+SHA256sum: 2d0c4cf26b6b42c1236c910407d88b1a23ff0d87651e9014f280a8a9371bfca5
+Description:  utility to convert dns query from udp to tcp
+
+Package: ethstatus
+Version: 0.4.9-1
+Depends: libc, libncurses6
+Source: feeds/kiddin9/ethstatus
+SourceName: ethstatus
+License: GPL-2.0-only
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1676058076
+Maintainer: Paul Spooren <mail@aparcar.org>
+Architecture: aarch64_cortex-a72
+Installed-Size: 8487
+Filename: ethstatus_0.4.9-1_aarch64_cortex-a72.ipk
+Size: 9364
+SHA256sum: 923d6cac2c6db22471bb5724e15ba3713bf8baf399994f7980d7a4459a6f0801
+Description:  Ethstatus is a console-based monitoring utility for
+ displaying statistical data of the ethernet interface
+ on a quantity basis. It is similar to iptraf but is meant
+ to run as a permanent console task to monitor the network
+ load.
+
+Package: filebrowser
+Version: 2.23.0-1
+Depends: libc
+Source: feeds/kiddin9/filebrowser
+SourceName: filebrowser
+License: Apache-2.0
+LicenseFiles: LICENSE
+Section: utils
+SourceDateEpoch: 1676058076
+Maintainer: CN_SZTL <cnsztl@immortalwrt.org>
+Architecture: aarch64_cortex-a72
+Installed-Size: 9617865
+Filename: filebrowser_2.23.0-1_aarch64_cortex-a72.ipk
+Size: 9608302
+SHA256sum: cc5059d2d9e27d83e79d94378e2889bef9ed66c2e02141bb7a127c0075aee6dd
+Description:  filebrowser provides a file managing interface within a specified directory
+ and it can be used to upload, delete, preview, rename and edit your files.
+ It allows the creation of multiple users and each user can have its own directory.
+ It can be used as a standalone app or as a middleware.
+
+Package: gost
+Version: 2.11.5-1
+Depends: libc, ca-bundle
+Source: feeds/kiddin9/gost
+SourceName: gost
+License: MIT
+Section: net
+SourceDateEpoch: 1676058076
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: aarch64_cortex-a72
+Installed-Size: 4794509
+Filename: gost_2.11.5-1_aarch64_cortex-a72.ipk
+Size: 4782341
+SHA256sum: 268917cb0e28d18516ede6419daeb9cbce41f502a8a630c7bf4d6ec174d0039e
+Description:  GO Simple Tunnel
+
+Package: hysteria
+Version: 1.3.3-1
+Depends: libc, ca-bundle
+Source: feeds/kiddin9/hysteria
+SourceName: hysteria
+License: MIT
+Section: net
+SourceDateEpoch: 1676058076
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: aarch64_cortex-a72
+Installed-Size: 6181851
+Filename: hysteria_1.3.3-1_aarch64_cortex-a72.ipk
+Size: 6163545
+SHA256sum: e45c90774b6c594d75bf86890c0e6ae2d5d6add26a27e7976b4810a32ded0776
+Description:  Hysteria is a feature-packed network utility optimized for networks
+ of poor quality (e.g. satellite connections, congested public Wi-Fi,
+ connecting from China to servers abroad) powered by a custom version
+ of QUIC protocol.
+
+Package: internet-detector
+Version: 0.6-0
+Depends: libc, lua, luci-lib-nixio, libuci-lua
+Source: feeds/kiddin9/internet-detector
+SourceName: internet-detector
+Section: net
+SourceDateEpoch: 1676058076
+Maintainer: gSpot <https://github.com/gSpotx2f/luci-app-internet-detector>
+Architecture: all
+Installed-Size: 8087
+Filename: internet-detector_0.6-0_all.ipk
+Size: 8943
+SHA256sum: f0bcc9fa73c7f18626b32180ccece44b696c8e4ee5f35f61d607457e3eefa2bc
+Description:  Internet-detector is a small daemon
+ for checking Internet availability.
+ Written in Lua using the nixio library.
+
+Package: ipt2socks
+Version: 1.1.3-3
+Depends: libc, libpthread
+Source: feeds/kiddin9/ipt2socks
+SourceName: ipt2socks
+License: AGPL-3.0
+Section: net
+SourceDateEpoch: 1676058076
+Architecture: aarch64_cortex-a72
+Installed-Size: 26603
+Filename: ipt2socks_1.1.3-3_aarch64_cortex-a72.ipk
+Size: 27308
+SHA256sum: e45234edebe1a91866ca66b1fcdb5234a3a58c4ef6553992fba6b1aa6f009017
+Description:  Utility for converting iptables (redirect/tproxy) to socks5.
+
+Package: iptables-mod-ndpi
+Version: flow_info-26911075-3.4-1
+Depends: libc, iptables, iptables-mod-conntrack-extra, kmod-ipt-ndpi
+Source: feeds/kiddin9/ndpi-netfilter
+SourceName: iptables-mod-ndpi
+Section: net
+SourceDateEpoch: 1676058076
+Maintainer: Thomas Heil <heil@terminal-consulting.de>
+Architecture: aarch64_cortex-a72
+Installed-Size: 11733
+Filename: iptables-mod-ndpi_flow_info-26911075-3.4-1_aarch64_cortex-a72.ipk
+Size: 12544
+SHA256sum: 6191861675ca1ca6bc537271c3f0a3e4688fc0a0339188ba9e5b4c1cc2619b99
+Description:  nDPI is a ntop-maintained superset of the popular OpenDPI library
+
+Package: lib3proxy
+Version: 0.9.4
+Depends: libc, 3proxy
+Source: feeds/kiddin9/3proxy
+SourceName: lib3proxy
+License: GPLv2
+LicenseFiles: LICENSE
+Section: opt
+SourceDateEpoch: 1676058076
+Maintainer: muziling <lls924@gmail.com>
+Architecture: aarch64_cortex-a72
+Installed-Size: 65971
+Filename: lib3proxy_0.9.4_aarch64_cortex-a72.ipk
+Size: 66650
+SHA256sum: b0420db4d4006cf2095eccf83fb85444607efb005277cfe644667e5540c75009
+Description:  3proxy libraries
+
+Package: lua-maxminddb
+Version: 0.2-1
+Depends: libc, lua, libmaxminddb
+Source: feeds/kiddin9/lua-maxminddb
+SourceName: lua-maxminddb
+License: MIT
+Section: lang
+SourceDateEpoch: 1676058076
+Maintainer: fabled
+Architecture: aarch64_cortex-a72
+Installed-Size: 2761
+Filename: lua-maxminddb_0.2-1_aarch64_cortex-a72.ipk
+Size: 3467
+SHA256sum: 53eb64a746046950ef950630eadedf75178022e87969bc81d25c7ea0dfd7ee0c
+Description:  libmaxminddb bindings for lua
+
+Package: lua-neturl
+Version: 1.1-1-3
+Depends: libc, lua
+Source: feeds/kiddin9/lua-neturl
+SourceName: lua-neturl
+License: MIT
+Section: lang
+SourceDateEpoch: 1676058076
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: all
+Installed-Size: 4533
+Filename: lua-neturl_1.1-1-3_all.ipk
+Size: 5318
+SHA256sum: 8e73cecffbdfbda3032c04148ffae6f1a3d7bcb0462dc0a5c6f5a5b5f8a99240
+Description:  This small Lua library provides a few functions to parse URL with
+ querystring and build new URL easily.
+
+Package: luci-app-3ginfo
+Version: 1.3.3
+Depends: libc, 3ginfo-text, luci-compat
+Source: feeds/kiddin9/luci-app-3ginfo
+SourceName: luci-app-3ginfo
+Section: luci
+SourceDateEpoch: 1676058076
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 62783
+Filename: luci-app-3ginfo_1.3.3_all.ipk
+Size: 63675
+SHA256sum: da7f52f8fe45bdc00b418a4ece104e0cc3fc85816bd50664e258d0a37a30af5d
+Description:  LuCI panel for 3ginfo
+
+Package: luci-app-3proxy
+Version: 0.0.1
+Depends: libc, 3proxy, luci-compat
+Source: feeds/kiddin9/luci-app-3proxy
+SourceName: luci-app-3proxy
+License: GPLv3
+Section: luci
+SourceDateEpoch: 1676058076
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 1220
+Filename: luci-app-3proxy_0.0.1_all.ipk
+Size: 2028
+SHA256sum: 9fc012e1b815085dac1b9f3a2ef0a8d4b8af18fa45778a9490973185dbc6026c
+Description:  3proxy simple webUI
+
+Package: luci-app-amlogic
+Version: 3.1.159
+Depends: libc, luci-lib-nixio, block-mount, blkid, parted, dosfstools, e2fsprogs, lsblk, pv, losetup, uuidgen, bash, perl, fdisk
+Source: feeds/kiddin9/luci-app-amlogic
+SourceName: luci-app-amlogic
+License: GPL-2.0 License
+Section: luci
+SourceDateEpoch: 1676058076
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 79697
+Filename: luci-app-amlogic_3.1.159_all.ipk
+Size: 80711
+SHA256sum: 71ffd41b4cc0b9c413aad109903316bf5d21aadf44b5b803072ea021cbb1a447
+Description:  LuCI support for Amlogic, Allwinner and Rockchip related boxs
+
+Package: luci-app-argon-config
+Version: 0.9
+Depends: libc, luci-compat, luci-theme-argon
+Source: feeds/kiddin9/luci-app-argon-config
+SourceName: luci-app-argon-config
+Section: luci
+SourceDateEpoch: 1676058076
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 4768
+Filename: luci-app-argon-config_0.9_all.ipk
+Size: 5626
+SHA256sum: d53baf8cf383c05de69ecd29400c3eef35f675122aaf753b7cc8b5457a44759e
+Description:  LuCI page for Argon Config
+
+Package: luci-app-atinout
+Version: 0.0.3
+Depends: libc, atinout, luci-compat
+Source: feeds/kiddin9/luci-app-atinout
+SourceName: luci-app-atinout
+License: GPLv3
+Section: luci
+SourceDateEpoch: 1676058076
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 3375
+Filename: luci-app-atinout_0.0.3_all.ipk
+Size: 4236
+SHA256sum: 97f1f306013bfa90f22812c77f83c5f9a9c3b13b0dfb4aa84c30d3a54bad1195
+Description:  Web UI for atinout
+
+Package: luci-app-cellled
+Version: 0.0.1
+Depends: libc, cellled, luci-compat
+Source: feeds/kiddin9/luci-app-cellled
+SourceName: luci-app-cellled
+License: GPLv3
+Section: luci
+SourceDateEpoch: 1676058076
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 1810
+Filename: luci-app-cellled_0.0.1_all.ipk
+Size: 2612
+SHA256sum: 36f99cb41bdb53f8db5d20b8529db9d34a448f680c6492714cae7a21001855ee
+Description:  LuCI app for celled
+
+Package: luci-app-dockerman
+Version: v0.5.25
+Depends: libc, luci-compat, luci-lib-docker, luci-lib-ip, docker, dockerd, cgroupfs-mount, ttyd
+Source: feeds/kiddin9/luci-app-dockerman
+SourceName: luci-app-dockerman
+License: AGPL-3.0
+Section: luci
+SourceDateEpoch: 1676058076
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 58096
+Filename: luci-app-dockerman_v0.5.25_all.ipk
+Size: 59072
+SHA256sum: e597172f4463204e9d1c7820a32a814bc44a27656ecf3e09357eee75472cf535
+Description:  LuCI Support for docker
+
+Package: luci-app-filebrowser
+Version: snapshot
+Depends: libc, filebrowser
+Source: feeds/kiddin9/luci-app-filebrowser
+SourceName: luci-app-filebrowser
+License: GPLv3
+Section: luci
+SourceDateEpoch: 1676058076
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 2156
+Filename: luci-app-filebrowser_snapshot_all.ipk
+Size: 2996
+SHA256sum: 53e51e85afca2062ab9a4e9ac790646c77182193248e5c4af024c19bd8f249f2
+Description:  LuCI Support for FileBrowser
+
+Package: luci-app-gost
+Version: 1.0
+Depends: libc, gost
+Source: feeds/kiddin9/luci-app-gost
+SourceName: luci-app-gost
+Section: luci
+SourceDateEpoch: 1676058076
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 1932
+Filename: luci-app-gost_1.0_all.ipk
+Size: 2732
+SHA256sum: 367ebe8198060fe4ce7003c26c1629e125f94e4ebb75a479d7acd59b2255df0c
+Description:  LuCI support for Gost
+
+Package: luci-app-gpoint
+Version: 1.6.0
+Depends: libc, lua, curl, lua-rs232, luasocket, iwinfo, libiwinfo-lua, lua-bit32
+Source: feeds/kiddin9/luci-app-gpoint
+SourceName: luci-app-gpoint
+License: GPLv3
+Section: luci
+SourceDateEpoch: 1676058076
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 46327
+Filename: luci-app-gpoint_1.6.0_all.ipk
+Size: 47203
+SHA256sum: a7be82548ed90eb6e945e8c101580a684063eba7876bd48e0728e27586705d53
+Description:  GNSS Information dashboard for 3G/LTE dongle
+
+Package: luci-app-internet-detector
+Version: 0.6-0
+Depends: libc, internet-detector
+Source: feeds/kiddin9/luci-app-internet-detector
+SourceName: luci-app-internet-detector
+Section: luci
+SourceDateEpoch: 1676058076
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 7493
+Filename: luci-app-internet-detector_0.6-0_all.ipk
+Size: 8322
+SHA256sum: 02b849a41c778067f55cc9c6fc8087f12190ed67c01a05eec856553761db8fd6
+Description:  LuCI support for internet-detector
+
+Package: luci-app-libernet-bin
+Version: 2.0
+Depends: libc, coreutils, coreutils-stdbuf, jq, ip-full, kmod-tun, openssh-client, https-dns-proxy, php8, php8-cgi, php8-mod-session, python3, httping, stunnel, stubby, getdns, badvpn, corkscrew, simple-obfs, sshpass, trojan-go, v2ray-core, bash, curl, librt, libpthread, screen, shadowsocks-libev-ss-local, openvpn-openssl
+Source: feeds/kiddin9/luci-app-libernet-bin
+SourceName: luci-app-libernet-bin
+Section: luci
+SourceDateEpoch: 1676058076
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 649521
+Filename: luci-app-libernet-bin_2.0_all.ipk
+Size: 647296
+SHA256sum: c0ee3cd0386e9549c513afc7e3effd7b3ec71758717a49812d2e70d6a3f13334
+Description:  LuCI version of Libernet App, this is original version included libernet binaries.
+
+Package: luci-app-libernet-plus
+Version: 2.0
+Depends: libc, coreutils, coreutils-stdbuf, jq, ip-full, kmod-tun, openssh-client, https-dns-proxy, php8, php8-cgi, php8-mod-session, python3, httping, stunnel, stubby, getdns, badvpn, corkscrew, simple-obfs, sshpass, trojan-go, v2ray-core, bash, curl, librt, libpthread, screen, shadowsocks-libev-ss-local, openvpn-openssl
+Source: feeds/kiddin9/luci-app-libernet-plus
+SourceName: luci-app-libernet-plus
+Section: luci
+SourceDateEpoch: 1676058076
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 2076318
+Filename: luci-app-libernet-plus_2.0_all.ipk
+Size: 2072223
+SHA256sum: b3d1a80149de4aeacf6159bf6b0e9ea6e496557d0c625aafe824c99ead9e81a7
+Description:  LuCI version of Libernet, but with some mods and additions.
+
+Package: luci-app-libernet
+Version: 1.7
+Depends: libc, coreutils, coreutils-stdbuf, jq, ip-full, kmod-tun, openssh-client, https-dns-proxy, php8, php8-cgi, php8-mod-session, python3, httping, stunnel, stubby, getdns, badvpn, corkscrew, simple-obfs, sshpass, trojan-go, v2ray-core, bash, curl, librt, libpthread, screen, shadowsocks-libev-ss-local, openvpn-openssl
+Source: feeds/kiddin9/luci-app-libernet
+SourceName: luci-app-libernet
+Section: luci
+SourceDateEpoch: 1676058076
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 680
+Filename: luci-app-libernet_1.7_all.ipk
+Size: 2075
+SHA256sum: fccf16a2b5bca9148144884caa789ae861e8334a9f445b3bc2fbcbcbae13b1ee
+Description:  LuCI version of Libernet App, this is original version without libernet binary.
+
+Package: luci-app-mikhmon4
+Version: 1.1
+Depends: libc, php8, php8-cgi, php8-mod-session, php8-fpm, php8-mod-curl, php8-mod-dom, php8-mod-filter, php8-mod-gettext, php8-mod-gmp, php8-mod-iconv, php8-mod-mbstring, php8-mod-opcache, php8-mod-pcntl, php8-mod-pdo, php8-mod-zip, zoneinfo-core, zoneinfo-simple
+Source: feeds/kiddin9/luci-app-mikhmon4
+SourceName: luci-app-mikhmon4
+Section: luci
+SourceDateEpoch: 1676058076
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 1536937
+Filename: luci-app-mikhmon4_1.1_all.ipk
+Size: 1536950
+SHA256sum: 25e0b1867666cc1fdbca2dd4ce8a81ff7e46c678df953142b81449ade9e72921
+Description:  Mikrotik monitor package for OpenWrt by laksa19.
+
+Package: luci-app-mikhmon
+Version: 1.6
+Depends: libc, php8, php8-cgi, php8-mod-session, php8-fpm, php8-mod-curl, php8-mod-dom, php8-mod-gettext, php8-mod-gmp, php8-mod-iconv, php8-mod-mbstring, php8-mod-opcache, php8-mod-pcntl, php8-mod-pdo, php8-mod-zip, zoneinfo-core, zoneinfo-simple
+Source: feeds/kiddin9/luci-app-mikhmon
+SourceName: luci-app-mikhmon
+Section: luci
+SourceDateEpoch: 1676058076
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 1057581
+Filename: luci-app-mikhmon_1.6_all.ipk
+Size: 1058415
+SHA256sum: d1cc71fae032544e67e9d6b3b2e4a1fc60d843a24a0e62ea724beed5d458b998
+Description:  Mikrotik monitor package for OpenWrt by laksa19.
+
+Package: luci-app-mmconfig
+Version: 0.0.5-1
+Depends: libc, modemmanager, luci-compat
+Source: feeds/kiddin9/luci-app-mmconfig
+SourceName: luci-app-mmconfig
+License: GPLv3
+Section: luci
+SourceDateEpoch: 1676058076
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 3076
+Filename: luci-app-mmconfig_0.0.5-1_all.ipk
+Size: 3922
+SHA256sum: b11e30ad62faa8f72d24a139b8979db0dc8c4b8b716d0e8bef298170e50a0481
+Description:  Configrure modem bands via mmcli utility
+
+Package: luci-app-modemband
+Version: 1.0.16-20230125
+Depends: libc, sms-tool, modemband
+Source: feeds/kiddin9/luci-app-modemband
+SourceName: luci-app-modemband
+Section: luci
+SourceDateEpoch: 1676058076
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 6014
+Filename: luci-app-modemband_1.0.16-20230125_all.ipk
+Size: 6915
+SHA256sum: e4398a55d9ca3566e8a176e3eb0118c9b0ef4cf95f20214b67b54e782bf78a29
+Description:  LuCI JS interface for the modemband. The package allows set LTE bands for selected 4G modems.
+
 Package: luci-app-modeminfo
 Version: 0.3.0-2
 Depends: libc, luci-compat, modeminfo
@@ -5,14 +748,426 @@ Source: feeds/kiddin9/luci-app-modeminfo
 SourceName: luci-app-modeminfo
 License: GPLv3
 Section: luci
-SourceDateEpoch: 1676055469
+SourceDateEpoch: 1676058076
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 5339
+Installed-Size: 5343
 Filename: luci-app-modeminfo_0.3.0-2_all.ipk
-Size: 6135
-SHA256sum: 2be2821c22f897c1a283065655542dc096a64eaed931c465a22c26f4b2c778cd
+Size: 6143
+SHA256sum: 0b1cc633d798f6fc047ba6989c14d3d35a615c1d5a50e9cd0b6d5d4e2de662b3
 Description:  Information dashboard for 3G/LTE dongle
+
+Package: luci-app-myxllite
+Version: 1.1
+Depends: libc, curl, php8
+Source: feeds/kiddin9/luci-app-myxllite
+SourceName: luci-app-myxllite
+Section: luci
+SourceDateEpoch: 1676058076
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 298344
+Filename: luci-app-myxllite_1.1_all.ipk
+Size: 298628
+SHA256sum: 5a72c1f91f8530ff044cfb0e0f1c2ec5646775c85e181dfee0e747d244376eac
+Description:  LuCI App for XL AXIATA quota checker and viewer (including unlimited FUP).
+
+Package: luci-app-oc-editor
+Version: 2.5
+Depends: libc, php8, php8-cgi, php8-mod-session, php8-mod-ctype, php8-mod-fileinfo, php8-mod-zip, php8-mod-iconv, php8-mod-mbstring, zoneinfo-asia
+Source: feeds/kiddin9/luci-app-oc-editor
+SourceName: luci-app-oc-editor
+Section: luci
+SourceDateEpoch: 1676058076
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 461596
+Filename: luci-app-oc-editor_2.5_all.ipk
+Size: 462344
+SHA256sum: 227841561623e1ea7c42f9be58273cce559f3f16bebcb02da88fb914ff773fe2
+Description:  This is Tiny File Manager, but for LuCI OpenWrt.
+
+Package: luci-app-openclash
+Version: 0.45.87-beta
+Depends: libc, dnsmasq-full, coreutils, coreutils-nohup, bash, curl, ca-bundle, ipset, ip-full, libcap, libcap-bin, libcap-bin, ruby, ruby-yaml, kmod-tun, unzip
+Source: feeds/kiddin9/luci-app-openclash
+SourceName: luci-app-openclash
+Section: opt
+SourceDateEpoch: 1676058076
+Maintainer: vernesong
+Architecture: all
+Installed-Size: 4257710
+Filename: luci-app-openclash_0.45.87-beta_all.ipk
+Size: 4242154
+SHA256sum: 5cc3c0478ffdf09087eeb80331e22051a05331ba174f6d875f37db8f1c942b0e
+Description:  A LuCI support for clash
+
+Package: luci-app-passwall2
+Version: 1.8
+Depends: libc, coreutils, coreutils-base64, coreutils-nohup, curl, ip-full, libuci-lua, lua, luci-compat, luci-lib-jsonc, resolveip, tcping, xray-core, v2ray-geoip, v2ray-geosite, unzip, shadowsocks-libev-ss-local, shadowsocks-libev-ss-redir, shadowsocks-rust-sslocal, shadowsocksr-libev-ssr-local, shadowsocksr-libev-ssr-redir, simple-obfs, v2ray-plugin
+Source: feeds/kiddin9/luci-app-passwall2
+SourceName: luci-app-passwall2
+Section: luci
+SourceDateEpoch: 1676058076
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 196685
+Filename: luci-app-passwall2_1.8_all.ipk
+Size: 197764
+SHA256sum: 1ddd59888af8ea4cb0f8cf6e747456b4960ac98804626415cc588f0cd81c26ab
+Description:  LuCI support for PassWall 2
+
+Package: luci-app-passwall
+Version: 4.58
+Depends: libc, coreutils, coreutils-base64, coreutils-nohup, curl, dns2socks, dns2tcp, ip-full, libuci-lua, lua, luci-compat, luci-lib-jsonc, microsocks, resolveip, tcping, unzip, haproxy, shadowsocks-libev-ss-local, shadowsocks-libev-ss-redir, shadowsocks-libev-ss-server, shadowsocks-rust-sslocal, shadowsocksr-libev-ssr-local, shadowsocksr-libev-ssr-redir, simple-obfs, trojan-plus, v2ray-core, v2ray-plugin, xray-core
+Source: feeds/kiddin9/luci-app-passwall
+SourceName: luci-app-passwall
+Section: luci
+SourceDateEpoch: 1676058076
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 944094
+Filename: luci-app-passwall_4.58_all.ipk
+Size: 944668
+SHA256sum: 46b7a492b748942cfaabe663f8b171bae6daafa0858caf71638b44b2d07ccb7c
+Description:  LuCI support for PassWall
+
+Package: luci-app-pingcontrol
+Version: 1.0.0-2
+Depends: libc, pingcontrol
+Source: feeds/kiddin9/luci-app-pingcontrol
+SourceName: luci-app-pingcontrol
+Section: luci
+SourceDateEpoch: 1676058076
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 1475
+Filename: luci-app-pingcontrol_1.0.0-2_all.ipk
+Size: 2288
+SHA256sum: 1fbe9cd43a824029dc3b05b4a900e806bbee5df0d0d1a68c7de3613881930e1b
+Description:  LuCI network interface control
+
+Package: luci-app-rtorrent
+Version: 0.1.7
+Depends: libc, rtorrent-rpc, luaexpat, luasocket, luasec, screen
+Source: feeds/kiddin9/luci-app-rtorrent
+SourceName: luci-app-rtorrent
+License: GPLv3
+Section: luci
+SourceDateEpoch: 1676058076
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 40094
+Filename: luci-app-rtorrent_0.1.7_all.ipk
+Size: 41043
+SHA256sum: c07ed08887490e4858c62bfb6090fc0a8dd6ea93cd16ab08313d60b747486f21
+Description:  rTorrent LuCI web interface
+
+Package: luci-app-sms-tool
+Version: 1.9.5-20221207
+Depends: libc, sms-tool, kmod-usb-serial, kmod-usb-serial-option, comgt
+Source: feeds/kiddin9/luci-app-sms-tool
+SourceName: luci-app-sms-tool
+Section: luci
+SourceDateEpoch: 1676058076
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 21562
+Filename: luci-app-sms-tool_1.9.5-20221207_all.ipk
+Size: 22534
+SHA256sum: 7d4f1e26b829fd90fc25e964e5b34a6bc9f068ee314a35ac6fe27ce7d28ad3d0
+Description:  LuCI interface for the sms-tool. The user interface supports SMS/USSD Codes/AT Commands.
+
+Package: luci-app-smstools3
+Version: 0.0.7-2
+Depends: libc, smstools3, iconv, luci-compat
+Source: feeds/kiddin9/luci-app-smstools3
+SourceName: luci-app-smstools3
+License: GPLv3
+Section: luci
+SourceDateEpoch: 1676058076
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 7353
+Filename: luci-app-smstools3_0.0.7-2_all.ipk
+Size: 8210
+SHA256sum: 466cf8640c904abe30eef873cdd91d6cb80a3ee0b2fd514f9c7f9257629262bc
+Description:  Web UI for smstools3
+
+Package: luci-app-ssr-plus
+Version: 186
+Depends: libc, coreutils, coreutils-base64, dns2socks, dns2tcp, dnsmasq-full, ipset, kmod-ipt-nat, ip-full, iptables, iptables-mod-tproxy, lua, lua-neturl, libuci-lua, microsocks, tcping, resolveip, shadowsocksr-libev-ssr-check, uclient-fetch, curl, xray-core, chinadns-ng, shadowsocks-rust-sslocal, shadowsocks-rust-ssserver, simple-obfs, shadowsocksr-libev-ssr-local, shadowsocksr-libev-ssr-redir
+Source: feeds/kiddin9/luci-app-ssr-plus
+SourceName: luci-app-ssr-plus
+Section: luci
+SourceDateEpoch: 1676058076
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 204174
+Filename: luci-app-ssr-plus_186_all.ipk
+Size: 204361
+SHA256sum: e024751e8697bc0cff26725f0d7972af11d3b86d9ab153245b7ef21901bc50a7
+Description:  SS/SSR/V2Ray/Trojan/NaiveProxy/Socks5/Tun LuCI interface
+
+Package: luci-app-telegrambot
+Version: 0.0.1
+Depends: libc, telegrambot
+Source: feeds/kiddin9/luci-app-telegrambot
+SourceName: luci-app-telegrambot
+License: GPLv3
+Section: luci
+SourceDateEpoch: 1676058076
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 1280
+Filename: luci-app-telegrambot_0.0.1_all.ipk
+Size: 2087
+SHA256sum: e65bf52bd8c02903ab2a63a7f5bd5cf47d059c5965fa342744b75c0da7b7adf6
+Description:  TelegramBot simple webUI
+
+Package: luci-app-tinyfm
+Version: 2.5
+Depends: libc, php8, php8-cgi, php8-mod-session, php8-mod-ctype, php8-mod-fileinfo, php8-mod-zip, php8-mod-iconv, php8-mod-mbstring, zoneinfo-asia
+Source: feeds/kiddin9/luci-app-tinyfm
+SourceName: luci-app-tinyfm
+Section: luci
+SourceDateEpoch: 1676058076
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 461556
+Filename: luci-app-tinyfm_2.5_all.ipk
+Size: 462011
+SHA256sum: a2e8f1529b3aa29726294cbaee33ac141992a48cc4bd5bca56cbd6b3c0ed0b46
+Description:  This is Tiny File Manager, but for LuCI OpenWrt.
+
+Package: luci-app-v2raya
+Version: 1
+Depends: libc
+Source: feeds/kiddin9/luci-app-v2raya
+SourceName: luci-app-v2raya
+Section: luci
+SourceDateEpoch: 1676058076
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 4681
+Filename: luci-app-v2raya_1_all.ipk
+Size: 5458
+SHA256sum: 6dc8c4fa6bd09d22a74f67643181af3b86be0931b691b368a19901ce03f2b73b
+Description:  LuCI support for v2rayA
+
+Package: luci-app-vssr
+Version: 1.25
+Depends: libc, ipset, ip-full, iptables-mod-tproxy, dnsmasq-full, coreutils, coreutils-base64, bash, pdnsd-alt, wget-ssl, lua, luasocket, lua-maxminddb, lua-cjson, shadowsocks-libev-ss-local, shadowsocks-libev-ss-redir, shadowsocksr-libev-ssr-local, shadowsocksr-libev-ssr-redir, shadowsocksr-libev-ssr-check, simple-obfs, xray-core, trojan, ipt2socks, xray-plugin, shadowsocksr-libev-ssr-server, hysteria
+Source: feeds/kiddin9/luci-app-vssr
+SourceName: luci-app-vssr
+Section: luci
+SourceDateEpoch: 1676058076
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 5572729
+Filename: luci-app-vssr_1.25_all.ipk
+Size: 5297227
+SHA256sum: c28f557a0f86a720be43ebf9166d721caac19f3b0a36c7bca547085b054d313e
+Description:  A New SS/SSR/Xray/Trojan LuCI interface
+
+Package: luci-app-wegare
+Version: 1.5
+Depends: libc, php8, php8-cgi, php8-mod-session, zoneinfo-core, zoneinfo-asia, sshpass, openvpn-openssl, ip-full, openssh-client, httping, screen, python3, coreutils-nohup, libevent2-7, redsocks
+Source: feeds/kiddin9/luci-app-wegare
+SourceName: luci-app-wegare
+Section: luci
+SourceDateEpoch: 1676058076
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 276277
+Filename: luci-app-wegare_1.5_all.ipk
+Size: 277333
+SHA256sum: 37777bb9fae73d47f7f45718fd0b68d188ed0068eb8816fb6a31c11502e3f79d
+Description:  LuCI Wegare STL Tool GUI for OpenWrt.
+
+Package: luci-app-xderm-bin
+Version: 1.9
+Depends: libc, bash, screen, coreutils, coreutils-base64, coreutils-timeout, httping, v2ray-core, corkscrew, procps-ng, procps-ng-ps, git, curl, sshpass, python3-pip, python3, openssh-client, openssl-util, php8, php8-cgi, php8-mod-session, https-dns-proxy, badvpn, trojan
+Source: feeds/kiddin9/luci-app-xderm-bin
+SourceName: luci-app-xderm-bin
+Section: luci
+SourceDateEpoch: 1676058076
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 77507
+Filename: luci-app-xderm-bin_1.9_all.ipk
+Size: 79203
+SHA256sum: 91829eeb3ffd58b2d143698a3a5bf7169283529e60d34b7ed47d68746af8f398
+Description:  LuCI version of Xderm Mini GUI with xderm binaries.
+
+Package: luci-app-xderm-limit
+Version: 1.8
+Depends: libc, bash, screen, coreutils, coreutils-base64, coreutils-timeout, httping, v2ray-core, corkscrew, procps-ng, procps-ng-ps, git, curl, sshpass, python3-pip, python3, openssh-client, openssl-util, php8, php8-cgi, php8-mod-session, https-dns-proxy, badvpn, trojan
+Source: feeds/kiddin9/luci-app-xderm-limit
+SourceName: luci-app-xderm-limit
+Section: luci
+SourceDateEpoch: 1676058076
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 3709
+Filename: luci-app-xderm-limit_1.8_all.ipk
+Size: 5069
+SHA256sum: eb127c10e63e4065097df16ad33ae200a1d4dea316f9e9b8934b45e14623f66c
+Description:  LuCI version of Xderm Limit with some additions.
+
+Package: luci-app-xderm
+Version: 1.5
+Depends: libc, bash, screen, coreutils, coreutils-base64, coreutils-timeout, httping, v2ray-core, corkscrew, procps-ng, procps-ng-ps, git, curl, sshpass, python3-pip, python3, openssh-client, openssl-util, php8, php8-cgi, php8-mod-session, https-dns-proxy, badvpn, trojan
+Source: feeds/kiddin9/luci-app-xderm
+SourceName: luci-app-xderm
+Section: luci
+SourceDateEpoch: 1676058076
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 686
+Filename: luci-app-xderm_1.5_all.ipk
+Size: 2058
+SHA256sum: 86cbff579fcf30d73d8c94bdae3c7aa3d0b6ec0f225a8511b09ad3dd4bba1817
+Description:  LuCI version of Xderm Mini GUI, with many additions.
+
+Package: luci-app-zerotier
+Version: 1.0
+Depends: libc, zerotier
+Source: feeds/kiddin9/luci-app-zerotier
+SourceName: luci-app-zerotier
+Section: luci
+SourceDateEpoch: 1676058076
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 4582
+Filename: luci-app-zerotier_1.0_all.ipk
+Size: 5401
+SHA256sum: e19d8a36a68fc0b01046880c7e570adb456ad9c4b80450cde277b238b2d61c05
+Description:  LuCI for Zerotier
+
+Package: luci-theme-alpha
+Version: 0.0.2-1
+Depends: libc
+Source: feeds/kiddin9/luci-theme-alpha
+SourceName: luci-theme-alpha
+Section: luci
+SourceDateEpoch: 1676058076
+Architecture: all
+Installed-Size: 321280
+Filename: luci-theme-alpha_0.0.2-1_all.ipk
+Size: 322133
+SHA256sum: 0ea87538d2f8effa4e8f16e545d8fb9795b0e6b2f38a4a7b8c02b174b87aeac2
+Description:  LuCI Theme - Alpha
+
+Package: luci-theme-argon
+Version: 2.2.9.5
+Depends: libc, curl, jsonfilter
+Source: feeds/kiddin9/luci-theme-argon
+SourceName: luci-theme-argon
+Section: luci
+SourceDateEpoch: 1676058076
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 466726
+Filename: luci-theme-argon_2.2.9.5_all.ipk
+Size: 467282
+SHA256sum: 47a4f39864e3e5554a0aa41c05491f12cc3bdbd79f7b1b170cd7d19aa5b63008
+Description:  Argon Theme
+
+Package: luci-theme-lightblue
+Version: git-24.041.70876-5be066c
+Depends: libc
+Source: feeds/kiddin9/luci-theme-lightblue
+SourceName: luci-theme-lightblue
+License: Apache-2.0
+Section: luci
+SourceDateEpoch: 1676058076
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 77827
+Filename: luci-theme-lightblue_git-24.041.70876-5be066c_all.ipk
+Size: 78775
+SHA256sum: 04b303f4c0fe16611e5dc1e449e5c18b807ae7941e6882ddcc3e3aab9d63a802
+Description:  Bootstrap lightblue Theme
+
+Package: luci-theme-neobird
+Version: 2.0
+Depends: libc
+Source: feeds/kiddin9/luci-theme-neobird
+SourceName: luci-theme-neobird
+Section: luci
+SourceDateEpoch: 1676058076
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 310156
+Filename: luci-theme-neobird_2.0_all.ipk
+Size: 311034
+SHA256sum: b89fb29fa571f2f5eee8461daba856da816aa7197e61b5884ef7b42640b93e74
+Description:  Neobird Theme
+
+Package: luci-theme-neobirdkawe
+Version: git-24.041.70876-5be066c
+Depends: libc
+Source: feeds/kiddin9/luci-theme-neobirdkawe
+SourceName: luci-theme-neobirdkawe
+Section: luci
+SourceDateEpoch: 1676058076
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 293337
+Filename: luci-theme-neobirdkawe_git-24.041.70876-5be066c_all.ipk
+Size: 294337
+SHA256sum: 4cb998927aff4c1f39c910e53317fa5fff6a80540dd15f1a6b9d937fe61d83df
+Description:  neobirdkawe Theme
+
+Package: luci-theme-teleofis
+Version: git-24.041.70876-5be066c
+Depends: libc
+Source: feeds/kiddin9/luci-theme-teleofis
+SourceName: luci-theme-teleofis
+License: Apache-2.0
+Section: luci
+SourceDateEpoch: 1676058076
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 23418
+Filename: luci-theme-teleofis_git-24.041.70876-5be066c_all.ipk
+Size: 24279
+SHA256sum: 860259dfab05f5008a98bc80e0a1eb7008e3803aaf00de30f71ad23cbc855058
+Description:  Bootstrap Teleofis Theme
+
+Package: microsocks
+Version: 1.0.3-1
+Depends: libc, libpthread
+Source: feeds/kiddin9/microsocks
+SourceName: microsocks
+License: MIT
+LicenseFiles: COPYING
+Section: net
+SourceDateEpoch: 1676058076
+Maintainer: lean
+Architecture: aarch64_cortex-a72
+Installed-Size: 5864
+Filename: microsocks_1.0.3-1_aarch64_cortex-a72.ipk
+Size: 6644
+SHA256sum: ef9c43fa74b4566a58dce816f10fc38300df3e717669fd3df1f646949b2e2d52
+Description:  A SOCKS5 service that you can run on your remote boxes to tunnel connections
+ through them, if for some reason SSH doesn't cut it for you.
+
+Package: modemband
+Version: 20230125
+Depends: libc, sms-tool
+Source: feeds/kiddin9/modemband
+SourceName: modemband
+Section: net
+SourceDateEpoch: 1676058076
+Maintainer: Cezary Jackiewicz <cezary@eko.one.pl>
+Architecture: all
+Installed-Size: 4718
+Filename: modemband_20230125_all.ipk
+Size: 5358
+SHA256sum: fe3ceeed5811847c522c3cd7e42510294811d2a0074bf1208c24e25f5132ef7e
+Description:  Setting LTE bands for selected modems
 
 Package: modeminfo-qmi
 Version: 0.3.1-1
@@ -20,13 +1175,13 @@ Depends: libc, modeminfo, qmi-utils
 Source: feeds/kiddin9/modeminfo
 SourceName: modeminfo-qmi
 Section: opt
-SourceDateEpoch: 1676055469
+SourceDateEpoch: 1676058076
 Maintainer: Konstantine Shevlakov <shevlakov@132lan.ru>
 Architecture: all
-Installed-Size: 2378
+Installed-Size: 2377
 Filename: modeminfo-qmi_0.3.1-1_all.ipk
-Size: 3107
-SHA256sum: 3add01423311aa0297e44e8f552ce2a3af91aaeb3074551b29ccfb05b836154b
+Size: 3097
+SHA256sum: f4bcdadf3dd4aeab1b06b37f8686c76f23d664c1258abd1aab947579daf4e831
 Description:  QMI addon for modeminfo
 
 Package: modeminfo-serial-dell
@@ -35,13 +1190,13 @@ Depends: libc, modeminfo, kmod-usb-serial-option, atinout
 Source: feeds/kiddin9/modeminfo
 SourceName: modeminfo-serial-dell
 Section: opt
-SourceDateEpoch: 1676055469
+SourceDateEpoch: 1676058076
 Maintainer: Konstantine Shevlakov <shevlakov@132lan.ru>
 Architecture: all
-Installed-Size: 1205
+Installed-Size: 1206
 Filename: modeminfo-serial-dell_0.3.1-1_all.ipk
-Size: 1969
-SHA256sum: 908e11277b3f66a29f6670823c582706319e2c0b751976d865863d01b8330fc7
+Size: 1971
+SHA256sum: 6510f60ac9c4a9857eeb85eac011fe1781e54fffe6421c654cab6378e36f8def
 Description:  Dell DW5821e serial addon for modeminfo
 
 Package: modeminfo-serial-fibocom
@@ -50,13 +1205,13 @@ Depends: libc, modeminfo, kmod-usb-serial-option, atinout
 Source: feeds/kiddin9/modeminfo
 SourceName: modeminfo-serial-fibocom
 Section: opt
-SourceDateEpoch: 1676055469
+SourceDateEpoch: 1676058076
 Maintainer: Konstantine Shevlakov <shevlakov@132lan.ru>
 Architecture: all
-Installed-Size: 1196
+Installed-Size: 1198
 Filename: modeminfo-serial-fibocom_0.3.1-1_all.ipk
-Size: 1975
-SHA256sum: 29c3a5a32d321695a6d4d09b665e17b462fc5fc8fc4cac77a3ae8ffea2367e4a
+Size: 1977
+SHA256sum: 0fc79db89813d5990f2ab1b6abdbde51c775f91422c8124044fc380e202893f8
 Description:  FIBOCOM NL668/678 serial addon for modeminfo
 
 Package: modeminfo-serial-huawei
@@ -65,13 +1220,13 @@ Depends: libc, modeminfo, kmod-usb-serial-option, atinout
 Source: feeds/kiddin9/modeminfo
 SourceName: modeminfo-serial-huawei
 Section: opt
-SourceDateEpoch: 1676055469
+SourceDateEpoch: 1676058076
 Maintainer: Konstantine Shevlakov <shevlakov@132lan.ru>
 Architecture: all
-Installed-Size: 1312
+Installed-Size: 1313
 Filename: modeminfo-serial-huawei_0.3.1-1_all.ipk
-Size: 2069
-SHA256sum: b437e95b714b0a1dcc5eb593c6d9545041c219441d98c7abd3bb140381e7b924
+Size: 2078
+SHA256sum: ab4b96540a60f929ee2adfa885c32580de0ebd3f0016da0477694532a85727cf
 Description:  HUAWEI serial addon for modeminfo
 
 Package: modeminfo-serial-quectel
@@ -80,13 +1235,13 @@ Depends: libc, modeminfo, kmod-usb-serial-option, atinout
 Source: feeds/kiddin9/modeminfo
 SourceName: modeminfo-serial-quectel
 Section: opt
-SourceDateEpoch: 1676055469
+SourceDateEpoch: 1676058076
 Maintainer: Konstantine Shevlakov <shevlakov@132lan.ru>
 Architecture: all
-Installed-Size: 1310
+Installed-Size: 1312
 Filename: modeminfo-serial-quectel_0.3.1-1_all.ipk
-Size: 2076
-SHA256sum: a8aff56ccf75be692feea6472ff5d668799e52e83f1ac01499a9c7e3b4a81a1b
+Size: 2087
+SHA256sum: c77a9dbcf73a572c78a64a006bf84cc4d92b77c5775421db19accd8634e1244c
 Description:  QUECTEL serial addon for modeminfo
 
 Package: modeminfo-serial-sierra
@@ -95,13 +1250,13 @@ Depends: libc, modeminfo, kmod-usb-serial-qualcomm, atinout
 Source: feeds/kiddin9/modeminfo
 SourceName: modeminfo-serial-sierra
 Section: opt
-SourceDateEpoch: 1676055469
+SourceDateEpoch: 1676058076
 Maintainer: Konstantine Shevlakov <shevlakov@132lan.ru>
 Architecture: all
-Installed-Size: 1192
+Installed-Size: 1193
 Filename: modeminfo-serial-sierra_0.3.1-1_all.ipk
-Size: 1963
-SHA256sum: aa2e022ef17e8cab1373d8fdfdaf4f921333db5b43c7c284bd1b2727e0dd6fce
+Size: 1972
+SHA256sum: 83f1cbd90cd1ca82d0aacbb9f2921a762f13e009c394cee9b0e45e3f2f2b0285
 Description:  Sierra Wireless EM7455 serial addon for modeminfo
 
 Package: modeminfo-serial-simcom
@@ -110,13 +1265,13 @@ Depends: libc, modeminfo, kmod-usb-serial-option, atinout
 Source: feeds/kiddin9/modeminfo
 SourceName: modeminfo-serial-simcom
 Section: opt
-SourceDateEpoch: 1676055469
+SourceDateEpoch: 1676058076
 Maintainer: Konstantine Shevlakov <shevlakov@132lan.ru>
 Architecture: all
-Installed-Size: 1226
+Installed-Size: 1225
 Filename: modeminfo-serial-simcom_0.3.1-1_all.ipk
-Size: 1987
-SHA256sum: 98ff4dfee52410fe56c370b32908073283db659920f82f8940a2bb8f122ef887
+Size: 1992
+SHA256sum: ea2aa2b489f47e03af6fa38a3625d4591cd249f0e699752155e8570ac3a3c166
 Description:  SIMCOM serial addon for modeminfo
 
 Package: modeminfo-serial-telit
@@ -125,13 +1280,13 @@ Depends: libc, modeminfo, kmod-usb-serial-option, atinout
 Source: feeds/kiddin9/modeminfo
 SourceName: modeminfo-serial-telit
 Section: opt
-SourceDateEpoch: 1676055469
+SourceDateEpoch: 1676058076
 Maintainer: Konstantine Shevlakov <shevlakov@132lan.ru>
 Architecture: all
-Installed-Size: 1132
+Installed-Size: 1134
 Filename: modeminfo-serial-telit_0.3.1-1_all.ipk
-Size: 1910
-SHA256sum: dd7c464f82e7d04318cb70f5ac91fe2a58cb90d78456c58653f82750f4302133
+Size: 1918
+SHA256sum: eae97b5d0c673174fdb5a4564ceec8237da335a0da78b0685abdac0646cb8747
 Description:  TELIT LN940/T77W678/HP4220 serial addon for modeminfo
 
 Package: modeminfo-serial-xmm
@@ -140,13 +1295,13 @@ Depends: libc, modeminfo, kmod-usb-acm, atinout
 Source: feeds/kiddin9/modeminfo
 SourceName: modeminfo-serial-xmm
 Section: opt
-SourceDateEpoch: 1676055469
+SourceDateEpoch: 1676058076
 Maintainer: Konstantine Shevlakov <shevlakov@132lan.ru>
 Architecture: all
 Installed-Size: 1519
 Filename: modeminfo-serial-xmm_0.3.1-1_all.ipk
-Size: 2303
-SHA256sum: cd2cd64ab1c2cc1b18d4f5c3e8f8db6426884344c61aa470be666da238a9acee
+Size: 2307
+SHA256sum: 3a5b687ea1acda31dc676ab47c32fa2b63d2dc7363e7c67ebf4c9d17f5b54841
 Description:  FIBOCOM L850/L860 Intel XMM chips serial addon for modeminfo
 
 Package: modeminfo-telegram
@@ -155,13 +1310,13 @@ Depends: libc, modeminfo, telegrambot
 Source: feeds/kiddin9/modeminfo
 SourceName: modeminfo-telegram
 Section: opt
-SourceDateEpoch: 1676055469
+SourceDateEpoch: 1676058076
 Maintainer: Konstantine Shevlakov <shevlakov@132lan.ru>
 Architecture: all
-Installed-Size: 800
+Installed-Size: 801
 Filename: modeminfo-telegram_0.3.1-1_all.ipk
-Size: 1533
-SHA256sum: f5db3cdcc983f6f9708567cf4c407dd846d9c18046b6cdd0b3ae5f7b36dd0f58
+Size: 1540
+SHA256sum: b087e8f5a6f0288d3c30e84e1a8fdd2231664c9c5df1433c9832878596c552c0
 Description:  Plugin for telegrambot
 
 Package: modeminfo
@@ -170,12 +1325,822 @@ Depends: libc, comgt
 Source: feeds/kiddin9/modeminfo
 SourceName: modeminfo
 Section: net
-SourceDateEpoch: 1676055469
+SourceDateEpoch: 1676058076
 Maintainer: Konstantine Shevlakov <shevlakov@132lan.ru>
 Architecture: all
 Installed-Size: 3411
 Filename: modeminfo_0.3.1-1_all.ipk
 Size: 4160
-SHA256sum: fcdbf5d396fb3eabf295668ea7429fb4d69cc79adccff864d7923e801b3220f3
+SHA256sum: 3653612cc6fb78f5970894121e603f2563d81b301c49fa4607a40bb105823e29
 Description:  Signal information for 3G/LTE dongle
+
+Package: mrtg
+Version: 2.17.10-1
+Depends: libc, libgd, libpng, zlib, perl, perlbase-essential, perlbase-findbin, perlbase-cwd, perlbase-config, perlbase-file, perlbase-getopt, perlbase-math, perlbase-integer, perlbase-xsloader, perlbase-pod, perlbase-universal, perlbase-socket, perlbase-posix, perlbase-autoloader, perlbase-fcntl, perlbase-tie, perlbase-io, perlbase-symbol, perlbase-selectsaver, perlbase-errno, perlbase-scalar, perlbase-list, perlbase-base, perlbase-storable
+Source: feeds/kiddin9/mrtg
+SourceName: mrtg
+Section: net
+SourceDateEpoch: 1676058076
+Architecture: aarch64_cortex-a72
+Installed-Size: 541297
+Filename: mrtg_2.17.10-1_aarch64_cortex-a72.ipk
+Size: 541925
+SHA256sum: 4ee8631b912f085c2437637b04fa86a88032777d0547f7e486b20a3b33a86f08
+Description:  The Multi Router Traffic Grapher, or just simply MRTG, is free software for
+ monitoring and measuring the traffic load on network links. It allows the
+ user to see traffic load on a network over time in graphical form. It was
+ originally developed by Tobias Oetiker and Dave Rand to monitor router
+ traffic, but has developed into a tool that can create graphs and statistics
+ for almost anything.
+
+Package: naiveproxy
+Version: 109.0.5414.74-2-1
+Depends: libc, libatomic1
+Source: feeds/kiddin9/naiveproxy
+SourceName: naiveproxy
+License: BSD 3-Clause
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1676058076
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: aarch64_cortex-a72
+Installed-Size: 2696019
+Filename: naiveproxy_109.0.5414.74-2-1_aarch64_cortex-a72.ipk
+Size: 2693265
+SHA256sum: 886c899bd66b022801492e0901d68417f4962747138bfc72ce7f75ec3432e5c7
+Description:  NaïveProxy uses Chrome's network stack to camouflage traffic with strong
+ censorship resistance and low detectability. Reusing Chrome's stack also
+ ensures best practices in performance and security.
+
+Package: nload
+Version: 0.7.4-1
+Depends: libc, libncurses6, libstdcpp6
+Source: feeds/kiddin9/nload
+SourceName: nload
+License: LICENSE
+LicenseFiles: COPYING
+Section: net
+SourceDateEpoch: 1676058076
+Maintainer: Konstantine Shevlakov <shevlakov@132lan.ru>
+Architecture: aarch64_cortex-a72
+Installed-Size: 40824
+Filename: nload_0.7.4-1_aarch64_cortex-a72.ipk
+Size: 41622
+SHA256sum: 4d99dfd13866991a0b78ed408b719cdfffacd0f4eca58e6a107238c396f4daa9
+Description:  nload is a console application which monitors network traffic and bandwidth usage in real time.
+ It visualizes the in- and outgoing traffic using two graphs and provides additional info like total amount of transfered data and min/max network usage.
+
+Package: openvpn-dns-hotplug
+Version: 0.0.1-1
+Depends: libc, openvpn
+Source: feeds/kiddin9/openvpn-dns-hotplug
+SourceName: openvpn-dns-hotplug
+Section: opt
+SourceDateEpoch: 1676058076
+Maintainer: Konstantine Shevlakov <shevlakov@132lan.ru>
+Architecture: all
+Installed-Size: 980
+Filename: openvpn-dns-hotplug_0.0.1-1_all.ipk
+Size: 1730
+SHA256sum: 966304c14321198ded76592cc490e018510b10472ea9372faf8adb12949877fa
+Description:  Hotplug script to get NS attribytes: DNS and domain search.
+
+Package: pdnsd-alt
+Version: 1.2.9b-par-3
+Depends: libc, libpthread
+Source: feeds/kiddin9/pdnsd-alt
+SourceName: pdnsd-alt
+Section: net
+SourceDateEpoch: 1676058076
+Architecture: aarch64_cortex-a72
+Installed-Size: 91769
+Filename: pdnsd-alt_1.2.9b-par-3_aarch64_cortex-a72.ipk
+Size: 92678
+SHA256sum: 978fe2df49a3bd6d8041605fdb834232fd295bb4ea92875c090ef10bbf2a9b99
+Description:  pdnsd, is an IPv6 capable proxy DNS server with permanent caching (the cache
+ contents are written to hard disk on exit) that is designed to cope with
+ unreachable or down DNS servers (for example in dial-in networking).
+ 
+ pdnsd can be used with applications that do dns lookups, eg on startup, and
+ can't be configured to change that behaviour, to prevent the often
+ minute-long hangs (or even crashes) that result from stalled dns queries.
+
+Package: pingcontrol
+Version: 1-1
+Depends: libc
+Source: feeds/kiddin9/pingcontrol
+SourceName: pingcontrol
+Section: utils
+SourceDateEpoch: 1676058076
+Architecture: all
+Installed-Size: 1687
+Filename: pingcontrol_1-1_all.ipk
+Size: 2417
+SHA256sum: a6171a5cc6c1e854bdccdb61c7f40c2c384db18d3d80ed435c5bbc97b359903c
+Description:  This package contains a utility for managing the interface using ping requests.
+
+Package: qtools
+Version: 0.0.1-0~cross
+Depends: libc, libreadline8, libncurses6
+Source: feeds/kiddin9/qtools
+SourceName: qtools
+License: LICENSE
+LicenseFiles: COPYING
+Section: telephony
+SourceDateEpoch: 1676058076
+Maintainer: Konstantine Shevlakov <shevlakov@132lan.ru>
+Architecture: aarch64_cortex-a72
+Installed-Size: 161933
+Filename: qtools_0.0.1-0~cross_aarch64_cortex-a72.ipk
+Size: 161850
+SHA256sum: 41f362c8f5c192844231d2c867e38dabec3347b130eb1c014f2fcaa23ada286a
+Description:  A set of tools for working with flash modems based on the Qualcom chipset The set consists of a package of utilities and a set of patched loaders.
+
+Package: redsocks2
+Version: 0.67-4
+Depends: libc, libevent2-7, libopenssl1.1
+Source: feeds/kiddin9/redsocks2
+SourceName: redsocks2
+Section: net
+SourceDateEpoch: 1676058076
+Maintainer: semigodking <semigodking@gmail.com>
+Architecture: aarch64_cortex-a72
+Installed-Size: 56977
+Filename: redsocks2_0.67-4_aarch64_cortex-a72.ipk
+Size: 57867
+SHA256sum: 92eac093df1abab3d6e90ea5f78c992ab58e318e9d86b703fbda1e7f6830c37f
+Description:  This is a modified version of original redsocks. The name is changed to be REDSOCKS2 since this release to distinguish with original redsocks. This variant is useful for anti-GFW (Great Fire Wall).
+
+Package: rrm-nr-distributor
+Version: 0.0.1-1
+Depends: libc, umdns
+Source: feeds/kiddin9/rrm-nr-distributor
+SourceName: rrm-nr-distributor
+Section: opt
+SourceDateEpoch: 1676058076
+Maintainer: Konstantine Shevlakov <shevlakov@132lan.ru>
+Architecture: all
+Installed-Size: 1910
+Filename: rrm-nr-distributor_0.0.1-1_all.ipk
+Size: 2636
+SHA256sum: b4561bce8e5d91210ebdc6d1ba0d11068f8f145289cc60049197de8d285b7c2a
+Description:  802.11k Neighbor Report distributor daemon
+
+Package: sagernet-core
+Version: 5.0.17-2022-07-30-26e36b1c-1
+Depends: libc, ca-bundle
+Conflicts: v2ray-core, xray-core
+Source: feeds/kiddin9/sagernet-core
+SourceName: sagernet-core
+License: GPL-3.0-or-later
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1676058076
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: aarch64_cortex-a72
+Installed-Size: 9049705
+Filename: sagernet-core_5.0.17-2022-07-30-26e36b1c-1_aarch64_cortex-a72.ipk
+Size: 9020998
+SHA256sum: 4021b44b3fa499ca1e271efbccac0fd52222185a23bb264ea00f90a6de658d36
+Description:  Project V is a set of network tools that help you to build your own computer network.
+ It secures your network connections and thus protects your privacy.
+ 
+ This is a v2ray-core fork for SagerNet.
+
+Package: sagernet-example
+Version: 5.0.17-2022-07-30-26e36b1c-1
+Depends: libc, sagernet-core
+Conflicts: v2ray-example
+Source: feeds/kiddin9/sagernet-core
+SourceName: sagernet-example
+License: GPL-3.0-or-later
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1676058076
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: all
+Installed-Size: 568
+Filename: sagernet-example_5.0.17-2022-07-30-26e36b1c-1_all.ipk
+Size: 1464
+SHA256sum: e45eae873dc9770a674a86a71d52f1d8a6f37840a4d201bffbacacdce319fcc6
+Description:  Project V is a set of network tools that help you to build your own computer network.
+ It secures your network connections and thus protects your privacy.
+ 
+ This includes example configuration files for sagernet-core.
+
+Package: sagernet-extra
+Version: 5.0.17-2022-07-30-26e36b1c-1
+Depends: libc, sagernet-core
+Conflicts: v2ray-extra
+Source: feeds/kiddin9/sagernet-core
+SourceName: sagernet-extra
+License: GPL-3.0-or-later
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1676058076
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: all
+Installed-Size: 298634
+Filename: sagernet-extra_5.0.17-2022-07-30-26e36b1c-1_all.ipk
+Size: 299403
+SHA256sum: a4303529e0c53de57738061dafcbd2c3646a5e0a8d8ebc148ee91e65a2841003
+Description:  Project V is a set of network tools that help you to build your own computer network.
+ It secures your network connections and thus protects your privacy.
+ 
+ This includes extra resources for sagernet-core.
+
+Package: shadowsocks-rust-sslocal
+Version: 1.15.2-1
+Depends: libc
+Source: feeds/kiddin9/shadowsocks-rust
+SourceName: shadowsocks-rust-sslocal
+License: MIT
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1676058076
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: aarch64_cortex-a72
+Installed-Size: 2768669
+Filename: shadowsocks-rust-sslocal_1.15.2-1_aarch64_cortex-a72.ipk
+Size: 2759746
+SHA256sum: 2e7ac7bfbe00ca222ba61301c206186c65f2c7af725e07592b051968ce40c143
+Description:  shadowsocks-rust sslocal
+
+Package: shadowsocks-rust-ssmanager
+Version: 1.15.2-1
+Depends: libc
+Source: feeds/kiddin9/shadowsocks-rust
+SourceName: shadowsocks-rust-ssmanager
+License: MIT
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1676058076
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: aarch64_cortex-a72
+Installed-Size: 1976613
+Filename: shadowsocks-rust-ssmanager_1.15.2-1_aarch64_cortex-a72.ipk
+Size: 1970007
+SHA256sum: 56909c35626ecd0db89c6e9f545d66902ccd85baac49cce2fd6a486be8754ae6
+Description:  shadowsocks-rust ssmanager
+
+Package: shadowsocks-rust-ssserver
+Version: 1.15.2-1
+Depends: libc
+Source: feeds/kiddin9/shadowsocks-rust
+SourceName: shadowsocks-rust-ssserver
+License: MIT
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1676058076
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: aarch64_cortex-a72
+Installed-Size: 1919586
+Filename: shadowsocks-rust-ssserver_1.15.2-1_aarch64_cortex-a72.ipk
+Size: 1912697
+SHA256sum: de5c6210ee2688562989a80cb75aa9a2e6c674fe83e184d659d614c13dae4f62
+Description:  shadowsocks-rust ssserver
+
+Package: shadowsocks-rust-ssservice
+Version: 1.15.2-1
+Depends: libc
+Source: feeds/kiddin9/shadowsocks-rust
+SourceName: shadowsocks-rust-ssservice
+License: MIT
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1676058076
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: aarch64_cortex-a72
+Installed-Size: 2982538
+Filename: shadowsocks-rust-ssservice_1.15.2-1_aarch64_cortex-a72.ipk
+Size: 2973939
+SHA256sum: b4e82fa6b49378e2dbdabd591531a7ff672cdae7a5af6160e79bb195d219497a
+Description:  shadowsocks-rust ssservice
+
+Package: shadowsocks-rust-ssurl
+Version: 1.15.2-1
+Depends: libc
+Source: feeds/kiddin9/shadowsocks-rust
+SourceName: shadowsocks-rust-ssurl
+License: MIT
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1676058076
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: aarch64_cortex-a72
+Installed-Size: 937406
+Filename: shadowsocks-rust-ssurl_1.15.2-1_aarch64_cortex-a72.ipk
+Size: 930729
+SHA256sum: 8c53701c2d8d380002fc1a6ee9d030d8b59bb5a83b480173db27011feaa4a94c
+Description:  shadowsocks-rust ssurl
+
+Package: shadowsocksr-libev-ssr-check
+Version: 2.5.6-9
+Depends: libc, libev, libsodium, libopenssl1.1, libpthread, libpcre, libudns, zlib
+Source: feeds/kiddin9/shadowsocksr-libev
+SourceName: shadowsocksr-libev-ssr-check
+License: GPL-3.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1676058076
+Architecture: aarch64_cortex-a72
+Installed-Size: 2574
+Filename: shadowsocksr-libev-ssr-check_2.5.6-9_aarch64_cortex-a72.ipk
+Size: 3304
+SHA256sum: 399d70cf7e33898fc571ec4816a2caea06da22465c2c4a137ee3d90f9051f5cd
+Description:  shadowsocksr-libev ssr-check
+
+Package: shadowsocksr-libev-ssr-local
+Version: 2.5.6-9
+Depends: libc, libev, libsodium, libopenssl1.1, libpthread, libpcre, libudns, zlib
+Source: feeds/kiddin9/shadowsocksr-libev
+SourceName: shadowsocksr-libev-ssr-local
+License: GPL-3.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1676058076
+Architecture: aarch64_cortex-a72
+Installed-Size: 62620
+Filename: shadowsocksr-libev-ssr-local_2.5.6-9_aarch64_cortex-a72.ipk
+Size: 63390
+SHA256sum: 8ff1d212536665b1e24ebb743b36c184070663b62decdec366773716ef293c70
+Description:  shadowsocksr-libev ssr-local
+
+Package: shadowsocksr-libev-ssr-nat
+Version: 2.5.6-9
+Depends: libc, libev, libsodium, libopenssl1.1, libpthread, libpcre, libudns, zlib
+Source: feeds/kiddin9/shadowsocksr-libev
+SourceName: shadowsocksr-libev-ssr-nat
+License: GPL-3.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1676058076
+Architecture: aarch64_cortex-a72
+Installed-Size: 2230
+Filename: shadowsocksr-libev-ssr-nat_2.5.6-9_aarch64_cortex-a72.ipk
+Size: 2983
+SHA256sum: cc256eb7a8ec6f3b34af6cec8493b6320394e93a90f6e930d7c27fb490534990
+Description:  shadowsocksr-libev ssr-nat
+
+Package: shadowsocksr-libev-ssr-redir
+Version: 2.5.6-9
+Depends: libc, libev, libsodium, libopenssl1.1, libpthread, libpcre, libudns, zlib
+Source: feeds/kiddin9/shadowsocksr-libev
+SourceName: shadowsocksr-libev-ssr-redir
+License: GPL-3.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1676058076
+Architecture: aarch64_cortex-a72
+Installed-Size: 56280
+Filename: shadowsocksr-libev-ssr-redir_2.5.6-9_aarch64_cortex-a72.ipk
+Size: 57000
+SHA256sum: dc54ef2397d59c6629079f543f9bb8570641f8eeed8b8ebb02226506b0a74b6d
+Description:  shadowsocksr-libev ssr-redir
+
+Package: shadowsocksr-libev-ssr-server
+Version: 2.5.6-9
+Depends: libc, libev, libsodium, libopenssl1.1, libpthread, libpcre, libudns, zlib
+Source: feeds/kiddin9/shadowsocksr-libev
+SourceName: shadowsocksr-libev-ssr-server
+License: GPL-3.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1676058076
+Architecture: aarch64_cortex-a72
+Installed-Size: 66057
+Filename: shadowsocksr-libev-ssr-server_2.5.6-9_aarch64_cortex-a72.ipk
+Size: 66755
+SHA256sum: 8e6ddd61d4aa73acd01045fc591bc099f10653d16525cc903b61f8c7b5c1e8ea
+Description:  shadowsocksr-libev ssr-server
+
+Package: shc
+Version: 3.8.9b
+Depends: libc
+Source: feeds/kiddin9/shc
+SourceName: shc
+Section: utils
+SourceDateEpoch: 1676058076
+Maintainer: Bandung, ONIVERSAL <friyadhibiermann>, indonesian
+Architecture: aarch64_cortex-a72
+Installed-Size: 11579
+Filename: shc_3.8.9b_aarch64_cortex-a72.ipk
+Size: 12347
+SHA256sum: 0ab85d13d4c3d510a4c6020d7c35cb913706bba1e91ff91d23c52650c13e3e9e
+Description:  This tool generates a stripped binary executable version of the script specified at command line
+
+Package: simple-obfs-server
+Version: 0.0.5-1
+Depends: libc, libpthread, libev
+Source: feeds/kiddin9/simple-obfs
+SourceName: simple-obfs-server
+License: GPL-3.0-or-later
+LicenseFiles: COPYING LICENSE
+Section: net
+SourceDateEpoch: 1676058076
+Maintainer: Jian Chang <aa65535@live.com>
+Architecture: aarch64_cortex-a72
+Installed-Size: 33765
+Filename: simple-obfs-server_0.0.5-1_aarch64_cortex-a72.ipk
+Size: 34587
+SHA256sum: 6e8b77b5613fc72e41c053aad4fa0f8533f5ca64333ebf5bbc3a7d810a48b3e8
+Description:  Simple-obfs is a simple obfusacting tool, designed as plugin server of shadowsocks.
+
+Package: simple-obfs
+Version: 0.0.5-1
+Depends: libc, libpthread, libev
+Source: feeds/kiddin9/simple-obfs
+SourceName: simple-obfs
+License: GPL-3.0-or-later
+LicenseFiles: COPYING LICENSE
+Section: net
+SourceDateEpoch: 1676058076
+Maintainer: Jian Chang <aa65535@live.com>
+Architecture: aarch64_cortex-a72
+Installed-Size: 31458
+Filename: simple-obfs_0.0.5-1_aarch64_cortex-a72.ipk
+Size: 32173
+SHA256sum: 7491482dc6edf030fb3335c985bae26ba8f9a8f18f54af05fae8a78873617d7c
+Description:  Simple-obfs is a simple obfusacting tool, designed as plugin server of shadowsocks.
+
+Package: simpleproxy
+Version: 3.5
+Depends: libc
+Source: feeds/kiddin9/simpleproxy
+SourceName: simpleproxy
+License: GPLv2
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1676058076
+Maintainer: Konstantine Shevlakov <shevlakov@132lan.ru>
+Architecture: aarch64_cortex-a72
+Installed-Size: 11778
+Filename: simpleproxy_3.5_aarch64_cortex-a72.ipk
+Size: 12521
+SHA256sum: 5ea7d36ba3d0f73283dc98aee3d52499dce74e0a163a9d0404662026f06a0e7f
+Description:  Simpleproxy is a simple TCP proxy. It accepts connections on a local
+ TCP port and forward them to anoter port on a remote host via TCP.
+
+Package: smartdns
+Version: Release40-1
+Depends: libc, libpthread, libopenssl1.1
+Source: feeds/kiddin9/smartdns
+SourceName: smartdns
+License: GPL-3.0-or-later
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1676058076
+Maintainer: Nick Peng <pymumu@gmail.com>
+Architecture: aarch64_cortex-a72
+Installed-Size: 115558
+Filename: smartdns_Release40-1_aarch64_cortex-a72.ipk
+Size: 116417
+SHA256sum: f8728559c881d71f758762aac14bcedc049a3a30bfe8971612662e6ec7a98c2a
+Description:  SmartDNS is a local DNS server which accepts DNS query requests from local network clients,
+ gets DNS query results from multiple upstream DNS servers concurrently, and returns the fastest IP to clients.
+ Unlike dnsmasq's all-servers, smartdns returns the fastest IP, and encrypt DNS queries with DoT or DoH. 
+
+Package: sms-tool
+Version: 2022-03-21-f07699ab-1
+Depends: libc
+Source: feeds/kiddin9/sms-tool
+SourceName: sms-tool
+Section: utils
+SourceDateEpoch: 1676058076
+Architecture: aarch64_cortex-a72
+Installed-Size: 8953
+Filename: sms-tool_2022-03-21-f07699ab-1_aarch64_cortex-a72.ipk
+Size: 9660
+SHA256sum: 63d05905abb3ec6731b8150a6856d943bd57a546cb62f312b9ec91d5c8e63d93
+Description:  SMS Tool for 3G/4G modem
+
+Package: speedtestpp
+Version: 1.14-1
+Depends: libc, libcurl4, libxml2, libopenssl1.1, libstdcpp6
+Source: feeds/kiddin9/speedtestpp
+SourceName: speedtestpp
+License: MIT
+Section: net
+SourceDateEpoch: 1676058076
+Maintainer: Konstantine Shevlakov <shevlyakov@132lan.ru>
+Architecture: aarch64_cortex-a72
+Installed-Size: 26667
+Filename: speedtestpp_1.14-1_aarch64_cortex-a72.ipk
+Size: 27410
+SHA256sum: 951f2ca8f40bc63eb62e7693e034a9ba78e3d95e20d5e78822f24d4a59e69192
+Description:  Yet another unofficial speedtest.net client cli interface
+
+Package: ssocks
+Version: 0.0.14-3
+Depends: libc, libopenssl1.1
+Source: feeds/kiddin9/ssocks
+SourceName: ssocks
+License: MIT
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1676058076
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: aarch64_cortex-a72
+Installed-Size: 15293
+Filename: ssocks_0.0.14-3_aarch64_cortex-a72.ipk
+Size: 16118
+SHA256sum: b5a5db1f0e76347fadc90181683008b54aff22b5476e1856e658b702891286bc
+Description:  sSocks is a package which contains: a socks5 server implements RFC 1928 (SOCKS V5) and
+ RFC 1929 (Authentication for SOCKS V5), a reverse socks server and client, a netcat like tool
+ and a socks5 relay.
+
+Package: ssocksd
+Version: 0.0.14-3
+Depends: libc, libopenssl1.1
+Source: feeds/kiddin9/ssocks
+SourceName: ssocksd
+License: MIT
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1676058076
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: aarch64_cortex-a72
+Installed-Size: 15438
+Filename: ssocksd_0.0.14-3_aarch64_cortex-a72.ipk
+Size: 16255
+SHA256sum: f5cdd219e3c1567a7bf79c34cf4b4c13908e3599bd5fad29128fad628b463f92
+Description:  sSocks is a package which contains: a socks5 server implements RFC 1928 (SOCKS V5) and
+ RFC 1929 (Authentication for SOCKS V5), a reverse socks server and client, a netcat like tool
+ and a socks5 relay.
+
+Package: tcping
+Version: 0.3-1
+Depends: libc
+Source: feeds/kiddin9/tcping
+SourceName: tcping
+License: GPL-2.0-only
+LicenseFiles: license.txt
+Section: net
+SourceDateEpoch: 1676058076
+Architecture: aarch64_cortex-a72
+Installed-Size: 3536
+Filename: tcping_0.3-1_aarch64_cortex-a72.ipk
+Size: 4235
+SHA256sum: 1734f0e99e9e9104101e4344ff144a0dfdc41313c3366cbde1e0fd9939437428
+Description:  tcping measures the latency of a tcp-connection
+
+Package: telegrambot
+Version: 0.0.4-2
+Depends: libc, curl
+Source: feeds/kiddin9/telegrambot
+SourceName: telegrambot
+Section: opt
+SourceDateEpoch: 1676058076
+Maintainer: Konstantine Shevlakov <shevlakov@132lan.ru>
+Architecture: all
+Installed-Size: 5612
+Filename: telegrambot_0.0.4-2_all.ipk
+Size: 6384
+SHA256sum: a6b9a6b22b85ed210c27df398511202c60251015a6493daea83c7a191733f4ba
+Description:  Telegram bot for router with firmware Lede/Openwrt.
+
+Package: totd
+Version: 1.5.3-1
+Depends: libc
+Source: feeds/kiddin9/totd
+SourceName: totd
+License: LICENSE
+LicenseFiles: COPYING
+Section: net
+SourceDateEpoch: 1676058076
+Maintainer: Konstantine Shevlakov <shevlakov@132lan.ru>
+Architecture: aarch64_cortex-a72
+Installed-Size: 35486
+Filename: totd_1.5.3-1_aarch64_cortex-a72.ipk
+Size: 36346
+SHA256sum: 4711b2fec026d8ec2fb3ed257f850f8bd2a4a4a9eda4ec4cbdc7d58f39bfddb4
+Description:  Totd is a small DNS64 proxy nameserver that supports IPv6 only hosts/networks
+ that communicate with the IPv4 world using some translation mechanism. 
+
+Package: trojan-go
+Version: 0.10.6-1
+Depends: libc, ca-bundle
+Source: feeds/kiddin9/trojan-go
+SourceName: trojan-go
+License: GPL-3.0-only
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1676058076
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: aarch64_cortex-a72
+Installed-Size: 4826172
+Filename: trojan-go_0.10.6-1_aarch64_cortex-a72.ipk
+Size: 4814608
+SHA256sum: be17a0332876487b5ed3c8996c29c32c8a0535bce4fba4a742be52118b3442f9
+Description:  Trojan features multiple protocols over TLS to avoid both
+ active/passive detections and ISP QoS limitations.
+
+Package: trojan-plus
+Version: 10.0.3-2
+Depends: libc, libpthread, libstdcpp6, libopenssl1.1, boost, boost-system, boost-program_options
+Source: feeds/kiddin9/trojan-plus
+SourceName: trojan-plus
+License: GPL-3.0
+Section: net
+SourceDateEpoch: 1676058076
+Maintainer: Trojan-Plus-Group
+Architecture: aarch64_cortex-a72
+Installed-Size: 413543
+Filename: trojan-plus_10.0.3-2_aarch64_cortex-a72.ipk
+Size: 414271
+SHA256sum: 50e887682a059324c6607ad5b2aec137f6432af5ea07f6bbd04191b0c7a34ae5
+Description:  An unidentifiable mechanism that helps you bypass GFW. It's compatible with original trojan with experimental features.
+
+Package: trojan
+Version: 1.16.0-2
+Depends: libc, libpthread, libstdcpp6, libopenssl1.1, boost, boost-system, boost-program_options, boost-date_time
+Source: feeds/kiddin9/trojan
+SourceName: trojan
+License: GPL-3.0
+Section: net
+SourceDateEpoch: 1676058076
+Maintainer: GreaterFire
+Architecture: aarch64_cortex-a72
+Installed-Size: 306850
+Filename: trojan_1.16.0-2_aarch64_cortex-a72.ipk
+Size: 307606
+SHA256sum: 1489202413e55e861352da90d0ca2948a745730d82c5914be4c4ceee44df31d4
+Description:  An unidentifiable mechanism that helps you bypass GFW
+
+Package: v2ray-core
+Version: 5.3.0-1
+Depends: libc, ca-bundle
+Source: feeds/kiddin9/v2ray-core
+SourceName: v2ray-core
+License: MIT
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1676058076
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: aarch64_cortex-a72
+Installed-Size: 8251466
+Filename: v2ray-core_5.3.0-1_aarch64_cortex-a72.ipk
+Size: 8226274
+SHA256sum: c49ff028b1fc9840c9b7786db77f20e89399dba910c0637b727d751337c5a8f0
+Description:  Project V is a set of network tools that help you to build your own computer network.
+ It secures your network connections and thus protects your privacy.
+
+Package: v2ray-example
+Version: 5.3.0-1
+Depends: libc, v2ray-core
+Source: feeds/kiddin9/v2ray-core
+SourceName: v2ray-example
+License: MIT
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1676058076
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: all
+Installed-Size: 568
+Filename: v2ray-example_5.3.0-1_all.ipk
+Size: 1416
+SHA256sum: 7f32f6f98d5132d48f3688b4156843e85f4090e170154b309bb5856929eb02af
+Description:  Project V is a set of network tools that help you to build your own computer network.
+ It secures your network connections and thus protects your privacy.
+ 
+ This includes example configuration files for v2ray-core.
+
+Package: v2ray-extra
+Version: 5.3.0-1
+Depends: libc, v2ray-core
+Source: feeds/kiddin9/v2ray-core
+SourceName: v2ray-extra
+License: MIT
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1676058076
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: all
+Installed-Size: 298634
+Filename: v2ray-extra_5.3.0-1_all.ipk
+Size: 299356
+SHA256sum: 6a8906a1ebfde7d995726f56e2bccf7a2d0be7e967d6f2752f5b80b82a63256f
+Description:  Project V is a set of network tools that help you to build your own computer network.
+ It secures your network connections and thus protects your privacy.
+ 
+ This includes extra resources for v2ray-core.
+
+Package: v2ray-geoip
+Version: 202302090046-1
+Depends: libc
+Source: feeds/kiddin9/v2ray-geodata
+SourceName: v2ray-geoip
+License: CC-BY-SA-4.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1676058076
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: all
+Installed-Size: 2312664
+Filename: v2ray-geoip_202302090046-1_all.ipk
+Size: 2056520
+SHA256sum: 5a60e77b70bbf12922bade223f06e42c362f7ac62065dabf494fcad3f3f49869
+Description:  GeoIP List for V2Ray
+
+Package: v2ray-geosite
+Version: 20230210014344-1
+Depends: libc
+Source: feeds/kiddin9/v2ray-geodata
+SourceName: v2ray-geosite
+License: MIT
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1676058076
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: all
+Installed-Size: 437820
+Filename: v2ray-geosite_20230210014344-1_all.ipk
+Size: 437185
+SHA256sum: 5e6767fd4075491e5199b44810cfda40f46fc444b5bb48dcfde74699320df664
+Description:  Geosite List for V2Ray
+
+Package: v2ray-plugin
+Version: 5.3.0-1
+Depends: libc, ca-bundle
+Source: feeds/kiddin9/v2ray-plugin
+SourceName: v2ray-plugin
+License: MIT
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1676058076
+Maintainer: madeye <max.c.lv@gmail.com>
+Architecture: aarch64_cortex-a72
+Installed-Size: 4688989
+Filename: v2ray-plugin_5.3.0-1_aarch64_cortex-a72.ipk
+Size: 4677086
+SHA256sum: 8652035ca885b17c2397b0df11ace7122f4ebe2afdce77b770ad2fba4f9b5b34
+Description:  SIP003 plugin for shadowsocks, based on v2ray
+
+Package: v2raya
+Version: 1.5.9.1698.1-1
+Depends: libc, ca-bundle, iptables-mod-conntrack-extra, iptables-mod-extra, iptables-mod-filter, iptables-mod-tproxy, kmod-ipt-nat6, xray-core
+Source: feeds/kiddin9/v2raya
+SourceName: v2raya
+License: AGPL-3.0-only
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1676058076
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: aarch64_cortex-a72
+Installed-Size: 9060789
+Filename: v2raya_1.5.9.1698.1-1_aarch64_cortex-a72.ipk
+Size: 9028960
+SHA256sum: 212846241bfe44e9eb9715dc1b7eda8e6cecff7d55354b331730f424861ccd3d
+Description:  v2rayA is a V2Ray Linux client supporting global transparent proxy,
+ compatible with SS, SSR, Trojan(trojan-go), PingTunnel protocols.
+
+Package: xmm-modem
+Version: 0.0.1-4
+Depends: libc, comgt, kmod-usb-acm, kmod-usb-net-cdc-ncm
+Source: feeds/kiddin9/xmm-modem
+SourceName: xmm-modem
+Section: opt
+SourceDateEpoch: 1676058076
+Maintainer: Konstantine Shevlakov <shevlakov@132lan.ru>
+Architecture: all
+Installed-Size: 1854
+Filename: xmm-modem_0.0.1-4_all.ipk
+Size: 2637
+SHA256sum: dbd5c231f07b9c8854e072353a4ca7d47ef51269a54b910d0d721d62dffa0bb3
+Description:  Simple connect to cellular for Fibocom L850/L860 module (Intel XMM LTE-A 7360/7560)
+
+Package: xray-core
+Version: 1.7.5-1
+Depends: libc, ca-bundle
+Source: feeds/kiddin9/xray-core
+SourceName: xray-core
+License: MPL-2.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1676058076
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: aarch64_cortex-a72
+Installed-Size: 8632333
+Filename: xray-core_1.7.5-1_aarch64_cortex-a72.ipk
+Size: 8605700
+SHA256sum: 9b850b952a1cd2d0fa14beee76835823cdc82cd60f24dc2561abbab26d0c3cc4
+Description:  Xray, Penetrates Everything. It helps you to build your own computer network.
+ It secures your network connections and thus protects your privacy.
+
+Package: xray-plugin
+Version: 1.7.5-1
+Depends: libc, ca-bundle
+Source: feeds/kiddin9/xray-plugin
+SourceName: xray-plugin
+License: MIT
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1676058076
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: aarch64_cortex-a72
+Installed-Size: 5652496
+Filename: xray-plugin_1.7.5-1_aarch64_cortex-a72.ipk
+Size: 5635774
+SHA256sum: 6966c817c8803a2786a3a6ec7f6d12ac73bba85cebf3438ea92fc1a15dd8196c
+Description:  SIP003 plugin for Shadowsocks, based on Xray
 

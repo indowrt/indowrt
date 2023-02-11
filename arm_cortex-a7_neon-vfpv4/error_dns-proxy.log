@@ -1,0 +1,27 @@
+make[2]: Entering directory '/home/runner/work/Zzz/Zzz/openwrt/scripts/config'
+make[2]: 'conf' is up to date.
+make[2]: Leaving directory '/home/runner/work/Zzz/Zzz/openwrt/scripts/config'
+make[1]: Entering directory '/home/runner/work/Zzz/Zzz/openwrt'
+make[2]: Entering directory '/home/runner/work/Zzz/Zzz/openwrt/package/toolchain'
+Makefile:735: WARNING: skipping libgomp -- package has no install section
+echo "libc" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/pkginfo/toolchain.default.install
+echo "libgcc" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/pkginfo/toolchain.default.install
+echo "libpthread" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/pkginfo/toolchain.default.install
+make[2]: Leaving directory '/home/runner/work/Zzz/Zzz/openwrt/package/toolchain'
+time: package/toolchain/compile#0.27#0.05#0.31
+make[2]: Entering directory '/home/runner/work/Zzz/Zzz/openwrt/feeds/kiddin9/dns-proxy'
+mkdir -p /home/runner/work/Zzz/Zzz/openwrt/dl
+SHELL= flock /home/runner/work/Zzz/Zzz/openwrt/tmp/.dns-proxy-0.1.tar.xz.flock -c '  	 /home/runner/work/Zzz/Zzz/openwrt/scripts/dl_github_archive.py --dl-dir="/home/runner/work/Zzz/Zzz/openwrt/dl" --url="https://github.com/wzhd/dns-tcp-socks-proxy.git" --version="master" --subdir="dns-proxy-0.1" --source="dns-proxy-0.1.tar.xz" --hash="x" || ( 	echo "Checking out files from the git repository..."; mkdir -p /home/runner/work/Zzz/Zzz/openwrt/tmp/dl && cd /home/runner/work/Zzz/Zzz/openwrt/tmp/dl && rm -rf dns-proxy-0.1 && [ \! -d dns-proxy-0.1 ] && git clone  https://github.com/wzhd/dns-tcp-socks-proxy.git dns-proxy-0.1 && (cd dns-proxy-0.1 && git checkout master && git submodule update --init --recursive) && echo "Packing checkout..." && export TAR_TIMESTAMP=`cd dns-proxy-0.1 && git log -1 --format='\''@%ct'\''` && rm -rf dns-proxy-0.1/.git && 	tar --numeric-owner --owner=0 --group=0 --mode=a-s --sort=name ${TAR_TIMESTAMP:+--mtime="$TAR_TIMESTAMP"} -c dns-proxy-0.1 | 	xz -zc -7e > /home/runner/work/Zzz/Zzz/openwrt/tmp/dl/dns-proxy-0.1.tar.xz && mv /home/runner/work/Zzz/Zzz/openwrt/tmp/dl/dns-proxy-0.1.tar.xz /home/runner/work/Zzz/Zzz/openwrt/dl/ && rm -rf dns-proxy-0.1; );     '
+dns-proxy-0.1.tar.xz: Download from https://github.com/wzhd/dns-tcp-socks-proxy.git failed
+dns-proxy-0.1.tar.xz: Requires sha256sum for verification
+Checking out files from the git repository...
+Cloning into 'dns-proxy-0.1'...
+remote: Repository not found.
+fatal: Authentication failed for 'https://github.com/wzhd/dns-tcp-socks-proxy.git/'
+make[2]: *** [Makefile:52: /home/runner/work/Zzz/Zzz/openwrt/dl/dns-proxy-0.1.tar.xz] Error 128
+make[2]: Leaving directory '/home/runner/work/Zzz/Zzz/openwrt/feeds/kiddin9/dns-proxy'
+time: package/feeds/kiddin9/dns-proxy/compile#0.21#0.03#0.33
+    ERROR: package/feeds/kiddin9/dns-proxy failed to build.
+make[1]: *** [package/Makefile:116: package/feeds/kiddin9/dns-proxy/compile] Error 1
+make[1]: Leaving directory '/home/runner/work/Zzz/Zzz/openwrt'
+make: *** [/home/runner/work/Zzz/Zzz/openwrt/include/toplevel.mk:222: package/dns-proxy/compile] Error 2

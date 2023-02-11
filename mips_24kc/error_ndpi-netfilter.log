@@ -1,0 +1,149 @@
+make[2]: Entering directory '/home/runner/work/Zzz/Zzz/openwrt/scripts/config'
+make[2]: 'conf' is up to date.
+make[2]: Leaving directory '/home/runner/work/Zzz/Zzz/openwrt/scripts/config'
+make[1]: Entering directory '/home/runner/work/Zzz/Zzz/openwrt'
+make[2]: Entering directory '/home/runner/work/Zzz/Zzz/openwrt/package/toolchain'
+Makefile:735: WARNING: skipping libgomp -- package has no install section
+echo "libc" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-mips_24kc_musl/pkginfo/toolchain.default.install
+echo "libgcc" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-mips_24kc_musl/pkginfo/toolchain.default.install
+echo "libpthread" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-mips_24kc_musl/pkginfo/toolchain.default.install
+make[2]: Leaving directory '/home/runner/work/Zzz/Zzz/openwrt/package/toolchain'
+time: package/toolchain/compile#0.37#0.17#0.49
+make[2]: Entering directory '/home/runner/work/Zzz/Zzz/openwrt/feeds/base/package/libs/libmnl'
+echo "libmnl" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-mips_24kc_musl/pkginfo/libmnl.default.install
+make[2]: Leaving directory '/home/runner/work/Zzz/Zzz/openwrt/feeds/base/package/libs/libmnl'
+time: package/feeds/base/libmnl/compile#0.27#0.13#0.34
+make[2]: Entering directory '/home/runner/work/Zzz/Zzz/openwrt/feeds/base/package/libs/libnftnl'
+echo "libnftnl" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-mips_24kc_musl/pkginfo/libnftnl.default.install
+make[2]: Leaving directory '/home/runner/work/Zzz/Zzz/openwrt/feeds/base/package/libs/libnftnl'
+time: package/feeds/base/libnftnl/compile#0.26#0.14#0.35
+make[2]: Entering directory '/home/runner/work/Zzz/Zzz/openwrt/feeds/base/package/firmware/linux-firmware'
+make[2]: Leaving directory '/home/runner/work/Zzz/Zzz/openwrt/feeds/base/package/firmware/linux-firmware'
+time: package/feeds/base/linux-firmware/compile#1.93#0.26#2.13
+make[2]: Entering directory '/home/runner/work/Zzz/Zzz/openwrt/feeds/base/package/firmware/prism54-firmware'
+make[2]: Leaving directory '/home/runner/work/Zzz/Zzz/openwrt/feeds/base/package/firmware/prism54-firmware'
+time: package/feeds/base/prism54-firmware/compile#0.28#0.13#0.34
+make[2]: Entering directory '/home/runner/work/Zzz/Zzz/openwrt/package/kernel/linux'
+echo "kernel" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-mips_24kc_musl/pkginfo/linux.default.install
+echo "kmod-crypto-aead" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-mips_24kc_musl/pkginfo/linux.default.install
+echo "kmod-crypto-ccm" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-mips_24kc_musl/pkginfo/linux.default.install
+echo "kmod-crypto-cmac" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-mips_24kc_musl/pkginfo/linux.default.install
+echo "kmod-crypto-crc32c" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-mips_24kc_musl/pkginfo/linux.default.install
+echo "kmod-crypto-ctr" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-mips_24kc_musl/pkginfo/linux.default.install
+echo "kmod-crypto-gcm" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-mips_24kc_musl/pkginfo/linux.default.install
+echo "kmod-crypto-gf128" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-mips_24kc_musl/pkginfo/linux.default.install
+echo "kmod-crypto-ghash" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-mips_24kc_musl/pkginfo/linux.default.install
+echo "kmod-crypto-hash" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-mips_24kc_musl/pkginfo/linux.default.install
+echo "kmod-crypto-hmac" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-mips_24kc_musl/pkginfo/linux.default.install
+WARNING: kmod-crypto-hw-padlock is not available in the kernel config - generating empty package
+echo "kmod-crypto-manager" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-mips_24kc_musl/pkginfo/linux.default.install
+echo "kmod-crypto-null" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-mips_24kc_musl/pkginfo/linux.default.install
+echo "kmod-crypto-rng" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-mips_24kc_musl/pkginfo/linux.default.install
+echo "kmod-crypto-seqiv" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-mips_24kc_musl/pkginfo/linux.default.install
+echo "kmod-crypto-sha256" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-mips_24kc_musl/pkginfo/linux.default.install
+WARNING: kmod-hwmon-pwmfan is not available in the kernel config - generating empty package
+WARNING: kmod-i2c-pxa is not available in the kernel config - generating empty package
+echo "kmod-lib-crc-ccitt" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-mips_24kc_musl/pkginfo/linux.default.install
+echo "kmod-lib-crc32c" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-mips_24kc_musl/pkginfo/linux.default.install
+WARNING: kmod-phylink is not available in the kernel config - generating empty package
+WARNING: kmod-ixgbevf is not available in the kernel config - generating empty package
+WARNING: kmod-iavf is not available in the kernel config - generating empty package
+WARNING: kmod-sfp is not available in the kernel config - generating empty package
+echo "kmod-nf-reject" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-mips_24kc_musl/pkginfo/linux.default.install
+echo "kmod-nf-reject6" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-mips_24kc_musl/pkginfo/linux.default.install
+echo "kmod-nf-conntrack" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-mips_24kc_musl/pkginfo/linux.default.install
+echo "kmod-nf-conntrack6" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-mips_24kc_musl/pkginfo/linux.default.install
+echo "kmod-nf-log" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-mips_24kc_musl/pkginfo/linux.default.install
+echo "kmod-nf-log6" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-mips_24kc_musl/pkginfo/linux.default.install
+echo "kmod-nf-nat" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-mips_24kc_musl/pkginfo/linux.default.install
+echo "kmod-nf-flow" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-mips_24kc_musl/pkginfo/linux.default.install
+echo "kmod-nfnetlink" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-mips_24kc_musl/pkginfo/linux.default.install
+echo "kmod-nft-core" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-mips_24kc_musl/pkginfo/linux.default.install
+echo "kmod-nft-nat" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-mips_24kc_musl/pkginfo/linux.default.install
+echo "kmod-nft-offload" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-mips_24kc_musl/pkginfo/linux.default.install
+echo "kmod-nft-fib" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-mips_24kc_musl/pkginfo/linux.default.install
+echo "kmod-slhc" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-mips_24kc_musl/pkginfo/linux.default.install
+echo "kmod-ppp" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-mips_24kc_musl/pkginfo/linux.default.install
+echo "kmod-pppox" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-mips_24kc_musl/pkginfo/linux.default.install
+echo "kmod-pppoe" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-mips_24kc_musl/pkginfo/linux.default.install
+WARNING: kmod-parport-pc is not available in the kernel config - generating empty package
+WARNING: kmod-thermal is not available in the kernel config - generating empty package
+WARNING: kmod-w83627hf-wdt is not available in the kernel config - generating empty package
+WARNING: kmod-itco-wdt is not available in the kernel config - generating empty package
+WARNING: kmod-it87-wdt is not available in the kernel config - generating empty package
+WARNING: kmod-sound-hda-core is not available in the kernel config - generating empty package
+WARNING: kmod-sound-hda-codec-realtek is not available in the kernel config - generating empty package
+WARNING: kmod-sound-hda-codec-cmedia is not available in the kernel config - generating empty package
+WARNING: kmod-sound-hda-codec-analog is not available in the kernel config - generating empty package
+WARNING: kmod-sound-hda-codec-idt is not available in the kernel config - generating empty package
+WARNING: kmod-sound-hda-codec-si3054 is not available in the kernel config - generating empty package
+WARNING: kmod-sound-hda-codec-cirrus is not available in the kernel config - generating empty package
+WARNING: kmod-sound-hda-codec-ca0110 is not available in the kernel config - generating empty package
+WARNING: kmod-sound-hda-codec-ca0132 is not available in the kernel config - generating empty package
+WARNING: kmod-sound-hda-codec-conexant is not available in the kernel config - generating empty package
+WARNING: kmod-sound-hda-codec-via is not available in the kernel config - generating empty package
+WARNING: kmod-sound-hda-codec-hdmi is not available in the kernel config - generating empty package
+WARNING: kmod-net-prism54 is not available in the kernel config - generating empty package
+make[2]: Leaving directory '/home/runner/work/Zzz/Zzz/openwrt/package/kernel/linux'
+time: package/kernel/linux/compile#2.73#0.39#3.08
+make[2]: Entering directory '/home/runner/work/Zzz/Zzz/openwrt/feeds/base/package/network/utils/iptables'
+make[2]: Leaving directory '/home/runner/work/Zzz/Zzz/openwrt/feeds/base/package/network/utils/iptables'
+time: package/feeds/base/iptables/compile#0.26#0.14#0.35
+make[2]: Entering directory '/home/runner/work/Zzz/Zzz/openwrt/feeds/kiddin9/ndpi-netfilter'
+rm -f /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mips_24kc_musl/linux-ath79_nand/ndpi-netfilter-flow_info-26911075-3.4/.built
+touch /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mips_24kc_musl/linux-ath79_nand/ndpi-netfilter-flow_info-26911075-3.4/.built_check
+cd /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mips_24kc_musl/linux-ath79_nand/ndpi-netfilter-flow_info-26911075-3.4/src/lib && gcc -g -O2 -fPIC -DPIC -DNDPI_LIB_COMPILATION -I../../src/include/ -I../../src/lib/third_party/include/ ndpi_network_list_compile.c -o ndpi_network_list_compile && ./ndpi_network_list_compile -o ndpi_network_list.c.inc ndpi_network_list_std.yaml ndpi_network_list_tor.yaml
+Warning: line  814: '209.148.214.135/21' is not network (NETFLIX)
+make AR="mips-openwrt-linux-musl-gcc-ar" AS="mips-openwrt-linux-musl-gcc -c -Os -pipe -mno-branch-likely -mips32r2 -mtune=24kc -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -msoft-float -ffile-prefix-map=/home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mips_24kc_musl/linux-ath79_nand/ndpi-netfilter-flow_info-26911075-3.4=ndpi-netfilter-flow_info-26911075-3.4 -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro" LD=mips-openwrt-linux-musl-ld NM="mips-openwrt-linux-musl-gcc-nm" CC="mips-openwrt-linux-musl-gcc" GCC="mips-openwrt-linux-musl-gcc" CXX="mips-openwrt-linux-musl-g++" RANLIB="mips-openwrt-linux-musl-gcc-ranlib" STRIP=mips-openwrt-linux-musl-strip OBJCOPY=mips-openwrt-linux-musl-objcopy OBJDUMP=mips-openwrt-linux-musl-objdump SIZE=mips-openwrt-linux-musl-size CROSS="mips-openwrt-linux-musl-" ARCH="mips" KERNEL_DIR="/home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mips_24kc_musl/linux-ath79_nand/linux-5.10.166" MODULES_DIR="/lib/modules/5.10.166" ARCH="mips" CROSS_COMPILE="mips-openwrt-linux-musl-" NDPI_PATH=/home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mips_24kc_musl/linux-ath79_nand/ndpi-netfilter-flow_info-26911075-3.4/ndpi-netfilter -C /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mips_24kc_musl/linux-ath79_nand/ndpi-netfilter-flow_info-26911075-3.4/ndpi-netfilter
+make[3]: Entering directory '/home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mips_24kc_musl/linux-ath79_nand/ndpi-netfilter-flow_info-26911075-3.4/ndpi-netfilter'
+make -C ipt
+make[4]: Entering directory '/home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mips_24kc_musl/linux-ath79_nand/ndpi-netfilter-flow_info-26911075-3.4/ndpi-netfilter/ipt'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mips_24kc_musl/linux-ath79_nand/ndpi-netfilter-flow_info-26911075-3.4/ndpi-netfilter/ipt'
+make -C src
+make[4]: Entering directory '/home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mips_24kc_musl/linux-ath79_nand/ndpi-netfilter-flow_info-26911075-3.4/ndpi-netfilter/src'
+grep: /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mips_24kc_musl/linux-ath79_nand/linux-5.10.166/source/include/linux/skbuff.h: No such file or directory
+$xt_ndpi-y is [main.o ndpi_strcol.o ndpi_proc_parsers.o ndpi_proc_generic.o ndpi_proc_info.o  ndpi_proc_flow.o ndpi_proc_hostdef.o ndpi_proc_ipdef.o ../libre/regexp.o ../../src/lib/third_party/src/ndpi_md5.o ../../src/lib/third_party/src/ndpi_sha1.o ../../src/lib/third_party/src/libahocorasick.o ../../src/lib/third_party/src/libcache.o ../../src/lib/third_party/src/ndpi_patricia.o ../../src/lib/third_party/src/ht_hash.o ../../src/lib/third_party/src/btlib.o ../../src/lib/ndpi_main.o ../../src/lib/ndpi_utils.o ../../src/lib/ndpi_serializer.o ../../src/lib/protocols/*.o] -I/../../src/include -I/../../src/lib -I/../libre -I/../../src/lib/third_party/include  -DHAVE_CONFIG_H -DNDPI_LIB_COMPILATION -DOPENDPI_NETFILTER_MODULE -g
+\
+make  -C /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mips_24kc_musl/linux-ath79_nand/linux-5.10.166 M=$PWD modules -w;
+make[5]: Entering directory '/home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mips_24kc_musl/linux-ath79_nand/linux-5.10.166'
+grep: /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mips_24kc_musl/linux-ath79_nand/linux-5.10.166/source/include/linux/skbuff.h: No such file or directory
+  CC [M]  /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mips_24kc_musl/linux-ath79_nand/ndpi-netfilter-flow_info-26911075-3.4/ndpi-netfilter/src/../../src/lib/ndpi_main.o
+In file included from /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mips_24kc_musl/linux-ath79_nand/ndpi-netfilter-flow_info-26911075-3.4/ndpi-netfilter/src/../../src/include/ndpi_main.h:30,
+                 from /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mips_24kc_musl/linux-ath79_nand/ndpi-netfilter-flow_info-26911075-3.4/ndpi-netfilter/src/../../src/include/ndpi_api.h:28,
+                 from /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mips_24kc_musl/linux-ath79_nand/ndpi-netfilter-flow_info-26911075-3.4/ndpi-netfilter/src/../../src/lib/ndpi_main.c:43:
+/home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mips_24kc_musl/linux-ath79_nand/ndpi-netfilter-flow_info-26911075-3.4/ndpi-netfilter/src/../../src/include/ndpi_define.h:66:21: warning: "__LITTLE_ENDIAN" is not defined, evaluates to 0 [-Wundef]
+   66 | #if __BYTE_ORDER == __LITTLE_ENDIAN
+      |                     ^~~~~~~~~~~~~~~
+  CC [M]  /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mips_24kc_musl/linux-ath79_nand/ndpi-netfilter-flow_info-26911075-3.4/ndpi-netfilter/src/../../src/lib/protocols/fiesta.o
+In file included from /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mips_24kc_musl/linux-ath79_nand/ndpi-netfilter-flow_info-26911075-3.4/ndpi-netfilter/src/../../src/include/ndpi_main.h:30,
+                 from /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mips_24kc_musl/linux-ath79_nand/ndpi-netfilter-flow_info-26911075-3.4/ndpi-netfilter/src/../../src/include/ndpi_api.h:28,
+                 from /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mips_24kc_musl/linux-ath79_nand/ndpi-netfilter-flow_info-26911075-3.4/ndpi-netfilter/src/../../src/lib/protocols/fiesta.c:29:
+/home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mips_24kc_musl/linux-ath79_nand/ndpi-netfilter-flow_info-26911075-3.4/ndpi-netfilter/src/../../src/include/ndpi_define.h:66:21: warning: "__LITTLE_ENDIAN" is not defined, evaluates to 0 [-Wundef]
+   66 | #if __BYTE_ORDER == __LITTLE_ENDIAN
+      |                     ^~~~~~~~~~~~~~~
+In file included from /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mips_24kc_musl/linux-ath79_nand/ndpi-netfilter-flow_info-26911075-3.4/ndpi-netfilter/src/../../src/include/ndpi_main.h:30,
+                 from /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mips_24kc_musl/linux-ath79_nand/ndpi-netfilter-flow_info-26911075-3.4/ndpi-netfilter/src/../../src/include/ndpi_api.h:28,
+                 from /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mips_24kc_musl/linux-ath79_nand/ndpi-netfilter-flow_info-26911075-3.4/ndpi-netfilter/src/../../src/lib/protocols/fiesta.c:29:
+/home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mips_24kc_musl/linux-ath79_nand/ndpi-netfilter-flow_info-26911075-3.4/ndpi-netfilter/src/../../src/lib/protocols/fiesta.c: In function 'ndpi_search_fiesta':
+/home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mips_24kc_musl/linux-ath79_nand/ndpi-netfilter-flow_info-26911075-3.4/ndpi-netfilter/src/../../src/include/ndpi_define.h:350:23: error: implicit declaration of function 'bswap_16'; did you mean 'swab16'? [-Werror=implicit-function-declaration]
+  350 | # define get_l16(X,O) bswap_16(get_u_int16_t(X,O))
+      |                       ^~~~~~~~
+/home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mips_24kc_musl/linux-ath79_nand/ndpi-netfilter-flow_info-26911075-3.4/ndpi-netfilter/src/../../src/lib/protocols/fiesta.c:55:36: note: in expansion of macro 'get_l16'
+   55 |                                 && get_l16(packet->payload, 1) == packet->payload_packet_len - 3))) {
+      |                                    ^~~~~~~
+cc1: some warnings being treated as errors
+make[6]: *** [scripts/Makefile.build:286: /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mips_24kc_musl/linux-ath79_nand/ndpi-netfilter-flow_info-26911075-3.4/ndpi-netfilter/src/../../src/lib/protocols/fiesta.o] Error 1
+make[5]: *** [Makefile:1819: /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mips_24kc_musl/linux-ath79_nand/ndpi-netfilter-flow_info-26911075-3.4/ndpi-netfilter/src] Error 2
+make[5]: Leaving directory '/home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mips_24kc_musl/linux-ath79_nand/linux-5.10.166'
+make[4]: *** [Makefile:42: modules] Error 2
+make[4]: Leaving directory '/home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mips_24kc_musl/linux-ath79_nand/ndpi-netfilter-flow_info-26911075-3.4/ndpi-netfilter/src'
+make[3]: *** [Makefile:3: all] Error 2
+make[3]: Leaving directory '/home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mips_24kc_musl/linux-ath79_nand/ndpi-netfilter-flow_info-26911075-3.4/ndpi-netfilter'
+make[2]: *** [Makefile:85: /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mips_24kc_musl/linux-ath79_nand/ndpi-netfilter-flow_info-26911075-3.4/.built] Error 2
+make[2]: Leaving directory '/home/runner/work/Zzz/Zzz/openwrt/feeds/kiddin9/ndpi-netfilter'
+time: package/feeds/kiddin9/ndpi-netfilter/compile#5.44#0.92#6.06
+    ERROR: package/feeds/kiddin9/ndpi-netfilter failed to build.
+make[1]: *** [package/Makefile:116: package/feeds/kiddin9/ndpi-netfilter/compile] Error 1
+make[1]: Leaving directory '/home/runner/work/Zzz/Zzz/openwrt'
+make: *** [/home/runner/work/Zzz/Zzz/openwrt/include/toplevel.mk:222: package/ndpi-netfilter/compile] Error 2
