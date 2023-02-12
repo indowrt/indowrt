@@ -1,0 +1,60 @@
+make[2]: Entering directory '/home/runner/work/Zzz/Zzz/openwrt/scripts/config'
+make[2]: 'conf' is up to date.
+make[2]: Leaving directory '/home/runner/work/Zzz/Zzz/openwrt/scripts/config'
+make[1]: Entering directory '/home/runner/work/Zzz/Zzz/openwrt'
+make[2]: Entering directory '/home/runner/work/Zzz/Zzz/openwrt/feeds/kiddin9/net/nat64'
+mkdir -p /home/runner/work/Zzz/Zzz/openwrt/dl
+SHELL= flock /home/runner/work/Zzz/Zzz/openwrt/tmp/.nat64-2021-06-30-1ba5895f.tar.xz.flock -c '  	 /home/runner/work/Zzz/Zzz/openwrt/scripts/dl_github_archive.py --dl-dir="/home/runner/work/Zzz/Zzz/openwrt/dl" --url="https://github.com/primis/nat64.git" --version="1ba5895ff5f227fe9efd2d3765c4cdde6ac36899" --subdir="nat64-2021-06-30-1ba5895f" --source="nat64-2021-06-30-1ba5895f.tar.xz" --hash="x" || ( 	echo "Checking out files from the git repository..."; mkdir -p /home/runner/work/Zzz/Zzz/openwrt/tmp/dl && cd /home/runner/work/Zzz/Zzz/openwrt/tmp/dl && rm -rf nat64-2021-06-30-1ba5895f && [ \! -d nat64-2021-06-30-1ba5895f ] && git clone  https://github.com/primis/nat64.git nat64-2021-06-30-1ba5895f && (cd nat64-2021-06-30-1ba5895f && git checkout 1ba5895ff5f227fe9efd2d3765c4cdde6ac36899 && git submodule update --init --recursive) && echo "Packing checkout..." && export TAR_TIMESTAMP=`cd nat64-2021-06-30-1ba5895f && git log -1 --format='\''@%ct'\''` && rm -rf nat64-2021-06-30-1ba5895f/.git && 	tar --numeric-owner --owner=0 --group=0 --mode=a-s --sort=name ${TAR_TIMESTAMP:+--mtime="$TAR_TIMESTAMP"} -c nat64-2021-06-30-1ba5895f | 	xz -zc -7e > /home/runner/work/Zzz/Zzz/openwrt/tmp/dl/nat64-2021-06-30-1ba5895f.tar.xz && mv /home/runner/work/Zzz/Zzz/openwrt/tmp/dl/nat64-2021-06-30-1ba5895f.tar.xz /home/runner/work/Zzz/Zzz/openwrt/dl/ && rm -rf nat64-2021-06-30-1ba5895f; );     '
+nat64-2021-06-30-1ba5895f.tar.xz: Download from https://github.com/primis/nat64.git failed
+nat64-2021-06-30-1ba5895f.tar.xz: Requires sha256sum for verification
+Checking out files from the git repository...
+Cloning into 'nat64-2021-06-30-1ba5895f'...
+Note: switching to '1ba5895ff5f227fe9efd2d3765c4cdde6ac36899'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD is now at 1ba5895 Update alloc_netdev
+Packing checkout...
+touch /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mips_24kc_musl/linux-ath79_nand/nat64-2021-06-30-1ba5895f/.prepared_f3a038becb2303429d10cf865d9dab60_6664517399ebbbc92a37c5bb081b5c53_check
+. /home/runner/work/Zzz/Zzz/openwrt/include/shell.sh; xzcat /home/runner/work/Zzz/Zzz/openwrt/dl/nat64-2021-06-30-1ba5895f.tar.xz | tar -C /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mips_24kc_musl/linux-ath79_nand/nat64-2021-06-30-1ba5895f/.. -xf -
+[ ! -d ./src/ ] || cp -fpR ./src/. /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mips_24kc_musl/linux-ath79_nand/nat64-2021-06-30-1ba5895f
+touch /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mips_24kc_musl/linux-ath79_nand/nat64-2021-06-30-1ba5895f/.prepared_f3a038becb2303429d10cf865d9dab60_6664517399ebbbc92a37c5bb081b5c53
+rm -f /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mips_24kc_musl/linux-ath79_nand/nat64-2021-06-30-1ba5895f/.configured_*
+rm -f /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-mips_24kc_musl/stamp/.nat64_installed
+(cd /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mips_24kc_musl/linux-ath79_nand/nat64-2021-06-30-1ba5895f/./; if [ -x ./configure ]; then find /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mips_24kc_musl/linux-ath79_nand/nat64-2021-06-30-1ba5895f/ -name config.guess | xargs -r chmod u+w; find /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mips_24kc_musl/linux-ath79_nand/nat64-2021-06-30-1ba5895f/ -name config.guess | xargs -r -n1 cp --remove-destination /home/runner/work/Zzz/Zzz/openwrt/scripts/config.guess; find /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mips_24kc_musl/linux-ath79_nand/nat64-2021-06-30-1ba5895f/ -name config.sub | xargs -r chmod u+w; find /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mips_24kc_musl/linux-ath79_nand/nat64-2021-06-30-1ba5895f/ -name config.sub | xargs -r -n1 cp --remove-destination /home/runner/work/Zzz/Zzz/openwrt/scripts/config.sub; AR="mips-openwrt-linux-musl-gcc-ar" AS="mips-openwrt-linux-musl-gcc -c -Os -pipe -mno-branch-likely -mips32r2 -mtune=24kc -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -msoft-float -ffile-prefix-map=/home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mips_24kc_musl/linux-ath79_nand/nat64-2021-06-30-1ba5895f=nat64-2021-06-30-1ba5895f -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro" LD=mips-openwrt-linux-musl-ld NM="mips-openwrt-linux-musl-gcc-nm" CC="mips-openwrt-linux-musl-gcc" GCC="mips-openwrt-linux-musl-gcc" CXX="mips-openwrt-linux-musl-g++" RANLIB="mips-openwrt-linux-musl-gcc-ranlib" STRIP=mips-openwrt-linux-musl-strip OBJCOPY=mips-openwrt-linux-musl-objcopy OBJDUMP=mips-openwrt-linux-musl-objdump SIZE=mips-openwrt-linux-musl-size CFLAGS="-Os -pipe -mno-branch-likely -mips32r2 -mtune=24kc -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -msoft-float -mips16 -minterlink-mips16 -ffile-prefix-map=/home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mips_24kc_musl/linux-ath79_nand/nat64-2021-06-30-1ba5895f=nat64-2021-06-30-1ba5895f -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro " CXXFLAGS="-Os -pipe -mno-branch-likely -mips32r2 -mtune=24kc -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -msoft-float -mips16 -minterlink-mips16 -ffile-prefix-map=/home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mips_24kc_musl/linux-ath79_nand/nat64-2021-06-30-1ba5895f=nat64-2021-06-30-1ba5895f -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro " CPPFLAGS="-I/home/runner/work/Zzz/Zzz/openwrt/staging_dir/toolchain-mips_24kc_gcc-11.2.0_musl/usr/include -I/home/runner/work/Zzz/Zzz/openwrt/staging_dir/toolchain-mips_24kc_gcc-11.2.0_musl/include/fortify -I/home/runner/work/Zzz/Zzz/openwrt/staging_dir/toolchain-mips_24kc_gcc-11.2.0_musl/include " LDFLAGS="-L/home/runner/work/Zzz/Zzz/openwrt/staging_dir/toolchain-mips_24kc_gcc-11.2.0_musl/usr/lib -L/home/runner/work/Zzz/Zzz/openwrt/staging_dir/toolchain-mips_24kc_gcc-11.2.0_musl/lib -znow -zrelro "   ./configure --target=mips-openwrt-linux --host=mips-openwrt-linux --build=x86_64-pc-linux-gnu --program-prefix="" --program-suffix="" --prefix=/usr --exec-prefix=/usr --bindir=/usr/bin --sbindir=/usr/sbin --libexecdir=/usr/lib --sysconfdir=/etc --datadir=/usr/share --localstatedir=/var --mandir=/usr/man --infodir=/usr/info --disable-nls  ; fi; )
+touch /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mips_24kc_musl/linux-ath79_nand/nat64-2021-06-30-1ba5895f/.configured_68b329da9893e34099c7d8ad5cb9c940
+rm -f /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mips_24kc_musl/linux-ath79_nand/nat64-2021-06-30-1ba5895f/.built
+touch /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mips_24kc_musl/linux-ath79_nand/nat64-2021-06-30-1ba5895f/.built_check
+make -C /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mips_24kc_musl/linux-ath79_nand/linux-5.10.166 KCFLAGS="-ffile-prefix-map=/home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mips_24kc_musl=target-mips_24kc_musl -fno-caller-saves " HOSTCFLAGS="-O2 -I/home/runner/work/Zzz/Zzz/openwrt/staging_dir/host/include -I/home/runner/work/Zzz/Zzz/openwrt/staging_dir/hostpkg/include -I/home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-mips_24kc_musl/host/include -Wall -Wmissing-prototypes -Wstrict-prototypes" CROSS_COMPILE="mips-openwrt-linux-musl-" ARCH="mips" KBUILD_HAVE_NLS=no KBUILD_BUILD_USER="builder" KBUILD_BUILD_HOST="buildhost" KBUILD_BUILD_TIMESTAMP="Thu Feb  9 08:37:35 2023" KBUILD_BUILD_VERSION="0" HOST_LOADLIBES="-L/home/runner/work/Zzz/Zzz/openwrt/staging_dir/host/lib" KBUILD_HOSTLDLIBS="-L/home/runner/work/Zzz/Zzz/openwrt/staging_dir/host/lib" CONFIG_SHELL="bash" V=''  cmd_syscalls= KBUILD_EXTRA_SYMBOLS="" KERNELRELEASE=5.10.166 CC="mips-openwrt-linux-musl-gcc" M="/home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mips_24kc_musl/linux-ath79_nand/nat64-2021-06-30-1ba5895f/" MODFLAGS="-DMODULE -mlong-calls" EXTRA_CFLAGS="-DNAT64_VERSION=\\\"1ba5895ff5f227fe9efd2d3765c4cdde6ac36899\\\"" modules
+make[3]: Entering directory '/home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mips_24kc_musl/linux-ath79_nand/linux-5.10.166'
+  CC [M]  /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mips_24kc_musl/linux-ath79_nand/nat64-2021-06-30-1ba5895f//nat64_core.o
+In file included from /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mips_24kc_musl/linux-ath79_nand/nat64-2021-06-30-1ba5895f//nat64_core.c:25:
+/home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mips_24kc_musl/linux-ath79_nand/nat64-2021-06-30-1ba5895f//nat64_factory.h: In function 'factory_translate_ip4':
+/home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mips_24kc_musl/linux-ath79_nand/nat64-2021-06-30-1ba5895f//nat64_factory.h:93:43: error: implicit declaration of function 'csum_ipv6_magic'; did you mean 'csum_tcpudp_magic'? [-Werror=implicit-function-declaration]
+   93 |                 icmp_hdr(dst)->checksum = csum_ipv6_magic(&ip6h->saddr, &ip6h->daddr, payload_len, nexthdr, dst->csum);
+      |                                           ^~~~~~~~~~~~~~~
+      |                                           csum_tcpudp_magic
+cc1: some warnings being treated as errors
+make[4]: *** [scripts/Makefile.build:286: /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mips_24kc_musl/linux-ath79_nand/nat64-2021-06-30-1ba5895f//nat64_core.o] Error 1
+make[3]: *** [Makefile:1819: /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mips_24kc_musl/linux-ath79_nand/nat64-2021-06-30-1ba5895f/] Error 2
+make[3]: Leaving directory '/home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mips_24kc_musl/linux-ath79_nand/linux-5.10.166'
+make[2]: *** [Makefile:40: /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mips_24kc_musl/linux-ath79_nand/nat64-2021-06-30-1ba5895f/.built] Error 2
+make[2]: Leaving directory '/home/runner/work/Zzz/Zzz/openwrt/feeds/kiddin9/net/nat64'
+time: package/feeds/kiddin9/nat64/compile#1.96#0.61#2.71
+    ERROR: package/feeds/kiddin9/nat64 failed to build.
+make[1]: *** [package/Makefile:116: package/feeds/kiddin9/nat64/compile] Error 1
+make[1]: Leaving directory '/home/runner/work/Zzz/Zzz/openwrt'
+make: *** [/home/runner/work/Zzz/Zzz/openwrt/include/toplevel.mk:222: package/nat64/compile] Error 2

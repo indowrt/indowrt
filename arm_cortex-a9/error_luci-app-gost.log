@@ -1,0 +1,27 @@
+make[2]: Entering directory '/home/runner/work/Zzz/Zzz/openwrt/scripts/config'
+make[2]: 'conf' is up to date.
+make[2]: Leaving directory '/home/runner/work/Zzz/Zzz/openwrt/scripts/config'
+make[1]: Entering directory '/home/runner/work/Zzz/Zzz/openwrt'
+make[2]: Entering directory '/home/runner/work/Zzz/Zzz/openwrt/feeds/base/package/utils/lua'
+make[2]: Leaving directory '/home/runner/work/Zzz/Zzz/openwrt/feeds/base/package/utils/lua'
+time: package/feeds/base/lua/host-compile#0.24#0.09#0.27
+make[2]: Entering directory '/home/runner/work/Zzz/Zzz/openwrt/package/toolchain'
+Makefile:735: WARNING: skipping libgomp -- package has no install section
+echo "libc" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-arm_cortex-a9_musl_eabi/pkginfo/toolchain.default.install
+echo "libgcc" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-arm_cortex-a9_musl_eabi/pkginfo/toolchain.default.install
+echo "libpthread" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-arm_cortex-a9_musl_eabi/pkginfo/toolchain.default.install
+make[2]: Leaving directory '/home/runner/work/Zzz/Zzz/openwrt/package/toolchain'
+time: package/toolchain/compile#0.31#0.07#0.34
+make[2]: Entering directory '/home/runner/work/Zzz/Zzz/openwrt/feeds/base/package/system/ca-certificates'
+echo "ca-bundle" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-arm_cortex-a9_musl_eabi/pkginfo/ca-certificates.default.install
+make[2]: Leaving directory '/home/runner/work/Zzz/Zzz/openwrt/feeds/base/package/system/ca-certificates'
+time: package/feeds/base/ca-certificates/compile#0.19#0.09#0.24
+make[2]: Entering directory '/home/runner/work/Zzz/Zzz/openwrt/feeds/kiddin9/gost'
+Makefile:27: /home/runner/work/Zzz/Zzz/openwrt/feeds/packages/lang/golang/golang-package.mk: No such file or directory
+make[2]: *** No rule to make target '/home/runner/work/Zzz/Zzz/openwrt/feeds/packages/lang/golang/golang-package.mk'.  Stop.
+make[2]: Leaving directory '/home/runner/work/Zzz/Zzz/openwrt/feeds/kiddin9/gost'
+time: package/feeds/kiddin9/gost/compile#0.16#0.06#0.19
+    ERROR: package/feeds/kiddin9/gost failed to build.
+make[1]: *** [package/Makefile:116: package/feeds/kiddin9/gost/compile] Error 1
+make[1]: Leaving directory '/home/runner/work/Zzz/Zzz/openwrt'
+make: *** [/home/runner/work/Zzz/Zzz/openwrt/include/toplevel.mk:222: package/luci-app-gost/compile] Error 2
