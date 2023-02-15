@@ -1,0 +1,31 @@
+make[2]: Entering directory '/home/runner/work/Zzz/Zzz/openwrt/scripts/config'
+make[2]: 'conf' is up to date.
+make[2]: Leaving directory '/home/runner/work/Zzz/Zzz/openwrt/scripts/config'
+make[1]: Entering directory '/home/runner/work/Zzz/Zzz/openwrt'
+make[2]: Entering directory '/home/runner/work/Zzz/Zzz/openwrt/feeds/packages/lang/golang/golang'
+make[2]: Leaving directory '/home/runner/work/Zzz/Zzz/openwrt/feeds/packages/lang/golang/golang'
+time: package/feeds/packages/golang/host-compile#0.49#0.15#0.53
+make[2]: Entering directory '/home/runner/work/Zzz/Zzz/openwrt/package/toolchain'
+Makefile:735: WARNING: skipping libgomp -- package has no install section
+echo "libc" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-arm_cortex-a9_musl_eabi/pkginfo/toolchain.default.install
+echo "libgcc" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-arm_cortex-a9_musl_eabi/pkginfo/toolchain.default.install
+echo "libpthread" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-arm_cortex-a9_musl_eabi/pkginfo/toolchain.default.install
+make[2]: Leaving directory '/home/runner/work/Zzz/Zzz/openwrt/package/toolchain'
+time: package/toolchain/compile#0.26#0.08#0.33
+make[2]: Entering directory '/home/runner/work/Zzz/Zzz/openwrt/feeds/kiddin9/alist'
+touch /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a9_musl_eabi/alist-3.11.0/.prepared_d4b35ce72d7939667790a9bd6db465a7_6664517399ebbbc92a37c5bb081b5c53_check
+. /home/runner/work/Zzz/Zzz/openwrt/include/shell.sh; gzip -dc /home/runner/work/Zzz/Zzz/openwrt/dl/alist-3.11.0.tar.gz | tar -C /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a9_musl_eabi/alist-3.11.0/.. -xf -
+[ ! -d ./src/ ] || cp -fpR ./src/. /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a9_musl_eabi/alist-3.11.0
+
+Applying ./patches/001-disable-delete-of-temp-directory-at-startup.patch using plaintext: 
+patching file internal/bootstrap/config.go
+Hunk #1 FAILED at 65.
+1 out of 1 hunk FAILED -- saving rejects to file internal/bootstrap/config.go.rej
+Patch failed!  Please fix ./patches/001-disable-delete-of-temp-directory-at-startup.patch!
+make[2]: *** [Makefile:106: /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a9_musl_eabi/alist-3.11.0/.prepared_d4b35ce72d7939667790a9bd6db465a7_6664517399ebbbc92a37c5bb081b5c53] Error 1
+make[2]: Leaving directory '/home/runner/work/Zzz/Zzz/openwrt/feeds/kiddin9/alist'
+time: package/feeds/kiddin9/alist/compile#0.18#0.06#0.21
+    ERROR: package/feeds/kiddin9/alist failed to build.
+make[1]: *** [package/Makefile:116: package/feeds/kiddin9/alist/compile] Error 1
+make[1]: Leaving directory '/home/runner/work/Zzz/Zzz/openwrt'
+make: *** [/home/runner/work/Zzz/Zzz/openwrt/include/toplevel.mk:222: package/alist/compile] Error 2
