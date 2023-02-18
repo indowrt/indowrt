@@ -1,0 +1,145 @@
+Package: oui-app-acl
+Version: git-2022.333.03792-5426a08-1
+Depends: libc, oui-ui-core
+Section: oui
+Architecture: all
+Installed-Size: 2112
+Filename: oui-app-acl_git-2022.333.03792-5426a08-1_all.ipk
+Size: 2827
+SHA256sum: 9f095c31c3edd1efc94eee8654315e42e92aa2ca105b405f7bc5b5f55a86cd5a
+Description:  ACL manage
+
+Package: oui-app-backup
+Version: git-2022.333.03792-5426a08-1
+Depends: libc, oui-ui-core
+Section: oui
+Architecture: all
+Installed-Size: 3769
+Filename: oui-app-backup_git-2022.333.03792-5426a08-1_all.ipk
+Size: 4464
+SHA256sum: 500ebbdb506ada765ed522385c378c7007c893e9b8bc5a3c835037f6b4f0e303
+Description:  Backup / Restore
+
+Package: oui-app-demo
+Version: git-2022.333.03792-5426a08-1
+Depends: libc, oui-ui-core
+Section: oui
+Architecture: all
+Installed-Size: 1408
+Filename: oui-app-demo_git-2022.333.03792-5426a08-1_all.ipk
+Size: 2104
+SHA256sum: 30fa078800ac12002cacc584e161035fdbcbb00058f4731c5434bcf3b287b2eb
+Description:  Demo
+
+Package: oui-app-dhcp-lease
+Version: git-2022.333.03792-5426a08-1
+Depends: libc, oui-ui-core
+Section: oui
+Architecture: all
+Installed-Size: 1542
+Filename: oui-app-dhcp-lease_git-2022.333.03792-5426a08-1_all.ipk
+Size: 2261
+SHA256sum: 57757f5785de633dd366c05578f0f17739ca7a8116a332a4864c03c1683c3e0d
+Description:  DHCP lease
+
+Package: oui-app-home
+Version: git-2022.333.03792-5426a08-1
+Depends: libc, oui-ui-core
+Section: oui
+Architecture: all
+Installed-Size: 3433
+Filename: oui-app-home_git-2022.333.03792-5426a08-1_all.ipk
+Size: 4155
+SHA256sum: f9c1b120cf169721663e0986d00989181bd973deb44e7aee9e48d1735021731c
+Description:  OUI built-in home page
+
+Package: oui-app-layout
+Version: git-2022.333.03792-5426a08-1
+Depends: libc, oui-ui-core
+Section: oui
+Architecture: all
+Installed-Size: 5184
+Filename: oui-app-layout_git-2022.333.03792-5426a08-1_all.ipk
+Size: 5886
+SHA256sum: 2b3708d2a09fac8367892a42b0fba039c9187babacd31003486abecf5b52e223
+Description:  OUI built-in layout page
+
+Package: oui-app-login
+Version: git-2022.333.03792-5426a08-1
+Depends: libc, oui-ui-core
+Section: oui
+Architecture: all
+Installed-Size: 2498
+Filename: oui-app-login_git-2022.333.03792-5426a08-1_all.ipk
+Size: 3223
+SHA256sum: 8fb91aa344386735e2cf00e18ef5feaeaf8449b52a53584d19132fc43d6558ac
+Description:  OUI built-in login page
+
+Package: oui-app-stations
+Version: git-2022.333.03792-5426a08-1
+Depends: libc, oui-ui-core
+Section: oui
+Architecture: all
+Installed-Size: 1648
+Filename: oui-app-stations_git-2022.333.03792-5426a08-1_all.ipk
+Size: 2368
+SHA256sum: f276f7835a015bfa8fd64efaf291281d3b3178843a0ea9ad6779153a78bcd01c
+Description:  Stations
+
+Package: oui-app-system
+Version: git-2022.333.03792-5426a08-1
+Depends: libc, oui-ui-core
+Section: oui
+Architecture: all
+Installed-Size: 6304
+Filename: oui-app-system_git-2022.333.03792-5426a08-1_all.ipk
+Size: 6998
+SHA256sum: cf8565b6aa04584e206d2207b3dafab3b8406fb7947a527108076d0ff26c709c
+Description:  System Configure
+
+Package: oui-app-upgrade
+Version: git-2022.333.03792-5426a08-1
+Depends: libc, oui-ui-core
+Section: oui
+Architecture: all
+Installed-Size: 3184
+Filename: oui-app-upgrade_git-2022.333.03792-5426a08-1_all.ipk
+Size: 3874
+SHA256sum: dbe03565e3b092bea3e2465ae067b0e00a321af6cc7ed57c51418a004e8dba41
+Description:  Upgrade
+
+Package: oui-app-user
+Version: git-2022.333.03792-5426a08-1
+Depends: libc, oui-ui-core
+Section: oui
+Architecture: all
+Installed-Size: 2606
+Filename: oui-app-user_git-2022.333.03792-5426a08-1_all.ipk
+Size: 3307
+SHA256sum: 88537c9e4796dfb57a339094cede7647b50677460ac7a63a4d8b3b32bf83dfe3
+Description:  User manage
+
+Package: oui-rpc-core
+Version: git-2022.333.03792-5426a08-1
+Depends: libc, liblua5.1.5, libuci-lua, libiwinfo-lua, libubus-lua, lua-cjson, nginx-ssl
+License: MIT
+Section: oui
+Architecture: arm_xscale
+Installed-Size: 16436
+Filename: oui-rpc-core_git-2022.333.03792-5426a08-1_arm_xscale.ipk
+Size: 17234
+SHA256sum: 9fa838f53f28550001e1b7e971bb061aa5dd02cec4bf18d214195d7dd967097e
+Description:  Oui rpc core
+
+Package: oui-ui-core
+Version: git-2022.333.03792-5426a08-1
+Depends: libc, oui-rpc-core
+License: MIT
+Section: oui
+Architecture: all
+Installed-Size: 371793
+Filename: oui-ui-core_git-2022.333.03792-5426a08-1_all.ipk
+Size: 372682
+SHA256sum: 1a1fc978b141cf155ca5b7e4366a8a63635ac571b040e9d60592e3e87313d887
+Description:  Oui ui core
+
