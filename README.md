@@ -14,18 +14,8 @@
 
 
 
-##### Plugin update download:
 
 
-
-+ [passwall dependency](https://github.com/kenzok8/small)
-
-+ [xiaorouji repository](https://github.com/xiaorouji/openwrt-passwall)
-
-+ Thank you **kiddin9**[openwrt firmware and plugin download](https://op.dllkids.xyz/op/firmware/)
-
-+ [All Member Group Facebook Indo Wrt (internet networking of dd-wrt and openwrt)
- ]( https://web.facebook.com/groups/xderm)
 
 #### Instructions
 Tambahkan custom feeds di Repo masing-masing sesuai architecture Router
@@ -43,32 +33,11 @@ src/gz custom https://raw.githubusercontent.com/indowrt/indowrt/main/aarch64_cor
 
 
 ```
++ [Saya Pribadi](https://www.facebook.com/AnggaBaonks?mibextid=ZbWKwL) mengucapkan banyak terima kasih kepada pemilik repo yang sudah share package openwrt nya,Yang tidak bisa di sebutkan satu persatu..🙏🙏🙏
 
-- openwrt firmware to compile custom themes and software
-- 
-| software name                | illustrate               | 
-| -----------------------------|------------------------| 
-| luci-app-vssr                | vssr proxy                 | 
-| luci-app-dnsfilter           | dns ad filtering            | 
-| luci-app-openclash           | openclash proxy            | 
-| luci-app-advanced            | System advanced settings               | 
-| luci-app-pushbot             | WeChat/DingTalk Pushed plugins    |
-| luci-theme-atmaterial_new    | atmaterial three-in-one theme (adapted to luci-18.06) |        
-| luci-app-aliddns             | aliyunddns         |
-| luci-app-eqos                | Speed ​​limit by IP address       |
-| luci-app-gost                | https proxy      |
-| luci-app-adguardhome         | Block ads          |  
-| luci-app-smartdns            | smartdns dns pollution prevention     |  
-| luci-app-passwall2            | passwall2 proxy      |  |
-| luci-theme-argon          | argonne theme           |
-| luci-app-argon-config      | argonne theme settings            |
-| luci-app-ssr-plus            | ssr-plus proxy              |
-| luci-theme-mcat              | Modify topic name          |
-| luci-theme-tomato            | Modify topic name             |
-| luci-theme-neobird           | neobird theme          |
-| luci-theme-neobirdkawe           | neobirdkawe theme modify for openwrt 20.xx      |
-| luci-app-mosdns              | mosdns dns offload            |
-| luci-app-store               | store software repository            |
-| luci-app-unblockneteasemusic | Unlock NetEase Cloud Music         | 
-| luci-app-aliyundrive-webdav  | Aliyun Disk WebDAV Service            | 
-| luci-app-amlogic  | Amlogic Service            | 
+
+### Credit
++ [Deris Sahertian](https://github.com/derisamedia)
++ [Helmi Amirudin](https://helmiau.com/about)
++ [All Member Group Facebook Indo Wrt (internet networking of dd-wrt and openwrt)
+ ]( https://web.facebook.com/groups/xderm)
