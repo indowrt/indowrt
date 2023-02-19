@@ -33,7 +33,7 @@ src/gz custom https://raw.githubusercontent.com/indowrt/indowrt/main/aarch64_cor
 
 
 ```
-+ [Saya Pribadi](https://www.facebook.com/AnggaBaonks?mibextid=ZbWKwL) mengucapkan banyak terima kasih kepada pemilik repo yang sudah share package openwrt nya,Yang tidak bisa di sebutkan satu persatu..🙏🙏🙏
++ [Saya Pribadi](https://www.facebook.com/AnggaBaonks?mibextid=ZbWKwL) mengucapkan banyak terima kasih kepada pemilik repo yang sudah share packages openwrt nya,Yang tidak bisa di sebutkan satu persatu..🙏🙏🙏
 
 
 ### Credit
