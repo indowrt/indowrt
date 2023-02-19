@@ -38,6 +38,6 @@ src/gz custom https://raw.githubusercontent.com/indowrt/indowrt/main/aarch64_cor
 
 ### Credit
 + [Deris Sahertian](https://github.com/derisamedia) Luci-theme-alpha
-+ [Helmi Amirudin](https://helmiau.com/about) Helmiwrt-Packages
++ [Helmi Amirudin](https://helmiau.com/blog) Helmiwrt-Packages
 + [All Member Group Facebook Indo Wrt (internet networking of dd-wrt and openwrt)
  ]( https://web.facebook.com/groups/xderm)
