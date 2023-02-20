@@ -1,0 +1,24 @@
+make[2]: Entering directory '/home/runner/work/Zzz/Zzz/openwrt/scripts/config'
+make[2]: 'conf' is up to date.
+make[2]: Leaving directory '/home/runner/work/Zzz/Zzz/openwrt/scripts/config'
+make[1]: Entering directory '/home/runner/work/Zzz/Zzz/openwrt'
+make[2]: Entering directory '/home/runner/work/Zzz/Zzz/openwrt/package/toolchain'
+Makefile:735: WARNING: skipping libgomp -- package has no install section
+echo "libc" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-arm_cortex-a7_musl_eabi/pkginfo/toolchain.default.install
+echo "libgcc" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-arm_cortex-a7_musl_eabi/pkginfo/toolchain.default.install
+echo "libpthread" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-arm_cortex-a7_musl_eabi/pkginfo/toolchain.default.install
+make[2]: Leaving directory '/home/runner/work/Zzz/Zzz/openwrt/package/toolchain'
+time: package/toolchain/compile#0.24#0.09#0.32
+make[2]: Entering directory '/home/runner/work/Zzz/Zzz/openwrt/feeds/kiddin9/speedtestcli'
+rm -rf /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7_musl_eabi/speedtestcli-binary-1.2.0/.pkgdir/speedtestcli.installed /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7_musl_eabi/speedtestcli-binary-1.2.0/.pkgdir/speedtestcli
+mkdir -p /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7_musl_eabi/speedtestcli-binary-1.2.0/.pkgdir/speedtestcli
+install -d -m0755 /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7_musl_eabi/speedtestcli-binary-1.2.0/.pkgdir/speedtestcli/usr/bin
+install -m0755 /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7_musl_eabi/speedtestcli-binary-1.2.0/speedtest.arm /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7_musl_eabi/speedtestcli-binary-1.2.0/.pkgdir/speedtestcli/usr/bin/speedtest
+install: cannot stat '/home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7_musl_eabi/speedtestcli-binary-1.2.0/speedtest.arm': No such file or directory
+make[2]: *** [Makefile:58: /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7_musl_eabi/speedtestcli-binary-1.2.0/.pkgdir/speedtestcli.installed] Error 1
+make[2]: Leaving directory '/home/runner/work/Zzz/Zzz/openwrt/feeds/kiddin9/speedtestcli'
+time: package/feeds/kiddin9/speedtestcli/compile#0.17#0.05#0.20
+    ERROR: package/feeds/kiddin9/speedtestcli failed to build.
+make[1]: *** [package/Makefile:116: package/feeds/kiddin9/speedtestcli/compile] Error 1
+make[1]: Leaving directory '/home/runner/work/Zzz/Zzz/openwrt'
+make: *** [/home/runner/work/Zzz/Zzz/openwrt/include/toplevel.mk:222: package/speedtestcli/compile] Error 2
