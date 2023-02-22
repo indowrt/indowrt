@@ -8,21 +8,21 @@ echo "libc" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-mips_24kc_mu
 echo "libgcc" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-mips_24kc_musl/pkginfo/toolchain.default.install
 echo "libpthread" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-mips_24kc_musl/pkginfo/toolchain.default.install
 make[2]: Leaving directory '/home/runner/work/Zzz/Zzz/openwrt/package/toolchain'
-time: package/toolchain/compile#0.27#0.05#0.31
+time: package/toolchain/compile#0.29#0.10#0.38
 make[2]: Entering directory '/home/runner/work/Zzz/Zzz/openwrt/feeds/base/package/libs/libmnl'
 echo "libmnl" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-mips_24kc_musl/pkginfo/libmnl.default.install
 make[2]: Leaving directory '/home/runner/work/Zzz/Zzz/openwrt/feeds/base/package/libs/libmnl'
-time: package/feeds/base/libmnl/compile#0.15#0.05#0.19
+time: package/feeds/base/libmnl/compile#0.16#0.08#0.22
 make[2]: Entering directory '/home/runner/work/Zzz/Zzz/openwrt/feeds/base/package/libs/libnftnl'
 echo "libnftnl" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-mips_24kc_musl/pkginfo/libnftnl.default.install
 make[2]: Leaving directory '/home/runner/work/Zzz/Zzz/openwrt/feeds/base/package/libs/libnftnl'
-time: package/feeds/base/libnftnl/compile#0.15#0.07#0.20
+time: package/feeds/base/libnftnl/compile#0.19#0.07#0.24
 make[2]: Entering directory '/home/runner/work/Zzz/Zzz/openwrt/feeds/base/package/firmware/linux-firmware'
 make[2]: Leaving directory '/home/runner/work/Zzz/Zzz/openwrt/feeds/base/package/firmware/linux-firmware'
-time: package/feeds/base/linux-firmware/compile#1.39#0.13#1.50
+time: package/feeds/base/linux-firmware/compile#1.69#0.12#1.78
 make[2]: Entering directory '/home/runner/work/Zzz/Zzz/openwrt/feeds/base/package/firmware/prism54-firmware'
 make[2]: Leaving directory '/home/runner/work/Zzz/Zzz/openwrt/feeds/base/package/firmware/prism54-firmware'
-time: package/feeds/base/prism54-firmware/compile#0.16#0.07#0.21
+time: package/feeds/base/prism54-firmware/compile#0.18#0.09#0.25
 make[2]: Entering directory '/home/runner/work/Zzz/Zzz/openwrt/package/kernel/linux'
 echo "kernel" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-mips_24kc_musl/pkginfo/linux.default.install
 echo "kmod-crypto-aead" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-mips_24kc_musl/pkginfo/linux.default.install
@@ -85,10 +85,10 @@ WARNING: kmod-sound-hda-codec-via is not available in the kernel config - genera
 WARNING: kmod-sound-hda-codec-hdmi is not available in the kernel config - generating empty package
 WARNING: kmod-net-prism54 is not available in the kernel config - generating empty package
 make[2]: Leaving directory '/home/runner/work/Zzz/Zzz/openwrt/package/kernel/linux'
-time: package/kernel/linux/compile#2.08#0.23#2.30
+time: package/kernel/linux/compile#2.64#0.22#2.84
 make[2]: Entering directory '/home/runner/work/Zzz/Zzz/openwrt/feeds/base/package/network/utils/iptables'
 make[2]: Leaving directory '/home/runner/work/Zzz/Zzz/openwrt/feeds/base/package/network/utils/iptables'
-time: package/feeds/base/iptables/compile#0.19#0.06#0.23
+time: package/feeds/base/iptables/compile#0.22#0.08#0.28
 make[2]: Entering directory '/home/runner/work/Zzz/Zzz/openwrt/feeds/kiddin9/ndpi-netfilter'
 rm -f /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mips_24kc_musl/linux-ath79_nand/ndpi-netfilter-flow_info-26911075-3.4/.built
 touch /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mips_24kc_musl/linux-ath79_nand/ndpi-netfilter-flow_info-26911075-3.4/.built_check
@@ -142,7 +142,7 @@ make[3]: *** [Makefile:3: all] Error 2
 make[3]: Leaving directory '/home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mips_24kc_musl/linux-ath79_nand/ndpi-netfilter-flow_info-26911075-3.4/ndpi-netfilter'
 make[2]: *** [Makefile:85: /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mips_24kc_musl/linux-ath79_nand/ndpi-netfilter-flow_info-26911075-3.4/.built] Error 2
 make[2]: Leaving directory '/home/runner/work/Zzz/Zzz/openwrt/feeds/kiddin9/ndpi-netfilter'
-time: package/feeds/kiddin9/ndpi-netfilter/compile#4.22#0.58#4.57
+time: package/feeds/kiddin9/ndpi-netfilter/compile#5.19#0.79#5.71
     ERROR: package/feeds/kiddin9/ndpi-netfilter failed to build.
 make[1]: *** [package/Makefile:116: package/feeds/kiddin9/ndpi-netfilter/compile] Error 1
 make[1]: Leaving directory '/home/runner/work/Zzz/Zzz/openwrt'
