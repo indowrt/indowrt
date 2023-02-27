@@ -8,7 +8,7 @@ echo "libc" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-mips_24kc_mu
 echo "libgcc" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-mips_24kc_musl/pkginfo/toolchain.default.install
 echo "libpthread" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-mips_24kc_musl/pkginfo/toolchain.default.install
 make[2]: Leaving directory '/home/runner/work/Zzz/Zzz/openwrt/package/toolchain'
-time: package/toolchain/compile#0.26#0.06#0.31
+time: package/toolchain/compile#0.28#0.06#0.33
 make[2]: Entering directory '/home/runner/work/Zzz/Zzz/openwrt/feeds/kiddin9/speedtestcli'
 rm -rf /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mips_24kc_musl/speedtestcli-binary-1.2.0/.pkgdir/speedtestcli.installed /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mips_24kc_musl/speedtestcli-binary-1.2.0/.pkgdir/speedtestcli
 mkdir -p /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mips_24kc_musl/speedtestcli-binary-1.2.0/.pkgdir/speedtestcli
@@ -17,7 +17,7 @@ install -m0755 /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mips_24kc_musl
 install: cannot stat '/home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mips_24kc_musl/speedtestcli-binary-1.2.0/speedtest.mips': No such file or directory
 make[2]: *** [Makefile:58: /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mips_24kc_musl/speedtestcli-binary-1.2.0/.pkgdir/speedtestcli.installed] Error 1
 make[2]: Leaving directory '/home/runner/work/Zzz/Zzz/openwrt/feeds/kiddin9/speedtestcli'
-time: package/feeds/kiddin9/speedtestcli/compile#0.16#0.06#0.21
+time: package/feeds/kiddin9/speedtestcli/compile#0.15#0.09#0.22
     ERROR: package/feeds/kiddin9/speedtestcli failed to build.
 make[1]: *** [package/Makefile:116: package/feeds/kiddin9/speedtestcli/compile] Error 1
 make[1]: Leaving directory '/home/runner/work/Zzz/Zzz/openwrt'
