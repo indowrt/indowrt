@@ -9,7 +9,7 @@ echo "libgcc" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-i386_penti
 echo "libpthread" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-i386_pentium4_musl/pkginfo/toolchain.default.install
 echo "librt" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-i386_pentium4_musl/pkginfo/toolchain.default.install
 make[2]: Leaving directory '/home/runner/work/Zzz/Zzz/openwrt/package/toolchain'
-time: package/toolchain/compile#0.32#0.07#0.36
+time: package/toolchain/compile#0.30#0.09#0.36
 make[2]: Entering directory '/home/runner/work/Zzz/Zzz/openwrt/feeds/kiddin9/speedtestcli'
 rm -rf /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-i386_pentium4_musl/speedtestcli-binary-1.2.0/.pkgdir/speedtestcli.installed /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-i386_pentium4_musl/speedtestcli-binary-1.2.0/.pkgdir/speedtestcli
 mkdir -p /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-i386_pentium4_musl/speedtestcli-binary-1.2.0/.pkgdir/speedtestcli
@@ -18,7 +18,7 @@ install -m0755 /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-i386_pentium4_
 install: cannot stat '/home/runner/work/Zzz/Zzz/openwrt/build_dir/target-i386_pentium4_musl/speedtestcli-binary-1.2.0/speedtest.i386': No such file or directory
 make[2]: *** [Makefile:58: /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-i386_pentium4_musl/speedtestcli-binary-1.2.0/.pkgdir/speedtestcli.installed] Error 1
 make[2]: Leaving directory '/home/runner/work/Zzz/Zzz/openwrt/feeds/kiddin9/speedtestcli'
-time: package/feeds/kiddin9/speedtestcli/compile#0.22#0.07#0.25
+time: package/feeds/kiddin9/speedtestcli/compile#0.21#0.08#0.25
     ERROR: package/feeds/kiddin9/speedtestcli failed to build.
 make[1]: *** [package/Makefile:116: package/feeds/kiddin9/speedtestcli/compile] Error 1
 make[1]: Leaving directory '/home/runner/work/Zzz/Zzz/openwrt'
