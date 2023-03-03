@@ -9,7 +9,7 @@ echo "libgcc" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-arm_arm117
 echo "libpthread" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-arm_arm1176jzf-s+vfp_musl_eabi/pkginfo/toolchain.default.install
 echo "librt" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-arm_arm1176jzf-s+vfp_musl_eabi/pkginfo/toolchain.default.install
 make[2]: Leaving directory '/home/runner/work/Zzz/Zzz/openwrt/package/toolchain'
-time: package/toolchain/compile#0.27#0.05#0.31
+time: package/toolchain/compile#0.26#0.06#0.31
 make[2]: Entering directory '/home/runner/work/Zzz/Zzz/openwrt/feeds/kiddin9/speedtestcli'
 rm -rf /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_arm1176jzf-s+vfp_musl_eabi/speedtestcli-binary-1.2.0/.pkgdir/speedtestcli.installed /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_arm1176jzf-s+vfp_musl_eabi/speedtestcli-binary-1.2.0/.pkgdir/speedtestcli
 mkdir -p /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_arm1176jzf-s+vfp_musl_eabi/speedtestcli-binary-1.2.0/.pkgdir/speedtestcli
