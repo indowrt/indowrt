@@ -4,14 +4,14 @@ make[2]: Leaving directory '/home/runner/work/Zzz/Zzz/openwrt/scripts/config'
 make[1]: Entering directory '/home/runner/work/Zzz/Zzz/openwrt'
 make[2]: Entering directory '/home/runner/work/Zzz/Zzz/openwrt/feeds/packages/lang/golang/golang'
 make[2]: Leaving directory '/home/runner/work/Zzz/Zzz/openwrt/feeds/packages/lang/golang/golang'
-time: package/feeds/packages/golang/host-compile#0.46#0.17#0.56
+time: package/feeds/packages/golang/host-compile#0.48#0.14#0.52
 make[2]: Entering directory '/home/runner/work/Zzz/Zzz/openwrt/package/toolchain'
 Makefile:735: WARNING: skipping libgomp -- package has no install section
 echo "libc" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/pkginfo/toolchain.default.install
 echo "libgcc" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/pkginfo/toolchain.default.install
 echo "libpthread" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/pkginfo/toolchain.default.install
 make[2]: Leaving directory '/home/runner/work/Zzz/Zzz/openwrt/package/toolchain'
-time: package/toolchain/compile#0.27#0.07#0.32
+time: package/toolchain/compile#0.26#0.06#0.31
 make[2]: Entering directory '/home/runner/work/Zzz/Zzz/openwrt/feeds/kiddin9/alist'
 mkdir -p /home/runner/work/Zzz/Zzz/openwrt/dl
 SHELL= flock /home/runner/work/Zzz/Zzz/openwrt/tmp/.alist-web-3.12.2.tar.gz.flock -c '  	/home/runner/work/Zzz/Zzz/openwrt/scripts/download.pl "/home/runner/work/Zzz/Zzz/openwrt/dl" "alist-web-3.12.2.tar.gz" "aa4465ec7a18a968bf2bbf71b5a0d1b757c8f29e204d7826bf45198920ff382d" "dist.tar.gz" "https://github.com/alist-org/alist-web/releases/download/3.12.2/"    '
@@ -36,25 +36,25 @@ Download failed.
 + curl -f --connect-timeout 20 --retry 5 --location https://sources.cdn.openwrt.org/alist-web-3.12.2.tar.gz
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0   169    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0   169    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
 curl: (22) The requested URL returned error: 404
 Download failed.
 + curl -f --connect-timeout 20 --retry 5 --location https://sources.openwrt.org/dist.tar.gz
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0   169    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0   169    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
 curl: (22) The requested URL returned error: 404
 Download failed.
 + curl -f --connect-timeout 20 --retry 5 --location https://sources.openwrt.org/alist-web-3.12.2.tar.gz
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0   169    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0   169    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
 curl: (22) The requested URL returned error: 404
 Download failed.
 + curl -f --connect-timeout 20 --retry 5 --location https://mirror2.openwrt.org/sources/dist.tar.gz
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0   153    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0   153    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
 curl: (22) The requested URL returned error: 404
 Download failed.
 + curl -f --connect-timeout 20 --retry 5 --location https://mirror2.openwrt.org/sources/alist-web-3.12.2.tar.gz
@@ -66,7 +66,7 @@ Download failed.
 No more mirrors to try - giving up.
 make[2]: *** [Makefile:100: /home/runner/work/Zzz/Zzz/openwrt/dl/alist-web-3.12.2.tar.gz] Error 2
 make[2]: Leaving directory '/home/runner/work/Zzz/Zzz/openwrt/feeds/kiddin9/alist'
-time: package/feeds/kiddin9/alist/compile#0.76#0.12#2.62
+time: package/feeds/kiddin9/alist/compile#0.73#0.12#2.46
     ERROR: package/feeds/kiddin9/alist failed to build.
 make[1]: *** [package/Makefile:116: package/feeds/kiddin9/alist/compile] Error 1
 make[1]: Leaving directory '/home/runner/work/Zzz/Zzz/openwrt'
