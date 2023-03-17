@@ -4,7 +4,7 @@ make[2]: Leaving directory '/home/runner/work/Zzz/Zzz/openwrt/scripts/config'
 make[1]: Entering directory '/home/runner/work/Zzz/Zzz/openwrt'
 make[2]: Entering directory '/home/runner/work/Zzz/Zzz/openwrt/feeds/packages/lang/golang/golang'
 make[2]: Leaving directory '/home/runner/work/Zzz/Zzz/openwrt/feeds/packages/lang/golang/golang'
-time: package/feeds/packages/golang/host-compile#0.57#0.17#0.61
+time: package/feeds/packages/golang/host-compile#0.55#0.22#0.63
 make[2]: Entering directory '/home/runner/work/Zzz/Zzz/openwrt/package/toolchain'
 Makefile:735: WARNING: skipping libgomp -- package has no install section
 echo "libc" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-i386_pentium4_musl/pkginfo/toolchain.default.install
@@ -12,7 +12,7 @@ echo "libgcc" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-i386_penti
 echo "libpthread" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-i386_pentium4_musl/pkginfo/toolchain.default.install
 echo "librt" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-i386_pentium4_musl/pkginfo/toolchain.default.install
 make[2]: Leaving directory '/home/runner/work/Zzz/Zzz/openwrt/package/toolchain'
-time: package/toolchain/compile#0.29#0.11#0.36
+time: package/toolchain/compile#0.31#0.08#0.36
 make[2]: Entering directory '/home/runner/work/Zzz/Zzz/openwrt/feeds/kiddin9/alist'
 mkdir -p /home/runner/work/Zzz/Zzz/openwrt/dl
 SHELL= flock /home/runner/work/Zzz/Zzz/openwrt/tmp/.alist-web-3.12.2.tar.gz.flock -c '  	/home/runner/work/Zzz/Zzz/openwrt/scripts/download.pl "/home/runner/work/Zzz/Zzz/openwrt/dl" "alist-web-3.12.2.tar.gz" "aa4465ec7a18a968bf2bbf71b5a0d1b757c8f29e204d7826bf45198920ff382d" "dist.tar.gz" "https://github.com/alist-org/alist-web/releases/download/3.12.2/"    '
@@ -67,7 +67,7 @@ Download failed.
 No more mirrors to try - giving up.
 make[2]: *** [Makefile:100: /home/runner/work/Zzz/Zzz/openwrt/dl/alist-web-3.12.2.tar.gz] Error 2
 make[2]: Leaving directory '/home/runner/work/Zzz/Zzz/openwrt/feeds/kiddin9/alist'
-time: package/feeds/kiddin9/alist/compile#0.78#0.17#2.37
+time: package/feeds/kiddin9/alist/compile#0.81#0.17#2.52
     ERROR: package/feeds/kiddin9/alist failed to build.
 make[1]: *** [package/Makefile:116: package/feeds/kiddin9/alist/compile] Error 1
 make[1]: Leaving directory '/home/runner/work/Zzz/Zzz/openwrt'
