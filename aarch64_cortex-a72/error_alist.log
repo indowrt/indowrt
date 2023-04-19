@@ -1,31 +1,32 @@
+
 make[2]: Entering directory '/home/runner/work/Zzz/Zzz/openwrt/scripts/config'
 make[2]: 'conf' is up to date.
 make[2]: Leaving directory '/home/runner/work/Zzz/Zzz/openwrt/scripts/config'
 make[1]: Entering directory '/home/runner/work/Zzz/Zzz/openwrt'
-make[2]: Entering directory '/home/runner/work/Zzz/Zzz/openwrt/feeds/packages/lang/golang/golang'
-make[2]: Leaving directory '/home/runner/work/Zzz/Zzz/openwrt/feeds/packages/lang/golang/golang'
-time: package/feeds/packages/golang/host-compile#0.53#0.16#0.58
 make[2]: Entering directory '/home/runner/work/Zzz/Zzz/openwrt/package/toolchain'
+make[2]: Entering directory '/home/runner/work/Zzz/Zzz/openwrt/feeds/packages/lang/golang/golang'
 Makefile:735: WARNING: skipping libgomp -- package has no install section
 echo "libc" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-aarch64_cortex-a72_musl/pkginfo/toolchain.default.install
 echo "libgcc" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-aarch64_cortex-a72_musl/pkginfo/toolchain.default.install
 echo "libpthread" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-aarch64_cortex-a72_musl/pkginfo/toolchain.default.install
 echo "librt" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-aarch64_cortex-a72_musl/pkginfo/toolchain.default.install
 make[2]: Leaving directory '/home/runner/work/Zzz/Zzz/openwrt/package/toolchain'
-time: package/toolchain/compile#0.27#0.09#0.35
+time: package/toolchain/compile#0.28#0.06#0.40
+make[2]: Leaving directory '/home/runner/work/Zzz/Zzz/openwrt/feeds/packages/lang/golang/golang'
+time: package/feeds/packages/golang/host-compile#0.63#0.21#0.73
 make[2]: Entering directory '/home/runner/work/Zzz/Zzz/openwrt/feeds/kiddin9/alist'
 mkdir -p /home/runner/work/Zzz/Zzz/openwrt/dl
-SHELL= flock /home/runner/work/Zzz/Zzz/openwrt/tmp/.alist-web-3.12.2.tar.gz.flock -c '  	/home/runner/work/Zzz/Zzz/openwrt/scripts/download.pl "/home/runner/work/Zzz/Zzz/openwrt/dl" "alist-web-3.12.2.tar.gz" "aa4465ec7a18a968bf2bbf71b5a0d1b757c8f29e204d7826bf45198920ff382d" "dist.tar.gz" "https://github.com/alist-org/alist-web/releases/download/3.12.2/"    '
-+ curl -f --connect-timeout 20 --retry 5 --location https://github.com/alist-org/alist-web/releases/download/3.12.2/dist.tar.gz
+SHELL= flock /home/runner/work/Zzz/Zzz/openwrt/tmp/.alist-web-3.16.0.tar.gz.flock -c '  	/home/runner/work/Zzz/Zzz/openwrt/scripts/download.pl "/home/runner/work/Zzz/Zzz/openwrt/dl" "alist-web-3.16.0.tar.gz" "8c6f44f413b337965d0f38150b89d78fb3eb2887a8bdf21790eecd81a55133f8" "dist.tar.gz" "https://github.com/alist-org/alist-web/releases/download/3.16.0/"    '
++ curl -f --connect-timeout 20 --retry 5 --location https://github.com/alist-org/alist-web/releases/download/3.16.0/dist.tar.gz
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     9    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
-curl: (22) The requested URL returned error: 404
-Download failed.
-+ curl -f --connect-timeout 20 --retry 5 --location https://github.com/alist-org/alist-web/releases/download/3.12.2/alist-web-3.12.2.tar.gz
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+100 1418k  100 1418k    0     0  2842k      0 --:--:-- --:--:-- --:--:-- 2842k
+Hash of the downloaded file does not match (file: 0a08e205887dcaf17f5e57af5a2024021e35e3d29878259d372d980bbea3eedd, requested: 8c6f44f413b337965d0f38150b89d78fb3eb2887a8bdf21790eecd81a55133f8) - deleting download.
++ curl -f --connect-timeout 20 --retry 5 --location https://github.com/alist-org/alist-web/releases/download/3.16.0/alist-web-3.16.0.tar.gz
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     9    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     9    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
 curl: (22) The requested URL returned error: 404
 Download failed.
 + curl -f --connect-timeout 20 --retry 5 --location https://sources.cdn.openwrt.org/dist.tar.gz
@@ -34,7 +35,7 @@ Download failed.
   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0   169    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
 curl: (22) The requested URL returned error: 404
 Download failed.
-+ curl -f --connect-timeout 20 --retry 5 --location https://sources.cdn.openwrt.org/alist-web-3.12.2.tar.gz
++ curl -f --connect-timeout 20 --retry 5 --location https://sources.cdn.openwrt.org/alist-web-3.16.0.tar.gz
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0   169    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
@@ -43,13 +44,13 @@ Download failed.
 + curl -f --connect-timeout 20 --retry 5 --location https://sources.openwrt.org/dist.tar.gz
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0   169    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0   169    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
 curl: (22) The requested URL returned error: 404
 Download failed.
-+ curl -f --connect-timeout 20 --retry 5 --location https://sources.openwrt.org/alist-web-3.12.2.tar.gz
++ curl -f --connect-timeout 20 --retry 5 --location https://sources.openwrt.org/alist-web-3.16.0.tar.gz
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0   169    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0   169    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
 curl: (22) The requested URL returned error: 404
 Download failed.
 + curl -f --connect-timeout 20 --retry 5 --location https://mirror2.openwrt.org/sources/dist.tar.gz
@@ -58,16 +59,16 @@ Download failed.
   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0   153    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
 curl: (22) The requested URL returned error: 404
 Download failed.
-+ curl -f --connect-timeout 20 --retry 5 --location https://mirror2.openwrt.org/sources/alist-web-3.12.2.tar.gz
++ curl -f --connect-timeout 20 --retry 5 --location https://mirror2.openwrt.org/sources/alist-web-3.16.0.tar.gz
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0   153    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
 curl: (22) The requested URL returned error: 404
 Download failed.
 No more mirrors to try - giving up.
-make[2]: *** [Makefile:100: /home/runner/work/Zzz/Zzz/openwrt/dl/alist-web-3.12.2.tar.gz] Error 2
+make[2]: *** [Makefile:70: /home/runner/work/Zzz/Zzz/openwrt/dl/alist-web-3.16.0.tar.gz] Error 2
 make[2]: Leaving directory '/home/runner/work/Zzz/Zzz/openwrt/feeds/kiddin9/alist'
-time: package/feeds/kiddin9/alist/compile#0.84#0.13#3.78
+time: package/feeds/kiddin9/alist/compile#0.85#0.11#3.50
     ERROR: package/feeds/kiddin9/alist failed to build.
 make[1]: *** [package/Makefile:116: package/feeds/kiddin9/alist/compile] Error 1
 make[1]: Leaving directory '/home/runner/work/Zzz/Zzz/openwrt'
