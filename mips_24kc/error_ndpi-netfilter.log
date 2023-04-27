@@ -9,21 +9,21 @@ echo "libc" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-mips_24kc_mu
 echo "libgcc" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-mips_24kc_musl/pkginfo/toolchain.default.install
 echo "libpthread" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-mips_24kc_musl/pkginfo/toolchain.default.install
 make[2]: Leaving directory '/home/runner/work/Zzz/Zzz/openwrt/package/toolchain'
-time: package/toolchain/compile#0.31#0.10#0.39
+time: package/toolchain/compile#0.32#0.09#0.38
 make[2]: Entering directory '/home/runner/work/Zzz/Zzz/openwrt/feeds/base/package/libs/libmnl'
 make[2]: Entering directory '/home/runner/work/Zzz/Zzz/openwrt/feeds/base/package/firmware/linux-firmware'
 make[2]: Entering directory '/home/runner/work/Zzz/Zzz/openwrt/feeds/base/package/firmware/prism54-firmware'
-make[2]: Leaving directory '/home/runner/work/Zzz/Zzz/openwrt/feeds/base/package/firmware/prism54-firmware'
-time: package/feeds/base/prism54-firmware/compile#0.20#0.06#0.37
 echo "libmnl" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-mips_24kc_musl/pkginfo/libmnl.default.install
 make[2]: Leaving directory '/home/runner/work/Zzz/Zzz/openwrt/feeds/base/package/libs/libmnl'
-time: package/feeds/base/libmnl/compile#0.19#0.05#0.41
+time: package/feeds/base/libmnl/compile#0.18#0.07#0.43
+make[2]: Leaving directory '/home/runner/work/Zzz/Zzz/openwrt/feeds/base/package/firmware/prism54-firmware'
+time: package/feeds/base/prism54-firmware/compile#0.19#0.09#0.44
 make[2]: Entering directory '/home/runner/work/Zzz/Zzz/openwrt/feeds/base/package/libs/libnftnl'
 echo "libnftnl" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-mips_24kc_musl/pkginfo/libnftnl.default.install
 make[2]: Leaving directory '/home/runner/work/Zzz/Zzz/openwrt/feeds/base/package/libs/libnftnl'
-time: package/feeds/base/libnftnl/compile#0.17#0.09#0.27
+time: package/feeds/base/libnftnl/compile#0.18#0.09#0.28
 make[2]: Leaving directory '/home/runner/work/Zzz/Zzz/openwrt/feeds/base/package/firmware/linux-firmware'
-time: package/feeds/base/linux-firmware/compile#1.58#0.17#1.86
+time: package/feeds/base/linux-firmware/compile#1.73#0.15#2.02
 make[2]: Entering directory '/home/runner/work/Zzz/Zzz/openwrt/package/kernel/linux'
 echo "kernel" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-mips_24kc_musl/pkginfo/linux.default.install
 echo "kmod-crypto-aead" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-mips_24kc_musl/pkginfo/linux.default.install
@@ -86,10 +86,10 @@ WARNING: kmod-sound-hda-codec-via is not available in the kernel config - genera
 WARNING: kmod-sound-hda-codec-hdmi is not available in the kernel config - generating empty package
 WARNING: kmod-net-prism54 is not available in the kernel config - generating empty package
 make[2]: Leaving directory '/home/runner/work/Zzz/Zzz/openwrt/package/kernel/linux'
-time: package/kernel/linux/compile#2.46#0.36#2.81
+time: package/kernel/linux/compile#2.57#0.32#2.88
 make[2]: Entering directory '/home/runner/work/Zzz/Zzz/openwrt/feeds/base/package/network/utils/iptables'
 make[2]: Leaving directory '/home/runner/work/Zzz/Zzz/openwrt/feeds/base/package/network/utils/iptables'
-time: package/feeds/base/iptables/compile#0.24#0.08#0.29
+time: package/feeds/base/iptables/compile#0.24#0.08#0.30
 make[2]: Entering directory '/home/runner/work/Zzz/Zzz/openwrt/feeds/kiddin9/ndpi-netfilter'
 mkdir -p /home/runner/work/Zzz/Zzz/openwrt/dl
 SHELL= flock /home/runner/work/Zzz/Zzz/openwrt/tmp/.ndpi-netfilter-flow_info-26911075-3.4.tar.bz2.flock -c '  	/home/runner/work/Zzz/Zzz/openwrt/scripts/download.pl "/home/runner/work/Zzz/Zzz/openwrt/dl" "ndpi-netfilter-flow_info-26911075-3.4.tar.bz2" "d51a243918f401170a3b797beacd8caba4cd9fd08b96763373382b58e14ca395" "" || (  /home/runner/work/Zzz/Zzz/openwrt/scripts/dl_github_archive.py --dl-dir="/home/runner/work/Zzz/Zzz/openwrt/dl" --url="https://github.com/vel21ripn/nDPI.git" --version="26911075" --subdir="ndpi-netfilter-flow_info-26911075-3.4" --source="ndpi-netfilter-flow_info-26911075-3.4.tar.bz2" --hash="d51a243918f401170a3b797beacd8caba4cd9fd08b96763373382b58e14ca395" || ( 	echo "Checking out files from the git repository..."; mkdir -p /home/runner/work/Zzz/Zzz/openwrt/tmp/dl && cd /home/runner/work/Zzz/Zzz/openwrt/tmp/dl && rm -rf ndpi-netfilter-flow_info-26911075-3.4 && [ \! -d ndpi-netfilter-flow_info-26911075-3.4 ] && git clone  https://github.com/vel21ripn/nDPI.git ndpi-netfilter-flow_info-26911075-3.4 && (cd ndpi-netfilter-flow_info-26911075-3.4 && git checkout 26911075 && git submodule update --init --recursive) && echo "Packing checkout..." && export TAR_TIMESTAMP=`cd ndpi-netfilter-flow_info-26911075-3.4 && git log -1 --format='\''@%ct'\''` && rm -rf ndpi-netfilter-flow_info-26911075-3.4/.git && 	tar --numeric-owner --owner=0 --group=0 --mode=a-s --sort=name ${TAR_TIMESTAMP:+--mtime="$TAR_TIMESTAMP"} -c ndpi-netfilter-flow_info-26911075-3.4 | 	bzip2 -c > /home/runner/work/Zzz/Zzz/openwrt/tmp/dl/ndpi-netfilter-flow_info-26911075-3.4.tar.bz2 && mv /home/runner/work/Zzz/Zzz/openwrt/tmp/dl/ndpi-netfilter-flow_info-26911075-3.4.tar.bz2 /home/runner/work/Zzz/Zzz/openwrt/dl/ && rm -rf ndpi-netfilter-flow_info-26911075-3.4; );  )    '
@@ -102,7 +102,7 @@ Download failed.
 + curl -f --connect-timeout 20 --retry 5 --location https://sources.openwrt.org/ndpi-netfilter-flow_info-26911075-3.4.tar.bz2
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0   169    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0   169    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
 curl: (22) The requested URL returned error: 404
 Download failed.
 + curl -f --connect-timeout 20 --retry 5 --location https://mirror2.openwrt.org/sources/ndpi-netfilter-flow_info-26911075-3.4.tar.bz2
@@ -112,7 +112,7 @@ Download failed.
 curl: (22) The requested URL returned error: 404
 Download failed.
 No more mirrors to try - giving up.
-touch /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mips_24kc_musl/linux-ath79_nand/ndpi-netfilter-flow_info-26911075-3.4/.prepared_213c266d4a15a291a53811859c8001fc_6664517399ebbbc92a37c5bb081b5c53_check
+touch /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mips_24kc_musl/linux-ath79_nand/ndpi-netfilter-flow_info-26911075-3.4/.prepared_31d58f9cd7b7b005a2f7b586a64dd53c_6664517399ebbbc92a37c5bb081b5c53_check
 . /home/runner/work/Zzz/Zzz/openwrt/include/shell.sh; bzcat /home/runner/work/Zzz/Zzz/openwrt/dl/ndpi-netfilter-flow_info-26911075-3.4.tar.bz2 | tar -C /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mips_24kc_musl/linux-ath79_nand/ndpi-netfilter-flow_info-26911075-3.4/.. -xf -
 [ ! -d ./src/ ] || cp -fpR ./src/. /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mips_24kc_musl/linux-ath79_nand/ndpi-netfilter-flow_info-26911075-3.4
 
@@ -123,7 +123,7 @@ Applying ./patches/001-remove-request-module-nf_conntrack-ip_tables-ip6_tables.p
 patching file ndpi-netfilter/src/main.c
 Hunk #1 succeeded at 2796 with fuzz 2 (offset 295 lines).
 Hunk #2 succeeded at 2811 (offset 295 lines).
-touch /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mips_24kc_musl/linux-ath79_nand/ndpi-netfilter-flow_info-26911075-3.4/.prepared_213c266d4a15a291a53811859c8001fc_6664517399ebbbc92a37c5bb081b5c53
+touch /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mips_24kc_musl/linux-ath79_nand/ndpi-netfilter-flow_info-26911075-3.4/.prepared_31d58f9cd7b7b005a2f7b586a64dd53c_6664517399ebbbc92a37c5bb081b5c53
 rm -f /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mips_24kc_musl/linux-ath79_nand/ndpi-netfilter-flow_info-26911075-3.4/.configured_*
 rm -f /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-mips_24kc_musl/stamp/.ndpi-netfilter_installed
 ( cd /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mips_24kc_musl/linux-ath79_nand/ndpi-netfilter-flow_info-26911075-3.4; ./autogen.sh )
@@ -821,7 +821,7 @@ make[3]: *** [Makefile:3: all] Error 2
 make[3]: Leaving directory '/home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mips_24kc_musl/linux-ath79_nand/ndpi-netfilter-flow_info-26911075-3.4/ndpi-netfilter'
 make[2]: *** [Makefile:85: /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mips_24kc_musl/linux-ath79_nand/ndpi-netfilter-flow_info-26911075-3.4/.built] Error 2
 make[2]: Leaving directory '/home/runner/work/Zzz/Zzz/openwrt/feeds/kiddin9/ndpi-netfilter'
-time: package/feeds/kiddin9/ndpi-netfilter/compile#58.28#8.98#70.39
+time: package/feeds/kiddin9/ndpi-netfilter/compile#58.14#8.43#69.43
     ERROR: package/feeds/kiddin9/ndpi-netfilter failed to build.
 make[1]: *** [package/Makefile:116: package/feeds/kiddin9/ndpi-netfilter/compile] Error 1
 make[1]: Leaving directory '/home/runner/work/Zzz/Zzz/openwrt'

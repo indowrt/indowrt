@@ -10,24 +10,24 @@ echo "libc" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-mipsel_24kc_
 echo "libgcc" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-mipsel_24kc_musl/pkginfo/toolchain.default.install
 echo "libpthread" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-mipsel_24kc_musl/pkginfo/toolchain.default.install
 make[2]: Leaving directory '/home/runner/work/Zzz/Zzz/openwrt/package/toolchain'
-time: package/toolchain/compile#0.29#0.04#0.35
+time: package/toolchain/compile#0.31#0.08#0.41
 make[2]: Entering directory '/home/runner/work/Zzz/Zzz/openwrt/feeds/base/package/system/ca-certificates'
 echo "ca-bundle" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-mipsel_24kc_musl/pkginfo/ca-certificates.default.install
 make[2]: Leaving directory '/home/runner/work/Zzz/Zzz/openwrt/feeds/base/package/system/ca-certificates'
-time: package/feeds/base/ca-certificates/compile#0.16#0.05#0.21
+time: package/feeds/base/ca-certificates/compile#0.16#0.08#0.25
 make[2]: Leaving directory '/home/runner/work/Zzz/Zzz/openwrt/feeds/packages/lang/golang/golang'
-time: package/feeds/packages/golang/host-compile#0.60#0.19#0.69
+time: package/feeds/packages/golang/host-compile#0.65#0.27#0.81
 make[2]: Entering directory '/home/runner/work/Zzz/Zzz/openwrt/feeds/kiddin9/gost'
 mkdir -p /home/runner/work/Zzz/Zzz/openwrt/dl
 SHELL= flock /home/runner/work/Zzz/Zzz/openwrt/tmp/.gost-2.11.5.tar.gz.flock -c '  	/home/runner/work/Zzz/Zzz/openwrt/scripts/download.pl "/home/runner/work/Zzz/Zzz/openwrt/dl" "gost-2.11.5.tar.gz" "dab48b785f4d2df6c2f5619a4b9a2ac6e8b708f667a4d89c7d08df67ad7c5ca7" "" "https://codeload.github.com/ginuerzh/gost/tar.gz/v2.11.5?"    '
 + curl -f --connect-timeout 20 --retry 5 --location https://codeload.github.com/ginuerzh/gost/tar.gz/v2.11.5?/gost-2.11.5.tar.gz
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  184k  100  184k    0     0  1306k      0 --:--:-- --:--:-- --:--:-- 1311k
-touch /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mipsel_24kc_musl/gost-2.11.5/.prepared_253935e4ee1d695819756a29eeef8ff5_6664517399ebbbc92a37c5bb081b5c53_check
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  184k    0  184k    0     0   502k      0 --:--:-- --:--:-- --:--:--  501k
+touch /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mipsel_24kc_musl/gost-2.11.5/.prepared_9d55218c06040f9ca23d115511d2dcb0_6664517399ebbbc92a37c5bb081b5c53_check
 . /home/runner/work/Zzz/Zzz/openwrt/include/shell.sh; gzip -dc /home/runner/work/Zzz/Zzz/openwrt/dl/gost-2.11.5.tar.gz | tar -C /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mipsel_24kc_musl/gost-2.11.5/.. -xf -
 [ ! -d ./src/ ] || cp -fpR ./src/. /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mipsel_24kc_musl/gost-2.11.5
-touch /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mipsel_24kc_musl/gost-2.11.5/.prepared_253935e4ee1d695819756a29eeef8ff5_6664517399ebbbc92a37c5bb081b5c53
+touch /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mipsel_24kc_musl/gost-2.11.5/.prepared_9d55218c06040f9ca23d115511d2dcb0_6664517399ebbbc92a37c5bb081b5c53
 rm -f /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mipsel_24kc_musl/gost-2.11.5/.configured_*
 rm -f /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-mipsel_24kc_musl/stamp/.gost_installed
 CONFIG_GOLANG_MOD_CACHE_WORLD_READABLE="" GO_BUILD_CACHE_DIR="/home/runner/work/Zzz/Zzz/openwrt/tmp/go-build" GO_MOD_CACHE_DIR="/home/runner/work/Zzz/Zzz/openwrt/dl/go-mod-cache" GO_MOD_ARGS="-modcacherw" GO_PKG="github.com/ginuerzh/gost" GO_INSTALL_EXTRA="" GO_INSTALL_ALL="" GO_SOURCE_ONLY="" GO_BUILD_PKG="github.com/ginuerzh/gost/cmd/gost" GO_EXCLUDES="" GO_GO_GENERATE="" GO_INSTALL_BIN_PATH="/usr/bin" BUILD_DIR="/home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mipsel_24kc_musl/gost-2.11.5" GO_BUILD_DIR="/home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mipsel_24kc_musl/gost-2.11.5/.go_work/build" GO_BUILD_BIN_DIR="/home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mipsel_24kc_musl/gost-2.11.5/.go_work/build/bin/linux_mipsle" GO_BUILD_DEPENDS_PATH="/usr/share/gocode" GO_BUILD_DEPENDS_SRC="/home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-mipsel_24kc_musl/usr/share/gocode/src" /usr/bin/env bash /home/runner/work/Zzz/Zzz/openwrt/feeds/packages/lang/golang//golang-build.sh configure
@@ -128,7 +128,7 @@ Symlinking directories from /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target
 touch /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mipsel_24kc_musl/gost-2.11.5/.configured_68b329da9893e34099c7d8ad5cb9c940
 rm -f /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mipsel_24kc_musl/gost-2.11.5/.built
 touch /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mipsel_24kc_musl/gost-2.11.5/.built_check
-CONFIG_GOLANG_MOD_CACHE_WORLD_READABLE="" GO_BUILD_CACHE_DIR="/home/runner/work/Zzz/Zzz/openwrt/tmp/go-build" GO_MOD_CACHE_DIR="/home/runner/work/Zzz/Zzz/openwrt/dl/go-mod-cache" GO_MOD_ARGS="-modcacherw" GO_PKG="github.com/ginuerzh/gost" GO_INSTALL_EXTRA="" GO_INSTALL_ALL="" GO_SOURCE_ONLY="" GO_BUILD_PKG="github.com/ginuerzh/gost/cmd/gost" GO_EXCLUDES="" GO_GO_GENERATE="" GO_INSTALL_BIN_PATH="/usr/bin" BUILD_DIR="/home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mipsel_24kc_musl/gost-2.11.5" GO_BUILD_DIR="/home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mipsel_24kc_musl/gost-2.11.5/.go_work/build" GO_BUILD_BIN_DIR="/home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mipsel_24kc_musl/gost-2.11.5/.go_work/build/bin/linux_mipsle" GO_BUILD_DEPENDS_PATH="/usr/share/gocode" GO_BUILD_DEPENDS_SRC="/home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-mipsel_24kc_musl/usr/share/gocode/src" GOOS="linux" GOARCH="mipsle" GO386="" GOAMD64="" GOARM="" GOMIPS="softfloat" GOMIPS64="" GOPPC64="" CGO_ENABLED=1 CC="mipsel-openwrt-linux-musl-gcc" CXX="mipsel-openwrt-linux-musl-g++" CGO_CFLAGS="-Os -pipe -mno-branch-likely -mtune=24kc -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -msoft-float -ffile-prefix-map=/home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mipsel_24kc_musl/gost-2.11.5=gost-2.11.5 -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro" CGO_CPPFLAGS="-I/home/runner/work/Zzz/Zzz/openwrt/staging_dir/toolchain-mipsel_24kc_gcc-11.2.0_musl/usr/include -I/home/runner/work/Zzz/Zzz/openwrt/staging_dir/toolchain-mipsel_24kc_gcc-11.2.0_musl/include/fortify -I/home/runner/work/Zzz/Zzz/openwrt/staging_dir/toolchain-mipsel_24kc_gcc-11.2.0_musl/include" CGO_CXXFLAGS="-Os -pipe -mno-branch-likely -mtune=24kc -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -msoft-float -ffile-prefix-map=/home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mipsel_24kc_musl/gost-2.11.5=gost-2.11.5 -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro" CGO_LDFLAGS="-L/home/runner/work/Zzz/Zzz/openwrt/staging_dir/toolchain-mipsel_24kc_gcc-11.2.0_musl/usr/lib -L/home/runner/work/Zzz/Zzz/openwrt/staging_dir/toolchain-mipsel_24kc_gcc-11.2.0_musl/lib -znow -zrelro" GOPATH="/home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mipsel_24kc_musl/gost-2.11.5/.go_work/build" GOCACHE="/home/runner/work/Zzz/Zzz/openwrt/tmp/go-build" GOMODCACHE="/home/runner/work/Zzz/Zzz/openwrt/dl/go-mod-cache" GOENV=off /usr/bin/env bash /home/runner/work/Zzz/Zzz/openwrt/feeds/packages/lang/golang//golang-build.sh build -v -buildvcs=false -trimpath -ldflags "all=-buildid '1681812525' -linkmode external -extldflags '-L/home/runner/work/Zzz/Zzz/openwrt/staging_dir/toolchain-mipsel_24kc_gcc-11.2.0_musl/usr/lib -L/home/runner/work/Zzz/Zzz/openwrt/staging_dir/toolchain-mipsel_24kc_gcc-11.2.0_musl/lib -Wl,-z,now -Wl,-z,relro'"     -installsuffix "softfloat"     
+CONFIG_GOLANG_MOD_CACHE_WORLD_READABLE="" GO_BUILD_CACHE_DIR="/home/runner/work/Zzz/Zzz/openwrt/tmp/go-build" GO_MOD_CACHE_DIR="/home/runner/work/Zzz/Zzz/openwrt/dl/go-mod-cache" GO_MOD_ARGS="-modcacherw" GO_PKG="github.com/ginuerzh/gost" GO_INSTALL_EXTRA="" GO_INSTALL_ALL="" GO_SOURCE_ONLY="" GO_BUILD_PKG="github.com/ginuerzh/gost/cmd/gost" GO_EXCLUDES="" GO_GO_GENERATE="" GO_INSTALL_BIN_PATH="/usr/bin" BUILD_DIR="/home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mipsel_24kc_musl/gost-2.11.5" GO_BUILD_DIR="/home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mipsel_24kc_musl/gost-2.11.5/.go_work/build" GO_BUILD_BIN_DIR="/home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mipsel_24kc_musl/gost-2.11.5/.go_work/build/bin/linux_mipsle" GO_BUILD_DEPENDS_PATH="/usr/share/gocode" GO_BUILD_DEPENDS_SRC="/home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-mipsel_24kc_musl/usr/share/gocode/src" GOOS="linux" GOARCH="mipsle" GO386="" GOAMD64="" GOARM="" GOMIPS="softfloat" GOMIPS64="" GOPPC64="" CGO_ENABLED=1 CC="mipsel-openwrt-linux-musl-gcc" CXX="mipsel-openwrt-linux-musl-g++" CGO_CFLAGS="-Os -pipe -mno-branch-likely -mtune=24kc -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -msoft-float -ffile-prefix-map=/home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mipsel_24kc_musl/gost-2.11.5=gost-2.11.5 -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro" CGO_CPPFLAGS="-I/home/runner/work/Zzz/Zzz/openwrt/staging_dir/toolchain-mipsel_24kc_gcc-11.2.0_musl/usr/include -I/home/runner/work/Zzz/Zzz/openwrt/staging_dir/toolchain-mipsel_24kc_gcc-11.2.0_musl/include/fortify -I/home/runner/work/Zzz/Zzz/openwrt/staging_dir/toolchain-mipsel_24kc_gcc-11.2.0_musl/include" CGO_CXXFLAGS="-Os -pipe -mno-branch-likely -mtune=24kc -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -msoft-float -ffile-prefix-map=/home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mipsel_24kc_musl/gost-2.11.5=gost-2.11.5 -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro" CGO_LDFLAGS="-L/home/runner/work/Zzz/Zzz/openwrt/staging_dir/toolchain-mipsel_24kc_gcc-11.2.0_musl/usr/lib -L/home/runner/work/Zzz/Zzz/openwrt/staging_dir/toolchain-mipsel_24kc_gcc-11.2.0_musl/lib -znow -zrelro" GOPATH="/home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mipsel_24kc_musl/gost-2.11.5/.go_work/build" GOCACHE="/home/runner/work/Zzz/Zzz/openwrt/tmp/go-build" GOMODCACHE="/home/runner/work/Zzz/Zzz/openwrt/dl/go-mod-cache" GOENV=off /usr/bin/env bash /home/runner/work/Zzz/Zzz/openwrt/feeds/packages/lang/golang//golang-build.sh build -v -buildvcs=false -trimpath -ldflags "all=-buildid '1682252154' -linkmode external -extldflags '-L/home/runner/work/Zzz/Zzz/openwrt/staging_dir/toolchain-mipsel_24kc_gcc-11.2.0_musl/usr/lib -L/home/runner/work/Zzz/Zzz/openwrt/staging_dir/toolchain-mipsel_24kc_gcc-11.2.0_musl/lib -Wl,-z,now -Wl,-z,relro'"     -installsuffix "softfloat"     
 Finding targets
 go: downloading github.com/go-log/log v0.2.0
 go: downloading git.torproject.org/pluggable-transports/goptlib.git v1.2.0
@@ -170,8 +170,8 @@ go: downloading gitlab.com/yawning/edwards25519-extra.git v0.0.0-20211229043746-
 Building targets
 github.com/go-log/log
 github.com/gobwas/glob/util/runes
-github.com/gobwas/glob/util/strings
 runtime/cgo
+github.com/gobwas/glob/util/strings
 github.com/gobwas/glob/match
 github.com/gobwas/glob/syntax/lexer
 github.com/gobwas/glob/syntax/ast
@@ -204,6 +204,8 @@ github.com/shadowsocks/go-shadowsocks2/internal
 github.com/aead/chacha20
 golang.org/x/crypto/blowfish
 golang.org/x/crypto/cast5
+golang.org/x/crypto/salsa20/salsa
+github.com/songgao/water
 git.torproject.org/pluggable-transports/goptlib.git
 github.com/LiamHaworth/go-tproxy
 github.com/asaskevich/govalidator
@@ -222,9 +224,7 @@ github.com/lucas-clemente/quic-go/internal/qtls
 ../../../../../dl/go-mod-cache/github.com/lucas-clemente/quic-go@v0.28.1/internal/qtls/go120.go:6:13: cannot use "The version of quic-go you're using can't be built on Go 1.20 yet. For more details, please see https://github.com/lucas-clemente/quic-go/wiki/quic-go-and-Go-versions." (untyped string constant "The version of quic-go you're using can't be built on Go 1.20 yet. F...) as int value in variable declaration
 github.com/shadowsocks/go-shadowsocks2/shadowaead
 github.com/shadowsocks/go-shadowsocks2/core
-golang.org/x/crypto/salsa20/salsa
 github.com/shadowsocks/shadowsocks-go/shadowsocks
-github.com/songgao/water
 github.com/songgao/water/waterutil
 github.com/klauspost/cpuid/v2
 github.com/klauspost/reedsolomon
@@ -262,15 +262,15 @@ golang.org/x/text/transform
 golang.org/x/text/unicode/bidi
 golang.org/x/text/secure/bidirule
 golang.org/x/text/unicode/norm
-golang.org/x/net/http2/hpack
 golang.org/x/net/idna
+golang.org/x/net/http2/hpack
 net/http/httputil
 golang.org/x/net/http/httpguts
 golang.org/x/net/http2
 
 make[2]: *** [Makefile:50: /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mipsel_24kc_musl/gost-2.11.5/.built] Error 1
 make[2]: Leaving directory '/home/runner/work/Zzz/Zzz/openwrt/feeds/kiddin9/gost'
-time: package/feeds/kiddin9/gost/compile#17.47#2.60#12.08
+time: package/feeds/kiddin9/gost/compile#22.72#3.33#15.66
     ERROR: package/feeds/kiddin9/gost failed to build.
 make[1]: *** [package/Makefile:116: package/feeds/kiddin9/gost/compile] Error 1
 make[1]: Leaving directory '/home/runner/work/Zzz/Zzz/openwrt'
