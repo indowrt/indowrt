@@ -1,0 +1,595 @@
+
+make[2]: Entering directory '/home/runner/work/Zzz/Zzz/openwrt/scripts/config'
+make[2]: 'conf' is up to date.
+make[2]: Leaving directory '/home/runner/work/Zzz/Zzz/openwrt/scripts/config'
+make[1]: Entering directory '/home/runner/work/Zzz/Zzz/openwrt'
+make[2]: Entering directory '/home/runner/work/Zzz/Zzz/openwrt/package/toolchain'
+Makefile:735: WARNING: skipping libgomp -- package has no install section
+echo "libc" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/pkginfo/toolchain.default.install
+echo "libgcc" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/pkginfo/toolchain.default.install
+echo "libpthread" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/pkginfo/toolchain.default.install
+make[2]: Leaving directory '/home/runner/work/Zzz/Zzz/openwrt/package/toolchain'
+time: package/toolchain/compile#0.26#0.07#0.32
+make[2]: Entering directory '/home/runner/work/Zzz/Zzz/openwrt/feeds/base/package/libs/libmnl'
+make[2]: Entering directory '/home/runner/work/Zzz/Zzz/openwrt/feeds/base/package/firmware/linux-firmware'
+make[2]: Entering directory '/home/runner/work/Zzz/Zzz/openwrt/feeds/base/package/firmware/prism54-firmware'
+echo "libmnl" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/pkginfo/libmnl.default.install
+make[2]: Leaving directory '/home/runner/work/Zzz/Zzz/openwrt/feeds/base/package/libs/libmnl'
+time: package/feeds/base/libmnl/compile#0.13#0.08#0.36
+make[2]: Entering directory '/home/runner/work/Zzz/Zzz/openwrt/feeds/base/package/libs/libpcap'
+make[2]: Leaving directory '/home/runner/work/Zzz/Zzz/openwrt/feeds/base/package/firmware/prism54-firmware'
+time: package/feeds/base/prism54-firmware/compile#0.18#0.05#0.38
+make[2]: Entering directory '/home/runner/work/Zzz/Zzz/openwrt/feeds/base/package/libs/libnftnl'
+make[2]: Leaving directory '/home/runner/work/Zzz/Zzz/openwrt/feeds/base/package/libs/libpcap'
+time: package/feeds/base/libpcap/compile#0.17#0.04#0.38
+echo "libnftnl" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/pkginfo/libnftnl.default.install
+make[2]: Leaving directory '/home/runner/work/Zzz/Zzz/openwrt/feeds/base/package/libs/libnftnl'
+time: package/feeds/base/libnftnl/compile#0.17#0.05#0.42
+echo "ath10k-board-qca4019" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/pkginfo/linux-firmware.default.install
+make[2]: Leaving directory '/home/runner/work/Zzz/Zzz/openwrt/feeds/base/package/firmware/linux-firmware'
+time: package/feeds/base/linux-firmware/compile#1.42#0.12#1.70
+make[2]: Entering directory '/home/runner/work/Zzz/Zzz/openwrt/package/kernel/linux'
+echo "kernel" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/pkginfo/linux.default.install
+echo "kmod-crypto-aead" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/pkginfo/linux.default.install
+echo "kmod-crypto-ccm" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/pkginfo/linux.default.install
+echo "kmod-crypto-cmac" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/pkginfo/linux.default.install
+echo "kmod-crypto-crc32c" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/pkginfo/linux.default.install
+echo "kmod-crypto-ctr" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/pkginfo/linux.default.install
+echo "kmod-crypto-gcm" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/pkginfo/linux.default.install
+echo "kmod-crypto-gf128" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/pkginfo/linux.default.install
+echo "kmod-crypto-ghash" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/pkginfo/linux.default.install
+echo "kmod-crypto-hash" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/pkginfo/linux.default.install
+echo "kmod-crypto-hmac" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/pkginfo/linux.default.install
+WARNING: kmod-crypto-hw-padlock is not available in the kernel config - generating empty package
+echo "kmod-crypto-manager" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/pkginfo/linux.default.install
+echo "kmod-crypto-null" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/pkginfo/linux.default.install
+echo "kmod-crypto-rng" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/pkginfo/linux.default.install
+echo "kmod-crypto-seqiv" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/pkginfo/linux.default.install
+echo "kmod-crypto-sha256" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/pkginfo/linux.default.install
+echo "kmod-hwmon-core" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/pkginfo/linux.default.install
+WARNING: kmod-hwmon-pwmfan is not available in the kernel config - generating empty package
+WARNING: kmod-i2c-algo-pca is not available in the kernel config - generating empty package
+WARNING: kmod-i2c-algo-pcf is not available in the kernel config - generating empty package
+WARNING: kmod-i2c-pxa is not available in the kernel config - generating empty package
+WARNING: kmod-i2c-smbus is not available in the kernel config - generating empty package
+echo "kmod-leds-gpio" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/pkginfo/linux.default.install
+echo "kmod-lib-crc-ccitt" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/pkginfo/linux.default.install
+echo "kmod-lib-crc32c" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/pkginfo/linux.default.install
+WARNING: kmod-phylink is not available in the kernel config - generating empty package
+WARNING: kmod-sfp is not available in the kernel config - generating empty package
+echo "kmod-nf-reject" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/pkginfo/linux.default.install
+echo "kmod-nf-reject6" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/pkginfo/linux.default.install
+echo "kmod-nf-conntrack" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/pkginfo/linux.default.install
+echo "kmod-nf-conntrack6" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/pkginfo/linux.default.install
+echo "kmod-nf-log" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/pkginfo/linux.default.install
+echo "kmod-nf-log6" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/pkginfo/linux.default.install
+echo "kmod-nf-nat" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/pkginfo/linux.default.install
+echo "kmod-nf-flow" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/pkginfo/linux.default.install
+echo "kmod-nfnetlink" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/pkginfo/linux.default.install
+echo "kmod-nft-core" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/pkginfo/linux.default.install
+echo "kmod-nft-nat" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/pkginfo/linux.default.install
+echo "kmod-nft-offload" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/pkginfo/linux.default.install
+echo "kmod-nft-fib" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/pkginfo/linux.default.install
+echo "kmod-slhc" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/pkginfo/linux.default.install
+echo "kmod-ppp" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/pkginfo/linux.default.install
+echo "kmod-pppox" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/pkginfo/linux.default.install
+echo "kmod-pppoe" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/pkginfo/linux.default.install
+echo "kmod-nls-base" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/pkginfo/linux.default.install
+WARNING: kmod-thermal is not available in the kernel config - generating empty package
+WARNING: kmod-w83627hf-wdt is not available in the kernel config - generating empty package
+WARNING: kmod-itco-wdt is not available in the kernel config - generating empty package
+WARNING: kmod-it87-wdt is not available in the kernel config - generating empty package
+WARNING: kmod-sound-hda-core is not available in the kernel config - generating empty package
+WARNING: kmod-sound-hda-codec-realtek is not available in the kernel config - generating empty package
+WARNING: kmod-sound-hda-codec-cmedia is not available in the kernel config - generating empty package
+WARNING: kmod-sound-hda-codec-analog is not available in the kernel config - generating empty package
+WARNING: kmod-sound-hda-codec-idt is not available in the kernel config - generating empty package
+WARNING: kmod-sound-hda-codec-si3054 is not available in the kernel config - generating empty package
+WARNING: kmod-sound-hda-codec-cirrus is not available in the kernel config - generating empty package
+WARNING: kmod-sound-hda-codec-ca0110 is not available in the kernel config - generating empty package
+WARNING: kmod-sound-hda-codec-ca0132 is not available in the kernel config - generating empty package
+WARNING: kmod-sound-hda-codec-conexant is not available in the kernel config - generating empty package
+WARNING: kmod-sound-hda-codec-via is not available in the kernel config - generating empty package
+WARNING: kmod-sound-hda-codec-hdmi is not available in the kernel config - generating empty package
+echo "kmod-usb-core" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/pkginfo/linux.default.install
+echo "kmod-usb-dwc3" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/pkginfo/linux.default.install
+echo "kmod-usb-dwc3-qcom" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/pkginfo/linux.default.install
+echo "kmod-usb3" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/pkginfo/linux.default.install
+echo "kmod-usb-xhci-hcd" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/pkginfo/linux.default.install
+WARNING: kmod-net-prism54 is not available in the kernel config - generating empty package
+make[2]: Leaving directory '/home/runner/work/Zzz/Zzz/openwrt/package/kernel/linux'
+time: package/kernel/linux/compile#2.07#0.30#2.36
+make[2]: Entering directory '/home/runner/work/Zzz/Zzz/openwrt/feeds/base/package/network/utils/iptables'
+make[2]: Leaving directory '/home/runner/work/Zzz/Zzz/openwrt/feeds/base/package/network/utils/iptables'
+time: package/feeds/base/iptables/compile#0.18#0.08#0.24
+make[2]: Entering directory '/home/runner/work/Zzz/Zzz/openwrt/feeds/kiddin9/ndpi-netfilter'
+mkdir -p /home/runner/work/Zzz/Zzz/openwrt/dl
+SHELL= flock /home/runner/work/Zzz/Zzz/openwrt/tmp/.ndpi-netfilter-04282023-flow_info-4.tar.bz2.flock -c '  	 /home/runner/work/Zzz/Zzz/openwrt/scripts/dl_github_archive.py --dl-dir="/home/runner/work/Zzz/Zzz/openwrt/dl" --url="https://github.com/vel21ripn/nDPI.git" --version="2c3fd8d4af7e4420a6a08105ea9a490a8e39a474" --subdir="ndpi-netfilter-04282023-flow_info-4" --source="ndpi-netfilter-04282023-flow_info-4.tar.bz2" --hash="x" || ( 	echo "Checking out files from the git repository..."; mkdir -p /home/runner/work/Zzz/Zzz/openwrt/tmp/dl && cd /home/runner/work/Zzz/Zzz/openwrt/tmp/dl && rm -rf ndpi-netfilter-04282023-flow_info-4 && [ \! -d ndpi-netfilter-04282023-flow_info-4 ] && git clone  https://github.com/vel21ripn/nDPI.git ndpi-netfilter-04282023-flow_info-4 && (cd ndpi-netfilter-04282023-flow_info-4 && git checkout 2c3fd8d4af7e4420a6a08105ea9a490a8e39a474 && git submodule update --init --recursive) && echo "Packing checkout..." && export TAR_TIMESTAMP=`cd ndpi-netfilter-04282023-flow_info-4 && git log -1 --format='\''@%ct'\''` && rm -rf ndpi-netfilter-04282023-flow_info-4/.git && 	tar --numeric-owner --owner=0 --group=0 --mode=a-s --sort=name ${TAR_TIMESTAMP:+--mtime="$TAR_TIMESTAMP"} -c ndpi-netfilter-04282023-flow_info-4 | 	bzip2 -c > /home/runner/work/Zzz/Zzz/openwrt/tmp/dl/ndpi-netfilter-04282023-flow_info-4.tar.bz2 && mv /home/runner/work/Zzz/Zzz/openwrt/tmp/dl/ndpi-netfilter-04282023-flow_info-4.tar.bz2 /home/runner/work/Zzz/Zzz/openwrt/dl/ && rm -rf ndpi-netfilter-04282023-flow_info-4; );     '
+ndpi-netfilter-04282023-flow_info-4.tar.bz2: Download from https://github.com/vel21ripn/nDPI.git failed
+ndpi-netfilter-04282023-flow_info-4.tar.bz2: Requires sha256sum for verification
+Checking out files from the git repository...
+Cloning into 'ndpi-netfilter-04282023-flow_info-4'...
+Note: switching to '2c3fd8d4af7e4420a6a08105ea9a490a8e39a474'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD is now at 2c3fd8d4 Merge branch 'github.dev' into flow_info-4
+Packing checkout...
+touch /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/.prepared_85697545913996b477ad4c06236f6f95_6664517399ebbbc92a37c5bb081b5c53_check
+. /home/runner/work/Zzz/Zzz/openwrt/include/shell.sh; bzcat /home/runner/work/Zzz/Zzz/openwrt/dl/ndpi-netfilter-04282023-flow_info-4.tar.bz2 | tar -C /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/.. -xf -
+[ ! -d ./src/ ] || cp -fpR ./src/. /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4
+
+Applying ./patches/0001-outline-atomics.patch using plaintext: 
+patching file ndpi-netfilter/src/Makefile
+Hunk #1 succeeded at 4 with fuzz 1 (offset -1 lines).
+
+Applying ./patches/0002-skbuff-check_fix.patch using plaintext: 
+patching file ndpi-netfilter/src/Makefile
+Hunk #1 succeeded at 17 (offset 4 lines).
+touch /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/.prepared_85697545913996b477ad4c06236f6f95_6664517399ebbbc92a37c5bb081b5c53
+rm -f /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/.configured_*
+rm -f /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/stamp/.ndpi-netfilter_installed
+(cd /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/./; if [ -x ./autogen.sh ]; then find /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ -name config.guess | xargs -r chmod u+w; find /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ -name config.guess | xargs -r -n1 cp --remove-destination /home/runner/work/Zzz/Zzz/openwrt/scripts/config.guess; find /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ -name config.sub | xargs -r chmod u+w; find /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ -name config.sub | xargs -r -n1 cp --remove-destination /home/runner/work/Zzz/Zzz/openwrt/scripts/config.sub; AR="arm-openwrt-linux-muslgnueabi-gcc-ar" AS="arm-openwrt-linux-muslgnueabi-gcc -c -Os -pipe -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -mfloat-abi=hard -ffile-prefix-map=/home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4=ndpi-netfilter-04282023-flow_info-4 -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro" LD=arm-openwrt-linux-muslgnueabi-ld NM="arm-openwrt-linux-muslgnueabi-gcc-nm" CC="arm-openwrt-linux-muslgnueabi-gcc" GCC="arm-openwrt-linux-muslgnueabi-gcc" CXX="arm-openwrt-linux-muslgnueabi-g++" RANLIB="arm-openwrt-linux-muslgnueabi-gcc-ranlib" STRIP=arm-openwrt-linux-muslgnueabi-strip OBJCOPY=arm-openwrt-linux-muslgnueabi-objcopy OBJDUMP=arm-openwrt-linux-muslgnueabi-objdump SIZE=arm-openwrt-linux-muslgnueabi-size CFLAGS="-Os -pipe -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -mfloat-abi=hard -ffile-prefix-map=/home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4=ndpi-netfilter-04282023-flow_info-4 -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro " CXXFLAGS="-Os -pipe -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -mfloat-abi=hard -ffile-prefix-map=/home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4=ndpi-netfilter-04282023-flow_info-4 -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro " CPPFLAGS="-I/home/runner/work/Zzz/Zzz/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-11.2.0_musl_eabi/usr/include -I/home/runner/work/Zzz/Zzz/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-11.2.0_musl_eabi/include/fortify -I/home/runner/work/Zzz/Zzz/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-11.2.0_musl_eabi/include " LDFLAGS="-L/home/runner/work/Zzz/Zzz/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-11.2.0_musl_eabi/usr/lib -L/home/runner/work/Zzz/Zzz/openwrt/staging_dir/toolchain-arm_cortex-a7+neon-vfpv4_gcc-11.2.0_musl_eabi/lib -znow -zrelro "   ./autogen.sh --target=arm-openwrt-linux --host=arm-openwrt-linux --build=x86_64-pc-linux-gnu --program-prefix="" --program-suffix="" --prefix=/usr --exec-prefix=/usr --bindir=/usr/bin --sbindir=/usr/sbin --libexecdir=/usr/lib --sysconfdir=/etc --datadir=/usr/share --localstatedir=/var --mandir=/usr/man --infodir=/usr/info --disable-nls  --with-pic ; fi; )
+autoreconf: Entering directory `.'
+autoreconf: configure.ac: not using Gettext
+autoreconf: running: aclocal --force -I m4
+autoreconf: configure.ac: tracing
+autoreconf: running: libtoolize --copy --force
+OpenWrt-libtoolize: putting auxiliary files in AC_CONFIG_AUX_DIR, `.'.
+OpenWrt-libtoolize: copying file `./ltmain.sh'
+OpenWrt-libtoolize: putting macros in AC_CONFIG_MACRO_DIR, `m4'.
+OpenWrt-libtoolize: copying file `m4/libtool.m4'
+OpenWrt-libtoolize: copying file `m4/ltoptions.m4'
+OpenWrt-libtoolize: copying file `m4/ltsugar.m4'
+OpenWrt-libtoolize: copying file `m4/ltversion.m4'
+OpenWrt-libtoolize: copying file `m4/lt~obsolete.m4'
+autoreconf: running: /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/../host/bin/autoconf --force
+autoreconf: running: /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/../host/bin/autoheader --force
+autoreconf: running: automake --add-missing --copy --force-missing
+configure.ac:85: installing './compile'
+configure.ac:85: installing './config.guess'
+configure.ac:85: installing './config.sub'
+configure.ac:6: installing './install-sh'
+configure.ac:6: installing './missing'
+fuzz/Makefile.am: installing './depcomp'
+parallel-tests: installing './test-driver'
+autoreconf: Leaving directory `.'
+./configure --target=arm-openwrt-linux --host=arm-openwrt-linux --build=x86_64-pc-linux-gnu --program-prefix= --program-suffix= --prefix=/usr --exec-prefix=/usr --bindir=/usr/bin --sbindir=/usr/sbin --libexecdir=/usr/lib --sysconfdir=/etc --datadir=/usr/share --localstatedir=/var --mandir=/usr/man --infodir=/usr/info --disable-nls --with-pic
+configure: WARNING: unrecognized options: --disable-nls
+configure: loading site script /home/runner/work/Zzz/Zzz/openwrt/include/site/arm
+checking for a BSD-compatible install... /home/runner/work/Zzz/Zzz/openwrt/staging_dir/host/bin/install -c
+checking whether build environment is sane... yes
+checking for arm-openwrt-linux-strip... arm-openwrt-linux-muslgnueabi-strip
+checking for a thread-safe mkdir -p... /usr/bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking build system type... x86_64-pc-linux-gnu
+checking host system type... arm-openwrt-linux-gnu
+checking how to print strings... printf
+checking for style of include used by make... GNU
+checking for arm-openwrt-linux-gcc... arm-openwrt-linux-muslgnueabi-gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... yes
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether arm-openwrt-linux-muslgnueabi-gcc accepts -g... yes
+checking for arm-openwrt-linux-muslgnueabi-gcc option to accept ISO C89... none needed
+checking whether arm-openwrt-linux-muslgnueabi-gcc understands -c and -o together... yes
+checking dependency style of arm-openwrt-linux-muslgnueabi-gcc... gcc3
+checking for a sed that does not truncate output... /home/runner/work/Zzz/Zzz/openwrt/staging_dir/host/bin/sed
+checking for grep that handles long lines and -e... /home/runner/work/Zzz/Zzz/openwrt/staging_dir/host/bin/grep
+checking for egrep... /home/runner/work/Zzz/Zzz/openwrt/staging_dir/host/bin/grep -E
+checking for fgrep... /home/runner/work/Zzz/Zzz/openwrt/staging_dir/host/bin/grep -F
+checking for ld used by arm-openwrt-linux-muslgnueabi-gcc... arm-openwrt-linux-muslgnueabi-ld
+checking if the linker (arm-openwrt-linux-muslgnueabi-ld) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... arm-openwrt-linux-muslgnueabi-gcc-nm
+checking the name lister (arm-openwrt-linux-muslgnueabi-gcc-nm) interface... BSD nm
+checking whether ln -s works... yes
+checking the maximum length of command line arguments... 3145728
+checking whether the shell understands some XSI constructs... yes
+checking whether the shell understands "+="... yes
+checking how to convert x86_64-pc-linux-gnu file names to arm-openwrt-linux-gnu format... func_convert_file_noop
+checking how to convert x86_64-pc-linux-gnu file names to toolchain format... func_convert_file_noop
+checking for arm-openwrt-linux-muslgnueabi-ld option to reload object files... -r
+checking for arm-openwrt-linux-objdump... arm-openwrt-linux-muslgnueabi-objdump
+checking how to recognize dependent libraries... pass_all
+checking for arm-openwrt-linux-dlltool... no
+checking for dlltool... no
+checking how to associate runtime and link libraries... printf %s\n
+checking for arm-openwrt-linux-ar... arm-openwrt-linux-muslgnueabi-gcc-ar
+checking for archiver @FILE support... @
+checking for arm-openwrt-linux-strip... (cached) arm-openwrt-linux-muslgnueabi-strip
+checking for arm-openwrt-linux-ranlib... arm-openwrt-linux-muslgnueabi-gcc-ranlib
+checking command to parse arm-openwrt-linux-muslgnueabi-gcc-nm output from arm-openwrt-linux-muslgnueabi-gcc object... ok
+checking for sysroot... no
+checking for arm-openwrt-linux-mt... no
+checking for mt... mt
+configure: WARNING: using cross tools not prefixed with host triplet
+checking if mt is a manifest tool... no
+checking how to run the C preprocessor... arm-openwrt-linux-muslgnueabi-gcc -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if arm-openwrt-linux-muslgnueabi-gcc supports -fno-rtti -fno-exceptions... no
+checking for arm-openwrt-linux-muslgnueabi-gcc option to produce PIC... -fPIC -DPIC
+checking if arm-openwrt-linux-muslgnueabi-gcc PIC flag -fPIC -DPIC works... yes
+checking if arm-openwrt-linux-muslgnueabi-gcc static flag -static works... yes
+checking if arm-openwrt-linux-muslgnueabi-gcc supports -c -o file.o... yes
+checking if arm-openwrt-linux-muslgnueabi-gcc supports -c -o file.o... (cached) yes
+checking whether the arm-openwrt-linux-muslgnueabi-gcc linker (arm-openwrt-linux-muslgnueabi-ld) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... yes
+checking for cos in -lm... yes
+checking pkg-config is at least version 0.9.0... yes
+checking for arm-openwrt-linux-gcc... (cached) arm-openwrt-linux-muslgnueabi-gcc
+checking whether we are using the GNU C compiler... (cached) yes
+checking whether arm-openwrt-linux-muslgnueabi-gcc accepts -g... (cached) yes
+checking for arm-openwrt-linux-muslgnueabi-gcc option to accept ISO C89... (cached) none needed
+checking whether arm-openwrt-linux-muslgnueabi-gcc understands -c and -o together... (cached) yes
+checking dependency style of arm-openwrt-linux-muslgnueabi-gcc... (cached) gcc3
+checking whether arm-openwrt-linux-muslgnueabi-gcc and cc understand -c and -o together... yes
+checking whether we are using the GNU C++ compiler... yes
+checking whether arm-openwrt-linux-muslgnueabi-g++ accepts -g... yes
+checking dependency style of arm-openwrt-linux-muslgnueabi-g++... gcc3
+checking for arm-openwrt-linux-ar... (cached) arm-openwrt-linux-muslgnueabi-gcc-ar
+Setting API version to 56079
+checking for JSONC... yes
+checking for json_object_put in -ljson-c... yes
+checking whether arm-openwrt-linux-muslgnueabi-gcc is Clang... no
+checking whether pthreads work with "-pthread" and "-lpthread"... yes
+checking for joinable pthread attribute... PTHREAD_CREATE_JOINABLE
+checking whether more special flags are required for pthreads... no
+checking for PTHREAD_PRIO_INHERIT... yes
+checking netinet/in.h usability... yes
+checking netinet/in.h presence... yes
+checking for netinet/in.h... yes
+checking for stdint.h... (cached) yes
+checking for stdlib.h... (cached) yes
+checking for string.h... (cached) yes
+checking for unistd.h... (cached) yes
+checking math.h usability... yes
+checking math.h presence... yes
+checking for math.h... yes
+checking float.h usability... yes
+checking float.h presence... yes
+checking for float.h... yes
+checking for sqrt in -lm... no
+checking for rrd_fetch_r in -lrrd... no
+checking DPDK (used by ndpiReader)... no (missing /home/runner/DPDK)
+checking for numa_available in -lnuma... no
+checking PF_RING nBPF (/home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/../PF_RING/userland/nbpf)... no
+checking for pcap_open_live in -lpcap... yes
+checking for pthread_setaffinity_np in -lpthread... yes
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating example/Makefile
+config.status: creating example/Makefile.dpdk
+config.status: creating tests/Makefile
+config.status: creating tests/unit/Makefile
+config.status: creating tests/performance/Makefile
+config.status: creating tests/dga/Makefile
+config.status: creating rrdtool/Makefile
+config.status: creating influxdb/Makefile
+config.status: creating libndpi.pc
+config.status: creating src/include/ndpi_define.h
+config.status: creating src/lib/Makefile
+config.status: creating fuzz/Makefile
+config.status: creating doc/Doxyfile.cfg
+config.status: creating tests/do.sh
+config.status: creating src/include/ndpi_config.h
+config.status: executing depfiles commands
+config.status: executing libtool commands
+configure: WARNING: unrecognized options: --disable-nls
+touch /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/.configured_68b329da9893e34099c7d8ad5cb9c940
+rm -f /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/.built
+touch /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/.built_check
+(cd /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/src/lib && gcc -g -O2 -fPIC -DPIC -DNDPI_LIB_COMPILATION -I../../src/include/ -I../../src/lib/third_party/include/ ndpi_network_list_compile.c -o ndpi_network_list_compile && ./ndpi_network_list_compile -o ndpi_network_list.c.inc ndpi_network_list_*.yaml && make AR="arm-openwrt-linux-muslgnueabi-gcc-ar" AS="arm-openwrt-linux-muslgnueabi-gcc -c -Os -pipe -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -mfloat-abi=hard -ffile-prefix-map=/home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4=ndpi-netfilter-04282023-flow_info-4 -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro" LD=arm-openwrt-linux-muslgnueabi-ld NM="arm-openwrt-linux-muslgnueabi-gcc-nm" CC="arm-openwrt-linux-muslgnueabi-gcc" GCC="arm-openwrt-linux-muslgnueabi-gcc" CXX="arm-openwrt-linux-muslgnueabi-g++" RANLIB="arm-openwrt-linux-muslgnueabi-gcc-ranlib" STRIP=arm-openwrt-linux-muslgnueabi-strip OBJCOPY=arm-openwrt-linux-muslgnueabi-objcopy OBJDUMP=arm-openwrt-linux-muslgnueabi-objdump SIZE=arm-openwrt-linux-muslgnueabi-size CROSS="arm-openwrt-linux-muslgnueabi-" ARCH="arm" KERNEL_DIR="/home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/linux-5.10.176" MODULES_DIR="/lib/modules/5.10.176" ARCH="arm" KERNEL_RELEASE="5.10" CROSS_COMPILE="arm-openwrt-linux-muslgnueabi-" CC="arm-openwrt-linux-muslgnueabi-gcc"  -C /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter)
+Warning: line   58: '239.255.102.18/32' is multicast address!
+make[3]: Entering directory '/home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter'
+make -C ipt
+make[4]: Entering directory '/home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/ipt'
+arm-openwrt-linux-muslgnueabi-gcc -fPIC -I../.. -I../../src/include -I../../src/lib -I../src -I../libre -DOPENDPI_NETFILTER_MODULE -DXTABLES_INTERNAL -O2 -Wall -D_INIT=libxt_ndpi_init -c -o libxt_ndpi.o libxt_ndpi.c;
+arm-openwrt-linux-muslgnueabi-gcc -shared -o libxt_ndpi.so libxt_ndpi.o;
+rm libxt_ndpi.o
+make[4]: Leaving directory '/home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/ipt'
+make -C src
+make[4]: Entering directory '/home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src'
+/bin/sh: 1: shell: not found
+$xt_ndpi-y is [main.o ndpi_strcol.o ndpi_proc_parsers.o ndpi_proc_generic.o ndpi_proc_info.o  ndpi_proc_flow.o ndpi_proc_hostdef.o ndpi_proc_ipdef.o ../libre/regexp.o ../../src/lib/third_party/src/ndpi_md5.o ../../src/lib/third_party/src/ndpi_sha1.o ../../src/lib/third_party/src/ahocorasick.o ../../src/lib/third_party/src/libcache.o ../../src/lib/third_party/src/ndpi_patricia.o ../../src/lib/third_party/src/gcrypt_light.o ../../src/lib/third_party/src/btlib.o ../../src/lib/ndpi_main.o ../../src/lib/ndpi_utils.o ../../src/lib/ndpi_serializer.o ../../src/lib/ndpi_geoip.o ../../src/lib/protocols/*.o] -I/../../src/include -I/../../src/lib -I/../libre -I/../../src/lib/third_party/include  -DHAVE_CONFIG_H -DNDPI_LIB_COMPILATION -DOPENDPI_NETFILTER_MODULE -DNDPI_DETECTION_SUPPORT_IPV6 -g  -Wno-declaration-after-statement -femit-struct-debug-detailed=any
+\
+make  -C /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/linux-5.10.176 M=$PWD modules -w;
+make[5]: Entering directory '/home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/linux-5.10.176'
+/bin/sh: 1: shell: not found
+  CC [M]  /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/main.o
+  CC [M]  /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/ndpi_strcol.o
+  CC [M]  /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/ndpi_proc_parsers.o
+  CC [M]  /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/ndpi_proc_generic.o
+/home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/ndpi_proc_generic.c: In function 'generic_proc_write':
+/home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/ndpi_proc_generic.c:113:1: warning: the frame size of 1064 bytes is larger than 1024 bytes [-Wframe-larger-than=]
+  113 | }
+      | ^
+  CC [M]  /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/ndpi_proc_info.o
+/home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/ndpi_proc_info.c: In function 'ndebug_proc_read':
+/home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/ndpi_proc_info.c:305:1: warning: the frame size of 1032 bytes is larger than 1024 bytes [-Wframe-larger-than=]
+  305 | }
+      | ^
+  CC [M]  /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/ndpi_proc_flow.o
+  CC [M]  /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/ndpi_proc_hostdef.o
+  CC [M]  /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/ndpi_proc_ipdef.o
+/home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/ndpi_proc_ipdef.c: In function 'n_ipdef_proc_read':
+/home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/ndpi_proc_ipdef.c:123:1: warning: the frame size of 1128 bytes is larger than 1024 bytes [-Wframe-larger-than=]
+  123 | }
+      | ^
+  CC [M]  /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/../libre/regexp.o
+  CC [M]  /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/../../src/lib/third_party/src/ndpi_md5.o
+  CC [M]  /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/../../src/lib/third_party/src/ndpi_sha1.o
+  CC [M]  /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/../../src/lib/third_party/src/ahocorasick.o
+  CC [M]  /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/../../src/lib/third_party/src/libcache.o
+  CC [M]  /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/../../src/lib/third_party/src/ndpi_patricia.o
+/home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/../../src/lib/third_party/src/ndpi_patricia.c: In function 'ndpi_ascii2prefix':
+/home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/../../src/lib/third_party/src/ndpi_patricia.c:1071:1: warning: the frame size of 1048 bytes is larger than 1024 bytes [-Wframe-larger-than=]
+ 1071 | }
+      | ^
+  CC [M]  /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/../../src/lib/third_party/src/gcrypt_light.o
+In file included from /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/../../src/lib/third_party/src/gcrypt_light.c:57:
+/home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/../../src/lib/third_party/src/gcrypt/aes.c: In function 'aes_gen_tables':
+/home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/../../src/lib/third_party/src/gcrypt/aes.c:143:1: warning: the frame size of 2080 bytes is larger than 1024 bytes [-Wframe-larger-than=]
+  143 | }
+      | ^
+  CC [M]  /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/../../src/lib/third_party/src/btlib.o
+  CC [M]  /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/../../src/lib/ndpi_main.o
+  CC [M]  /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/../../src/lib/ndpi_utils.o
+  CC [M]  /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/../../src/lib/ndpi_serializer.o
+  CC [M]  /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/../../src/lib/ndpi_geoip.o
+  CC [M]  /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/../../src/lib/protocols/activision.o
+  CC [M]  /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/../../src/lib/protocols/afp.o
+  CC [M]  /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/../../src/lib/protocols/ajp.o
+  CC [M]  /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/../../src/lib/protocols/alicloud.o
+  CC [M]  /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/../../src/lib/protocols/amazon_video.o
+  CC [M]  /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/../../src/lib/protocols/among_us.o
+  CC [M]  /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/../../src/lib/protocols/amqp.o
+  CC [M]  /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/../../src/lib/protocols/apple_push.o
+  CC [M]  /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/../../src/lib/protocols/armagetron.o
+  CC [M]  /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/../../src/lib/protocols/avast.o
+  CC [M]  /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/../../src/lib/protocols/avast_securedns.o
+  CC [M]  /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/../../src/lib/protocols/bacnet.o
+  CC [M]  /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/../../src/lib/protocols/bgp.o
+  CC [M]  /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/../../src/lib/protocols/bittorrent.o
+  CC [M]  /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/../../src/lib/protocols/bjnp.o
+  CC [M]  /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/../../src/lib/protocols/capwap.o
+  CC [M]  /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/../../src/lib/protocols/cassandra.o
+  CC [M]  /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/../../src/lib/protocols/checkmk.o
+  CC [M]  /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/../../src/lib/protocols/ciscovpn.o
+  CC [M]  /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/../../src/lib/protocols/citrix.o
+  CC [M]  /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/../../src/lib/protocols/coap.o
+  CC [M]  /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/../../src/lib/protocols/collectd.o
+  CC [M]  /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/../../src/lib/protocols/corba.o
+  CC [M]  /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/../../src/lib/protocols/cpha.o
+  CC [M]  /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/../../src/lib/protocols/crossfire.o
+  CC [M]  /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/../../src/lib/protocols/crynet.o
+  CC [M]  /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/../../src/lib/protocols/csgo.o
+  CC [M]  /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/../../src/lib/protocols/dcerpc.o
+  CC [M]  /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/../../src/lib/protocols/dhcp.o
+  CC [M]  /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/../../src/lib/protocols/dhcpv6.o
+  CC [M]  /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/../../src/lib/protocols/diameter.o
+  CC [M]  /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/../../src/lib/protocols/discord.o
+  CC [M]  /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/../../src/lib/protocols/dnp3.o
+  CC [M]  /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/../../src/lib/protocols/dns.o
+  CC [M]  /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/../../src/lib/protocols/dnscrypt.o
+  CC [M]  /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/../../src/lib/protocols/dofus.o
+  CC [M]  /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/../../src/lib/protocols/drda.o
+  CC [M]  /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/../../src/lib/protocols/dropbox.o
+  CC [M]  /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/../../src/lib/protocols/eaq.o
+  CC [M]  /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/../../src/lib/protocols/edonkey.o
+  CC [M]  /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/../../src/lib/protocols/elastic_search.o
+  CC [M]  /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/../../src/lib/protocols/ethernet_ip.o
+  CC [M]  /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/../../src/lib/protocols/fastcgi.o
+  CC [M]  /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/../../src/lib/protocols/fix.o
+  CC [M]  /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/../../src/lib/protocols/ftp_control.o
+  CC [M]  /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/../../src/lib/protocols/ftp_data.o
+  CC [M]  /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/../../src/lib/protocols/genshin_impact.o
+  CC [M]  /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/../../src/lib/protocols/git.o
+  CC [M]  /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/../../src/lib/protocols/gnutella.o
+  CC [M]  /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/../../src/lib/protocols/gtp.o
+  CC [M]  /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/../../src/lib/protocols/guildwars.o
+  CC [M]  /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/../../src/lib/protocols/h323.o
+  CC [M]  /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/../../src/lib/protocols/halflife2_and_mods.o
+  CC [M]  /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/../../src/lib/protocols/hangout.o
+  CC [M]  /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/../../src/lib/protocols/hots.o
+  CC [M]  /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/../../src/lib/protocols/hpvirtgrp.o
+  CC [M]  /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/../../src/lib/protocols/hsrp.o
+  CC [M]  /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/../../src/lib/protocols/http.o
+  CC [M]  /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/../../src/lib/protocols/i3d.o
+  CC [M]  /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/../../src/lib/protocols/iax.o
+  CC [M]  /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/../../src/lib/protocols/icecast.o
+  CC [M]  /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/../../src/lib/protocols/iec60870-5-104.o
+  CC [M]  /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/../../src/lib/protocols/imo.o
+  CC [M]  /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/../../src/lib/protocols/ipp.o
+  CC [M]  /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/../../src/lib/protocols/ipsec.o
+  CC [M]  /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/../../src/lib/protocols/irc.o
+  CC [M]  /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/../../src/lib/protocols/jabber.o
+  CC [M]  /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/../../src/lib/protocols/kakaotalk_voice.o
+  CC [M]  /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/../../src/lib/protocols/kerberos.o
+  CC [M]  /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/../../src/lib/protocols/kismet.o
+  CC [M]  /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/../../src/lib/protocols/kontiki.o
+  CC [M]  /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/../../src/lib/protocols/ldap.o
+  CC [M]  /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/../../src/lib/protocols/line.o
+  CC [M]  /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/../../src/lib/protocols/lisp.o
+  CC [M]  /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/../../src/lib/protocols/lotus_notes.o
+  CC [M]  /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/../../src/lib/protocols/mail_imap.o
+  CC [M]  /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/../../src/lib/protocols/mail_pop.o
+  CC [M]  /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/../../src/lib/protocols/mail_smtp.o
+  CC [M]  /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/../../src/lib/protocols/maplestory.o
+  CC [M]  /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/../../src/lib/protocols/megaco.o
+  CC [M]  /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/../../src/lib/protocols/memcached.o
+  CC [M]  /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/../../src/lib/protocols/merakicloud.o
+  CC [M]  /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/../../src/lib/protocols/mgcp.o
+  CC [M]  /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/../../src/lib/protocols/mining.o
+  CC [M]  /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/../../src/lib/protocols/modbus.o
+  CC [M]  /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/../../src/lib/protocols/mongodb.o
+  CC [M]  /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/../../src/lib/protocols/mpegdash.o
+  CC [M]  /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/../../src/lib/protocols/mpegts.o
+  CC [M]  /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/../../src/lib/protocols/mqtt.o
+  CC [M]  /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/../../src/lib/protocols/mssql_tds.o
+  CC [M]  /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/../../src/lib/protocols/munin.o
+  CC [M]  /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/../../src/lib/protocols/mysql.o
+  CC [M]  /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/../../src/lib/protocols/natpmp.o
+  CC [M]  /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/../../src/lib/protocols/nats.o
+  CC [M]  /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/../../src/lib/protocols/nest_log_sink.o
+  CC [M]  /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/../../src/lib/protocols/netbios.o
+  CC [M]  /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/../../src/lib/protocols/netflow.o
+  CC [M]  /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/../../src/lib/protocols/nfs.o
+  CC [M]  /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/../../src/lib/protocols/nintendo.o
+  CC [M]  /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/../../src/lib/protocols/noe.o
+  CC [M]  /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/../../src/lib/protocols/non_tcp_udp.o
+  CC [M]  /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/../../src/lib/protocols/ntp.o
+  CC [M]  /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/../../src/lib/protocols/oicq.o
+  CC [M]  /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/../../src/lib/protocols/ookla.o
+  CC [M]  /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/../../src/lib/protocols/openvpn.o
+  CC [M]  /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/../../src/lib/protocols/oracle.o
+  CC [M]  /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/../../src/lib/protocols/postgres.o
+  CC [M]  /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/../../src/lib/protocols/ppstream.o
+  CC [M]  /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/../../src/lib/protocols/pptp.o
+  CC [M]  /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/../../src/lib/protocols/qq.o
+  CC [M]  /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/../../src/lib/protocols/quic.o
+  CC [M]  /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/../../src/lib/protocols/radius.o
+  CC [M]  /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/../../src/lib/protocols/raknet.o
+  CC [M]  /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/../../src/lib/protocols/rdp.o
+  CC [M]  /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/../../src/lib/protocols/redis_net.o
+  CC [M]  /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/../../src/lib/protocols/riotgames.o
+  CC [M]  /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/../../src/lib/protocols/rsh.o
+  CC [M]  /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/../../src/lib/protocols/rsync.o
+  CC [M]  /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/../../src/lib/protocols/rtcp.o
+  CC [M]  /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/../../src/lib/protocols/rtmp.o
+  CC [M]  /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/../../src/lib/protocols/rtp.o
+  CC [M]  /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/../../src/lib/protocols/rtsp.o
+  CC [M]  /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/../../src/lib/protocols/rx.o
+  CC [M]  /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/../../src/lib/protocols/s7comm.o
+  CC [M]  /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/../../src/lib/protocols/sd_rtn.o
+  CC [M]  /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/../../src/lib/protocols/sflow.o
+  CC [M]  /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/../../src/lib/protocols/sip.o
+  CC [M]  /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/../../src/lib/protocols/skinny.o
+  CC [M]  /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/../../src/lib/protocols/skype.o
+  CC [M]  /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/../../src/lib/protocols/smb.o
+  CC [M]  /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/../../src/lib/protocols/smpp.o
+  CC [M]  /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/../../src/lib/protocols/snmp_proto.o
+  CC [M]  /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/../../src/lib/protocols/soap.o
+  CC [M]  /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/../../src/lib/protocols/socks45.o
+  CC [M]  /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/../../src/lib/protocols/softether.o
+  CC [M]  /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/../../src/lib/protocols/someip.o
+  CC [M]  /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/../../src/lib/protocols/source_engine.o
+  CC [M]  /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/../../src/lib/protocols/spotify.o
+  CC [M]  /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/../../src/lib/protocols/ssdp.o
+  CC [M]  /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/../../src/lib/protocols/ssh.o
+  CC [M]  /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/../../src/lib/protocols/starcraft.o
+  CC [M]  /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/../../src/lib/protocols/steam.o
+  CC [M]  /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/../../src/lib/protocols/stun.o
+  CC [M]  /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/../../src/lib/protocols/syncthing.o
+  CC [M]  /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/../../src/lib/protocols/syslog.o
+  CC [M]  /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/../../src/lib/protocols/tailscale.o
+  CC [M]  /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/../../src/lib/protocols/tcp_udp.o
+  CC [M]  /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/../../src/lib/protocols/teamspeak.o
+  CC [M]  /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/../../src/lib/protocols/teamviewer.o
+  CC [M]  /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/../../src/lib/protocols/telegram.o
+  CC [M]  /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/../../src/lib/protocols/telnet.o
+  CC [M]  /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/../../src/lib/protocols/teredo.o
+  CC [M]  /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/../../src/lib/protocols/tftp.o
+  CC [M]  /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/../../src/lib/protocols/threema.o
+  CC [M]  /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/../../src/lib/protocols/tinc.o
+  CC [M]  /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/../../src/lib/protocols/tivoconnect.o
+  CC [M]  /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/../../src/lib/protocols/tls.o
+/home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/../../src/lib/protocols/tls.c: In function '_processClientServerHello':
+/home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/../../src/lib/protocols/tls.c:2768:1: warning: the frame size of 1280 bytes is larger than 1024 bytes [-Wframe-larger-than=]
+ 2768 | }
+      | ^
+/home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/../../src/lib/protocols/tls.c: In function 'processCertificateElements':
+/home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/../../src/lib/protocols/tls.c:820:1: warning: the frame size of 2432 bytes is larger than 1024 bytes [-Wframe-larger-than=]
+  820 | }
+      | ^
+  CC [M]  /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/../../src/lib/protocols/tocaboca.o
+  CC [M]  /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/../../src/lib/protocols/tplink_shp.o
+  CC [M]  /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/../../src/lib/protocols/tuya_lp.o
+  CC [M]  /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/../../src/lib/protocols/tvuplayer.o
+  CC [M]  /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/../../src/lib/protocols/ubntac2.o
+  CC [M]  /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/../../src/lib/protocols/ultrasurf.o
+  CC [M]  /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/../../src/lib/protocols/usenet.o
+  CC [M]  /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/../../src/lib/protocols/vhua.o
+  CC [M]  /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/../../src/lib/protocols/viber.o
+  CC [M]  /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/../../src/lib/protocols/vmware.o
+  CC [M]  /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/../../src/lib/protocols/vnc.o
+  CC [M]  /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/../../src/lib/protocols/vxlan.o
+  CC [M]  /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/../../src/lib/protocols/warcraft3.o
+  CC [M]  /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/../../src/lib/protocols/websocket.o
+  CC [M]  /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/../../src/lib/protocols/whatsapp.o
+  CC [M]  /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/../../src/lib/protocols/whoisdas.o
+  CC [M]  /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/../../src/lib/protocols/wireguard.o
+  CC [M]  /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/../../src/lib/protocols/world_of_kung_fu.o
+  CC [M]  /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/../../src/lib/protocols/world_of_warcraft.o
+  CC [M]  /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/../../src/lib/protocols/wsd.o
+  CC [M]  /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/../../src/lib/protocols/xbox.o
+  CC [M]  /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/../../src/lib/protocols/xdmcp.o
+  CC [M]  /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/../../src/lib/protocols/xiaomi.o
+  CC [M]  /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/../../src/lib/protocols/z3950.o
+  CC [M]  /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/../../src/lib/protocols/zabbix.o
+  CC [M]  /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/../../src/lib/protocols/zattoo.o
+  CC [M]  /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/../../src/lib/protocols/zeromq.o
+  LD [M]  /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/xt_ndpi.o
+/bin/sh: 1: shell: not found
+  MODPOST /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/Module.symvers
+  CC [M]  /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/xt_ndpi.mod.o
+  LD [M]  /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src/xt_ndpi.ko
+make[5]: Leaving directory '/home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/linux-5.10.176'
+make[4]: Leaving directory '/home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/src'
+make[3]: Leaving directory '/home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter'
+touch /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/.built
+rm -rf /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/.pkgdir/iptables-mod-ndpi.installed /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/.pkgdir/iptables-mod-ndpi
+mkdir -p /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/.pkgdir/iptables-mod-ndpi
+install -d -m0755 /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/.pkgdir/iptables-mod-ndpi/usr/lib/iptables
+install -m0755 /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter/ipt/libxt_ndpi.so /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/.pkgdir/iptables-mod-ndpi/usr/lib/iptables
+touch /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/.pkgdir/iptables-mod-ndpi.installed
+mkdir -p /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/root-ipq40xx/stamp
+SHELL= flock /home/runner/work/Zzz/Zzz/openwrt/tmp/.root-copy.flock -c 'cp -fpR /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/.pkgdir/iptables-mod-ndpi/. /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/root-ipq40xx/'
+touch /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/root-ipq40xx/stamp/.iptables-mod-ndpi_installed
+mkdir -p /home/runner/work/Zzz/Zzz/openwrt/bin/targets/ipq40xx/generic/packages /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ipkg-arm_cortex-a7_neon-vfpv4/kmod-ipt-ndpi/CONTROL /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/pkginfo
+mkdir -p /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ipkg-arm_cortex-a7_neon-vfpv4/kmod-ipt-ndpi/etc/modules.d; ( echo "xt_ndpi"; ) > /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ipkg-arm_cortex-a7_neon-vfpv4/kmod-ipt-ndpi/etc/modules.d/ipt-ndpi; 
+find /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a7+neon-vfpv4_musl_eabi/linux-ipq40xx_generic/ndpi-netfilter-04282023-flow_info-4/ipkg-arm_cortex-a7_neon-vfpv4/kmod-ipt-ndpi -name 'CVS' -o -name '.svn' -o -name '.#*' -o -name '*~'| xargs -r rm -rf
+Package kmod-ipt-ndpi is missing dependencies for the following libraries:
+x_tables.ko
+make[2]: *** [Makefile:101: /home/runner/work/Zzz/Zzz/openwrt/bin/targets/ipq40xx/generic/packages/kmod-ipt-ndpi_5.10.176+04282023-flow_info-4-1_arm_cortex-a7_neon-vfpv4.ipk] Error 1
+make[2]: Leaving directory '/home/runner/work/Zzz/Zzz/openwrt/feeds/kiddin9/ndpi-netfilter'
+time: package/feeds/kiddin9/ndpi-netfilter/compile#83.26#12.50#93.14
+    ERROR: package/feeds/kiddin9/ndpi-netfilter failed to build.
+make[1]: *** [package/Makefile:116: package/feeds/kiddin9/ndpi-netfilter/compile] Error 1
+make[1]: Leaving directory '/home/runner/work/Zzz/Zzz/openwrt'
+make: *** [/home/runner/work/Zzz/Zzz/openwrt/include/toplevel.mk:222: package/ndpi-netfilter/compile] Error 2

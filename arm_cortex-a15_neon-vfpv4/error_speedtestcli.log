@@ -1,0 +1,41 @@
+
+make[2]: Entering directory '/home/runner/work/Zzz/Zzz/openwrt/scripts/config'
+make[2]: 'conf' is up to date.
+make[2]: Leaving directory '/home/runner/work/Zzz/Zzz/openwrt/scripts/config'
+make[1]: Entering directory '/home/runner/work/Zzz/Zzz/openwrt'
+make[2]: Entering directory '/home/runner/work/Zzz/Zzz/openwrt/package/toolchain'
+Makefile:735: WARNING: skipping libgomp -- package has no install section
+echo "libc" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-arm_cortex-a15+neon-vfpv4_musl_eabi/pkginfo/toolchain.default.install
+echo "libgcc" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-arm_cortex-a15+neon-vfpv4_musl_eabi/pkginfo/toolchain.default.install
+echo "libpthread" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-arm_cortex-a15+neon-vfpv4_musl_eabi/pkginfo/toolchain.default.install
+make[2]: Leaving directory '/home/runner/work/Zzz/Zzz/openwrt/package/toolchain'
+time: package/toolchain/compile#0.26#0.06#0.31
+make[2]: Entering directory '/home/runner/work/Zzz/Zzz/openwrt/feeds/kiddin9/speedtestcli'
+mkdir -p /home/runner/work/Zzz/Zzz/openwrt/dl
+SHELL= flock /home/runner/work/Zzz/Zzz/openwrt/tmp/.speedtestcli-binary-1.2.0.tar.gz.flock -c '  	/home/runner/work/Zzz/Zzz/openwrt/scripts/download.pl "/home/runner/work/Zzz/Zzz/openwrt/dl" "speedtestcli-binary-1.2.0.tar.gz" "a7c24e1594251b376684d221c64cc0e717726c7229944eab9b3b5b74ec64238f" "" "http://fw.koolcenter.com/binary/SpeedTestCli/"    '
++ curl -f --connect-timeout 20 --retry 5 --location http://fw.koolcenter.com/binary/SpeedTestCli/speedtestcli-binary-1.2.0.tar.gz
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  5 2127k    5  122k    0     0   106k      0  0:00:19  0:00:01  0:00:18  106k100 2127k  100 2127k    0     0  1027k      0  0:00:02  0:00:02 --:--:-- 1027k
+touch /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a15+neon-vfpv4_musl_eabi/speedtestcli-binary-1.2.0/.prepared_21efda9cde6840816e3f497b873eb148_6664517399ebbbc92a37c5bb081b5c53_check
+. /home/runner/work/Zzz/Zzz/openwrt/include/shell.sh; gzip -dc /home/runner/work/Zzz/Zzz/openwrt/dl/speedtestcli-binary-1.2.0.tar.gz | tar -C /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a15+neon-vfpv4_musl_eabi/speedtestcli-binary-1.2.0/.. -xf -
+[ ! -d ./src/ ] || cp -fpR ./src/. /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a15+neon-vfpv4_musl_eabi/speedtestcli-binary-1.2.0
+touch /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a15+neon-vfpv4_musl_eabi/speedtestcli-binary-1.2.0/.prepared_21efda9cde6840816e3f497b873eb148_6664517399ebbbc92a37c5bb081b5c53
+rm -f /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a15+neon-vfpv4_musl_eabi/speedtestcli-binary-1.2.0/.configured_*
+rm -f /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-arm_cortex-a15+neon-vfpv4_musl_eabi/stamp/.speedtestcli_installed
+touch /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a15+neon-vfpv4_musl_eabi/speedtestcli-binary-1.2.0/.configured_68b329da9893e34099c7d8ad5cb9c940
+rm -f /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a15+neon-vfpv4_musl_eabi/speedtestcli-binary-1.2.0/.built
+touch /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a15+neon-vfpv4_musl_eabi/speedtestcli-binary-1.2.0/.built_check
+touch /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a15+neon-vfpv4_musl_eabi/speedtestcli-binary-1.2.0/.built
+rm -rf /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a15+neon-vfpv4_musl_eabi/speedtestcli-binary-1.2.0/.pkgdir/speedtestcli.installed /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a15+neon-vfpv4_musl_eabi/speedtestcli-binary-1.2.0/.pkgdir/speedtestcli
+mkdir -p /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a15+neon-vfpv4_musl_eabi/speedtestcli-binary-1.2.0/.pkgdir/speedtestcli
+install -d -m0755 /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a15+neon-vfpv4_musl_eabi/speedtestcli-binary-1.2.0/.pkgdir/speedtestcli/usr/bin
+install -m0755 /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a15+neon-vfpv4_musl_eabi/speedtestcli-binary-1.2.0/speedtest.arm /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a15+neon-vfpv4_musl_eabi/speedtestcli-binary-1.2.0/.pkgdir/speedtestcli/usr/bin/speedtest
+install: cannot stat '/home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a15+neon-vfpv4_musl_eabi/speedtestcli-binary-1.2.0/speedtest.arm': No such file or directory
+make[2]: *** [Makefile:58: /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a15+neon-vfpv4_musl_eabi/speedtestcli-binary-1.2.0/.pkgdir/speedtestcli.installed] Error 1
+make[2]: Leaving directory '/home/runner/work/Zzz/Zzz/openwrt/feeds/kiddin9/speedtestcli'
+time: package/feeds/kiddin9/speedtestcli/compile#0.25#0.11#2.35
+    ERROR: package/feeds/kiddin9/speedtestcli failed to build.
+make[1]: *** [package/Makefile:116: package/feeds/kiddin9/speedtestcli/compile] Error 1
+make[1]: Leaving directory '/home/runner/work/Zzz/Zzz/openwrt'
+make: *** [/home/runner/work/Zzz/Zzz/openwrt/include/toplevel.mk:222: package/speedtestcli/compile] Error 2

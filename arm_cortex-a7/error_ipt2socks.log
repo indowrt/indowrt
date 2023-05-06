@@ -1,0 +1,46 @@
+
+make[2]: Entering directory '/home/runner/work/Zzz/Zzz/openwrt/scripts/config'
+make[2]: 'conf' is up to date.
+make[2]: Leaving directory '/home/runner/work/Zzz/Zzz/openwrt/scripts/config'
+make[1]: Entering directory '/home/runner/work/Zzz/Zzz/openwrt'
+make[2]: Entering directory '/home/runner/work/Zzz/Zzz/openwrt/package/toolchain'
+Makefile:735: WARNING: skipping libgomp -- package has no install section
+echo "libc" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-arm_cortex-a7_musl_eabi/pkginfo/toolchain.default.install
+echo "libgcc" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-arm_cortex-a7_musl_eabi/pkginfo/toolchain.default.install
+echo "libpthread" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-arm_cortex-a7_musl_eabi/pkginfo/toolchain.default.install
+make[2]: Leaving directory '/home/runner/work/Zzz/Zzz/openwrt/package/toolchain'
+time: package/toolchain/compile#0.28#0.07#0.34
+make[2]: Entering directory '/home/runner/work/Zzz/Zzz/openwrt/feeds/kiddin9/ipt2socks'
+mkdir -p /home/runner/work/Zzz/Zzz/openwrt/dl
+SHELL= flock /home/runner/work/Zzz/Zzz/openwrt/tmp/.ipt2socks-1.1.3.tar.gz.flock -c '  	/home/runner/work/Zzz/Zzz/openwrt/scripts/download.pl "/home/runner/work/Zzz/Zzz/openwrt/dl" "ipt2socks-1.1.3.tar.gz" "73a2498dc95934c225d358707e7f7d060b5ce81aa45260ada09cbd15207d27d1" "" "https://codeload.github.com/zfl9/ipt2socks/tar.gz/v1.1.3?"    '
++ curl -f --connect-timeout 20 --retry 5 --location https://codeload.github.com/zfl9/ipt2socks/tar.gz/v1.1.3?/ipt2socks-1.1.3.tar.gz
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  109k  100  109k    0     0   336k      0 --:--:-- --:--:-- --:--:--  336k
+Hash of the downloaded file does not match (file: 5279eb1cb7555cf9292423cc9f672dc43e6e214b3411a6df26a6a1cfa59d88b7, requested: 73a2498dc95934c225d358707e7f7d060b5ce81aa45260ada09cbd15207d27d1) - deleting download.
++ curl -f --connect-timeout 20 --retry 5 --location https://sources.cdn.openwrt.org/ipt2socks-1.1.3.tar.gz
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0   169    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+curl: (22) The requested URL returned error: 404
+Download failed.
++ curl -f --connect-timeout 20 --retry 5 --location https://sources.openwrt.org/ipt2socks-1.1.3.tar.gz
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0   169    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+curl: (22) The requested URL returned error: 404
+Download failed.
++ curl -f --connect-timeout 20 --retry 5 --location https://mirror2.openwrt.org/sources/ipt2socks-1.1.3.tar.gz
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0   153    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+curl: (22) The requested URL returned error: 404
+Download failed.
+No more mirrors to try - giving up.
+make[2]: *** [Makefile:46: /home/runner/work/Zzz/Zzz/openwrt/dl/ipt2socks-1.1.3.tar.gz] Error 2
+make[2]: Leaving directory '/home/runner/work/Zzz/Zzz/openwrt/feeds/kiddin9/ipt2socks'
+time: package/feeds/kiddin9/ipt2socks/compile#0.48#0.13#2.14
+    ERROR: package/feeds/kiddin9/ipt2socks failed to build.
+make[1]: *** [package/Makefile:116: package/feeds/kiddin9/ipt2socks/compile] Error 1
+make[1]: Leaving directory '/home/runner/work/Zzz/Zzz/openwrt'
+make: *** [/home/runner/work/Zzz/Zzz/openwrt/include/toplevel.mk:222: package/ipt2socks/compile] Error 2
