@@ -9,7 +9,7 @@ echo "libc" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-arm_cortex-a
 echo "libgcc" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-arm_cortex-a9_musl_eabi/pkginfo/toolchain.default.install
 echo "libpthread" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-arm_cortex-a9_musl_eabi/pkginfo/toolchain.default.install
 make[2]: Leaving directory '/home/runner/work/Zzz/Zzz/openwrt/package/toolchain'
-time: package/toolchain/compile#0.28#0.07#0.35
+time: package/toolchain/compile#0.24#0.14#0.33
 make[2]: Entering directory '/home/runner/work/Zzz/Zzz/openwrt/feeds/kiddin9/shadow-tls'
 mkdir -p /home/runner/work/Zzz/Zzz/openwrt/dl
 SHELL= flock /home/runner/work/Zzz/Zzz/openwrt/tmp/.shadow-tls-armv7-unknown-linux-musleabi.flock -c '  	/home/runner/work/Zzz/Zzz/openwrt/scripts/download.pl "/home/runner/work/Zzz/Zzz/openwrt/dl" "shadow-tls-armv7-unknown-linux-musleabi" "eb1346ec83e154f2722ab671fbcdd1c95739b4a7c29655effae9cd4ffe8d23b6" "shadow-tls-armv7-unknown-linux-musleabi" "https://github.com/ihciah/shadow-tls/releases/download/v0.2.23"    '
@@ -40,7 +40,7 @@ Download failed.
 No more mirrors to try - giving up.
 make[2]: *** [Makefile:66: /home/runner/work/Zzz/Zzz/openwrt/dl/shadow-tls-armv7-unknown-linux-musleabi] Error 2
 make[2]: Leaving directory '/home/runner/work/Zzz/Zzz/openwrt/feeds/kiddin9/shadow-tls'
-time: package/feeds/kiddin9/shadow-tls/compile#0.46#0.11#1.23
+time: package/feeds/kiddin9/shadow-tls/compile#0.33#0.16#1.30
     ERROR: package/feeds/kiddin9/shadow-tls failed to build.
 make[1]: *** [package/Makefile:120: package/feeds/kiddin9/shadow-tls/compile] Error 1
 make[1]: Leaving directory '/home/runner/work/Zzz/Zzz/openwrt'

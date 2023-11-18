@@ -9,7 +9,7 @@ echo "libc" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-arm_xscale_m
 echo "libgcc" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-arm_xscale_musl_eabi/pkginfo/toolchain.default.install
 echo "libpthread" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-arm_xscale_musl_eabi/pkginfo/toolchain.default.install
 make[2]: Leaving directory '/home/runner/work/Zzz/Zzz/openwrt/package/toolchain'
-time: package/toolchain/compile#0.29#0.08#0.35
+time: package/toolchain/compile#0.23#0.08#0.29
 make[2]: Entering directory '/home/runner/work/Zzz/Zzz/openwrt/feeds/kiddin9/shadow-tls'
 mkdir -p /home/runner/work/Zzz/Zzz/openwrt/dl
 SHELL= flock /home/runner/work/Zzz/Zzz/openwrt/tmp/.shadow-tls-armv7-unknown-linux-musleabi.flock -c '  	/home/runner/work/Zzz/Zzz/openwrt/scripts/download.pl "/home/runner/work/Zzz/Zzz/openwrt/dl" "shadow-tls-armv7-unknown-linux-musleabi" "eb1346ec83e154f2722ab671fbcdd1c95739b4a7c29655effae9cd4ffe8d23b6" "shadow-tls-armv7-unknown-linux-musleabi" "https://github.com/ihciah/shadow-tls/releases/download/v0.2.23"    '
@@ -22,25 +22,25 @@ Download failed.
 + curl -f --connect-timeout 20 --retry 5 --location https://sources.cdn.openwrt.org/shadow-tls-armv7-unknown-linux-musleabi
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0   169    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0   169    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
 curl: (22) The requested URL returned error: 404
 Download failed.
 + curl -f --connect-timeout 20 --retry 5 --location https://sources.openwrt.org/shadow-tls-armv7-unknown-linux-musleabi
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0   169    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0   169    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
 curl: (22) The requested URL returned error: 404
 Download failed.
 + curl -f --connect-timeout 20 --retry 5 --location https://mirror2.openwrt.org/sources/shadow-tls-armv7-unknown-linux-musleabi
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0   153    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0   153    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
 curl: (22) The requested URL returned error: 404
 Download failed.
 No more mirrors to try - giving up.
 make[2]: *** [Makefile:66: /home/runner/work/Zzz/Zzz/openwrt/dl/shadow-tls-armv7-unknown-linux-musleabi] Error 2
 make[2]: Leaving directory '/home/runner/work/Zzz/Zzz/openwrt/feeds/kiddin9/shadow-tls'
-time: package/feeds/kiddin9/shadow-tls/compile#0.52#0.10#1.33
+time: package/feeds/kiddin9/shadow-tls/compile#0.31#0.13#1.92
     ERROR: package/feeds/kiddin9/shadow-tls failed to build.
 make[1]: *** [package/Makefile:120: package/feeds/kiddin9/shadow-tls/compile] Error 1
 make[1]: Leaving directory '/home/runner/work/Zzz/Zzz/openwrt'

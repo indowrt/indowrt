@@ -9,18 +9,18 @@ echo "libc" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-mipsel_24kc_
 echo "libgcc" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-mipsel_24kc_musl/pkginfo/toolchain.default.install
 echo "libpthread" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-mipsel_24kc_musl/pkginfo/toolchain.default.install
 make[2]: Leaving directory '/home/runner/work/Zzz/Zzz/openwrt/package/toolchain'
-time: package/toolchain/compile#0.28#0.14#0.38
+time: package/toolchain/compile#0.21#0.11#0.30
 make[2]: Entering directory '/home/runner/work/Zzz/Zzz/openwrt/feeds/kiddin9/speedtestcli'
 mkdir -p /home/runner/work/Zzz/Zzz/openwrt/dl
 SHELL= flock /home/runner/work/Zzz/Zzz/openwrt/tmp/.speedtestcli-binary-1.2.0.tar.gz.flock -c '  	/home/runner/work/Zzz/Zzz/openwrt/scripts/download.pl "/home/runner/work/Zzz/Zzz/openwrt/dl" "speedtestcli-binary-1.2.0.tar.gz" "a7c24e1594251b376684d221c64cc0e717726c7229944eab9b3b5b74ec64238f" "" "http://fw.koolcenter.com/binary/SpeedTestCli/"    '
 + curl -f --connect-timeout 20 --retry 5 --location http://fw.koolcenter.com/binary/SpeedTestCli/speedtestcli-binary-1.2.0.tar.gz
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  2 2127k    2 54011    0     0  57053      0  0:00:38 --:--:--  0:00:38 57033 74 2127k   74 1578k    0     0   810k      0  0:00:02  0:00:01  0:00:01  810k100 2127k  100 2127k    0     0  1044k      0  0:00:02  0:00:02 --:--:-- 1044k
-touch /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mipsel_24kc_musl/speedtestcli-binary-1.2.0/.prepared_d578633802a810151ee551d2727f5e80_6664517399ebbbc92a37c5bb081b5c53_check
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0 2127k    0  2603    0     0   1729      0  0:20:59  0:00:01  0:20:58  1730  1 2127k    1 32591    0     0  17781      0  0:02:02  0:00:01  0:02:01 17780 25 2127k   25  545k    0     0   193k      0  0:00:11  0:00:02  0:00:09  193k100 2127k  100 2127k    0     0   640k      0  0:00:03  0:00:03 --:--:--  640k
+touch /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mipsel_24kc_musl/speedtestcli-binary-1.2.0/.prepared_e5227ae08a06d221f727884a1edba156_6664517399ebbbc92a37c5bb081b5c53_check
 . /home/runner/work/Zzz/Zzz/openwrt/include/shell.sh; gzip -dc /home/runner/work/Zzz/Zzz/openwrt/dl/speedtestcli-binary-1.2.0.tar.gz | tar -C /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mipsel_24kc_musl/speedtestcli-binary-1.2.0/.. -xf -
 [ ! -d ./src/ ] || cp -fpR ./src/. /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mipsel_24kc_musl/speedtestcli-binary-1.2.0
-touch /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mipsel_24kc_musl/speedtestcli-binary-1.2.0/.prepared_d578633802a810151ee551d2727f5e80_6664517399ebbbc92a37c5bb081b5c53
+touch /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mipsel_24kc_musl/speedtestcli-binary-1.2.0/.prepared_e5227ae08a06d221f727884a1edba156_6664517399ebbbc92a37c5bb081b5c53
 rm -f /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mipsel_24kc_musl/speedtestcli-binary-1.2.0/.configured_*
 rm -f /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-mipsel_24kc_musl/stamp/.speedtestcli_installed
 touch /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mipsel_24kc_musl/speedtestcli-binary-1.2.0/.configured_68b329da9893e34099c7d8ad5cb9c940
@@ -34,7 +34,7 @@ install -m0755 /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mipsel_24kc_mu
 install: cannot stat '/home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mipsel_24kc_musl/speedtestcli-binary-1.2.0/speedtest.mipsel': No such file or directory
 make[2]: *** [Makefile:58: /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mipsel_24kc_musl/speedtestcli-binary-1.2.0/.pkgdir/speedtestcli.installed] Error 1
 make[2]: Leaving directory '/home/runner/work/Zzz/Zzz/openwrt/feeds/kiddin9/speedtestcli'
-time: package/feeds/kiddin9/speedtestcli/compile#0.33#0.12#2.40
+time: package/feeds/kiddin9/speedtestcli/compile#0.24#0.12#3.60
     ERROR: package/feeds/kiddin9/speedtestcli failed to build.
 make[1]: *** [package/Makefile:120: package/feeds/kiddin9/speedtestcli/compile] Error 1
 make[1]: Leaving directory '/home/runner/work/Zzz/Zzz/openwrt'
