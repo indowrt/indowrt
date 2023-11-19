@@ -10,24 +10,24 @@ echo "libgcc" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-aarch64_co
 echo "libpthread" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-aarch64_cortex-a72_musl/pkginfo/toolchain.default.install
 echo "librt" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-aarch64_cortex-a72_musl/pkginfo/toolchain.default.install
 make[2]: Leaving directory '/home/runner/work/Zzz/Zzz/openwrt/package/toolchain'
-time: package/toolchain/compile#0.23#0.09#0.31
+time: package/toolchain/compile#0.22#0.10#0.30
 make[2]: Entering directory '/home/runner/work/Zzz/Zzz/openwrt/feeds/base/package/libs/libmnl'
 make[2]: Entering directory '/home/runner/work/Zzz/Zzz/openwrt/feeds/base/package/firmware/linux-firmware'
 make[2]: Entering directory '/home/runner/work/Zzz/Zzz/openwrt/feeds/base/package/firmware/prism54-firmware'
 make[2]: Entering directory '/home/runner/work/Zzz/Zzz/openwrt/feeds/base/package/libs/libpcap'
 echo "libmnl" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-aarch64_cortex-a72_musl/pkginfo/libmnl.default.install
 make[2]: Leaving directory '/home/runner/work/Zzz/Zzz/openwrt/feeds/base/package/libs/libmnl'
-time: package/feeds/base/libmnl/compile#0.19#0.09#0.30
+time: package/feeds/base/libmnl/compile#0.17#0.11#0.31
 make[2]: Leaving directory '/home/runner/work/Zzz/Zzz/openwrt/feeds/base/package/libs/libpcap'
-time: package/feeds/base/libpcap/compile#0.16#0.14#0.31
-make[2]: Entering directory '/home/runner/work/Zzz/Zzz/openwrt/feeds/base/package/libs/libnftnl'
+time: package/feeds/base/libpcap/compile#0.16#0.13#0.31
 make[2]: Leaving directory '/home/runner/work/Zzz/Zzz/openwrt/feeds/base/package/firmware/prism54-firmware'
-time: package/feeds/base/prism54-firmware/compile#0.18#0.14#0.32
+time: package/feeds/base/prism54-firmware/compile#0.20#0.11#0.32
+make[2]: Entering directory '/home/runner/work/Zzz/Zzz/openwrt/feeds/base/package/libs/libnftnl'
 echo "libnftnl" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-aarch64_cortex-a72_musl/pkginfo/libnftnl.default.install
 make[2]: Leaving directory '/home/runner/work/Zzz/Zzz/openwrt/feeds/base/package/libs/libnftnl'
-time: package/feeds/base/libnftnl/compile#0.15#0.10#0.22
+time: package/feeds/base/libnftnl/compile#0.18#0.07#0.22
 make[2]: Leaving directory '/home/runner/work/Zzz/Zzz/openwrt/feeds/base/package/firmware/linux-firmware'
-time: package/feeds/base/linux-firmware/compile#1.28#0.21#1.48
+time: package/feeds/base/linux-firmware/compile#1.29#0.20#1.49
 make[2]: Entering directory '/home/runner/work/Zzz/Zzz/openwrt/package/kernel/linux'
 echo "kernel" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-aarch64_cortex-a72_musl/pkginfo/linux.default.install
 WARNING: kmod-block2mtd is not available in the kernel config - generating empty package
@@ -94,10 +94,10 @@ WARNING: kmod-drm-ttm is not available in the kernel config - generating empty p
 WARNING: kmod-net-prism54 is not available in the kernel config - generating empty package
 echo "kmod-sound-arm-bcm2835" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-aarch64_cortex-a72_musl/pkginfo/linux.default.install
 make[2]: Leaving directory '/home/runner/work/Zzz/Zzz/openwrt/package/kernel/linux'
-time: package/kernel/linux/compile#1.77#0.35#2.10
+time: package/kernel/linux/compile#1.81#0.30#2.10
 make[2]: Entering directory '/home/runner/work/Zzz/Zzz/openwrt/feeds/base/package/network/utils/iptables'
 make[2]: Leaving directory '/home/runner/work/Zzz/Zzz/openwrt/feeds/base/package/network/utils/iptables'
-time: package/feeds/base/iptables/compile#0.15#0.10#0.23
+time: package/feeds/base/iptables/compile#0.17#0.08#0.23
 make[2]: Entering directory '/home/runner/work/Zzz/Zzz/openwrt/feeds/kiddin9/ndpi-netfilter'
 mkdir -p /home/runner/work/Zzz/Zzz/openwrt/dl
 SHELL= flock /home/runner/work/Zzz/Zzz/openwrt/tmp/.ndpi-netfilter-04282023-flow_info-4.tar.bz2.flock -c '  	 /home/runner/work/Zzz/Zzz/openwrt/scripts/dl_github_archive.py --dl-dir="/home/runner/work/Zzz/Zzz/openwrt/dl" --url="https://github.com/vel21ripn/nDPI.git" --version="2c3fd8d4af7e4420a6a08105ea9a490a8e39a474" --subdir="ndpi-netfilter-04282023-flow_info-4" --source="ndpi-netfilter-04282023-flow_info-4.tar.bz2" --hash="x" || ( 	echo "Checking out files from the git repository..."; mkdir -p /home/runner/work/Zzz/Zzz/openwrt/tmp/dl && cd /home/runner/work/Zzz/Zzz/openwrt/tmp/dl && rm -rf ndpi-netfilter-04282023-flow_info-4 && [ \! -d ndpi-netfilter-04282023-flow_info-4 ] && git clone  https://github.com/vel21ripn/nDPI.git ndpi-netfilter-04282023-flow_info-4 && (cd ndpi-netfilter-04282023-flow_info-4 && git checkout 2c3fd8d4af7e4420a6a08105ea9a490a8e39a474 && git submodule update --init --recursive) && echo "Packing checkout..." && export TAR_TIMESTAMP=`cd ndpi-netfilter-04282023-flow_info-4 && git log -1 --format='\''@%ct'\''` && rm -rf ndpi-netfilter-04282023-flow_info-4/.git && 	tar --numeric-owner --owner=0 --group=0 --mode=a-s --sort=name ${TAR_TIMESTAMP:+--mtime="$TAR_TIMESTAMP"} -c ndpi-netfilter-04282023-flow_info-4 | 	bzip2 -c > /home/runner/work/Zzz/Zzz/openwrt/tmp/dl/ndpi-netfilter-04282023-flow_info-4.tar.bz2 && mv /home/runner/work/Zzz/Zzz/openwrt/tmp/dl/ndpi-netfilter-04282023-flow_info-4.tar.bz2 /home/runner/work/Zzz/Zzz/openwrt/dl/ && rm -rf ndpi-netfilter-04282023-flow_info-4; );     '
@@ -124,7 +124,7 @@ Turn off this advice by setting config variable advice.detachedHead to false
 
 HEAD is now at 2c3fd8d4 Merge branch 'github.dev' into flow_info-4
 Packing checkout...
-touch /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-aarch64_cortex-a72_musl/linux-bcm27xx_bcm2711/ndpi-netfilter-04282023-flow_info-4/.prepared_de8219a61ea26e1077ec7408c66fc932_6664517399ebbbc92a37c5bb081b5c53_check
+touch /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-aarch64_cortex-a72_musl/linux-bcm27xx_bcm2711/ndpi-netfilter-04282023-flow_info-4/.prepared_f82a51e702720183ed3ff6db3de3fb20_6664517399ebbbc92a37c5bb081b5c53_check
 . /home/runner/work/Zzz/Zzz/openwrt/include/shell.sh; bzcat /home/runner/work/Zzz/Zzz/openwrt/dl/ndpi-netfilter-04282023-flow_info-4.tar.bz2 | tar -C /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-aarch64_cortex-a72_musl/linux-bcm27xx_bcm2711/ndpi-netfilter-04282023-flow_info-4/.. -xf -
 [ ! -d ./src/ ] || cp -fpR ./src/. /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-aarch64_cortex-a72_musl/linux-bcm27xx_bcm2711/ndpi-netfilter-04282023-flow_info-4
 
@@ -135,7 +135,7 @@ Hunk #1 succeeded at 4 with fuzz 1 (offset -1 lines).
 Applying ./patches/0002-skbuff-check_fix.patch using plaintext: 
 patching file ndpi-netfilter/src/Makefile
 Hunk #1 succeeded at 17 (offset 4 lines).
-touch /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-aarch64_cortex-a72_musl/linux-bcm27xx_bcm2711/ndpi-netfilter-04282023-flow_info-4/.prepared_de8219a61ea26e1077ec7408c66fc932_6664517399ebbbc92a37c5bb081b5c53
+touch /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-aarch64_cortex-a72_musl/linux-bcm27xx_bcm2711/ndpi-netfilter-04282023-flow_info-4/.prepared_f82a51e702720183ed3ff6db3de3fb20_6664517399ebbbc92a37c5bb081b5c53
 rm -f /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-aarch64_cortex-a72_musl/linux-bcm27xx_bcm2711/ndpi-netfilter-04282023-flow_info-4/.configured_*
 rm -f /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-aarch64_cortex-a72_musl/stamp/.ndpi-netfilter_installed
 (cd /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-aarch64_cortex-a72_musl/linux-bcm27xx_bcm2711/ndpi-netfilter-04282023-flow_info-4/./; if [ -x ./autogen.sh ]; then find /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-aarch64_cortex-a72_musl/linux-bcm27xx_bcm2711/ndpi-netfilter-04282023-flow_info-4/ -name config.guess | xargs -r chmod u+w; find /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-aarch64_cortex-a72_musl/linux-bcm27xx_bcm2711/ndpi-netfilter-04282023-flow_info-4/ -name config.guess | xargs -r -n1 cp --remove-destination /home/runner/work/Zzz/Zzz/openwrt/scripts/config.guess; find /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-aarch64_cortex-a72_musl/linux-bcm27xx_bcm2711/ndpi-netfilter-04282023-flow_info-4/ -name config.sub | xargs -r chmod u+w; find /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-aarch64_cortex-a72_musl/linux-bcm27xx_bcm2711/ndpi-netfilter-04282023-flow_info-4/ -name config.sub | xargs -r -n1 cp --remove-destination /home/runner/work/Zzz/Zzz/openwrt/scripts/config.sub; AR="aarch64-openwrt-linux-musl-gcc-ar" AS="aarch64-openwrt-linux-musl-gcc -c -Os -pipe -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -ffile-prefix-map=/home/runner/work/Zzz/Zzz/openwrt/build_dir/target-aarch64_cortex-a72_musl/linux-bcm27xx_bcm2711/ndpi-netfilter-04282023-flow_info-4=ndpi-netfilter-04282023-flow_info-4 -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro" LD=aarch64-openwrt-linux-musl-ld NM="aarch64-openwrt-linux-musl-gcc-nm" CC="aarch64-openwrt-linux-musl-gcc" GCC="aarch64-openwrt-linux-musl-gcc" CXX="aarch64-openwrt-linux-musl-g++" RANLIB="aarch64-openwrt-linux-musl-gcc-ranlib" STRIP=aarch64-openwrt-linux-musl-strip OBJCOPY=aarch64-openwrt-linux-musl-objcopy OBJDUMP=aarch64-openwrt-linux-musl-objdump SIZE=aarch64-openwrt-linux-musl-size CFLAGS="-Os -pipe -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -ffile-prefix-map=/home/runner/work/Zzz/Zzz/openwrt/build_dir/target-aarch64_cortex-a72_musl/linux-bcm27xx_bcm2711/ndpi-netfilter-04282023-flow_info-4=ndpi-netfilter-04282023-flow_info-4 -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro " CXXFLAGS="-Os -pipe -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -ffile-prefix-map=/home/runner/work/Zzz/Zzz/openwrt/build_dir/target-aarch64_cortex-a72_musl/linux-bcm27xx_bcm2711/ndpi-netfilter-04282023-flow_info-4=ndpi-netfilter-04282023-flow_info-4 -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro " CPPFLAGS="-I/home/runner/work/Zzz/Zzz/openwrt/staging_dir/toolchain-aarch64_cortex-a72_gcc-11.2.0_musl/usr/include -I/home/runner/work/Zzz/Zzz/openwrt/staging_dir/toolchain-aarch64_cortex-a72_gcc-11.2.0_musl/include/fortify -I/home/runner/work/Zzz/Zzz/openwrt/staging_dir/toolchain-aarch64_cortex-a72_gcc-11.2.0_musl/include " LDFLAGS="-L/home/runner/work/Zzz/Zzz/openwrt/staging_dir/toolchain-aarch64_cortex-a72_gcc-11.2.0_musl/usr/lib -L/home/runner/work/Zzz/Zzz/openwrt/staging_dir/toolchain-aarch64_cortex-a72_gcc-11.2.0_musl/lib -znow -zrelro "   ./autogen.sh --target=aarch64-openwrt-linux --host=aarch64-openwrt-linux --build=x86_64-pc-linux-gnu --program-prefix="" --program-suffix="" --prefix=/usr --exec-prefix=/usr --bindir=/usr/bin --sbindir=/usr/sbin --libexecdir=/usr/lib --sysconfdir=/etc --datadir=/usr/share --localstatedir=/var --mandir=/usr/man --infodir=/usr/info --disable-nls  --with-pic ; fi; )
@@ -667,7 +667,7 @@ make[3]: *** [Makefile:3: all] Error 2
 make[3]: Leaving directory '/home/runner/work/Zzz/Zzz/openwrt/build_dir/target-aarch64_cortex-a72_musl/linux-bcm27xx_bcm2711/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter'
 make[2]: *** [Makefile:93: /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-aarch64_cortex-a72_musl/linux-bcm27xx_bcm2711/ndpi-netfilter-04282023-flow_info-4/.built] Error 2
 make[2]: Leaving directory '/home/runner/work/Zzz/Zzz/openwrt/feeds/kiddin9/ndpi-netfilter'
-time: package/feeds/kiddin9/ndpi-netfilter/compile#80.01#17.88#94.07
+time: package/feeds/kiddin9/ndpi-netfilter/compile#81.57#17.92#97.05
     ERROR: package/feeds/kiddin9/ndpi-netfilter failed to build.
 make[1]: *** [package/Makefile:120: package/feeds/kiddin9/ndpi-netfilter/compile] Error 1
 make[1]: Leaving directory '/home/runner/work/Zzz/Zzz/openwrt'

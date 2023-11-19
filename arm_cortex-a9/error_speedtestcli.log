@@ -9,18 +9,18 @@ echo "libc" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-arm_cortex-a
 echo "libgcc" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-arm_cortex-a9_musl_eabi/pkginfo/toolchain.default.install
 echo "libpthread" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-arm_cortex-a9_musl_eabi/pkginfo/toolchain.default.install
 make[2]: Leaving directory '/home/runner/work/Zzz/Zzz/openwrt/package/toolchain'
-time: package/toolchain/compile#0.26#0.12#0.33
+time: package/toolchain/compile#0.25#0.13#0.34
 make[2]: Entering directory '/home/runner/work/Zzz/Zzz/openwrt/feeds/kiddin9/speedtestcli'
 mkdir -p /home/runner/work/Zzz/Zzz/openwrt/dl
 SHELL= flock /home/runner/work/Zzz/Zzz/openwrt/tmp/.speedtestcli-binary-1.2.0.tar.gz.flock -c '  	/home/runner/work/Zzz/Zzz/openwrt/scripts/download.pl "/home/runner/work/Zzz/Zzz/openwrt/dl" "speedtestcli-binary-1.2.0.tar.gz" "a7c24e1594251b376684d221c64cc0e717726c7229944eab9b3b5b74ec64238f" "" "http://fw.koolcenter.com/binary/SpeedTestCli/"    '
 + curl -f --connect-timeout 20 --retry 5 --location http://fw.koolcenter.com/binary/SpeedTestCli/speedtestcli-binary-1.2.0.tar.gz
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0 2127k    0 15455    0     0  13646      0  0:02:39  0:00:01  0:02:38 13652 11 2127k   11  235k    0     0   118k      0  0:00:17  0:00:01  0:00:16  118k100 2127k  100 2127k    0     0   744k      0  0:00:02  0:00:02 --:--:--  744k
-touch /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a9_musl_eabi/speedtestcli-binary-1.2.0/.prepared_096cc23c5b3c8d2ff3e4d5b24ef4bdc7_6664517399ebbbc92a37c5bb081b5c53_check
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0 2127k    0 16883    0     0  16056      0  0:02:15  0:00:01  0:02:14 16063 13 2127k   13  292k    0     0   149k      0  0:00:14  0:00:01  0:00:13  149k100 2127k  100 2127k    0     0   788k      0  0:00:02  0:00:02 --:--:--  788k
+touch /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a9_musl_eabi/speedtestcli-binary-1.2.0/.prepared_11b9f9c062167495e2eb32bf0374a6c9_6664517399ebbbc92a37c5bb081b5c53_check
 . /home/runner/work/Zzz/Zzz/openwrt/include/shell.sh; gzip -dc /home/runner/work/Zzz/Zzz/openwrt/dl/speedtestcli-binary-1.2.0.tar.gz | tar -C /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a9_musl_eabi/speedtestcli-binary-1.2.0/.. -xf -
 [ ! -d ./src/ ] || cp -fpR ./src/. /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a9_musl_eabi/speedtestcli-binary-1.2.0
-touch /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a9_musl_eabi/speedtestcli-binary-1.2.0/.prepared_096cc23c5b3c8d2ff3e4d5b24ef4bdc7_6664517399ebbbc92a37c5bb081b5c53
+touch /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a9_musl_eabi/speedtestcli-binary-1.2.0/.prepared_11b9f9c062167495e2eb32bf0374a6c9_6664517399ebbbc92a37c5bb081b5c53
 rm -f /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a9_musl_eabi/speedtestcli-binary-1.2.0/.configured_*
 rm -f /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-arm_cortex-a9_musl_eabi/stamp/.speedtestcli_installed
 touch /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a9_musl_eabi/speedtestcli-binary-1.2.0/.configured_68b329da9893e34099c7d8ad5cb9c940
@@ -34,7 +34,7 @@ install -m0755 /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a9_
 install: cannot stat '/home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a9_musl_eabi/speedtestcli-binary-1.2.0/speedtest.arm': No such file or directory
 make[2]: *** [Makefile:58: /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a9_musl_eabi/speedtestcli-binary-1.2.0/.pkgdir/speedtestcli.installed] Error 1
 make[2]: Leaving directory '/home/runner/work/Zzz/Zzz/openwrt/feeds/kiddin9/speedtestcli'
-time: package/feeds/kiddin9/speedtestcli/compile#0.26#0.17#3.18
+time: package/feeds/kiddin9/speedtestcli/compile#0.27#0.17#3.02
     ERROR: package/feeds/kiddin9/speedtestcli failed to build.
 make[1]: *** [package/Makefile:120: package/feeds/kiddin9/speedtestcli/compile] Error 1
 make[1]: Leaving directory '/home/runner/work/Zzz/Zzz/openwrt'

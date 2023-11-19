@@ -9,33 +9,33 @@ echo "libc" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-mipsel_24kc_
 echo "libgcc" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-mipsel_24kc_musl/pkginfo/toolchain.default.install
 echo "libpthread" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-mipsel_24kc_musl/pkginfo/toolchain.default.install
 make[2]: Leaving directory '/home/runner/work/Zzz/Zzz/openwrt/package/toolchain'
-time: package/toolchain/compile#0.21#0.10#0.30
+time: package/toolchain/compile#0.22#0.09#0.30
 make[2]: Entering directory '/home/runner/work/Zzz/Zzz/openwrt/feeds/kiddin9/naiveproxy'
 mkdir -p /home/runner/work/Zzz/Zzz/openwrt/dl
 SHELL= flock /home/runner/work/Zzz/Zzz/openwrt/tmp/.clang-llvmorg-17-init-16420-g0c545a44-8.tgz.flock -c '  	/home/runner/work/Zzz/Zzz/openwrt/scripts/download.pl "/home/runner/work/Zzz/Zzz/openwrt/dl" "clang-llvmorg-17-init-16420-g0c545a44-8.tgz" "3c84d6673efd5a0d40785c9fd510ce347c9a4acf9ffb3b503c707857f5ca8398" "clang-llvmorg-17-init-16420-g0c545a44-8.tgz" "https://commondatastorage.googleapis.com/chromium-browser-clang/Linux_x64"    '
 + curl -f --connect-timeout 20 --retry 5 --location https://commondatastorage.googleapis.com/chromium-browser-clang/Linux_x64/clang-llvmorg-17-init-16420-g0c545a44-8.tgz
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0 83 85.3M   83 71.1M    0     0  80.7M      0  0:00:01 --:--:--  0:00:01 80.7M100 85.3M  100 85.3M    0     0  85.8M      0 --:--:-- --:--:-- --:--:-- 85.8M
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0 12 85.3M   12 10.9M    0     0  31.8M      0  0:00:02 --:--:--  0:00:02 31.8M100 85.3M  100 85.3M    0     0  93.8M      0 --:--:-- --:--:-- --:--:-- 93.7M
 mkdir -p /home/runner/work/Zzz/Zzz/openwrt/dl
 SHELL= flock /home/runner/work/Zzz/Zzz/openwrt/tmp/.chrome-linux-5993-1696528594-5b0dc009ef20f14165590ea16444c1ee3dca372e.profdata.flock -c '  	/home/runner/work/Zzz/Zzz/openwrt/scripts/download.pl "/home/runner/work/Zzz/Zzz/openwrt/dl" "chrome-linux-5993-1696528594-5b0dc009ef20f14165590ea16444c1ee3dca372e.profdata" "1d6b4d7d2dab529ae179097e508d63fc28fd459ee3fe7511e5ed5b329707e0b5" "chrome-linux-5993-1696528594-5b0dc009ef20f14165590ea16444c1ee3dca372e.profdata" "https://storage.googleapis.com/chromium-optimization-profiles/pgo_profiles"    '
 + curl -f --connect-timeout 20 --retry 5 --location https://storage.googleapis.com/chromium-optimization-profiles/pgo_profiles/chrome-linux-5993-1696528594-5b0dc009ef20f14165590ea16444c1ee3dca372e.profdata
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 74.8M    0 74.8M    0     0  89.9M      0 --:--:-- --:--:-- --:--:-- 89.9M100  216M    0  216M    0     0   118M      0 --:--:--  0:00:01 --:--:--  118M100  217M    0  217M    0     0   118M      0 --:--:--  0:00:01 --:--:--  118M
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 23.8M    0 23.8M    0     0  61.3M      0 --:--:-- --:--:-- --:--:-- 61.2M100  147M    0  147M    0     0   105M      0 --:--:--  0:00:01 --:--:--  105M100  217M    0  217M    0     0   104M      0 --:--:--  0:00:02 --:--:--  104M
 mkdir -p /home/runner/work/Zzz/Zzz/openwrt/dl
 SHELL= flock /home/runner/work/Zzz/Zzz/openwrt/tmp/.naiveproxy-118.0.5993.65-1.tar.gz.flock -c '  	/home/runner/work/Zzz/Zzz/openwrt/scripts/download.pl "/home/runner/work/Zzz/Zzz/openwrt/dl" "naiveproxy-118.0.5993.65-1.tar.gz" "d97193d82e346ec2f753151cee52d00495e2df7688d60a5b4395b8cd39399734" "" "https://codeload.github.com/klzgrad/naiveproxy/tar.gz/v118.0.5993.65-1?"    '
 + curl -f --connect-timeout 20 --retry 5 --location https://codeload.github.com/klzgrad/naiveproxy/tar.gz/v118.0.5993.65-1?/naiveproxy-118.0.5993.65-1.tar.gz
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 38.3M  100 38.3M    0     0  52.2M      0 --:--:-- --:--:-- --:--:-- 52.3M
-touch /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mipsel_24kc_musl/naiveproxy-118.0.5993.65-1/.prepared_629c15f5c5fcee6ce2e0857fa34095d6_6664517399ebbbc92a37c5bb081b5c53_check
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 1189k    0 1189k    0     0  4707k      0 --:--:-- --:--:-- --:--:-- 4700k100 9472k    0 9472k    0     0  7567k      0 --:--:--  0:00:01 --:--:-- 7565k100 18.2M    0 18.2M    0     0  8288k      0 --:--:--  0:00:02 --:--:-- 8287k100 26.9M    0 26.9M    0     0  8467k      0 --:--:--  0:00:03 --:--:-- 8467k100 33.5M    0 33.5M    0     0  8085k      0 --:--:--  0:00:04 --:--:-- 8083k100 38.3M    0 38.3M    0     0  8148k      0 --:--:--  0:00:04 --:--:-- 8340k
+touch /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mipsel_24kc_musl/naiveproxy-118.0.5993.65-1/.prepared_5316eeb33039ae7f54d9072bdd5d8730_6664517399ebbbc92a37c5bb081b5c53_check
 . /home/runner/work/Zzz/Zzz/openwrt/include/shell.sh; gzip -dc /home/runner/work/Zzz/Zzz/openwrt/dl/naiveproxy-118.0.5993.65-1.tar.gz | tar -C /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mipsel_24kc_musl/naiveproxy-118.0.5993.65-1/.. -xf -
 [ ! -d ./src/ ] || cp -fpR ./src/. /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mipsel_24kc_musl/naiveproxy-118.0.5993.65-1
 ( pushd /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mipsel_24kc_musl/naiveproxy-118.0.5993.65-1/src ; mkdir -p "chrome/build/pgo_profiles" ; cp -fpR "/home/runner/work/Zzz/Zzz/openwrt/dl/chrome-linux-5993-1696528594-5b0dc009ef20f14165590ea16444c1ee3dca372e.profdata" "chrome/build/pgo_profiles" ; mkdir -p "third_party/llvm-build/Release+Asserts" ; tar -xzf "/home/runner/work/Zzz/Zzz/openwrt/dl/clang-llvmorg-17-init-16420-g0c545a44-8.tgz" -C "third_party/llvm-build/Release+Asserts" ; echo -e "llvmorg-17-init-16420-g0c545a44-8" > "third_party/llvm-build/Release+Asserts/cr_build_revision" ; popd ; )
 ~/work/Zzz/Zzz/openwrt/build_dir/target-mipsel_24kc_musl/naiveproxy-118.0.5993.65-1/src ~/work/Zzz/Zzz/openwrt/feeds/kiddin9/naiveproxy
 ~/work/Zzz/Zzz/openwrt/feeds/kiddin9/naiveproxy
-touch /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mipsel_24kc_musl/naiveproxy-118.0.5993.65-1/.prepared_629c15f5c5fcee6ce2e0857fa34095d6_6664517399ebbbc92a37c5bb081b5c53
+touch /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mipsel_24kc_musl/naiveproxy-118.0.5993.65-1/.prepared_5316eeb33039ae7f54d9072bdd5d8730_6664517399ebbbc92a37c5bb081b5c53
 rm -f /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mipsel_24kc_musl/naiveproxy-118.0.5993.65-1/.configured_*
 rm -f /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-mipsel_24kc_musl/stamp/.naiveproxy_installed
 ( pushd "/home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mipsel_24kc_musl/naiveproxy-118.0.5993.65-1/src" ; . ../init_env.sh "mipsel" "24kc" "" "/home/runner/work/Zzz/Zzz/openwrt/staging_dir/toolchain-mipsel_24kc_gcc-11.2.0_musl" ; export naive_flags+=" ${naive_ccache_flags}" ; mkdir -p "out" ; gn gen "out/Release" --args="${naive_flags}" --script-executable="python3" ; popd ; )
@@ -50,7 +50,7 @@ ninja: Entering directory `/home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mi
 ninja: fatal: chdir to '/home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mipsel_24kc_musl/naiveproxy-118.0.5993.65-1/src/out/Release' - No such file or directory
 make[2]: *** [Makefile:123: /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mipsel_24kc_musl/naiveproxy-118.0.5993.65-1/.built] Error 1
 make[2]: Leaving directory '/home/runner/work/Zzz/Zzz/openwrt/feeds/kiddin9/naiveproxy'
-time: package/feeds/kiddin9/naiveproxy/compile#4.91#3.86#7.36
+time: package/feeds/kiddin9/naiveproxy/compile#5.11#3.88#11.58
     ERROR: package/feeds/kiddin9/naiveproxy failed to build.
 make[1]: *** [package/Makefile:120: package/feeds/kiddin9/naiveproxy/compile] Error 1
 make[1]: Leaving directory '/home/runner/work/Zzz/Zzz/openwrt'

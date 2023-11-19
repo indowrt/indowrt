@@ -9,33 +9,33 @@ echo "libc" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-arm_cortex-a
 echo "libgcc" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-arm_cortex-a15+neon-vfpv4_musl_eabi/pkginfo/toolchain.default.install
 echo "libpthread" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-arm_cortex-a15+neon-vfpv4_musl_eabi/pkginfo/toolchain.default.install
 make[2]: Leaving directory '/home/runner/work/Zzz/Zzz/openwrt/package/toolchain'
-time: package/toolchain/compile#0.26#0.13#0.34
+time: package/toolchain/compile#0.25#0.14#0.35
 make[2]: Entering directory '/home/runner/work/Zzz/Zzz/openwrt/feeds/kiddin9/naiveproxy'
 mkdir -p /home/runner/work/Zzz/Zzz/openwrt/dl
 SHELL= flock /home/runner/work/Zzz/Zzz/openwrt/tmp/.clang-llvmorg-17-init-16420-g0c545a44-8.tgz.flock -c '  	/home/runner/work/Zzz/Zzz/openwrt/scripts/download.pl "/home/runner/work/Zzz/Zzz/openwrt/dl" "clang-llvmorg-17-init-16420-g0c545a44-8.tgz" "3c84d6673efd5a0d40785c9fd510ce347c9a4acf9ffb3b503c707857f5ca8398" "clang-llvmorg-17-init-16420-g0c545a44-8.tgz" "https://commondatastorage.googleapis.com/chromium-browser-clang/Linux_x64"    '
 + curl -f --connect-timeout 20 --retry 5 --location https://commondatastorage.googleapis.com/chromium-browser-clang/Linux_x64/clang-llvmorg-17-init-16420-g0c545a44-8.tgz
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0 58 85.3M   58 49.6M    0     0  95.3M      0 --:--:-- --:--:-- --:--:-- 95.3M100 85.3M  100 85.3M    0     0   107M      0 --:--:-- --:--:-- --:--:--  107M
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 85.3M  100 85.3M    0     0   104M      0 --:--:-- --:--:-- --:--:--  104M
 mkdir -p /home/runner/work/Zzz/Zzz/openwrt/dl
 SHELL= flock /home/runner/work/Zzz/Zzz/openwrt/tmp/.chrome-linux-5993-1696528594-5b0dc009ef20f14165590ea16444c1ee3dca372e.profdata.flock -c '  	/home/runner/work/Zzz/Zzz/openwrt/scripts/download.pl "/home/runner/work/Zzz/Zzz/openwrt/dl" "chrome-linux-5993-1696528594-5b0dc009ef20f14165590ea16444c1ee3dca372e.profdata" "1d6b4d7d2dab529ae179097e508d63fc28fd459ee3fe7511e5ed5b329707e0b5" "chrome-linux-5993-1696528594-5b0dc009ef20f14165590ea16444c1ee3dca372e.profdata" "https://storage.googleapis.com/chromium-optimization-profiles/pgo_profiles"    '
 + curl -f --connect-timeout 20 --retry 5 --location https://storage.googleapis.com/chromium-optimization-profiles/pgo_profiles/chrome-linux-5993-1696528594-5b0dc009ef20f14165590ea16444c1ee3dca372e.profdata
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 79.9M    0 79.9M    0     0   118M      0 --:--:-- --:--:-- --:--:--  118M100  217M    0  217M    0     0   131M      0 --:--:--  0:00:01 --:--:--  131M
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 45.6M    0 45.6M    0     0  43.9M      0 --:--:--  0:00:01 --:--:-- 43.9M100  168M    0  168M    0     0  82.6M      0 --:--:--  0:00:02 --:--:-- 82.6M100  217M    0  217M    0     0  88.7M      0 --:--:--  0:00:02 --:--:-- 88.7M
 mkdir -p /home/runner/work/Zzz/Zzz/openwrt/dl
 SHELL= flock /home/runner/work/Zzz/Zzz/openwrt/tmp/.naiveproxy-118.0.5993.65-1.tar.gz.flock -c '  	/home/runner/work/Zzz/Zzz/openwrt/scripts/download.pl "/home/runner/work/Zzz/Zzz/openwrt/dl" "naiveproxy-118.0.5993.65-1.tar.gz" "d97193d82e346ec2f753151cee52d00495e2df7688d60a5b4395b8cd39399734" "" "https://codeload.github.com/klzgrad/naiveproxy/tar.gz/v118.0.5993.65-1?"    '
 + curl -f --connect-timeout 20 --retry 5 --location https://codeload.github.com/klzgrad/naiveproxy/tar.gz/v118.0.5993.65-1?/naiveproxy-118.0.5993.65-1.tar.gz
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 38.3M  100 38.3M    0     0  68.3M      0 --:--:-- --:--:-- --:--:-- 68.3M
-touch /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a15+neon-vfpv4_musl_eabi/naiveproxy-118.0.5993.65-1/.prepared_55eb817b67d99045438b3d7800db48a7_6664517399ebbbc92a37c5bb081b5c53_check
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  3 38.3M    3 1426k    0     0  2687k      0  0:00:14 --:--:--  0:00:14 2686k100 38.3M  100 38.3M    0     0  30.7M      0  0:00:01  0:00:01 --:--:-- 30.8M
+touch /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a15+neon-vfpv4_musl_eabi/naiveproxy-118.0.5993.65-1/.prepared_6bf68ee2ea573270f0285632b7c8343c_6664517399ebbbc92a37c5bb081b5c53_check
 . /home/runner/work/Zzz/Zzz/openwrt/include/shell.sh; gzip -dc /home/runner/work/Zzz/Zzz/openwrt/dl/naiveproxy-118.0.5993.65-1.tar.gz | tar -C /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a15+neon-vfpv4_musl_eabi/naiveproxy-118.0.5993.65-1/.. -xf -
 [ ! -d ./src/ ] || cp -fpR ./src/. /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a15+neon-vfpv4_musl_eabi/naiveproxy-118.0.5993.65-1
 ( pushd /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a15+neon-vfpv4_musl_eabi/naiveproxy-118.0.5993.65-1/src ; mkdir -p "chrome/build/pgo_profiles" ; cp -fpR "/home/runner/work/Zzz/Zzz/openwrt/dl/chrome-linux-5993-1696528594-5b0dc009ef20f14165590ea16444c1ee3dca372e.profdata" "chrome/build/pgo_profiles" ; mkdir -p "third_party/llvm-build/Release+Asserts" ; tar -xzf "/home/runner/work/Zzz/Zzz/openwrt/dl/clang-llvmorg-17-init-16420-g0c545a44-8.tgz" -C "third_party/llvm-build/Release+Asserts" ; echo -e "llvmorg-17-init-16420-g0c545a44-8" > "third_party/llvm-build/Release+Asserts/cr_build_revision" ; popd ; )
 ~/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a15+neon-vfpv4_musl_eabi/naiveproxy-118.0.5993.65-1/src ~/work/Zzz/Zzz/openwrt/feeds/kiddin9/naiveproxy
 ~/work/Zzz/Zzz/openwrt/feeds/kiddin9/naiveproxy
-touch /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a15+neon-vfpv4_musl_eabi/naiveproxy-118.0.5993.65-1/.prepared_55eb817b67d99045438b3d7800db48a7_6664517399ebbbc92a37c5bb081b5c53
+touch /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a15+neon-vfpv4_musl_eabi/naiveproxy-118.0.5993.65-1/.prepared_6bf68ee2ea573270f0285632b7c8343c_6664517399ebbbc92a37c5bb081b5c53
 rm -f /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a15+neon-vfpv4_musl_eabi/naiveproxy-118.0.5993.65-1/.configured_*
 rm -f /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-arm_cortex-a15+neon-vfpv4_musl_eabi/stamp/.naiveproxy_installed
 ( pushd "/home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a15+neon-vfpv4_musl_eabi/naiveproxy-118.0.5993.65-1/src" ; . ../init_env.sh "arm" "cortex-a15" "neon-vfpv4" "/home/runner/work/Zzz/Zzz/openwrt/staging_dir/toolchain-arm_cortex-a15+neon-vfpv4_gcc-11.2.0_musl_eabi" ; export naive_flags+=" ${naive_ccache_flags}" ; mkdir -p "out" ; gn gen "out/Release" --args="${naive_flags}" --script-executable="python3" ; popd ; )
@@ -50,7 +50,7 @@ ninja: Entering directory `/home/runner/work/Zzz/Zzz/openwrt/build_dir/target-ar
 ninja: fatal: chdir to '/home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a15+neon-vfpv4_musl_eabi/naiveproxy-118.0.5993.65-1/src/out/Release' - No such file or directory
 make[2]: *** [Makefile:123: /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a15+neon-vfpv4_musl_eabi/naiveproxy-118.0.5993.65-1/.built] Error 1
 make[2]: Leaving directory '/home/runner/work/Zzz/Zzz/openwrt/feeds/kiddin9/naiveproxy'
-time: package/feeds/kiddin9/naiveproxy/compile#4.88#3.66#6.75
+time: package/feeds/kiddin9/naiveproxy/compile#5.21#4.01#8.65
     ERROR: package/feeds/kiddin9/naiveproxy failed to build.
 make[1]: *** [package/Makefile:120: package/feeds/kiddin9/naiveproxy/compile] Error 1
 make[1]: Leaving directory '/home/runner/work/Zzz/Zzz/openwrt'
