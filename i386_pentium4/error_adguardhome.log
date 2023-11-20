@@ -12,37 +12,40 @@ echo "libc" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-i386_pentium
 echo "libgcc" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-i386_pentium4_musl/pkginfo/toolchain.default.install
 echo "libpthread" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-i386_pentium4_musl/pkginfo/toolchain.default.install
 echo "librt" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-i386_pentium4_musl/pkginfo/toolchain.default.install
-+ curl -f --connect-timeout 20 --retry 5 --location https://dl.google.com/go/go1.4-bootstrap-20171003.tar.gz
 make[2]: Leaving directory '/home/runner/work/Zzz/Zzz/openwrt/package/toolchain'
-time: package/toolchain/compile#0.29#0.14#0.37
+time: package/toolchain/compile#0.28#0.13#0.37
++ curl -f --connect-timeout 20 --retry 5 --location https://dl.google.com/go/go1.4-bootstrap-20171003.tar.gz
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0make[2]: Entering directory '/home/runner/work/Zzz/Zzz/openwrt/feeds/base/package/system/ca-certificates'
-100 10.4M  100 10.4M    0     0  52.2M      0 --:--:-- --:--:-- --:--:-- 52.4M
-mkdir -p /home/runner/work/Zzz/Zzz/openwrt/dl
-SHELL= flock /home/runner/work/Zzz/Zzz/openwrt/tmp/.go1.17.13.src.tar.gz.flock -c '  	/home/runner/work/Zzz/Zzz/openwrt/scripts/download.pl "/home/runner/work/Zzz/Zzz/openwrt/dl" "go1.17.13.src.tar.gz" "a1a48b23afb206f95e7bbaa9b898d965f90826f6f1d1fc0c1d784ada0cd300fd" "" "https://dl.google.com/go/" "https://mirrors.ustc.edu.cn/golang/" "https://mirrors.nju.edu.cn/golang/"    '
 mkdir -p /home/runner/work/Zzz/Zzz/openwrt/dl
 SHELL= flock /home/runner/work/Zzz/Zzz/openwrt/tmp/.ca-certificates_20230311.tar.xz.flock -c '  	/home/runner/work/Zzz/Zzz/openwrt/scripts/download.pl "/home/runner/work/Zzz/Zzz/openwrt/dl" "ca-certificates_20230311.tar.xz" "83de934afa186e279d1ed08ea0d73f5cf43a6fbfb5f00874b6db3711c64576f3" "" "@DEBIAN/pool/main/c/ca-certificates"    '
-+ curl -f --connect-timeout 20 --retry 5 --location https://dl.google.com/go/go1.17.13.src.tar.gz
+100 10.4M  100 10.4M    0     0  48.1M      0 --:--:-- --:--:-- --:--:-- 48.1M
+mkdir -p /home/runner/work/Zzz/Zzz/openwrt/dl
+SHELL= flock /home/runner/work/Zzz/Zzz/openwrt/tmp/.go1.17.13.src.tar.gz.flock -c '  	/home/runner/work/Zzz/Zzz/openwrt/scripts/download.pl "/home/runner/work/Zzz/Zzz/openwrt/dl" "go1.17.13.src.tar.gz" "a1a48b23afb206f95e7bbaa9b898d965f90826f6f1d1fc0c1d784ada0cd300fd" "" "https://dl.google.com/go/" "https://mirrors.ustc.edu.cn/golang/" "https://mirrors.nju.edu.cn/golang/"    '
++ curl -f --connect-timeout 20 --retry 5 --location https://ftp.debian.org/debian/pool/main/c/ca-certificates/ca-certificates_20230311.tar.xz
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0+ curl -f --connect-timeout 20 --retry 5 --location https://ftp.debian.org/debian/pool/main/c/ca-certificates/ca-certificates_20230311.tar.xz
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0+ curl -f --connect-timeout 20 --retry 5 --location https://dl.google.com/go/go1.17.13.src.tar.gz
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  251k  100  251k    0     0  1049k      0 --:--:-- --:--:-- --:--:-- 1053k
-touch /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-i386_pentium4_musl/ca-certificates-20230311/.prepared_3b09f0e8d95c9f6a52fb86c643f3da0f_6664517399ebbbc92a37c5bb081b5c53_check
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  251k  100  251k    0     0   946k      0 --:--:-- --:--:-- --:--:--  949k
+touch /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-i386_pentium4_musl/ca-certificates-20230311/.prepared_c230471ae62ab82dced9eca5c6879c54_6664517399ebbbc92a37c5bb081b5c53_check
 . /home/runner/work/Zzz/Zzz/openwrt/include/shell.sh; xzcat /home/runner/work/Zzz/Zzz/openwrt/dl/ca-certificates_20230311.tar.xz | tar -C /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-i386_pentium4_musl/ca-certificates-20230311 -xf - --strip-components 1
+100 21.1M  100 21.1M    0     0  79.4M      0 --:--:-- --:--:-- --:--:-- 79.6M
+mkdir -p /home/runner/work/Zzz/Zzz/openwrt/dl
+SHELL= flock /home/runner/work/Zzz/Zzz/openwrt/tmp/.go1.21.4.src.tar.gz.flock -c '  	/home/runner/work/Zzz/Zzz/openwrt/scripts/download.pl "/home/runner/work/Zzz/Zzz/openwrt/dl" "go1.21.4.src.tar.gz" "47b26a83d2b65a3c1c1bcace273b69bee49a7a7b5168a7604ded3d26a37bd787" "" "https://dl.google.com/go/" "https://mirrors.ustc.edu.cn/golang/" "https://mirrors.nju.edu.cn/golang/"    '
 [ ! -d ./src/ ] || cp -fpR ./src/. /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-i386_pentium4_musl/ca-certificates-20230311
-100 21.1M  100 21.1M    0     0  70.7M      0 --:--:-- --:--:-- --:--:-- 70.8M
 
 Applying ./patches/0001-ca-certificates-fix-python3-cryptography-woes-in-cer.patch using plaintext: 
 patching file mozilla/certdata2pem.py
-mkdir -p /home/runner/work/Zzz/Zzz/openwrt/dl
-SHELL= flock /home/runner/work/Zzz/Zzz/openwrt/tmp/.go1.21.4.src.tar.gz.flock -c '  	/home/runner/work/Zzz/Zzz/openwrt/scripts/download.pl "/home/runner/work/Zzz/Zzz/openwrt/dl" "go1.21.4.src.tar.gz" "47b26a83d2b65a3c1c1bcace273b69bee49a7a7b5168a7604ded3d26a37bd787" "" "https://dl.google.com/go/" "https://mirrors.ustc.edu.cn/golang/" "https://mirrors.nju.edu.cn/golang/"    '
-touch /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-i386_pentium4_musl/ca-certificates-20230311/.prepared_3b09f0e8d95c9f6a52fb86c643f3da0f_6664517399ebbbc92a37c5bb081b5c53
+touch /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-i386_pentium4_musl/ca-certificates-20230311/.prepared_c230471ae62ab82dced9eca5c6879c54_6664517399ebbbc92a37c5bb081b5c53
++ curl -f --connect-timeout 20 --retry 5 --location https://dl.google.com/go/go1.21.4.src.tar.gz
 rm -f /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-i386_pentium4_musl/ca-certificates-20230311/.configured_*
 rm -f /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-i386_pentium4_musl/stamp/.ca-certificates_installed
-(cd /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-i386_pentium4_musl/ca-certificates-20230311/./; if [ -x ./configure ]; then find /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-i386_pentium4_musl/ca-certificates-20230311/ -name config.guess | xargs -r chmod u+w; find /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-i386_pentium4_musl/ca-certificates-20230311/ -name config.guess | xargs -r -n1 cp --remove-destination /home/runner/work/Zzz/Zzz/openwrt/scripts/config.guess; find /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-i386_pentium4_musl/ca-certificates-20230311/ -name config.sub | xargs -r chmod u+w; find /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-i386_pentium4_musl/ca-certificates-20230311/ -name config.sub | xargs -r -n1 cp --remove-destination /home/runner/work/Zzz/Zzz/openwrt/scripts/config.sub; AR="i486-openwrt-linux-musl-gcc-ar" AS="i486-openwrt-linux-musl-gcc -c -Os -pipe -march=pentium4 -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -ffile-prefix-map=/home/runner/work/Zzz/Zzz/openwrt/build_dir/target-i386_pentium4_musl/ca-certificates-20230311=ca-certificates-20230311 -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro" LD=i486-openwrt-linux-musl-ld NM="i486-openwrt-linux-musl-gcc-nm" CC="i486-openwrt-linux-musl-gcc" GCC="i486-openwrt-linux-musl-gcc" CXX="i486-openwrt-linux-musl-g++" RANLIB="i486-openwrt-linux-musl-gcc-ranlib" STRIP=i486-openwrt-linux-musl-strip OBJCOPY=i486-openwrt-linux-musl-objcopy OBJDUMP=i486-openwrt-linux-musl-objdump SIZE=i486-openwrt-linux-musl-size CFLAGS="-Os -pipe -march=pentium4 -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -ffile-prefix-map=/home/runner/work/Zzz/Zzz/openwrt/build_dir/target-i386_pentium4_musl/ca-certificates-20230311=ca-certificates-20230311 -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro " CXXFLAGS="-Os -pipe -march=pentium4 -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -ffile-prefix-map=/home/runner/work/Zzz/Zzz/openwrt/build_dir/target-i386_pentium4_musl/ca-certificates-20230311=ca-certificates-20230311 -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro " CPPFLAGS="-I/home/runner/work/Zzz/Zzz/openwrt/staging_dir/toolchain-i386_pentium4_gcc-11.2.0_musl/usr/include -I/home/runner/work/Zzz/Zzz/openwrt/staging_dir/toolchain-i386_pentium4_gcc-11.2.0_musl/include/fortify -I/home/runner/work/Zzz/Zzz/openwrt/staging_dir/toolchain-i386_pentium4_gcc-11.2.0_musl/include " LDFLAGS="-L/home/runner/work/Zzz/Zzz/openwrt/staging_dir/toolchain-i386_pentium4_gcc-11.2.0_musl/usr/lib -L/home/runner/work/Zzz/Zzz/openwrt/staging_dir/toolchain-i386_pentium4_gcc-11.2.0_musl/lib -znow -zrelro "   ./configure --target=i486-openwrt-linux --host=i486-openwrt-linux --build=x86_64-pc-linux-gnu --program-prefix="" --program-suffix="" --prefix=/usr --exec-prefix=/usr --bindir=/usr/bin --sbindir=/usr/sbin --libexecdir=/usr/lib --sysconfdir=/etc --datadir=/usr/share --localstatedir=/var --mandir=/usr/man --infodir=/usr/info --disable-nls  ; fi; )
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0(cd /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-i386_pentium4_musl/ca-certificates-20230311/./; if [ -x ./configure ]; then find /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-i386_pentium4_musl/ca-certificates-20230311/ -name config.guess | xargs -r chmod u+w; find /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-i386_pentium4_musl/ca-certificates-20230311/ -name config.guess | xargs -r -n1 cp --remove-destination /home/runner/work/Zzz/Zzz/openwrt/scripts/config.guess; find /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-i386_pentium4_musl/ca-certificates-20230311/ -name config.sub | xargs -r chmod u+w; find /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-i386_pentium4_musl/ca-certificates-20230311/ -name config.sub | xargs -r -n1 cp --remove-destination /home/runner/work/Zzz/Zzz/openwrt/scripts/config.sub; AR="i486-openwrt-linux-musl-gcc-ar" AS="i486-openwrt-linux-musl-gcc -c -Os -pipe -march=pentium4 -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -ffile-prefix-map=/home/runner/work/Zzz/Zzz/openwrt/build_dir/target-i386_pentium4_musl/ca-certificates-20230311=ca-certificates-20230311 -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro" LD=i486-openwrt-linux-musl-ld NM="i486-openwrt-linux-musl-gcc-nm" CC="i486-openwrt-linux-musl-gcc" GCC="i486-openwrt-linux-musl-gcc" CXX="i486-openwrt-linux-musl-g++" RANLIB="i486-openwrt-linux-musl-gcc-ranlib" STRIP=i486-openwrt-linux-musl-strip OBJCOPY=i486-openwrt-linux-musl-objcopy OBJDUMP=i486-openwrt-linux-musl-objdump SIZE=i486-openwrt-linux-musl-size CFLAGS="-Os -pipe -march=pentium4 -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -ffile-prefix-map=/home/runner/work/Zzz/Zzz/openwrt/build_dir/target-i386_pentium4_musl/ca-certificates-20230311=ca-certificates-20230311 -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro " CXXFLAGS="-Os -pipe -march=pentium4 -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -ffile-prefix-map=/home/runner/work/Zzz/Zzz/openwrt/build_dir/target-i386_pentium4_musl/ca-certificates-20230311=ca-certificates-20230311 -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro " CPPFLAGS="-I/home/runner/work/Zzz/Zzz/openwrt/staging_dir/toolchain-i386_pentium4_gcc-11.2.0_musl/usr/include -I/home/runner/work/Zzz/Zzz/openwrt/staging_dir/toolchain-i386_pentium4_gcc-11.2.0_musl/include/fortify -I/home/runner/work/Zzz/Zzz/openwrt/staging_dir/toolchain-i386_pentium4_gcc-11.2.0_musl/include " LDFLAGS="-L/home/runner/work/Zzz/Zzz/openwrt/staging_dir/toolchain-i386_pentium4_gcc-11.2.0_musl/usr/lib -L/home/runner/work/Zzz/Zzz/openwrt/staging_dir/toolchain-i386_pentium4_gcc-11.2.0_musl/lib -znow -zrelro "   ./configure --target=i486-openwrt-linux --host=i486-openwrt-linux --build=x86_64-pc-linux-gnu --program-prefix="" --program-suffix="" --prefix=/usr --exec-prefix=/usr --bindir=/usr/bin --sbindir=/usr/sbin --libexecdir=/usr/lib --sysconfdir=/etc --datadir=/usr/share --localstatedir=/var --mandir=/usr/man --infodir=/usr/info --disable-nls  ; fi; )
 touch /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-i386_pentium4_musl/ca-certificates-20230311/.configured_68b329da9893e34099c7d8ad5cb9c940
 rm -f /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-i386_pentium4_musl/ca-certificates-20230311/.built
 touch /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-i386_pentium4_musl/ca-certificates-20230311/.built_check
@@ -53,10 +56,7 @@ for dir in mozilla; do \
 done
 make[4]: Entering directory '/home/runner/work/Zzz/Zzz/openwrt/build_dir/target-i386_pentium4_musl/ca-certificates-20230311/mozilla'
 python3 certdata2pem.py
-+ curl -f --connect-timeout 20 --retry 5 --location https://dl.google.com/go/go1.21.4.src.tar.gz
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  3 25.7M    3  992k    0     0  9194k      0  0:00:02 --:--:--  0:00:02 9190kIgnoring certificate "Verisign Class 1 Public Primary Certification Authority - G3".  SAUTH=CKT_NSS_MUST_VERIFY_TRUST, EPROT=CKT_NSS_TRUSTED_DELEGATOR
+ 65 25.7M   65 16.8M    0     0  74.5M      0 --:--:-- --:--:-- --:--:-- 74.3MIgnoring certificate "Verisign Class 1 Public Primary Certification Authority - G3".  SAUTH=CKT_NSS_MUST_VERIFY_TRUST, EPROT=CKT_NSS_TRUSTED_DELEGATOR
 Ignoring certificate "Verisign Class 2 Public Primary Certification Authority - G3".  SAUTH=CKT_NSS_MUST_VERIFY_TRUST, EPROT=CKT_NSS_TRUSTED_DELEGATOR
 Ignoring certificate "Certum Root CA".  SAUTH=CKT_NSS_MUST_VERIFY_TRUST, EPROT=CKT_NSS_TRUSTED_DELEGATOR
 Ignoring certificate "Camerfirma Chambers of Commerce Root".  SAUTH=CKT_NSS_MUST_VERIFY_TRUST, EPROT=CKT_NSS_TRUSTED_DELEGATOR
@@ -90,7 +90,7 @@ make[4]: Entering directory '/home/runner/work/Zzz/Zzz/openwrt/build_dir/target-
 for p in *.crt; do \
  install -m 644 $p /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-i386_pentium4_musl/ca-certificates-20230311/ipkg-install//usr/share/ca-certificates/mozilla/$p ; \
 done
-100 25.7M  100 25.7M    0     0  82.8M      0 --:--:-- --:--:-- --:--:-- 82.7M
+100 25.7M  100 25.7M    0     0  86.1M      0 --:--:-- --:--:-- --:--:-- 86.0M
 tar -C "/home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4" --strip-components=1 -xzf "/home/runner/work/Zzz/Zzz/openwrt/dl/go1.21.4.src.tar.gz"
 make[4]: Leaving directory '/home/runner/work/Zzz/Zzz/openwrt/build_dir/target-i386_pentium4_musl/ca-certificates-20230311/mozilla'
 for dir in sbin; do \
@@ -123,7 +123,7 @@ install -d -m0755 /home/runner/work/Zzz/Zzz/openwrt/bin/packages/i386_pentium4/b
 Packaged contents of /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-i386_pentium4_musl/ca-certificates-20230311/ipkg-all/ca-bundle into /home/runner/work/Zzz/Zzz/openwrt/bin/packages/i386_pentium4/base/ca-bundle_20230311-1_all.ipk
 echo "ca-bundle" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-i386_pentium4_musl/pkginfo/ca-certificates.default.install
 make[2]: Leaving directory '/home/runner/work/Zzz/Zzz/openwrt/feeds/base/package/system/ca-certificates'
-time: package/feeds/base/ca-certificates/compile#0.79#0.35#1.21
+time: package/feeds/base/ca-certificates/compile#0.81#0.34#1.25
 [ ! -d ./src/ ] || cp -fpR ./src/* /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4
 mkdir -p "/home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap" && tar -C "/home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap" --strip-components=1 -xzf "/home/runner/work/Zzz/Zzz/openwrt/dl/go1.4-bootstrap-20171003.tar.gz" ; 	mkdir -p "/home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap_1.17" && tar -C "/home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap_1.17" --strip-components=1 -xzf "/home/runner/work/Zzz/Zzz/openwrt/dl/go1.17.13.src.tar.gz" ;
 touch /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.preparede6d6bb54446db4c9f51177f1bc4bcb8f_6664517399ebbbc92a37c5bb081b5c53
@@ -135,22 +135,22 @@ cmd/dist
 
 # Building compilers and Go bootstrap tool for host, linux/amd64.
 lib9
-In file included from /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/src/lib9/atoi.c:28:
+In file included from /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/src/lib9/_p9dir.c:28:
 /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/include/u.h:86:42: warning: expression does not compute the number of elements in this array; element type is 'struct __jmp_buf_tag', not 'long int' [-Wsizeof-array-div]
    86 | typedef long p9jmp_buf[sizeof(sigjmp_buf)/sizeof(long)];
       |                                          ^
-In file included from /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/src/lib9/_exits.c:28:
-/home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/include/u.h:86:42: warning: expression does not compute the number of elements in this array; element type is 'struct __jmp_buf_tag', not 'long int' [-Wsizeof-array-div]
-   86 | typedef long p9jmp_buf[sizeof(sigjmp_buf)/sizeof(long)];
-      |                                          ^
-/home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/include/u.h:86:42: note: add parentheses around the second 'sizeof' to silence this warning
-/home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/include/u.h:86:42: note: add parentheses around the second 'sizeof' to silence this warning
 In file included from /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/src/lib9/await.c:31:
 /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/include/u.h:86:42: warning: expression does not compute the number of elements in this array; element type is 'struct __jmp_buf_tag', not 'long int' [-Wsizeof-array-div]
    86 | typedef long p9jmp_buf[sizeof(sigjmp_buf)/sizeof(long)];
       |                                          ^
 /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/include/u.h:86:42: note: add parentheses around the second 'sizeof' to silence this warning
-In file included from /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/src/lib9/_p9dir.c:28:
+/home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/include/u.h:86:42: note: add parentheses around the second 'sizeof' to silence this warning
+In file included from /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/src/lib9/_exits.c:28:
+/home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/include/u.h:86:42: warning: expression does not compute the number of elements in this array; element type is 'struct __jmp_buf_tag', not 'long int' [-Wsizeof-array-div]
+   86 | typedef long p9jmp_buf[sizeof(sigjmp_buf)/sizeof(long)];
+      |                                          ^
+/home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/include/u.h:86:42: note: add parentheses around the second 'sizeof' to silence this warning
+In file included from /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/src/lib9/atoi.c:28:
 /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/include/u.h:86:42: warning: expression does not compute the number of elements in this array; element type is 'struct __jmp_buf_tag', not 'long int' [-Wsizeof-array-div]
    86 | typedef long p9jmp_buf[sizeof(sigjmp_buf)/sizeof(long)];
       |                                          ^
@@ -205,12 +205,12 @@ In file included from /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.2
    86 | typedef long p9jmp_buf[sizeof(sigjmp_buf)/sizeof(long)];
       |                                          ^
 /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/include/u.h:86:42: note: add parentheses around the second 'sizeof' to silence this warning
-In file included from /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/src/lib9/exec.c:27:
+In file included from /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/src/lib9/exitcode.c:28:
 /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/include/u.h:86:42: warning: expression does not compute the number of elements in this array; element type is 'struct __jmp_buf_tag', not 'long int' [-Wsizeof-array-div]
    86 | typedef long p9jmp_buf[sizeof(sigjmp_buf)/sizeof(long)];
       |                                          ^
 /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/include/u.h:86:42: note: add parentheses around the second 'sizeof' to silence this warning
-In file included from /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/src/lib9/exitcode.c:28:
+In file included from /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/src/lib9/exec.c:27:
 /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/include/u.h:86:42: warning: expression does not compute the number of elements in this array; element type is 'struct __jmp_buf_tag', not 'long int' [-Wsizeof-array-div]
    86 | typedef long p9jmp_buf[sizeof(sigjmp_buf)/sizeof(long)];
       |                                          ^
@@ -317,12 +317,12 @@ In file included from /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.2
    86 | typedef long p9jmp_buf[sizeof(sigjmp_buf)/sizeof(long)];
       |                                          ^
 /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/include/u.h:86:42: note: add parentheses around the second 'sizeof' to silence this warning
-In file included from /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/src/lib9/fmt/pow10.c:19:
+In file included from /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/src/lib9/fmt/print.c:19:
 /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/include/u.h:86:42: warning: expression does not compute the number of elements in this array; element type is 'struct __jmp_buf_tag', not 'long int' [-Wsizeof-array-div]
    86 | typedef long p9jmp_buf[sizeof(sigjmp_buf)/sizeof(long)];
       |                                          ^
 /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/include/u.h:86:42: note: add parentheses around the second 'sizeof' to silence this warning
-In file included from /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/src/lib9/fmt/print.c:19:
+In file included from /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/src/lib9/fmt/pow10.c:19:
 /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/include/u.h:86:42: warning: expression does not compute the number of elements in this array; element type is 'struct __jmp_buf_tag', not 'long int' [-Wsizeof-array-div]
    86 | typedef long p9jmp_buf[sizeof(sigjmp_buf)/sizeof(long)];
       |                                          ^
@@ -382,12 +382,12 @@ In file included from /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.2
    86 | typedef long p9jmp_buf[sizeof(sigjmp_buf)/sizeof(long)];
       |                                          ^
 /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/include/u.h:86:42: note: add parentheses around the second 'sizeof' to silence this warning
-In file included from /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/src/lib9/fmt/vsmprint.c:19:
+In file included from /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/src/lib9/fmt/vseprint.c:19:
 /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/include/u.h:86:42: warning: expression does not compute the number of elements in this array; element type is 'struct __jmp_buf_tag', not 'long int' [-Wsizeof-array-div]
    86 | typedef long p9jmp_buf[sizeof(sigjmp_buf)/sizeof(long)];
       |                                          ^
 /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/include/u.h:86:42: note: add parentheses around the second 'sizeof' to silence this warning
-In file included from /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/src/lib9/fmt/vseprint.c:19:
+In file included from /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/src/lib9/fmt/vsmprint.c:19:
 /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/include/u.h:86:42: warning: expression does not compute the number of elements in this array; element type is 'struct __jmp_buf_tag', not 'long int' [-Wsizeof-array-div]
    86 | typedef long p9jmp_buf[sizeof(sigjmp_buf)/sizeof(long)];
       |                                          ^
@@ -477,17 +477,17 @@ In file included from /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.2
    86 | typedef long p9jmp_buf[sizeof(sigjmp_buf)/sizeof(long)];
       |                                          ^
 /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/include/u.h:86:42: note: add parentheses around the second 'sizeof' to silence this warning
-In file included from /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/src/lib9/time.c:27:
+In file included from /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/src/lib9/sysfatal.c:28:
 /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/include/u.h:86:42: warning: expression does not compute the number of elements in this array; element type is 'struct __jmp_buf_tag', not 'long int' [-Wsizeof-array-div]
    86 | typedef long p9jmp_buf[sizeof(sigjmp_buf)/sizeof(long)];
       |                                          ^
+/home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/include/u.h:86:42: note: add parentheses around the second 'sizeof' to silence this warning
 In file included from /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/src/lib9/tempdir_unix.c:7:
 /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/include/u.h:86:42: warning: expression does not compute the number of elements in this array; element type is 'struct __jmp_buf_tag', not 'long int' [-Wsizeof-array-div]
    86 | typedef long p9jmp_buf[sizeof(sigjmp_buf)/sizeof(long)];
       |                                          ^
 /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/include/u.h:86:42: note: add parentheses around the second 'sizeof' to silence this warning
-/home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/include/u.h:86:42: note: add parentheses around the second 'sizeof' to silence this warning
-In file included from /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/src/lib9/sysfatal.c:28:
+In file included from /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/src/lib9/time.c:27:
 /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/include/u.h:86:42: warning: expression does not compute the number of elements in this array; element type is 'struct __jmp_buf_tag', not 'long int' [-Wsizeof-array-div]
    86 | typedef long p9jmp_buf[sizeof(sigjmp_buf)/sizeof(long)];
       |                                          ^
@@ -518,6 +518,16 @@ In file included from /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.2
       |                                          ^
 /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/include/u.h:86:42: note: add parentheses around the second 'sizeof' to silence this warning
 libbio
+In file included from /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/src/libbio/bbuffered.c:26:
+/home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/include/u.h:86:42: warning: expression does not compute the number of elements in this array; element type is 'struct __jmp_buf_tag', not 'long int' [-Wsizeof-array-div]
+   86 | typedef long p9jmp_buf[sizeof(sigjmp_buf)/sizeof(long)];
+      |                                          ^
+In file included from /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/src/libbio/bflush.c:26:
+/home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/include/u.h:86:42: warning: expression does not compute the number of elements in this array; element type is 'struct __jmp_buf_tag', not 'long int' [-Wsizeof-array-div]
+   86 | typedef long p9jmp_buf[sizeof(sigjmp_buf)/sizeof(long)];
+      |                                          ^
+/home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/include/u.h:86:42: note: add parentheses around the second 'sizeof' to silence this warning
+/home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/include/u.h:86:42: note: add parentheses around the second 'sizeof' to silence this warning
 In file included from /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/src/libbio/bfildes.c:26:
 /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/include/u.h:86:42: warning: expression does not compute the number of elements in this array; element type is 'struct __jmp_buf_tag', not 'long int' [-Wsizeof-array-div]
    86 | typedef long p9jmp_buf[sizeof(sigjmp_buf)/sizeof(long)];
@@ -528,16 +538,6 @@ In file included from /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.2
       |                                          ^
 /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/include/u.h:86:42: note: add parentheses around the second 'sizeof' to silence this warning
 /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/include/u.h:86:42: note: add parentheses around the second 'sizeof' to silence this warning
-In file included from /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/src/libbio/bbuffered.c:26:
-/home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/include/u.h:86:42: warning: expression does not compute the number of elements in this array; element type is 'struct __jmp_buf_tag', not 'long int' [-Wsizeof-array-div]
-   86 | typedef long p9jmp_buf[sizeof(sigjmp_buf)/sizeof(long)];
-      |                                          ^
-/home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/include/u.h:86:42: note: add parentheses around the second 'sizeof' to silence this warning
-In file included from /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/src/libbio/bflush.c:26:
-/home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/include/u.h:86:42: warning: expression does not compute the number of elements in this array; element type is 'struct __jmp_buf_tag', not 'long int' [-Wsizeof-array-div]
-   86 | typedef long p9jmp_buf[sizeof(sigjmp_buf)/sizeof(long)];
-      |                                          ^
-/home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/include/u.h:86:42: note: add parentheses around the second 'sizeof' to silence this warning
 /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/src/libbio/bflush.c: In function 'Bflush':
 /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/src/libbio/bflush.c:51:27: warning: this statement may fall through [-Wimplicit-fallthrough=]
    51 |                 bp->state = Bractive;
@@ -545,15 +545,15 @@ In file included from /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.2
 /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/src/libbio/bflush.c:53:9: note: here
    53 |         case Bractive:
       |         ^~~~
+In file included from /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/src/libbio/bgetrune.c:26:
+/home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/include/u.h:86:42: warning: expression does not compute the number of elements in this array; element type is 'struct __jmp_buf_tag', not 'long int' [-Wsizeof-array-div]
+   86 | typedef long p9jmp_buf[sizeof(sigjmp_buf)/sizeof(long)];
+      |                                          ^
 In file included from /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/src/libbio/bgetd.c:26:
 /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/include/u.h:86:42: warning: expression does not compute the number of elements in this array; element type is 'struct __jmp_buf_tag', not 'long int' [-Wsizeof-array-div]
    86 | typedef long p9jmp_buf[sizeof(sigjmp_buf)/sizeof(long)];
       |                                          ^
 /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/include/u.h:86:42: note: add parentheses around the second 'sizeof' to silence this warning
-In file included from /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/src/libbio/bgetrune.c:26:
-/home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/include/u.h:86:42: warning: expression does not compute the number of elements in this array; element type is 'struct __jmp_buf_tag', not 'long int' [-Wsizeof-array-div]
-   86 | typedef long p9jmp_buf[sizeof(sigjmp_buf)/sizeof(long)];
-      |                                          ^
 /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/include/u.h:86:42: note: add parentheses around the second 'sizeof' to silence this warning
 In file included from /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/src/libbio/binit.c:26:
 /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/include/u.h:86:42: warning: expression does not compute the number of elements in this array; element type is 'struct __jmp_buf_tag', not 'long int' [-Wsizeof-array-div]
@@ -617,18 +617,18 @@ In file included from /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.2
 /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/include/u.h:86:42: warning: expression does not compute the number of elements in this array; element type is 'struct __jmp_buf_tag', not 'long int' [-Wsizeof-array-div]
    86 | typedef long p9jmp_buf[sizeof(sigjmp_buf)/sizeof(long)];
       |                                          ^
-In file included from /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/src/liblink/asm5.c:33:
-/home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/include/u.h:86:42: warning: expression does not compute the number of elements in this array; element type is 'struct __jmp_buf_tag', not 'long int' [-Wsizeof-array-div]
-   86 | typedef long p9jmp_buf[sizeof(sigjmp_buf)/sizeof(long)];
-      |                                          ^
-/home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/include/u.h:86:42: note: add parentheses around the second 'sizeof' to silence this warning
-/home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/include/u.h:86:42: note: add parentheses around the second 'sizeof' to silence this warning
 In file included from /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/src/liblink/anames5.c:1:
 /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/include/u.h:86:42: warning: expression does not compute the number of elements in this array; element type is 'struct __jmp_buf_tag', not 'long int' [-Wsizeof-array-div]
    86 | typedef long p9jmp_buf[sizeof(sigjmp_buf)/sizeof(long)];
       |                                          ^
 /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/include/u.h:86:42: note: add parentheses around the second 'sizeof' to silence this warning
+/home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/include/u.h:86:42: note: add parentheses around the second 'sizeof' to silence this warning
 In file included from /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/src/liblink/anames6.c:1:
+/home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/include/u.h:86:42: warning: expression does not compute the number of elements in this array; element type is 'struct __jmp_buf_tag', not 'long int' [-Wsizeof-array-div]
+   86 | typedef long p9jmp_buf[sizeof(sigjmp_buf)/sizeof(long)];
+      |                                          ^
+/home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/include/u.h:86:42: note: add parentheses around the second 'sizeof' to silence this warning
+In file included from /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/src/liblink/asm5.c:33:
 /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/include/u.h:86:42: warning: expression does not compute the number of elements in this array; element type is 'struct __jmp_buf_tag', not 'long int' [-Wsizeof-array-div]
    86 | typedef long p9jmp_buf[sizeof(sigjmp_buf)/sizeof(long)];
       |                                          ^
@@ -647,7 +647,7 @@ In file included from /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.2
 /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/src/liblink/asm5.c:2618:9: note: here
  2618 |         case AMOVD:
       |         ^~~~
-In file included from /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/src/liblink/asm6.c:33:
+In file included from /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/src/liblink/data.c:32:
 /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/include/u.h:86:42: warning: expression does not compute the number of elements in this array; element type is 'struct __jmp_buf_tag', not 'long int' [-Wsizeof-array-div]
    86 | typedef long p9jmp_buf[sizeof(sigjmp_buf)/sizeof(long)];
       |                                          ^
@@ -656,7 +656,33 @@ In file included from /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.2
 /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/include/u.h:86:42: warning: expression does not compute the number of elements in this array; element type is 'struct __jmp_buf_tag', not 'long int' [-Wsizeof-array-div]
    86 | typedef long p9jmp_buf[sizeof(sigjmp_buf)/sizeof(long)];
       |                                          ^
+In file included from /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/src/liblink/asm6.c:33:
+/home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/include/u.h:86:42: warning: expression does not compute the number of elements in this array; element type is 'struct __jmp_buf_tag', not 'long int' [-Wsizeof-array-div]
+   86 | typedef long p9jmp_buf[sizeof(sigjmp_buf)/sizeof(long)];
+      |                                          ^
 /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/include/u.h:86:42: note: add parentheses around the second 'sizeof' to silence this warning
+/home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/include/u.h:86:42: note: add parentheses around the second 'sizeof' to silence this warning
+/home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/src/liblink/asm8.c: In function 'doasm':
+/home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/src/liblink/asm8.c:2694:25: warning: this statement may fall through [-Wimplicit-fallthrough=]
+ 2694 |                         sysfatal("unknown TLS base location for %s", headstr(ctxt->headtype));
+      |                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/src/liblink/asm8.c:2696:17: note: here
+ 2696 |                 case Hlinux:
+      |                 ^~~~
+/home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/src/liblink/asm8.c: In function 'prefixof':
+/home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/src/liblink/asm8.c:1466:25: warning: this statement may fall through [-Wimplicit-fallthrough=]
+ 1466 |                         sysfatal("unknown TLS base register for %s", headstr(ctxt->headtype));
+      |                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/src/liblink/asm8.c:1467:17: note: here
+ 1467 |                 case Hdarwin:
+      |                 ^~~~
+/home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/src/liblink/asm8.c: In function 'mediaop':
+/home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/src/liblink/asm8.c:2131:19: warning: this statement may fall through [-Wimplicit-fallthrough=]
+ 2131 |                 if(osize != 1){
+      |                   ^
+/home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/src/liblink/asm8.c:2138:9: note: here
+ 2138 |         default:
+      |         ^~~~~~~
 /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/src/liblink/asm6.c: In function 'doasm':
 /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/src/liblink/asm6.c:3378:25: warning: this statement may fall through [-Wimplicit-fallthrough=]
  3378 |                         sysfatal("unknown TLS base location for %s", headstr(ctxt->headtype));
@@ -704,32 +730,6 @@ In file included from /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.2
 /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/src/liblink/asm6.c:2200:9: note: here
  2200 |         case D_AX:
       |         ^~~~
-/home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/src/liblink/asm8.c: In function 'doasm':
-/home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/src/liblink/asm8.c:2694:25: warning: this statement may fall through [-Wimplicit-fallthrough=]
- 2694 |                         sysfatal("unknown TLS base location for %s", headstr(ctxt->headtype));
-      |                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-/home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/src/liblink/asm8.c:2696:17: note: here
- 2696 |                 case Hlinux:
-      |                 ^~~~
-/home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/src/liblink/asm8.c: In function 'prefixof':
-/home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/src/liblink/asm8.c:1466:25: warning: this statement may fall through [-Wimplicit-fallthrough=]
- 1466 |                         sysfatal("unknown TLS base register for %s", headstr(ctxt->headtype));
-      |                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-/home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/src/liblink/asm8.c:1467:17: note: here
- 1467 |                 case Hdarwin:
-      |                 ^~~~
-/home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/src/liblink/asm8.c: In function 'mediaop':
-/home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/src/liblink/asm8.c:2131:19: warning: this statement may fall through [-Wimplicit-fallthrough=]
- 2131 |                 if(osize != 1){
-      |                   ^
-/home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/src/liblink/asm8.c:2138:9: note: here
- 2138 |         default:
-      |         ^~~~~~~
-In file included from /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/src/liblink/data.c:32:
-/home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/include/u.h:86:42: warning: expression does not compute the number of elements in this array; element type is 'struct __jmp_buf_tag', not 'long int' [-Wsizeof-array-div]
-   86 | typedef long p9jmp_buf[sizeof(sigjmp_buf)/sizeof(long)];
-      |                                          ^
-/home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/include/u.h:86:42: note: add parentheses around the second 'sizeof' to silence this warning
 In file included from /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/src/liblink/go.c:7:
 /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/include/u.h:86:42: warning: expression does not compute the number of elements in this array; element type is 'struct __jmp_buf_tag', not 'long int' [-Wsizeof-array-div]
    86 | typedef long p9jmp_buf[sizeof(sigjmp_buf)/sizeof(long)];
@@ -750,22 +750,22 @@ In file included from /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.2
    86 | typedef long p9jmp_buf[sizeof(sigjmp_buf)/sizeof(long)];
       |                                          ^
 /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/include/u.h:86:42: note: add parentheses around the second 'sizeof' to silence this warning
-In file included from /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/src/liblink/obj.c:5:
-/home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/include/u.h:86:42: warning: expression does not compute the number of elements in this array; element type is 'struct __jmp_buf_tag', not 'long int' [-Wsizeof-array-div]
-   86 | typedef long p9jmp_buf[sizeof(sigjmp_buf)/sizeof(long)];
-      |                                          ^
-/home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/include/u.h:86:42: note: add parentheses around the second 'sizeof' to silence this warning
 In file included from /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/src/liblink/list8.c:31:
 /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/include/u.h:86:42: warning: expression does not compute the number of elements in this array; element type is 'struct __jmp_buf_tag', not 'long int' [-Wsizeof-array-div]
    86 | typedef long p9jmp_buf[sizeof(sigjmp_buf)/sizeof(long)];
       |                                          ^
 /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/include/u.h:86:42: note: add parentheses around the second 'sizeof' to silence this warning
-In file included from /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/src/liblink/obj5.c:31:
+In file included from /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/src/liblink/obj.c:5:
 /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/include/u.h:86:42: warning: expression does not compute the number of elements in this array; element type is 'struct __jmp_buf_tag', not 'long int' [-Wsizeof-array-div]
    86 | typedef long p9jmp_buf[sizeof(sigjmp_buf)/sizeof(long)];
       |                                          ^
 /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/include/u.h:86:42: note: add parentheses around the second 'sizeof' to silence this warning
 In file included from /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/src/liblink/obj6.c:31:
+/home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/include/u.h:86:42: warning: expression does not compute the number of elements in this array; element type is 'struct __jmp_buf_tag', not 'long int' [-Wsizeof-array-div]
+   86 | typedef long p9jmp_buf[sizeof(sigjmp_buf)/sizeof(long)];
+      |                                          ^
+/home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/include/u.h:86:42: note: add parentheses around the second 'sizeof' to silence this warning
+In file included from /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/src/liblink/obj5.c:31:
 /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/include/u.h:86:42: warning: expression does not compute the number of elements in this array; element type is 'struct __jmp_buf_tag', not 'long int' [-Wsizeof-array-div]
    86 | typedef long p9jmp_buf[sizeof(sigjmp_buf)/sizeof(long)];
       |                                          ^
@@ -820,29 +820,36 @@ In file included from /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.2
 /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/include/u.h:86:42: warning: expression does not compute the number of elements in this array; element type is 'struct __jmp_buf_tag', not 'long int' [-Wsizeof-array-div]
    86 | typedef long p9jmp_buf[sizeof(sigjmp_buf)/sizeof(long)];
       |                                          ^
+In file included from /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/src/cmd/cc/com.c:31:
+/home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/include/u.h:86:42: warning: expression does not compute the number of elements in this array; element type is 'struct __jmp_buf_tag', not 'long int' [-Wsizeof-array-div]
+   86 | typedef long p9jmp_buf[sizeof(sigjmp_buf)/sizeof(long)];
+      |                                          ^
+In file included from /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/src/cmd/cc/acid.c:31:
+/home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/include/u.h:86:42: warning: expression does not compute the number of elements in this array; element type is 'struct __jmp_buf_tag', not 'long int' [-Wsizeof-array-div]
+   86 | typedef long p9jmp_buf[sizeof(sigjmp_buf)/sizeof(long)];
+      |                                          ^
+/home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/include/u.h:86:42: note: add parentheses around the second 'sizeof' to silence this warning
+/home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/include/u.h:86:42: note: add parentheses around the second 'sizeof' to silence this warning
+/home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/include/u.h:86:42: note: add parentheses around the second 'sizeof' to silence this warning
 In file included from /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/src/cmd/cc/bits.c:31:
 /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/include/u.h:86:42: warning: expression does not compute the number of elements in this array; element type is 'struct __jmp_buf_tag', not 'long int' [-Wsizeof-array-div]
    86 | typedef long p9jmp_buf[sizeof(sigjmp_buf)/sizeof(long)];
       |                                          ^
 /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/include/u.h:86:42: note: add parentheses around the second 'sizeof' to silence this warning
-/home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/include/u.h:86:42: note: add parentheses around the second 'sizeof' to silence this warning
-In file included from /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/src/cmd/cc/acid.c:31:
-/home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/include/u.h:86:42: warning: expression does not compute the number of elements in this array; element type is 'struct __jmp_buf_tag', not 'long int' [-Wsizeof-array-div]
-   86 | typedef long p9jmp_buf[sizeof(sigjmp_buf)/sizeof(long)];
-      |                                          ^
-In file included from /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/src/cmd/cc/com.c:31:
-/home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/include/u.h:86:42: warning: expression does not compute the number of elements in this array; element type is 'struct __jmp_buf_tag', not 'long int' [-Wsizeof-array-div]
-   86 | typedef long p9jmp_buf[sizeof(sigjmp_buf)/sizeof(long)];
-      |                                          ^
-/home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/include/u.h:86:42: note: add parentheses around the second 'sizeof' to silence this warning
-/home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/include/u.h:86:42: note: add parentheses around the second 'sizeof' to silence this warning
 /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/src/cmd/cc/com64.c: In function 'com64':
 /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/src/cmd/cc/com64.c:257:27: warning: this statement may fall through [-Wimplicit-fallthrough=]
   257 |                         if(rv) {
       |                           ^
+/home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/src/cmd/cc/acid.c: In function 'acidmember':
 /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/src/cmd/cc/com64.c:265:17: note: here
   265 |                 case OCOND:
       |                 ^~~~
+/home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/src/cmd/cc/acid.c:150:19: warning: this statement may fall through [-Wimplicit-fallthrough=]
+  150 |                 if(flag) {
+      |                   ^
+/home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/src/cmd/cc/acid.c:177:9: note: here
+  177 |         case TINT:
+      |         ^~~~
 /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/src/cmd/cc/com64.c:300:25: warning: this statement may fall through [-Wimplicit-fallthrough=]
   300 |                         diag(n, "unknown vlong %O", n->op);
       |                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -852,16 +859,9 @@ In file included from /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.2
 /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/src/cmd/cc/com64.c:302:36: warning: this statement may fall through [-Wimplicit-fallthrough=]
   302 |                         n->complex = FNX;
       |                                    ^
-/home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/src/cmd/cc/acid.c: In function 'acidmember':
 /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/src/cmd/cc/com64.c:303:17: note: here
   303 |                 case ORETURN:
       |                 ^~~~
-/home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/src/cmd/cc/acid.c:150:19: warning: this statement may fall through [-Wimplicit-fallthrough=]
-  150 |                 if(flag) {
-      |                   ^
-/home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/src/cmd/cc/acid.c:177:9: note: here
-  177 |         case TINT:
-      |         ^~~~
 In file included from /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/src/cmd/cc/dcl.c:31:
 /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/include/u.h:86:42: warning: expression does not compute the number of elements in this array; element type is 'struct __jmp_buf_tag', not 'long int' [-Wsizeof-array-div]
    86 | typedef long p9jmp_buf[sizeof(sigjmp_buf)/sizeof(long)];
@@ -894,6 +894,11 @@ In file included from /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.2
    86 | typedef long p9jmp_buf[sizeof(sigjmp_buf)/sizeof(long)];
       |                                          ^
 /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/include/u.h:86:42: note: add parentheses around the second 'sizeof' to silence this warning
+In file included from /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/src/cmd/cc/mac.c:31:
+/home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/include/u.h:86:42: warning: expression does not compute the number of elements in this array; element type is 'struct __jmp_buf_tag', not 'long int' [-Wsizeof-array-div]
+   86 | typedef long p9jmp_buf[sizeof(sigjmp_buf)/sizeof(long)];
+      |                                          ^
+/home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/include/u.h:86:42: note: add parentheses around the second 'sizeof' to silence this warning
 /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/src/cmd/cc/lex.c: In function 'compile':
 /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/src/cmd/cc/lex.c:308:25: warning: this statement may fall through [-Wimplicit-fallthrough=]
   308 |                         errorexit();
@@ -907,11 +912,6 @@ In file included from /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.2
 /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/src/cmd/cc/lex.c:339:17: note: here
   339 |                 default:
       |                 ^~~~~~~
-In file included from /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/src/cmd/cc/mac.c:31:
-/home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/include/u.h:86:42: warning: expression does not compute the number of elements in this array; element type is 'struct __jmp_buf_tag', not 'long int' [-Wsizeof-array-div]
-   86 | typedef long p9jmp_buf[sizeof(sigjmp_buf)/sizeof(long)];
-      |                                          ^
-/home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/include/u.h:86:42: note: add parentheses around the second 'sizeof' to silence this warning
 In file included from /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/src/cmd/cc/omachcap.c:31:
 /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/include/u.h:86:42: warning: expression does not compute the number of elements in this array; element type is 'struct __jmp_buf_tag', not 'long int' [-Wsizeof-array-div]
    86 | typedef long p9jmp_buf[sizeof(sigjmp_buf)/sizeof(long)];
@@ -973,17 +973,17 @@ In file included from cc.y:32:
       |                                          ^
 /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/include/u.h:86:42: note: add parentheses around the second 'sizeof' to silence this warning
 cmd/gc
-In file included from /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/src/cmd/gc/array.c:5:
-/home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/include/u.h:86:42: warning: expression does not compute the number of elements in this array; element type is 'struct __jmp_buf_tag', not 'long int' [-Wsizeof-array-div]
-   86 | typedef long p9jmp_buf[sizeof(sigjmp_buf)/sizeof(long)];
-      |                                          ^
 In file included from /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/src/cmd/gc/bits.c:31:
 /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/include/u.h:86:42: warning: expression does not compute the number of elements in this array; element type is 'struct __jmp_buf_tag', not 'long int' [-Wsizeof-array-div]
    86 | typedef long p9jmp_buf[sizeof(sigjmp_buf)/sizeof(long)];
       |                                          ^
-/home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/include/u.h:86:42: note: add parentheses around the second 'sizeof' to silence this warning
-/home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/include/u.h:86:42: note: add parentheses around the second 'sizeof' to silence this warning
 In file included from /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/src/cmd/gc/align.c:5:
+/home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/include/u.h:86:42: warning: expression does not compute the number of elements in this array; element type is 'struct __jmp_buf_tag', not 'long int' [-Wsizeof-array-div]
+   86 | typedef long p9jmp_buf[sizeof(sigjmp_buf)/sizeof(long)];
+      |                                          ^
+/home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/include/u.h:86:42: note: add parentheses around the second 'sizeof' to silence this warning
+/home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/include/u.h:86:42: note: add parentheses around the second 'sizeof' to silence this warning
+In file included from /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/src/cmd/gc/array.c:5:
 /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/include/u.h:86:42: warning: expression does not compute the number of elements in this array; element type is 'struct __jmp_buf_tag', not 'long int' [-Wsizeof-array-div]
    86 | typedef long p9jmp_buf[sizeof(sigjmp_buf)/sizeof(long)];
       |                                          ^
@@ -1121,6 +1121,10 @@ In file included from /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.2
    86 | typedef long p9jmp_buf[sizeof(sigjmp_buf)/sizeof(long)];
       |                                          ^
 /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/include/u.h:86:42: note: add parentheses around the second 'sizeof' to silence this warning
+In file included from /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/src/cmd/gc/mparith2.c:5:
+/home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/include/u.h:86:42: warning: expression does not compute the number of elements in this array; element type is 'struct __jmp_buf_tag', not 'long int' [-Wsizeof-array-div]
+   86 | typedef long p9jmp_buf[sizeof(sigjmp_buf)/sizeof(long)];
+      |                                          ^
 /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/src/cmd/gc/mparith1.c: In function 'mpatoflt':
 /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/src/cmd/gc/mparith1.c:383:28: warning: this statement may fall through [-Wimplicit-fallthrough=]
   383 |                         eb = 1;
@@ -1135,10 +1139,6 @@ In file included from /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.2
 /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/src/cmd/gc/mparith1.c:470:9: note: here
   470 |         case '+':
       |         ^~~~
-In file included from /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/src/cmd/gc/mparith2.c:5:
-/home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/include/u.h:86:42: warning: expression does not compute the number of elements in this array; element type is 'struct __jmp_buf_tag', not 'long int' [-Wsizeof-array-div]
-   86 | typedef long p9jmp_buf[sizeof(sigjmp_buf)/sizeof(long)];
-      |                                          ^
 /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/include/u.h:86:42: note: add parentheses around the second 'sizeof' to silence this warning
 In file included from /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/src/cmd/gc/mparith3.c:5:
 /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/include/u.h:86:42: warning: expression does not compute the number of elements in this array; element type is 'struct __jmp_buf_tag', not 'long int' [-Wsizeof-array-div]
@@ -1187,11 +1187,6 @@ In file included from /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.2
    86 | typedef long p9jmp_buf[sizeof(sigjmp_buf)/sizeof(long)];
       |                                          ^
 /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/include/u.h:86:42: note: add parentheses around the second 'sizeof' to silence this warning
-In file included from /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/src/cmd/gc/range.c:9:
-/home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/include/u.h:86:42: warning: expression does not compute the number of elements in this array; element type is 'struct __jmp_buf_tag', not 'long int' [-Wsizeof-array-div]
-   86 | typedef long p9jmp_buf[sizeof(sigjmp_buf)/sizeof(long)];
-      |                                          ^
-/home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/include/u.h:86:42: note: add parentheses around the second 'sizeof' to silence this warning
 /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/src/cmd/gc/racewalk.c: In function 'racewalknode':
 /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/src/cmd/gc/racewalk.c:156:17: warning: this statement may fall through [-Wimplicit-fallthrough=]
   156 |                 fatal("racewalk: unknown node type %O", n->op);
@@ -1199,6 +1194,11 @@ In file included from /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.2
 /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/src/cmd/gc/racewalk.c:158:9: note: here
   158 |         case OASOP:
       |         ^~~~
+In file included from /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/src/cmd/gc/range.c:9:
+/home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/include/u.h:86:42: warning: expression does not compute the number of elements in this array; element type is 'struct __jmp_buf_tag', not 'long int' [-Wsizeof-array-div]
+   86 | typedef long p9jmp_buf[sizeof(sigjmp_buf)/sizeof(long)];
+      |                                          ^
+/home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/include/u.h:86:42: note: add parentheses around the second 'sizeof' to silence this warning
 /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/src/cmd/gc/range.c: In function 'walkrange':
 /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/src/cmd/gc/range.c:144:17: warning: this statement may fall through [-Wimplicit-fallthrough=]
   144 |                 fatal("walkrange");
@@ -1332,35 +1332,35 @@ In file included from /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.2
 /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/src/cmd/gc/walk.c:1128:17: warning: this statement may fall through [-Wimplicit-fallthrough=]
  1128 |                 fatal("walkexpr ORECV"); // should see inside OAS only
       |                 ^~~~~~~~~~~~~~~~~~~~~~~
+/home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/src/cmd/gc/walk.c:1130:9: note: here
+ 1130 |         case OSLICE:
+      |         ^~~~
 In file included from go.y:21:
 /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/include/u.h:86:42: warning: expression does not compute the number of elements in this array; element type is 'struct __jmp_buf_tag', not 'long int' [-Wsizeof-array-div]
    86 | typedef long p9jmp_buf[sizeof(sigjmp_buf)/sizeof(long)];
       |                                          ^
 /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/include/u.h:86:42: note: add parentheses around the second 'sizeof' to silence this warning
-/home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/src/cmd/gc/walk.c:1130:9: note: here
- 1130 |         case OSLICE:
-      |         ^~~~
 cmd/6l
 In file included from /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/src/cmd/6l/l.h:31,
-                 from /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/src/cmd/6l/../ld/elf.c:5:
+                 from /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/src/cmd/6l/../ld/dwarf.c:15:
 /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/include/u.h:86:42: warning: expression does not compute the number of elements in this array; element type is 'struct __jmp_buf_tag', not 'long int' [-Wsizeof-array-div]
    86 | typedef long p9jmp_buf[sizeof(sigjmp_buf)/sizeof(long)];
       |                                          ^
-In file included from /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/src/cmd/6l/l.h:31,
-                 from /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/src/cmd/6l/../ld/decodesym.c:5:
-/home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/include/u.h:86:42: warning: expression does not compute the number of elements in this array; element type is 'struct __jmp_buf_tag', not 'long int' [-Wsizeof-array-div]
-   86 | typedef long p9jmp_buf[sizeof(sigjmp_buf)/sizeof(long)];
-      |                                          ^
-/home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/include/u.h:86:42: note: add parentheses around the second 'sizeof' to silence this warning
-/home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/include/u.h:86:42: note: add parentheses around the second 'sizeof' to silence this warning
 In file included from /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/src/cmd/6l/l.h:31,
                  from /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/src/cmd/6l/../ld/data.c:33:
 /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/include/u.h:86:42: warning: expression does not compute the number of elements in this array; element type is 'struct __jmp_buf_tag', not 'long int' [-Wsizeof-array-div]
    86 | typedef long p9jmp_buf[sizeof(sigjmp_buf)/sizeof(long)];
       |                                          ^
 /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/include/u.h:86:42: note: add parentheses around the second 'sizeof' to silence this warning
+/home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/include/u.h:86:42: note: add parentheses around the second 'sizeof' to silence this warning
 In file included from /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/src/cmd/6l/l.h:31,
-                 from /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/src/cmd/6l/../ld/dwarf.c:15:
+                 from /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/src/cmd/6l/../ld/decodesym.c:5:
+/home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/include/u.h:86:42: warning: expression does not compute the number of elements in this array; element type is 'struct __jmp_buf_tag', not 'long int' [-Wsizeof-array-div]
+   86 | typedef long p9jmp_buf[sizeof(sigjmp_buf)/sizeof(long)];
+      |                                          ^
+/home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/include/u.h:86:42: note: add parentheses around the second 'sizeof' to silence this warning
+In file included from /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/src/cmd/6l/l.h:31,
+                 from /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/src/cmd/6l/../ld/elf.c:5:
 /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/include/u.h:86:42: warning: expression does not compute the number of elements in this array; element type is 'struct __jmp_buf_tag', not 'long int' [-Wsizeof-array-div]
    86 | typedef long p9jmp_buf[sizeof(sigjmp_buf)/sizeof(long)];
       |                                          ^
@@ -1498,13 +1498,13 @@ In file included from /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.2
       |                                          ^
 /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/include/u.h:86:42: note: add parentheses around the second 'sizeof' to silence this warning
 In file included from /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/src/cmd/6l/l.h:31,
-                 from /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/src/cmd/6l/list.c:33:
+                 from /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/src/cmd/6l/obj.c:33:
 /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/include/u.h:86:42: warning: expression does not compute the number of elements in this array; element type is 'struct __jmp_buf_tag', not 'long int' [-Wsizeof-array-div]
    86 | typedef long p9jmp_buf[sizeof(sigjmp_buf)/sizeof(long)];
       |                                          ^
 /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/include/u.h:86:42: note: add parentheses around the second 'sizeof' to silence this warning
 In file included from /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/src/cmd/6l/l.h:31,
-                 from /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/src/cmd/6l/obj.c:33:
+                 from /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/src/cmd/6l/list.c:33:
 /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/include/u.h:86:42: warning: expression does not compute the number of elements in this array; element type is 'struct __jmp_buf_tag', not 'long int' [-Wsizeof-array-div]
    86 | typedef long p9jmp_buf[sizeof(sigjmp_buf)/sizeof(long)];
       |                                          ^
@@ -1517,15 +1517,15 @@ In file included from /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.2
    87 |         case Hplan9:            /* plan 9 */
       |         ^~~~
 cmd/6a
-In file included from a.y:32:
-/home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/include/u.h:86:42: warning: expression does not compute the number of elements in this array; element type is 'struct __jmp_buf_tag', not 'long int' [-Wsizeof-array-div]
-   86 | typedef long p9jmp_buf[sizeof(sigjmp_buf)/sizeof(long)];
-      |                                          ^
 In file included from /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/src/cmd/6a/lex.c:32:
 /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/include/u.h:86:42: warning: expression does not compute the number of elements in this array; element type is 'struct __jmp_buf_tag', not 'long int' [-Wsizeof-array-div]
    86 | typedef long p9jmp_buf[sizeof(sigjmp_buf)/sizeof(long)];
       |                                          ^
 /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/include/u.h:86:42: note: add parentheses around the second 'sizeof' to silence this warning
+In file included from a.y:32:
+/home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/include/u.h:86:42: warning: expression does not compute the number of elements in this array; element type is 'struct __jmp_buf_tag', not 'long int' [-Wsizeof-array-div]
+   86 | typedef long p9jmp_buf[sizeof(sigjmp_buf)/sizeof(long)];
+      |                                          ^
 /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/include/u.h:86:42: note: add parentheses around the second 'sizeof' to silence this warning
 cmd/6c
 In file included from /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/src/cmd/6c/gc.h:31,
@@ -1545,12 +1545,12 @@ In file included from /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.2
 /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/include/u.h:86:42: warning: expression does not compute the number of elements in this array; element type is 'struct __jmp_buf_tag', not 'long int' [-Wsizeof-array-div]
    86 | typedef long p9jmp_buf[sizeof(sigjmp_buf)/sizeof(long)];
       |                                          ^
-/home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/include/u.h:86:42: note: add parentheses around the second 'sizeof' to silence this warning
 In file included from /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/src/cmd/6c/gc.h:31,
                  from /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/src/cmd/6c/../cc/pswt.c:31:
 /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/include/u.h:86:42: warning: expression does not compute the number of elements in this array; element type is 'struct __jmp_buf_tag', not 'long int' [-Wsizeof-array-div]
    86 | typedef long p9jmp_buf[sizeof(sigjmp_buf)/sizeof(long)];
       |                                          ^
+/home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/include/u.h:86:42: note: add parentheses around the second 'sizeof' to silence this warning
 /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/include/u.h:86:42: note: add parentheses around the second 'sizeof' to silence this warning
 In file included from /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/src/cmd/6c/gc.h:31,
                  from /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/src/cmd/6c/list.c:32:
@@ -1682,17 +1682,17 @@ In file included from /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.2
    86 | typedef long p9jmp_buf[sizeof(sigjmp_buf)/sizeof(long)];
       |                                          ^
 /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/include/u.h:86:42: note: add parentheses around the second 'sizeof' to silence this warning
+In file included from /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/src/cmd/6g/galign.c:5:
+/home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/include/u.h:86:42: warning: expression does not compute the number of elements in this array; element type is 'struct __jmp_buf_tag', not 'long int' [-Wsizeof-array-div]
+   86 | typedef long p9jmp_buf[sizeof(sigjmp_buf)/sizeof(long)];
+      |                                          ^
+/home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/include/u.h:86:42: note: add parentheses around the second 'sizeof' to silence this warning
 /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/src/cmd/6g/cgen.c: In function 'bgen':
 /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/src/cmd/6g/cgen.c:1127:28: warning: this statement may fall through [-Wimplicit-fallthrough=]
  1127 |                 if(nr == N || nr->type == T)
 /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/src/cmd/6g/cgen.c:1130:9: note: here
  1130 |         case ONOT:      // unary
       |         ^~~~
-In file included from /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/src/cmd/6g/galign.c:5:
-/home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/include/u.h:86:42: warning: expression does not compute the number of elements in this array; element type is 'struct __jmp_buf_tag', not 'long int' [-Wsizeof-array-div]
-   86 | typedef long p9jmp_buf[sizeof(sigjmp_buf)/sizeof(long)];
-      |                                          ^
-/home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/include/u.h:86:42: note: add parentheses around the second 'sizeof' to silence this warning
 In file included from /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/src/cmd/6g/ggen.c:7:
 /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap/include/u.h:86:42: warning: expression does not compute the number of elements in this array; element type is 'struct __jmp_buf_tag', not 'long int' [-Wsizeof-array-div]
    86 | typedef long p9jmp_buf[sizeof(sigjmp_buf)/sizeof(long)];
@@ -1859,13 +1859,13 @@ regexp
 crypto/rc4
 crypto/sha1
 crypto/sha256
+crypto/sha512
 fmt
 encoding/binary
-crypto/sha512
 encoding/pem
-crypto/des
 net
 os/signal
+crypto/des
 cmd/pprof/internal/svg
 encoding/ascii85
 encoding/base32
@@ -1883,8 +1883,8 @@ debug/pe
 debug/plan9obj
 flag
 log
-go/token
 cmd/internal/objfile
+go/token
 encoding/json
 go/scanner
 encoding/xml
@@ -1896,16 +1896,16 @@ go/printer
 text/template
 compress/flate
 math/big
-compress/gzip
 cmd/cgo
 go/format
-cmd/fix
 go/doc
+cmd/fix
+compress/gzip
 crypto/elliptic
-encoding/asn1
 go/build
-crypto/ecdsa
+encoding/asn1
 crypto/rand
+crypto/ecdsa
 crypto/rsa
 crypto/dsa
 crypto/x509/pkix
@@ -1929,21 +1929,21 @@ cmd/yacc
 cmd/pprof/internal/plugin
 cmd/pprof/internal/symbolizer
 cmd/pprof/internal/symbolz
-archive/tar
 cmd/pprof/internal/report
+archive/tar
 archive/zip
 compress/lzw
-cmd/go
-cmd/pprof/internal/fetch
 cmd/pprof/internal/commands
 compress/zlib
 database/sql/driver
+cmd/go
+cmd/pprof/internal/fetch
+database/sql
 cmd/pprof/internal/driver
 encoding/csv
-database/sql
 encoding/gob
-cmd/pprof
 expvar
+cmd/pprof
 image/draw
 image/gif
 image/jpeg
@@ -1959,8 +1959,8 @@ net/mail
 net/rpc
 net/smtp
 os/user
-net/rpc/jsonrpc
 runtime/debug
+net/rpc/jsonrpc
 testing
 testing/iotest
 testing/quick
@@ -2080,166 +2080,166 @@ bootstrap/cmd/compile
 
 Building Go bootstrap cmd/go (go_bootstrap) using Go toolchain1.
 runtime
+runtime/internal/math
 internal/bytealg
 internal/abi
 internal/goexperiment
 internal/cpu
 runtime/internal/sys
 runtime/internal/atomic
-runtime/internal/math
 cmd/go
-fmt
-internal/buildcfg
-cmd/go/internal/base
-cmd/go/internal/trace
-cmd/go/internal/version
-context
-cmd/go/internal/bug
-cmd/go/internal/doc
-cmd/go/internal/envcmd
-cmd/go/internal/fmtcmd
-cmd/go/internal/generate
-cmd/go/internal/get
 cmd/go/internal/modget
-cmd/go/internal/tool
-cmd/go/internal/fix
+internal/buildcfg
 cmd/go/internal/clean
-cmd/go/internal/modfetch
-cmd/go/internal/test
-os
+cmd/go/internal/generate
+flag
+cmd/go/internal/base
 cmd/go/internal/list
-cmd/go/internal/modcmd
-cmd/go/internal/vet
-cmd/go/internal/work
-cmd/go/internal/help
+fmt
+path/filepath
+cmd/go/internal/fmtcmd
+cmd/go/internal/get
+cmd/go/internal/modload
+cmd/go/internal/run
 strings
 cmd/go/internal/cfg
-cmd/go/internal/run
-flag
+cmd/go/internal/fix
+cmd/go/internal/tool
+cmd/go/internal/version
+cmd/go/internal/doc
+cmd/go/internal/envcmd
+cmd/go/internal/modcmd
+cmd/go/internal/modfetch
+context
 log
-cmd/go/internal/modload
-path/filepath
-unicode/utf8
-io
-reflect
-sync
-math
-errors
-strconv
-internal/fmtsort
-syscall
-go/build
-cmd/go/internal/str
-cmd/go/internal/fsys
-os/signal
-internal/execabs
-sync/atomic
-time
-cmd/internal/traceviewer
-encoding/json
-debug/macho
-internal/xcoff
-bytes
-debug/pe
-encoding/binary
-io/fs
-debug/elf
-internal/reflectlite
-regexp
-cmd/go/internal/web
-net/url
+os
+cmd/go/internal/test
+cmd/go/internal/trace
+cmd/go/internal/work
+cmd/go/internal/bug
+cmd/go/internal/help
+cmd/go/internal/vet
 sort
-cmd/go/internal/cache
+cmd/go/internal/par
+cmd/go/internal/search
+regexp
+sync
+cmd/go/internal/imports
 cmd/go/internal/load
+errors
+cmd/go/internal/str
+cmd/vendor/golang.org/x/mod/semver
+cmd/vendor/golang.org/x/mod/modfile
+cmd/vendor/golang.org/x/mod/module
+reflect
+strconv
+cmd/go/internal/cache
+cmd/go/internal/lockedfile
+io
+time
+go/parser
 go/token
 bufio
-go/parser
+internal/execabs
+bytes
+cmd/go/internal/fsys
+syscall
+go/build
+os/signal
+text/template
+encoding/json
+cmd/go/internal/modinfo
+internal/fmtsort
+math
+unicode/utf8
+io/fs
 cmd/go/internal/vcs
-cmd/go/internal/search
-cmd/vendor/golang.org/x/mod/module
-cmd/go/internal/par
-cmd/vendor/golang.org/x/mod/semver
-cmd/go/internal/imports
-cmd/vendor/golang.org/x/mod/modfile
-cmd/go/internal/lockedfile
-cmd/go/internal/modfetch/codehost
+cmd/go/internal/web
+runtime/debug
+encoding/hex
+unicode
+cmd/go/internal/mvs
+cmd/go/internal/modconv
+internal/goroot
+sync/atomic
+path
+internal/lazyregexp
+internal/cfg
+debug/pe
+encoding/binary
+debug/elf
+internal/xcoff
+debug/macho
+cmd/vendor/golang.org/x/mod/sumdb/dirhash
 crypto/sha256
-encoding/base64
+cmd/go/internal/modfetch/codehost
+net/url
+archive/zip
 math/rand
 cmd/vendor/golang.org/x/mod/zip
-cmd/vendor/golang.org/x/mod/sumdb/dirhash
+encoding/base64
 cmd/go/internal/robustio
-path
-archive/zip
-cmd/internal/test2json
-cmd/go/internal/cmdflag
-internal/syscall/execenv
+internal/reflectlite
+internal/oserror
 internal/poll
-internal/syscall/unix
 internal/testlog
 internal/itoa
 internal/unsafeheader
-internal/oserror
-cmd/go/internal/modinfo
-text/template
-internal/lazyregexp
-cmd/internal/buildid
-cmd/internal/sys
-container/heap
-crypto/sha1
-cmd/internal/pkgpath
+internal/syscall/execenv
+internal/syscall/unix
+cmd/internal/test2json
+cmd/go/internal/cmdflag
+cmd/internal/traceviewer
 cmd/internal/objabi
-unicode
-internal/cfg
-cmd/go/internal/mvs
-encoding/hex
-runtime/debug
-cmd/go/internal/modconv
-internal/goroot
-internal/race
-math/bits
-go/build/constraint
-go/doc
-internal/goversion
-go/ast
-io/ioutil
-os/exec
-encoding
-unicode/utf16
-compress/zlib
-debug/dwarf
+cmd/internal/pkgpath
+cmd/internal/sys
+crypto/sha1
+cmd/internal/buildid
+container/heap
 regexp/syntax
-hash
-internal/lazytemplate
+internal/race
+go/build/constraint
 go/scanner
-go/internal/typeparams
-encoding/xml
-internal/singleflight
+go/doc
+go/ast
+internal/lazytemplate
 cmd/vendor/golang.org/x/mod/internal/lazyregexp
 cmd/vendor/golang.org/x/xerrors
+math/bits
+hash
 cmd/go/internal/lockedfile/internal/filelock
-crypto
-compress/flate
-hash/crc32
+go/internal/typeparams
+os/exec
+io/ioutil
+internal/goversion
 text/template/parse
+unicode/utf16
+encoding
+internal/singleflight
+encoding/xml
+compress/zlib
+debug/dwarf
+crypto
+hash/crc32
+compress/flate
 cmd/internal/codesign
-hash/adler32
 cmd/vendor/golang.org/x/xerrors/internal
+hash/adler32
 
 
 Building Go toolchain2 using go_bootstrap and Go toolchain1.
-internal/unsafeheader
 internal/goexperiment
-internal/cpu
+internal/unsafeheader
 internal/abi
+internal/cpu
 runtime/internal/atomic
 runtime/internal/sys
 internal/race
 runtime/internal/math
 sync/atomic
-unicode/utf8
 internal/bytealg
 unicode
+unicode/utf8
 internal/itoa
 math/bits
 encoding
@@ -2253,17 +2253,17 @@ internal/testlog
 math/rand
 errors
 sort
-internal/oserror
 io
+internal/oserror
 strconv
 syscall
 path
 bytes
 strings
 hash
-hash/adler32
 reflect
 crypto
+hash/adler32
 bufio
 go/build/constraint
 text/tabwriter
@@ -2293,12 +2293,12 @@ runtime/debug
 internal/lazyregexp
 os/exec
 log
-internal/buildcfg
 flag
+internal/buildcfg
 internal/execabs
 cmd/internal/src
-text/scanner
 cmd/internal/bio
+text/scanner
 cmd/internal/edit
 cmd/internal/pkgpath
 cmd/internal/objabi
@@ -2317,6 +2317,8 @@ go/ast
 debug/elf
 debug/macho
 debug/pe
+go/internal/typeparams
+go/parser
 cmd/internal/obj/arm
 cmd/internal/obj/arm64
 cmd/internal/obj/mips
@@ -2325,39 +2327,37 @@ cmd/internal/obj/riscv
 cmd/internal/obj/s390x
 cmd/internal/obj/wasm
 cmd/internal/obj/x86
-go/internal/typeparams
-go/parser
 go/printer
 internal/xcoff
 cmd/compile/internal/base
 math/big
 cmd/cgo
 net/url
-cmd/asm/internal/arch
 cmd/compile/internal/logopt
 cmd/compile/internal/bitvec
-cmd/asm/internal/asm
+cmd/asm/internal/arch
 cmd/internal/gcprog
 encoding/hex
 cmd/compile/internal/syntax
-cmd/asm
+cmd/asm/internal/asm
 go/constant
+cmd/asm
 cmd/compile/internal/types
 text/template/parse
+cmd/compile/internal/types2
 cmd/compile/internal/ir
 cmd/compile/internal/typebits
-cmd/compile/internal/types2
 internal/goroot
 cmd/internal/archive
-text/template
 compress/gzip
 runtime/pprof
+text/template
 runtime/trace
 cmd/internal/codesign
-go/doc
 cmd/link/internal/benchmark
 cmd/link/internal/sym
 cmd/link/internal/loader
+go/doc
 go/build
 cmd/link/internal/loadelf
 cmd/link/internal/loadmacho
@@ -2369,9 +2369,9 @@ cmd/compile/internal/abi
 cmd/compile/internal/typecheck
 cmd/compile/internal/deadcode
 cmd/compile/internal/importer
-cmd/compile/internal/escape
 cmd/compile/internal/inline
 cmd/compile/internal/staticdata
+cmd/compile/internal/escape
 cmd/compile/internal/devirtualize
 cmd/link/internal/amd64
 cmd/link/internal/arm
@@ -2381,21 +2381,21 @@ cmd/link/internal/mips64
 cmd/link/internal/ppc64
 cmd/link/internal/riscv64
 cmd/link/internal/s390x
+cmd/compile/internal/reflectdata
 cmd/link/internal/wasm
 cmd/link/internal/x86
 cmd/link
-cmd/compile/internal/reflectdata
 cmd/compile/internal/staticinit
 cmd/compile/internal/ssa
 cmd/compile/internal/pkginit
 cmd/compile/internal/liveness
 cmd/compile/internal/ssagen
-cmd/compile/internal/arm64
 cmd/compile/internal/arm
-cmd/compile/internal/dwarfgen
+cmd/compile/internal/arm64
 cmd/compile/internal/amd64
-cmd/compile/internal/walk
+cmd/compile/internal/dwarfgen
 cmd/compile/internal/mips
+cmd/compile/internal/walk
 cmd/compile/internal/noder
 cmd/compile/internal/mips64
 cmd/compile/internal/ppc64
@@ -2409,8 +2409,8 @@ cmd/compile
 Building Go toolchain3 using go_bootstrap and Go toolchain2.
 internal/unsafeheader
 internal/goexperiment
-internal/abi
 internal/cpu
+internal/abi
 runtime/internal/atomic
 runtime/internal/sys
 runtime/internal/math
@@ -2428,56 +2428,56 @@ internal/goversion
 runtime
 internal/reflectlite
 sync
-internal/testlog
 math/rand
+internal/testlog
 errors
 sort
-strconv
 io
+strconv
 internal/oserror
 syscall
 path
 container/heap
-strings
 bytes
-reflect
+strings
 hash
-bufio
-crypto
 hash/adler32
-go/build/constraint
+reflect
+crypto
 text/tabwriter
+bufio
+go/build/constraint
 regexp/syntax
-hash/crc32
 internal/syscall/unix
 time
 internal/syscall/execenv
+hash/crc32
 html
 regexp
 io/fs
 internal/poll
-internal/fmtsort
 context
-encoding/binary
 os
+encoding/binary
+internal/fmtsort
+crypto/sha1
 cmd/internal/sys
 crypto/md5
-crypto/sha1
-encoding/base64
-crypto/sha256
-io/ioutil
-path/filepath
-runtime/debug
 fmt
-internal/lazyregexp
+path/filepath
+io/ioutil
+encoding/base64
+runtime/debug
+crypto/sha256
 os/exec
-internal/execabs
+internal/lazyregexp
 log
 flag
 internal/buildcfg
+internal/execabs
 cmd/internal/src
-text/scanner
 cmd/internal/bio
+text/scanner
 cmd/internal/objabi
 cmd/internal/edit
 cmd/internal/pkgpath
@@ -2489,14 +2489,15 @@ cmd/internal/goobj
 cmd/asm/internal/flags
 cmd/asm/internal/lex
 compress/zlib
-cmd/internal/obj
 go/scanner
 encoding/json
+cmd/internal/obj
 go/ast
 debug/elf
 debug/macho
 debug/pe
 go/internal/typeparams
+go/parser
 cmd/internal/obj/arm
 cmd/internal/obj/arm64
 cmd/internal/obj/mips
@@ -2505,57 +2506,56 @@ cmd/internal/obj/riscv
 cmd/internal/obj/s390x
 cmd/internal/obj/wasm
 cmd/internal/obj/x86
-go/parser
 go/printer
 internal/xcoff
 cmd/compile/internal/base
 math/big
-cmd/cgo
 net/url
+cmd/cgo
 cmd/asm/internal/arch
 cmd/compile/internal/logopt
-cmd/asm/internal/asm
 cmd/compile/internal/bitvec
+cmd/asm/internal/asm
 cmd/internal/gcprog
 encoding/hex
 cmd/compile/internal/syntax
-go/constant
 cmd/asm
+go/constant
 cmd/compile/internal/types
 text/template/parse
 internal/goroot
+cmd/compile/internal/types2
 cmd/internal/archive
-compress/gzip
-runtime/pprof
 cmd/compile/internal/ir
 cmd/compile/internal/typebits
-cmd/compile/internal/types2
+compress/gzip
+runtime/pprof
 text/template
 runtime/trace
 cmd/internal/codesign
 cmd/link/internal/benchmark
-go/doc
 cmd/link/internal/sym
 cmd/link/internal/loader
+go/doc
 go/build
 cmd/link/internal/loadelf
 cmd/link/internal/loadmacho
-cmd/link/internal/loadpe
-cmd/link/internal/loadxcoff
 cmd/compile/internal/objw
 cmd/compile/internal/abi
 cmd/compile/internal/typecheck
 cmd/compile/internal/deadcode
+cmd/link/internal/loadpe
+cmd/link/internal/loadxcoff
 cmd/link/internal/ld
 cmd/compile/internal/importer
 cmd/compile/internal/inline
 cmd/compile/internal/staticdata
 cmd/compile/internal/escape
 cmd/compile/internal/devirtualize
-cmd/compile/internal/reflectdata
 cmd/link/internal/amd64
-cmd/link/internal/arm
 cmd/link/internal/arm64
+cmd/link/internal/arm
+cmd/compile/internal/reflectdata
 cmd/link/internal/mips
 cmd/link/internal/mips64
 cmd/link/internal/ppc64
@@ -2563,19 +2563,19 @@ cmd/link/internal/riscv64
 cmd/link/internal/s390x
 cmd/link/internal/wasm
 cmd/link/internal/x86
+cmd/link
 cmd/compile/internal/staticinit
 cmd/compile/internal/ssa
-cmd/link
 cmd/compile/internal/pkginit
 cmd/compile/internal/liveness
 cmd/compile/internal/ssagen
 cmd/compile/internal/arm
-cmd/compile/internal/amd64
 cmd/compile/internal/arm64
+cmd/compile/internal/amd64
 cmd/compile/internal/dwarfgen
 cmd/compile/internal/walk
-cmd/compile/internal/noder
 cmd/compile/internal/mips
+cmd/compile/internal/noder
 cmd/compile/internal/mips64
 cmd/compile/internal/ppc64
 cmd/compile/internal/riscv64
@@ -2586,77 +2586,77 @@ cmd/compile/internal/gc
 cmd/compile
 
 Building packages and commands for linux/amd64.
-container/list
 container/ring
+container/list
 crypto/internal/subtle
-compress/bzip2
-runtime/cgo
 debug/gosym
 debug/plan9obj
 cmd/vendor/golang.org/x/arch/arm/armasm
 cmd/vendor/golang.org/x/arch/arm64/arm64asm
 cmd/vendor/golang.org/x/arch/ppc64/ppc64asm
 cmd/vendor/golang.org/x/arch/x86/x86asm
+runtime/cgo
 archive/zip
+compress/bzip2
 compress/lzw
+cmd/internal/objfile
 crypto/subtle
+crypto/internal/randutil
 crypto/cipher
+crypto/dsa
+crypto/elliptic/internal/fiat
 crypto/aes
 crypto/des
-crypto/internal/randutil
-crypto/elliptic/internal/fiat
-crypto/dsa
-crypto/sha512
-cmd/internal/objfile
-crypto/elliptic
-encoding/asn1
-os/user
 cmd/addr2line
+crypto/elliptic
+crypto/sha512
+encoding/asn1
 vendor/golang.org/x/crypto/cryptobyte/asn1
-vendor/golang.org/x/crypto/cryptobyte
 crypto/ed25519/internal/edwards25519/field
-crypto/ecdsa
-crypto/ed25519/internal/edwards25519
 crypto/rand
+vendor/golang.org/x/crypto/cryptobyte
 crypto/hmac
 crypto/rc4
+crypto/ed25519/internal/edwards25519
 crypto/rsa
+os/user
 crypto/x509/pkix
+crypto/ecdsa
 crypto/ed25519
 encoding/pem
 vendor/golang.org/x/net/dns/dnsmessage
 internal/nettrace
 internal/singleflight
 vendor/golang.org/x/crypto/internal/subtle
-vendor/golang.org/x/crypto/chacha20
 vendor/golang.org/x/crypto/poly1305
+vendor/golang.org/x/crypto/chacha20
 vendor/golang.org/x/sys/cpu
 vendor/golang.org/x/crypto/curve25519
 vendor/golang.org/x/crypto/chacha20poly1305
 vendor/golang.org/x/crypto/hkdf
 database/sql/driver
-net
-database/sql
 embed
+net
 encoding/ascii85
-archive/tar
+database/sql
 encoding/base32
 encoding/csv
 encoding/gob
 encoding/xml
+archive/tar
 vendor/golang.org/x/text/transform
 vendor/golang.org/x/text/unicode/bidi
-vendor/golang.org/x/text/secure/bidirule
-vendor/golang.org/x/text/unicode/norm
 vendor/golang.org/x/net/http2/hpack
+vendor/golang.org/x/text/unicode/norm
 mime
+vendor/golang.org/x/text/secure/bidirule
 mime/quotedprintable
 net/http/internal
 net/http/internal/ascii
+vendor/golang.org/x/net/idna
 go/format
 go/types
 hash/crc64
-vendor/golang.org/x/net/idna
 hash/fnv
 hash/maphash
 html/template
@@ -2666,24 +2666,24 @@ image/color/palette
 index/suffixarray
 image/internal/imageutil
 image/draw
-image/jpeg
 image/gif
+image/jpeg
 image/png
 internal/cfg
+crypto/x509
+net/textproto
+vendor/golang.org/x/net/http/httpproxy
+vendor/golang.org/x/net/http/httpguts
+mime/multipart
 internal/lazytemplate
 internal/obscuretestdata
 internal/profile
-crypto/x509
-net/textproto
-vendor/golang.org/x/net/http/httpguts
-vendor/golang.org/x/net/http/httpproxy
-mime/multipart
 internal/sysinfo
-internal/trace
 testing
 crypto/tls
-log/syslog
 internal/testenv
+internal/trace
+log/syslog
 math/cmplx
 net/http/internal/testcert
 net/internal/socktest
@@ -2693,27 +2693,27 @@ os/signal/internal/pty
 go/internal/gccgoimporter
 go/internal/gcimporter
 go/internal/srcimporter
-plugin
+net/http/httptrace
+net/smtp
+net/http
 go/importer
+plugin
 reflect/internal/example1
 reflect/internal/example2
 runtime/metrics
 runtime/race
 testing/iotest
-net/http/httptrace
-net/smtp
-testing/fstest
-net/http
 testing/internal/testdeps
 testing/quick
+testing/fstest
 time/tzdata
 vendor/golang.org/x/net/nettest
 cmd/api
 cmd/internal/buildid
-cmd/buildid
 cmd/compile/internal/test
 cmd/internal/browser
 cmd/vendor/golang.org/x/tools/cover
+cmd/buildid
 cmd/cover
 cmd/dist
 cmd/vendor/golang.org/x/mod/semver
@@ -2721,27 +2721,15 @@ cmd/doc
 cmd/internal/diff
 cmd/fix
 cmd/go/internal/fsys
-cmd/go/internal/str
 cmd/go/internal/cfg
+cmd/go/internal/str
 cmd/go/internal/lockedfile/internal/filelock
-cmd/go/internal/lockedfile
-cmd/go/internal/par
 cmd/go/internal/base
+cmd/go/internal/lockedfile
 cmd/go/internal/imports
-cmd/go/internal/robustio
 cmd/go/internal/cache
-cmd/internal/traceviewer
-cmd/go/internal/trace
-cmd/go/internal/search
-cmd/vendor/golang.org/x/mod/internal/lazyregexp
-cmd/vendor/golang.org/x/xerrors/internal
-cmd/vendor/golang.org/x/xerrors
-cmd/vendor/golang.org/x/crypto/ed25519
-cmd/vendor/golang.org/x/mod/sumdb/tlog
-cmd/vendor/golang.org/x/mod/sumdb/note
-cmd/vendor/golang.org/x/mod/module
-cmd/vendor/golang.org/x/mod/sumdb/dirhash
-cmd/go/internal/modinfo
+cmd/go/internal/par
+cmd/go/internal/robustio
 expvar
 net/http/cgi
 net/http/cookiejar
@@ -2751,25 +2739,37 @@ net/http/pprof
 net/http/fcgi
 net/rpc
 cmd/go/internal/auth
-cmd/vendor/golang.org/x/mod/modfile
 cmd/go/internal/web
-cmd/vendor/golang.org/x/mod/sumdb
-net/rpc/jsonrpc
+cmd/internal/traceviewer
+cmd/go/internal/search
+cmd/go/internal/trace
 cmd/go/internal/modfetch/codehost
-cmd/go/internal/vcs
-cmd/vendor/golang.org/x/mod/zip
-cmd/go/internal/modconv
-cmd/go/internal/mvs
+net/rpc/jsonrpc
+cmd/vendor/golang.org/x/mod/internal/lazyregexp
+cmd/vendor/golang.org/x/xerrors/internal
+cmd/vendor/golang.org/x/crypto/ed25519
+cmd/vendor/golang.org/x/mod/sumdb/tlog
+cmd/vendor/golang.org/x/xerrors
+cmd/vendor/golang.org/x/mod/sumdb/note
+cmd/vendor/golang.org/x/mod/module
+cmd/vendor/golang.org/x/mod/sumdb/dirhash
+cmd/go/internal/modinfo
 cmd/go/internal/doc
 cmd/go/internal/cmdflag
 cmd/internal/test2json
+cmd/go/internal/vcs
+cmd/vendor/golang.org/x/mod/modfile
+cmd/vendor/golang.org/x/mod/sumdb
+cmd/vendor/golang.org/x/mod/zip
+cmd/go/internal/mvs
 cmd/go/internal/tool
 cmd/go/internal/version
 cmd/go/internal/txtar
 cmd/gofmt
 cmd/nm
-cmd/go/internal/modfetch
 cmd/objdump
+cmd/go/internal/modfetch
+cmd/go/internal/modconv
 cmd/pack
 cmd/vendor/github.com/google/pprof/internal/elfexec
 cmd/vendor/github.com/google/pprof/profile
@@ -2784,12 +2784,12 @@ cmd/vendor/github.com/google/pprof/internal/plugin
 cmd/vendor/github.com/google/pprof/internal/measurement
 cmd/vendor/github.com/google/pprof/internal/graph
 cmd/vendor/github.com/google/pprof/internal/binutils
-cmd/go/internal/load
 cmd/go/internal/help
+cmd/go/internal/load
 cmd/vendor/github.com/google/pprof/internal/report
 cmd/vendor/github.com/google/pprof/internal/symbolz
-cmd/vendor/github.com/google/pprof/internal/transport
 cmd/vendor/github.com/google/pprof/internal/symbolizer
+cmd/vendor/github.com/google/pprof/internal/transport
 cmd/vendor/golang.org/x/term
 cmd/test2json
 cmd/trace
@@ -2798,44 +2798,44 @@ cmd/go/internal/work
 cmd/go/internal/fix
 cmd/go/internal/fmtcmd
 cmd/go/internal/modcmd
-cmd/vendor/github.com/google/pprof/driver
 cmd/vendor/golang.org/x/crypto/ed25519/internal/edwards25519
+cmd/vendor/github.com/google/pprof/driver
 cmd/pprof
 cmd/vendor/golang.org/x/tools/go/ast/astutil
+cmd/vendor/golang.org/x/tools/internal/lsp/fuzzy
+cmd/vendor/golang.org/x/tools/internal/analysisinternal
+cmd/vendor/golang.org/x/tools/go/types/objectpath
 cmd/go/internal/envcmd
 cmd/go/internal/clean
+cmd/go/internal/bug
 cmd/go/internal/generate
 cmd/go/internal/get
-cmd/go/internal/bug
 cmd/go/internal/list
 cmd/go/internal/modget
 cmd/go/internal/run
 cmd/go/internal/test
 cmd/go/internal/vet
-cmd/vendor/golang.org/x/tools/internal/lsp/fuzzy
-cmd/vendor/golang.org/x/tools/go/types/objectpath
-cmd/vendor/golang.org/x/tools/internal/analysisinternal
-cmd/vendor/golang.org/x/tools/go/analysis/passes/internal/analysisutil
 cmd/vendor/golang.org/x/tools/go/analysis
-cmd/vendor/golang.org/x/tools/go/ast/inspector
-cmd/vendor/golang.org/x/tools/go/cfg
-cmd/go
-cmd/vendor/golang.org/x/tools/go/types/typeutil
+cmd/vendor/golang.org/x/tools/go/analysis/passes/internal/analysisutil
 cmd/vendor/golang.org/x/tools/go/analysis/internal/analysisflags
 cmd/vendor/golang.org/x/tools/go/analysis/internal/facts
 cmd/vendor/golang.org/x/tools/go/analysis/passes/asmdecl
+cmd/vendor/golang.org/x/tools/go/ast/inspector
+cmd/vendor/golang.org/x/tools/go/analysis/passes/buildtag
+cmd/go
 cmd/vendor/golang.org/x/tools/go/analysis/passes/inspect
 cmd/vendor/golang.org/x/tools/go/analysis/passes/assign
 cmd/vendor/golang.org/x/tools/go/analysis/passes/atomic
 cmd/vendor/golang.org/x/tools/go/analysis/passes/bools
-cmd/vendor/golang.org/x/tools/go/analysis/passes/buildtag
 cmd/vendor/golang.org/x/tools/go/analysis/passes/cgocall
 cmd/vendor/golang.org/x/tools/go/analysis/passes/composite
 cmd/vendor/golang.org/x/tools/go/analysis/passes/copylock
-cmd/vendor/golang.org/x/tools/go/analysis/passes/ctrlflow
-cmd/vendor/golang.org/x/tools/go/analysis/passes/errorsas
+cmd/vendor/golang.org/x/tools/go/cfg
+cmd/vendor/golang.org/x/tools/go/types/typeutil
 cmd/vendor/golang.org/x/tools/go/analysis/passes/framepointer
 cmd/vendor/golang.org/x/tools/go/analysis/passes/httpresponse
+cmd/vendor/golang.org/x/tools/go/analysis/passes/ctrlflow
+cmd/vendor/golang.org/x/tools/go/analysis/passes/errorsas
 cmd/vendor/golang.org/x/tools/go/analysis/passes/ifaceassert
 cmd/vendor/golang.org/x/tools/go/analysis/passes/loopclosure
 cmd/vendor/golang.org/x/tools/go/analysis/passes/lostcancel
@@ -2861,12 +2861,12 @@ cmd/dist
 Building Go toolchain1 using /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.go_bootstrap_1.17.
 internal/unsafeheader
 internal/goexperiment
-internal/cpu
 internal/abi
+internal/cpu
 runtime/internal/atomic
 runtime/internal/sys
-internal/race
 runtime/internal/math
+internal/race
 sync/atomic
 unicode
 unicode/utf8
@@ -2888,25 +2888,25 @@ bootstrap/internal/goversion
 internal/goversion
 bootstrap/internal/race
 bootstrap/cmd/compile/internal/test
-runtime/metrics
 internal/reflectlite
+runtime/metrics
 sync
+internal/testlog
 bootstrap/internal/bisect
 math/rand
-internal/testlog
 errors
 sort
 bootstrap/sort
 io
 strconv
 internal/oserror
-path
 syscall
+path
 bytes
 strings
+reflect
 bootstrap/strconv
 bufio
-reflect
 hash
 hash/adler32
 go/build/constraint
@@ -2920,22 +2920,22 @@ bootstrap/internal/types/errors
 bootstrap/container/heap
 hash/crc32
 html
-crypto
-regexp
-hash/fnv
+internal/fmtsort
+encoding/binary
+bootstrap/internal/saferio
 internal/poll
 io/fs
-internal/fmtsort
 context
-encoding/binary
-os
-bootstrap/internal/saferio
+regexp
+bootstrap/cmd/internal/notsha256
 bootstrap/cmd/internal/sys
 encoding/base64
-bootstrap/cmd/internal/notsha256
+crypto
 crypto/md5
-bootstrap/internal/lazyregexp
+os
+hash/fnv
 runtime/debug
+bootstrap/internal/lazyregexp
 path/filepath
 fmt
 internal/lazyregexp
@@ -2945,27 +2945,25 @@ log
 bootstrap/internal/buildcfg
 flag
 bootstrap/cmd/internal/src
-text/scanner
 bootstrap/cmd/internal/bio
-bootstrap/cmd/internal/goobj
-bootstrap/cmd/internal/edit
+text/scanner
 bootstrap/cmd/internal/objabi
+bootstrap/cmd/internal/edit
+bootstrap/cmd/internal/goobj
 bootstrap/cmd/internal/pkgpath
 bootstrap/cmd/internal/quoted
 bootstrap/debug/dwarf
 bootstrap/compress/flate
 bootstrap/cmd/internal/dwarf
 bootstrap/internal/zstd
+bootstrap/cmd/internal/obj
 bootstrap/compress/zlib
 go/token
-bootstrap/cmd/internal/obj
-go/scanner
 encoding/json
+go/scanner
 go/ast
 bootstrap/debug/elf
 bootstrap/debug/macho
-bootstrap/debug/pe
-bootstrap/internal/xcoff
 bootstrap/cmd/internal/obj/arm
 bootstrap/cmd/internal/obj/arm64
 bootstrap/cmd/internal/obj/loong64
@@ -2977,66 +2975,68 @@ bootstrap/cmd/internal/obj/wasm
 bootstrap/cmd/internal/obj/x86
 bootstrap/cmd/asm/internal/flags
 bootstrap/cmd/asm/internal/lex
+bootstrap/debug/pe
+bootstrap/internal/xcoff
 go/internal/typeparams
 go/parser
 go/printer
 bootstrap/cmd/compile/internal/base
+bootstrap/cmd/asm/internal/arch
 bootstrap/math/big
 net/url
 go/format
-bootstrap/cmd/compile/internal/logopt
 bootstrap/cmd/cgo
-bootstrap/cmd/asm/internal/arch
+bootstrap/cmd/asm/internal/asm
+bootstrap/cmd/compile/internal/logopt
 bootstrap/cmd/compile/internal/bitvec
 bootstrap/cmd/compile/internal/abt
-bootstrap/cmd/asm/internal/asm
 bootstrap/cmd/internal/gcprog
+bootstrap/cmd/asm
 encoding/hex
 compress/flate
-bootstrap/cmd/asm
-bootstrap/go/constant
 compress/gzip
+bootstrap/go/constant
 bootstrap/internal/profile
+text/template/parse
 bootstrap/cmd/compile/internal/types
 bootstrap/cmd/compile/internal/syntax
 bootstrap/internal/pkgbits
 bootstrap/cmd/compile/internal/pgo/internal/graph
+text/template
+internal/buildcfg
 bootstrap/cmd/compile/internal/ir
 bootstrap/cmd/compile/internal/typebits
-internal/buildcfg
-text/template/parse
 internal/execabs
 internal/goroot
 bootstrap/cmd/internal/archive
 runtime/pprof
-text/template
-bootstrap/cmd/compile/internal/types2
+go/doc
+go/build
 runtime/trace
 bootstrap/cmd/internal/codesign
+bootstrap/cmd/compile/internal/types2
 bootstrap/cmd/link/internal/benchmark
 bootstrap/cmd/link/internal/sym
-go/doc
 bootstrap/cmd/link/internal/loader
-go/build
+bootstrap/cmd/link/internal/dwtest
+bootstrap/cmd/link/internal/loadelf
+bootstrap/cmd/link/internal/loadmacho
 bootstrap/cmd/compile/internal/objw
 bootstrap/cmd/compile/internal/abi
 bootstrap/cmd/compile/internal/typecheck
 bootstrap/cmd/compile/internal/deadcode
-bootstrap/cmd/link/internal/loadelf
-bootstrap/cmd/link/internal/loadmacho
 bootstrap/cmd/link/internal/loadpe
 bootstrap/cmd/link/internal/loadxcoff
-bootstrap/cmd/link/internal/dwtest
 bootstrap/cmd/link/internal/ld
 bootstrap/cmd/compile/internal/compare
 bootstrap/cmd/compile/internal/staticdata
 bootstrap/cmd/compile/internal/coverage
+bootstrap/cmd/compile/internal/reflectdata
 bootstrap/cmd/compile/internal/pgo
 bootstrap/cmd/compile/internal/escape
-bootstrap/cmd/compile/internal/reflectdata
 bootstrap/cmd/compile/internal/inline
-bootstrap/cmd/compile/internal/devirtualize
 bootstrap/cmd/compile/internal/ssa
+bootstrap/cmd/compile/internal/devirtualize
 bootstrap/cmd/compile/internal/loopvar
 bootstrap/cmd/compile/internal/importer
 bootstrap/cmd/compile/internal/staticinit
@@ -3054,12 +3054,12 @@ bootstrap/cmd/link/internal/x86
 bootstrap/cmd/link
 bootstrap/cmd/compile/internal/liveness
 bootstrap/cmd/compile/internal/ssagen
+bootstrap/cmd/compile/internal/arm
 bootstrap/cmd/compile/internal/arm64
 bootstrap/cmd/compile/internal/amd64
-bootstrap/cmd/compile/internal/arm
 bootstrap/cmd/compile/internal/dwarfgen
-bootstrap/cmd/compile/internal/noder
 bootstrap/cmd/compile/internal/walk
+bootstrap/cmd/compile/internal/noder
 bootstrap/cmd/compile/internal/loong64
 bootstrap/cmd/compile/internal/mips
 bootstrap/cmd/compile/internal/mips64
@@ -3074,193 +3074,193 @@ bootstrap/cmd/compile
 
 Building Go bootstrap cmd/go (go_bootstrap) using Go toolchain1.
 runtime
-runtime/internal/sys
-internal/goarch
-internal/coverage/rtcov
-internal/abi
-runtime/internal/math
-internal/goos
 internal/goexperiment
-internal/cpu
-internal/bytealg
-runtime/internal/syscall
 runtime/internal/atomic
 internal/godebugs
+internal/goarch
+runtime/internal/math
+internal/bytealg
+runtime/internal/syscall
+internal/abi
+internal/coverage/rtcov
+internal/cpu
+internal/goos
+runtime/internal/sys
 time/tzdata
-syscall
 errors
+syscall
 internal/reflectlite
 internal/unsafeheader
-internal/oserror
-sync
+sync/atomic
 internal/race
 internal/itoa
-sync/atomic
+sync
+internal/oserror
 cmd/go
-cmd/go/internal/version
-cmd/go/internal/help
-runtime/trace
 fmt
-io
-log
-slices
-cmd/go/internal/workcmd
-cmd/go/internal/envcmd
-os
-cmd/go/internal/run
-debug/buildinfo
-cmd/go/internal/load
-cmd/go/internal/str
-internal/xcoff
-path
-cmd/go/internal/doc
-cmd/go/internal/fix
-cmd/go/internal/fmtcmd
 cmd/go/internal/get
-cmd/go/internal/trace
-cmd/go/internal/toolchain
-cmd/go/internal/bug
-internal/buildcfg
-cmd/go/internal/base
-cmp
-log/internal
-math/bits
-time
-debug/dwarf
-cmd/go/internal/par
-math/rand
-os/signal
-internal/saferio
-debug/elf
-debug/pe
-debug/plan9obj
-debug/macho
-runtime/debug
-encoding/binary
-strconv
-io/fs
-cmd/go/internal/generate
-cmd/go/internal/cfg
-cmd/go/internal/tool
-strings
-cmd/go/internal/clean
 cmd/go/internal/list
-cmd/go/internal/modcmd
-cmd/go/internal/work
-context
-flag
-encoding/json
-sort
-cmd/go/internal/fsys
-cmd/internal/quoted
-bytes
-unicode/utf8
-unicode
-cmd/go/internal/cache
-go/build
-cmd/go/internal/modget
-cmd/go/internal/modload
+cmd/go/internal/run
 path/filepath
 cmd/go/internal/modfetch
-cmd/go/internal/test
+cmd/go/internal/tool
+cmd/go/internal/cfg
 cmd/go/internal/vet
-cmd/go/internal/gover
-os/exec
-reflect
-internal/godebug
-compress/zlib
-cmd/go/internal/web
-cmd/go/internal/cmdflag
-compress/flate
-cmd/vendor/golang.org/x/mod/modfile
-math
-internal/platform
-hash
-hash/adler32
-bufio
-go/parser
-go/build/constraint
-encoding/hex
-cmd/go/internal/lockedfile
-cmd/go/internal/lockedfile/internal/filelock
-internal/lazyregexp
-cmd/go/internal/modfetch/codehost
-internal/cfg
-internal/zstd
-text/template
-cmd/go/internal/search
-regexp
-internal/goversion
-net/url
-cmd/vendor/golang.org/x/mod/module
-go/scanner
-cmd/go/internal/modindex
-crypto/sha256
-go/ast
-internal/lazytemplate
-go/doc
-go/token
-cmd/go/internal/imports
-cmd/go/internal/vcs
-cmd/internal/pkgpattern
-cmd/go/internal/modinfo
-go/internal/typeparams
-cmd/go/internal/modconv
-text/template/parse
-cmd/internal/sys
-internal/fmtsort
-cmd/vendor/golang.org/x/mod/semver
-maps
-cmd/go/internal/mvs
-cmd/vendor/golang.org/x/mod/sumdb/dirhash
-crypto/internal/boring
-crypto/internal/boring/sig
-encoding/xml
-archive/zip
-crypto
+cmd/go/internal/fix
+cmd/go/internal/test
+internal/buildcfg
+cmd/go/internal/fsys
+cmd/go/internal/work
+runtime/trace
+os/signal
+cmd/internal/test2json
 encoding/base64
-crypto/cipher
-cmd/internal/traceviewer
-internal/syscall/unix
-regexp/syntax
-cmd/vendor/golang.org/x/mod/zip
-cmd/go/internal/robustio
+cmd/go/internal/workcmd
+cmd/go/internal/modget
+slices
+cmd/go/internal/trace
+cmd/go/internal/generate
+path
+cmd/go/internal/modinfo
+cmd/go/internal/cache
 cmd/vendor/golang.org/x/sync/semaphore
+reflect
+strconv
+text/template
+bufio
+bytes
+io
+internal/cfg
+cmd/go/internal/cmdflag
+io/fs
+cmd/go/internal/str
+unicode/utf8
+cmd/go/internal/fmtcmd
+flag
+strings
+cmd/go/internal/base
+cmd/go/internal/vcs
+cmd/go/internal/bug
+cmd/go/internal/modcmd
+context
+cmd/go/internal/clean
+os
+internal/fmtsort
+cmd/go/internal/modload
+cmd/go/internal/doc
+cmd/go/internal/search
+cmd/go/internal/version
+cmd/go/internal/toolchain
+cmd/go/internal/help
+cmd/go/internal/web
+internal/platform
+cmd/vendor/golang.org/x/mod/module
+os/exec
+go/build
+encoding/json
+math
+sort
+log
+cmd/go/internal/envcmd
+cmd/go/internal/load
+cmd/vendor/golang.org/x/mod/semver
+unicode
+internal/godebug
+internal/bisect
+cmd/go/internal/modfetch/codehost
+cmd/internal/traceviewer
+cmd/vendor/golang.org/x/mod/zip
+cmd/go/internal/lockedfile
+cmd/internal/pkgpattern
 container/list
+cmd/go/internal/lockedfile/internal/filelock
+net/url
+encoding/hex
+cmd/go/internal/mmap
+cmd/internal/quoted
+hash
+cmd/internal/sys
+encoding
+internal/lazyregexp
+internal/singleflight
+encoding/xml
+cmd/vendor/golang.org/x/mod/internal/lazyregexp
+internal/syscall/execenv
+internal/syscall/unix
+cmd/go/internal/gover
+cmd/go/internal/robustio
+archive/zip
+cmd/vendor/golang.org/x/mod/modfile
+encoding/binary
+cmd/go/internal/par
+crypto/sha256
+cmd/vendor/golang.org/x/mod/sumdb/dirhash
+math/rand
+cmd/go/internal/imports
+runtime/debug
+time
+math/bits
+cmp
+regexp
+maps
+cmd/go/internal/modindex
+cmd/go/internal/mvs
+internal/goroot
+go/build/constraint
+go/doc
+internal/goversion
+go/token
+cmd/go/internal/modconv
+go/parser
+go/internal/typeparams
+go/scanner
+go/ast
+go/doc/comment
+log/internal
+internal/lazytemplate
+hash/crc32
+crypto
+crypto/internal/boring
+compress/flate
+cmd/internal/objabi
+cmd/internal/buildid
+crypto/sha1
 cmd/internal/pkgpath
 internal/coverage
-cmd/internal/buildid
-cmd/internal/codesign
-cmd/internal/notsha256
-go/doc/comment
-unicode/utf16
-encoding
-internal/bisect
-cmd/vendor/golang.org/x/mod/internal/lazyregexp
-hash/crc32
-internal/goroot
-crypto/sha1
+debug/elf
 container/heap
-cmd/internal/objabi
-internal/syscall/execenv
-cmd/internal/test2json
-cmd/go/internal/mmap
-internal/singleflight
-crypto/subtle
-crypto/internal/alias
-internal/safefilepath
-internal/poll
+debug/macho
+debug/dwarf
+regexp/syntax
+debug/buildinfo
+internal/xcoff
+cmd/internal/codesign
+internal/saferio
+compress/zlib
+unicode/utf16
+cmd/internal/notsha256
+hash/adler32
+debug/plan9obj
+debug/pe
+internal/zstd
+text/template/parse
 internal/testlog
+internal/poll
+crypto/internal/boring/sig
+internal/safefilepath
+crypto/cipher
+crypto/internal/alias
+crypto/subtle
 
 
 Building Go toolchain2 using go_bootstrap and Go toolchain1.
 internal/coverage/rtcov
-internal/goarch
 internal/unsafeheader
+internal/goarch
 internal/cpu
 internal/godebugs
-internal/abi
 internal/goexperiment
+internal/abi
 internal/goos
 runtime/internal/atomic
 runtime/internal/math
@@ -3275,11 +3275,11 @@ internal/itoa
 math/bits
 log/internal
 encoding
-math
 unicode/utf16
+math
 internal/coverage
-runtime
 internal/platform
+runtime
 internal/goversion
 internal/reflectlite
 runtime/metrics
@@ -3287,31 +3287,31 @@ sync
 internal/testlog
 internal/bisect
 internal/godebug
-sort
 errors
-math/rand
+sort
 io
 strconv
 internal/oserror
-bytes
-strings
 syscall
 internal/safefilepath
+bytes
+strings
 path
-bufio
 reflect
+bufio
 hash
 go/build/constraint
 hash/adler32
 text/tabwriter
 regexp/syntax
 internal/types/errors
+math/rand
 container/heap
 hash/crc32
-html
 internal/syscall/unix
 time
 internal/syscall/execenv
+html
 regexp
 crypto
 hash/fnv
@@ -3327,34 +3327,34 @@ cmd/internal/sys
 cmd/internal/notsha256
 crypto/md5
 internal/lazyregexp
-path/filepath
 fmt
+path/filepath
 os/exec
 internal/goroot
 log
-flag
-internal/buildcfg
 cmd/internal/src
+internal/buildcfg
+flag
 text/scanner
 cmd/internal/bio
 cmd/internal/edit
 cmd/internal/pkgpath
-debug/dwarf
-compress/flate
 cmd/internal/goobj
 cmd/internal/objabi
-cmd/internal/dwarf
 cmd/internal/quoted
-cmd/internal/obj
+debug/dwarf
+compress/flate
+cmd/internal/dwarf
 internal/zstd
+cmd/internal/obj
 compress/zlib
 go/token
-debug/macho
-debug/elf
-debug/pe
 go/scanner
 go/doc/comment
 go/ast
+debug/elf
+debug/macho
+debug/pe
 cmd/internal/obj/arm
 cmd/internal/obj/arm64
 cmd/internal/obj/loong64
@@ -3365,69 +3365,69 @@ cmd/internal/obj/s390x
 cmd/internal/obj/wasm
 cmd/internal/obj/x86
 cmd/asm/internal/flags
-go/internal/typeparams
 cmd/asm/internal/lex
+go/internal/typeparams
 go/parser
 go/printer
 internal/xcoff
 encoding/json
 runtime/debug
-go/format
-cmd/cgo
 math/big
 cmd/asm/internal/arch
-cmd/compile/internal/base
+go/format
+cmd/cgo
 cmd/asm/internal/asm
+cmd/compile/internal/base
 net/url
-cmd/compile/internal/logopt
-cmd/compile/internal/bitvec
-go/constant
-cmd/compile/internal/abt
 cmd/asm
+cmd/compile/internal/logopt
+go/constant
+cmd/compile/internal/bitvec
+cmd/compile/internal/abt
 cmd/internal/gcprog
 cmd/compile/internal/types
 encoding/hex
 compress/gzip
 internal/profile
 cmd/compile/internal/syntax
-go/doc
 cmd/compile/internal/ir
 cmd/compile/internal/typebits
 cmd/compile/internal/pgo/internal/graph
-go/build
+go/doc
 internal/pkgbits
+go/build
+cmd/compile/internal/types2
 cmd/internal/archive
 runtime/pprof
 runtime/trace
 cmd/internal/codesign
-cmd/compile/internal/types2
-cmd/link/internal/sym
 cmd/link/internal/benchmark
+cmd/link/internal/sym
 cmd/link/internal/loader
-cmd/link/internal/loadmacho
 cmd/link/internal/loadelf
-cmd/link/internal/loadpe
-cmd/link/internal/loadxcoff
-cmd/link/internal/ld
+cmd/link/internal/loadmacho
 cmd/compile/internal/objw
 cmd/compile/internal/abi
 cmd/compile/internal/typecheck
 cmd/compile/internal/deadcode
+cmd/link/internal/loadpe
+cmd/link/internal/loadxcoff
+cmd/link/internal/ld
 cmd/compile/internal/staticdata
 cmd/compile/internal/compare
-cmd/compile/internal/coverage
 cmd/compile/internal/reflectdata
+cmd/compile/internal/coverage
 cmd/compile/internal/pgo
-cmd/compile/internal/inline
 cmd/compile/internal/escape
+cmd/compile/internal/inline
 cmd/compile/internal/ssa
 cmd/compile/internal/devirtualize
 cmd/compile/internal/loopvar
 cmd/compile/internal/importer
 cmd/compile/internal/staticinit
-cmd/link/internal/amd64
 cmd/link/internal/arm
 cmd/link/internal/arm64
+cmd/link/internal/amd64
 cmd/link/internal/loong64
 cmd/link/internal/mips
 cmd/link/internal/mips64
@@ -3458,13 +3458,13 @@ cmd/compile/internal/gc
 cmd/compile
 
 Building Go toolchain3 using go_bootstrap and Go toolchain2.
-internal/unsafeheader
-internal/goarch
 internal/coverage/rtcov
+internal/goarch
+internal/unsafeheader
 internal/godebugs
 internal/cpu
-internal/goexperiment
 internal/abi
+internal/goexperiment
 internal/goos
 runtime/internal/atomic
 runtime/internal/math
@@ -3478,17 +3478,17 @@ unicode/utf8
 internal/itoa
 math/bits
 log/internal
+math
+runtime
 encoding
 internal/goarch
-runtime
-math
 internal/abi
 internal/unsafeheader
 internal/cpu
 internal/coverage/rtcov
-internal/bytealg
 internal/godebugs
 internal/goexperiment
+internal/bytealg
 internal/goos
 runtime/internal/atomic
 runtime/internal/math
@@ -3496,14 +3496,14 @@ runtime/internal/sys
 runtime/internal/syscall
 internal/race
 sync/atomic
-unicode
 runtime
+unicode
 unicode/utf8
 internal/itoa
 math/bits
 log/internal
-encoding
 math
+encoding
 unicode/utf16
 internal/coverage
 internal/platform
@@ -3537,25 +3537,32 @@ text/tabwriter
 regexp/syntax
 internal/reflectlite
 internal/poll
-io/fs
-internal/fmtsort
 context
+io/fs
+regexp
+errors
+internal/fmtsort
 encoding/binary
 os
 internal/saferio
-regexp
-errors
+sync
+strconv
 cmd/internal/notsha256
 cmd/internal/sys
 encoding/base64
-sync
+io
+sort
 fmt
 path/filepath
-strconv
+bytes
+strings
 os/exec
+reflect
+internal/oserror
+bufio
 log
-flag
 cmd/internal/bio
+flag
 internal/buildcfg
 cmd/internal/src
 text/scanner
@@ -3564,20 +3571,17 @@ cmd/internal/goobj
 cmd/internal/edit
 cmd/internal/pkgpath
 cmd/internal/quoted
+cmd/internal/dwarf
 debug/dwarf
 compress/flate
-cmd/internal/dwarf
-internal/zstd
 cmd/internal/obj
 compress/zlib
-go/token
-go/doc/comment
-go/scanner
-go/ast
-io
-debug/elf
+internal/zstd
 debug/macho
+debug/elf
 debug/pe
+go/token
+go/scanner
 cmd/internal/obj/arm
 cmd/internal/obj/arm64
 cmd/internal/obj/loong64
@@ -3589,142 +3593,138 @@ cmd/internal/obj/wasm
 cmd/internal/obj/x86
 cmd/asm/internal/flags
 cmd/asm/internal/lex
+go/ast
+go/doc/comment
+internal/xcoff
+internal/fmtsort
+syscall
 go/internal/typeparams
 go/printer
 go/parser
-internal/xcoff
-bytes
-strings
+cmd/asm/internal/arch
+internal/safefilepath
 go/format
 cmd/cgo
-reflect
-cmd/asm/internal/arch
-bufio
-cmd/asm/internal/asm
-sort
-internal/oserror
-cmd/asm
-syscall
-internal/safefilepath
 internal/testlog
+cmd/asm/internal/asm
 path
-internal/bisect
-hash
-internal/fmtsort
-internal/godebug
 internal/syscall/unix
 time
 internal/syscall/execenv
+internal/bisect
+cmd/asm
+internal/godebug
 encoding/binary
+internal/poll
+io/fs
+context
+hash
+cmd/internal/sys
+os
+cmd/internal/notsha256
+encoding/base64
 internal/types/errors
 runtime/metrics
 math/rand
 regexp/syntax
-cmd/internal/notsha256
-cmd/internal/sys
-internal/poll
-io/fs
-context
-encoding/base64
-regexp
-os
 container/heap
-hash/crc32
-html
-go/build/constraint
-crypto
-hash/fnv
-text/tabwriter
-crypto/md5
 fmt
 path/filepath
-internal/lazyregexp
-cmd/internal/codesign
-cmd/internal/gcprog
 hash/crc32
-cmd/link/internal/sym
+regexp
 os/exec
-cmd/link/internal/loader
-compress/gzip
-runtime/pprof
+html
+go/build/constraint
 log
 flag
 internal/buildcfg
-cmd/internal/src
 cmd/internal/bio
+cmd/internal/src
 encoding/json
 cmd/internal/objabi
-runtime/debug
 cmd/internal/goobj
-cmd/internal/dwarf
+runtime/debug
 go/token
+cmd/internal/dwarf
 math/big
-net/url
+internal/lazyregexp
 cmd/internal/obj
+net/url
 cmd/compile/internal/abt
 cmd/internal/gcprog
 encoding/hex
 compress/flate
 go/scanner
-go/ast
-go/constant
 compress/gzip
-internal/profile
-cmd/compile/internal/syntax
+go/constant
+go/ast
 cmd/compile/internal/base
 cmd/compile/internal/logopt
 cmd/internal/obj/arm
+cmd/internal/obj/arm64
 cmd/compile/internal/types
 cmd/compile/internal/bitvec
-cmd/internal/obj/arm64
 cmd/internal/obj/loong64
+cmd/internal/obj/mips
 cmd/compile/internal/ir
 cmd/compile/internal/typebits
-cmd/internal/obj/mips
 cmd/internal/obj/ppc64
 cmd/internal/obj/riscv
 cmd/internal/obj/s390x
 cmd/internal/obj/wasm
 cmd/internal/obj/x86
-cmd/compile/internal/pgo/internal/graph
+internal/profile
+cmd/compile/internal/syntax
 cmd/compile/internal/objw
 cmd/compile/internal/abi
 cmd/compile/internal/typecheck
 cmd/compile/internal/deadcode
+cmd/compile/internal/pgo/internal/graph
 go/doc/comment
-cmd/compile/internal/types2
-go/doc
 go/internal/typeparams
+cmd/compile/internal/types2
 go/parser
+go/doc
 internal/goroot
-internal/pkgbits
+crypto
+go/build
 cmd/compile/internal/compare
 cmd/compile/internal/staticdata
 cmd/compile/internal/reflectdata
 cmd/compile/internal/coverage
 cmd/compile/internal/pgo
-cmd/compile/internal/escape
 cmd/compile/internal/inline
+cmd/compile/internal/escape
 cmd/compile/internal/ssa
 cmd/compile/internal/devirtualize
 cmd/compile/internal/loopvar
-go/build
+crypto/md5
+internal/pkgbits
 cmd/compile/internal/staticinit
 cmd/internal/archive
-runtime/pprof
-cmd/compile/internal/importer
+hash/fnv
+text/tabwriter
 runtime/trace
-cmd/link/internal/benchmark
-cmd/link/internal/loadelf
-cmd/link/internal/loadmacho
-cmd/link/internal/loadpe
-cmd/link/internal/loadxcoff
+cmd/compile/internal/importer
+runtime/pprof
+cmd/internal/codesign
+cmd/internal/gcprog
+hash/crc32
+compress/gzip
+runtime/pprof
+cmd/link/internal/sym
+cmd/link/internal/loader
 encoding/hex
 encoding/json
+cmd/link/internal/benchmark
+cmd/link/internal/loadmacho
+cmd/link/internal/loadelf
+cmd/link/internal/loadpe
+cmd/link/internal/loadxcoff
 cmd/link/internal/ld
-cmd/link/internal/amd64
 cmd/link/internal/arm
 cmd/link/internal/arm64
+cmd/link/internal/amd64
 cmd/link/internal/loong64
 cmd/link/internal/mips
 cmd/link/internal/mips64
@@ -3736,14 +3736,14 @@ cmd/link/internal/x86
 cmd/link
 cmd/compile/internal/liveness
 cmd/compile/internal/ssagen
-cmd/compile/internal/amd64
 cmd/compile/internal/arm
+cmd/compile/internal/amd64
 cmd/compile/internal/arm64
 cmd/compile/internal/dwarfgen
 cmd/compile/internal/walk
 cmd/compile/internal/loong64
-cmd/compile/internal/mips
 cmd/compile/internal/noder
+cmd/compile/internal/mips
 cmd/compile/internal/mips64
 cmd/compile/internal/ppc64
 cmd/compile/internal/riscv64
@@ -3755,9 +3755,9 @@ cmd/compile/internal/gc
 cmd/compile
 
 Building packages and commands for linux/amd64.
-internal/coverage/rtcov
 internal/unsafeheader
 internal/goarch
+internal/coverage/rtcov
 internal/cpu
 internal/godebugs
 internal/goexperiment
@@ -3766,8 +3766,8 @@ internal/goos
 runtime/internal/atomic
 runtime/internal/math
 runtime/internal/sys
-runtime/internal/syscall
 internal/bytealg
+runtime/internal/syscall
 internal/race
 sync/atomic
 unicode
@@ -3776,8 +3776,8 @@ internal/itoa
 math/bits
 cmp
 container/list
-math
 runtime
+math
 container/ring
 crypto/internal/alias
 crypto/subtle
@@ -3812,18 +3812,18 @@ runtime/metrics
 sync
 internal/testlog
 internal/bisect
-internal/singleflight
 runtime/cgo
-internal/godebug
+internal/singleflight
 errors
 sort
+internal/godebug
 io
 strconv
 internal/oserror
 syscall
 bytes
-internal/safefilepath
 reflect
+internal/safefilepath
 path
 strings
 bufio
@@ -3839,45 +3839,43 @@ crypto
 crypto/internal/randutil
 math/rand
 crypto/internal/nistec/fiat
-internal/poll
-io/fs
-context
-internal/fmtsort
-os
-encoding/binary
-embed
 crypto/rc4
 vendor/golang.org/x/net/dns/dnsmessage
+internal/fmtsort
+internal/poll
+io/fs
+encoding/binary
+os
+context
 crypto/cipher
+crypto/internal/edwards25519/field
+crypto/internal/boring
+crypto/des
+crypto/aes
+embed
 fmt
 path/filepath
-crypto/internal/boring
-crypto/aes
-crypto/des
-crypto/internal/edwards25519/field
 crypto/internal/nistec
 crypto/sha512
+crypto/internal/edwards25519
+crypto/hmac
+crypto/md5
 os/user
 compress/flate
 compress/lzw
 math/big
+crypto/ecdh
+crypto/sha1
 archive/zip
 compress/gzip
 compress/zlib
-crypto/ecdh
-crypto/internal/edwards25519
-crypto/hmac
-crypto/md5
-crypto/sha1
 crypto/sha256
 encoding/hex
 encoding/base64
 internal/intern
 net/netip
 encoding/pem
-net/url
 crypto/dsa
-archive/tar
 crypto/elliptic
 crypto/internal/bigmod
 crypto/internal/boring/bbig
@@ -3886,38 +3884,40 @@ crypto/rand
 net
 crypto/ed25519
 crypto/rsa
-vendor/golang.org/x/crypto/chacha20
+archive/tar
 vendor/golang.org/x/crypto/cryptobyte
 crypto/x509/pkix
+net/url
+vendor/golang.org/x/crypto/chacha20
+crypto/ecdsa
 vendor/golang.org/x/crypto/internal/poly1305
 io/ioutil
 vendor/golang.org/x/crypto/hkdf
 vendor/golang.org/x/sys/cpu
 database/sql/driver
-crypto/ecdsa
+debug/dwarf
 vendor/golang.org/x/crypto/chacha20poly1305
 database/sql
-debug/dwarf
 internal/saferio
 internal/zstd
 debug/plan9obj
 runtime/debug
 debug/gosym
 encoding/ascii85
-encoding/base32
 debug/elf
 debug/macho
 debug/pe
 internal/xcoff
+encoding/base32
 encoding/csv
 encoding/gob
-encoding/json
 debug/buildinfo
+encoding/json
 encoding/xml
 log
 vendor/golang.org/x/text/transform
-vendor/golang.org/x/text/unicode/bidi
 vendor/golang.org/x/text/unicode/norm
+vendor/golang.org/x/text/unicode/bidi
 vendor/golang.org/x/net/http2/hpack
 mime
 vendor/golang.org/x/text/secure/bidirule
@@ -3926,32 +3926,32 @@ net/http/internal
 net/http/internal/ascii
 flag
 go/token
+go/scanner
 go/build/constraint
 go/doc/comment
-go/scanner
-vendor/golang.org/x/net/idna
-crypto/x509
-net/textproto
 go/ast
-mime/multipart
+vendor/golang.org/x/net/idna
 regexp/syntax
-vendor/golang.org/x/net/http/httpguts
-vendor/golang.org/x/net/http/httpproxy
-internal/buildcfg
-os/exec
 go/internal/typeparams
 go/parser
-crypto/tls
-internal/goroot
-go/constant
+internal/buildcfg
 regexp
+os/exec
+crypto/x509
+net/textproto
+vendor/golang.org/x/net/http/httpproxy
 internal/lazyregexp
-text/tabwriter
-internal/types/errors
+internal/goroot
 go/doc
-go/types
+go/constant
+vendor/golang.org/x/net/http/httpguts
+mime/multipart
+text/tabwriter
 go/printer
+internal/types/errors
+go/types
 go/build
+crypto/tls
 go/format
 text/scanner
 internal/pkgbits
@@ -3962,25 +3962,25 @@ text/template/parse
 image
 image/internal/imageutil
 image/draw
-image/gif
 text/template
-net/http/httptrace
+image/gif
 image/jpeg
-net/http
-image/png
 html/template
+image/png
+net/http/httptrace
 index/suffixarray
+net/http
 internal/coverage/cmerge
 internal/coverage/cformat
 internal/coverage/slicereader
 internal/coverage/slicewriter
-internal/coverage/pods
 internal/coverage/stringtab
 internal/coverage/decodecounter
-internal/dag
 internal/coverage/decodemeta
 internal/coverage/encodecounter
 internal/coverage/encodemeta
+internal/coverage/pods
+internal/dag
 internal/diff
 internal/fuzz
 internal/lazytemplate
@@ -3991,30 +3991,29 @@ go/internal/gcimporter
 go/internal/srcimporter
 internal/sysinfo
 runtime/trace
-testing
 internal/testpty
+testing
 go/importer
 internal/trace
 internal/txtar
 log/slog/internal/buffer
-internal/testenv
 log/slog
+internal/testenv
 log/syslog
+log/slog/internal/benchmarks
+log/slog/internal/slogtest
 net/http/internal/testcert
 runtime/pprof
 net/internal/socktest
 net/mail
-log/slog/internal/benchmarks
-log/slog/internal/slogtest
 net/smtp
 os/exec/internal/fdtest
 os/signal
 plugin
 runtime/coverage
 testing/iotest
-testing/internal/testdeps
 testing/fstest
-testing/quick
+testing/internal/testdeps
 expvar
 net/http/cgi
 net/http/cookiejar
@@ -4023,6 +4022,7 @@ net/http/httputil
 net/http/fcgi
 net/http/pprof
 net/rpc
+testing/quick
 testing/slogtest
 time/tzdata
 vendor/golang.org/x/net/nettest
@@ -4040,40 +4040,40 @@ cmd/vendor/golang.org/x/arch/x86/x86asm
 crypto/cipher
 cmd/cgo/internal/cgotest
 internal/sysinfo
-testing
 crypto/internal/boring
+testing
 crypto/sha256
 cmd/internal/buildid
 cmd/cgo/internal/test/issue30527
-cmd/cgo/internal/test/issue9400
-cmd/internal/objfile
-cmd/cgo/internal/testnocgo
 cmd/buildid
+cmd/internal/objfile
+cmd/cgo/internal/test/issue9400
+cmd/cgo/internal/testnocgo
 cmd/compile/internal/test
-cmd/addr2line
 internal/coverage/slicereader
+internal/coverage/uleb128
+cmd/addr2line
+internal/coverage/pods
 cmd/cgo/internal/test
 cmd/cgo/internal/testtls
-internal/coverage/uleb128
-internal/coverage/pods
 internal/coverage/stringtab
 cmd/internal/pkgpattern
 internal/coverage/calloc
-internal/coverage/cmerge
 internal/coverage/decodecounter
 internal/coverage/decodemeta
+internal/coverage/cmerge
 internal/coverage/cformat
 internal/coverage/slicewriter
 cmd/internal/cov
-internal/coverage/encodemeta
 internal/coverage/encodecounter
+internal/coverage/encodemeta
 cmp
 slices
 cmd/internal/browser
 cmd/vendor/golang.org/x/tools/cover
 text/template/parse
-cmd/dist
 cmd/covdata
+cmd/dist
 os/user
 archive/tar
 text/template
@@ -4083,34 +4083,34 @@ cmd/doc
 cmd/distpack
 html/template
 internal/diff
-cmd/cover
 cmd/go/internal/fsys
-cmd/fix
 internal/cfg
 cmd/go/internal/par
+cmd/fix
 cmd/go/internal/str
+cmd/cover
 cmd/go/internal/cfg
 os/signal
 cmd/go/internal/lockedfile/internal/filelock
-cmd/go/internal/lockedfile
 cmd/go/internal/base
+cmd/go/internal/lockedfile
 cmd/go/internal/mmap
 cmd/vendor/golang.org/x/mod/internal/lazyregexp
 cmd/go/internal/cache
 cmd/vendor/golang.org/x/mod/module
-cmd/go/internal/imports
 cmd/vendor/golang.org/x/mod/modfile
+cmd/go/internal/imports
 crypto/internal/randutil
-crypto/aes
 crypto/rand
+crypto/aes
 crypto/des
 crypto/internal/edwards25519/field
 crypto/internal/nistec/fiat
 embed
 crypto/internal/bigmod
+cmd/go/internal/gover
 crypto/internal/boring/bbig
 crypto/sha512
-cmd/go/internal/gover
 encoding/asn1
 vendor/golang.org/x/crypto/cryptobyte/asn1
 crypto/internal/edwards25519
@@ -4120,28 +4120,28 @@ crypto/rsa
 crypto/ed25519
 crypto/sha1
 crypto/dsa
+encoding/pem
 vendor/golang.org/x/crypto/cryptobyte
 crypto/x509/pkix
-encoding/pem
 vendor/golang.org/x/net/dns/dnsmessage
-crypto/internal/nistec
 internal/nettrace
 internal/singleflight
+crypto/internal/nistec
 internal/intern
 vendor/golang.org/x/crypto/internal/alias
-vendor/golang.org/x/crypto/chacha20
 net/netip
+vendor/golang.org/x/crypto/chacha20
 vendor/golang.org/x/crypto/internal/poly1305
 io/ioutil
-vendor/golang.org/x/sys/cpu
 crypto/ecdh
 crypto/elliptic
-vendor/golang.org/x/crypto/chacha20poly1305
+vendor/golang.org/x/sys/cpu
+net
 vendor/golang.org/x/crypto/hkdf
 vendor/golang.org/x/text/transform
-net
-vendor/golang.org/x/text/unicode/bidi
+vendor/golang.org/x/crypto/chacha20poly1305
 crypto/ecdsa
+vendor/golang.org/x/text/unicode/bidi
 vendor/golang.org/x/text/unicode/norm
 vendor/golang.org/x/net/http2/hpack
 mime
@@ -4152,34 +4152,35 @@ net/http/internal/ascii
 encoding/xml
 cmd/go/internal/robustio
 cmd/internal/traceviewer
+vendor/golang.org/x/net/idna
 cmd/go/internal/trace
 cmd/go/internal/search
-vendor/golang.org/x/net/idna
 cmd/vendor/golang.org/x/mod/sumdb/note
 cmd/vendor/golang.org/x/mod/sumdb/tlog
 cmd/vendor/golang.org/x/mod/sumdb/dirhash
+crypto/x509
+net/textproto
+vendor/golang.org/x/net/http/httpproxy
 cmd/vendor/golang.org/x/mod/zip
 cmd/go/internal/modindex
+vendor/golang.org/x/net/http/httpguts
+mime/multipart
 cmd/go/internal/modconv
 cmd/go/internal/mvs
 maps
 internal/lazytemplate
 cmd/go/internal/doc
 cmd/vendor/golang.org/x/sync/semaphore
-crypto/x509
-net/textproto
-vendor/golang.org/x/net/http/httpproxy
 cmd/go/internal/cmdflag
 cmd/internal/test2json
-vendor/golang.org/x/net/http/httpguts
-mime/multipart
 cmd/go/internal/tool
 debug/buildinfo
 internal/txtar
-cmd/go/internal/version
 cmd/go/internal/test/internal/genflags
 cmd/go/internal/script
 internal/testenv
+cmd/go/internal/version
+crypto/tls
 net/http/internal/testcert
 cmd/gofmt
 cmd/vendor/golang.org/x/sys/unix
@@ -4187,76 +4188,75 @@ cmd/go/internal/script/scripttest
 cmd/link/internal/dwtest
 cmd/nm
 cmd/objdump
-crypto/tls
 cmd/pack
 cmd/vendor/github.com/google/pprof/internal/elfexec
 cmd/vendor/github.com/google/pprof/profile
 cmd/vendor/github.com/ianlancetaylor/demangle
 cmd/internal/osinfo
-cmd/vendor/github.com/google/pprof/internal/measurement
 cmd/vendor/github.com/google/pprof/third_party/d3flamegraph
-cmd/vendor/github.com/google/pprof/internal/graph
 cmd/vendor/github.com/google/pprof/third_party/svgpan
 cmd/vendor/golang.org/x/term
-net/http/httptrace
 cmd/test2json
+net/http/httptrace
+cmd/vendor/github.com/google/pprof/internal/measurement
 net/http
+cmd/vendor/github.com/google/pprof/internal/graph
 internal/trace
 cmd/vendor/golang.org/x/sys/internal/unsafeheader
 go/types
 encoding/gob
 cmd/vendor/golang.org/x/tools/go/cfg
 cmd/vendor/golang.org/x/tools/internal/bisect
+cmd/vendor/golang.org/x/tools/go/analysis/passes/internal/analysisutil
+cmd/vendor/golang.org/x/tools/go/analysis
+cmd/vendor/golang.org/x/tools/internal/typeparams
 cmd/go/internal/auth
 cmd/vendor/golang.org/x/mod/sumdb
 net/http/cgi
-cmd/go/internal/web
 net/http/httputil
+cmd/go/internal/web
 net/http/httptest
+cmd/vendor/github.com/google/pprof/internal/plugin
 cmd/go/internal/modfetch/codehost
 cmd/go/internal/vcs
-cmd/vendor/github.com/google/pprof/internal/plugin
 cmd/go/internal/vcweb
 cmd/vendor/github.com/google/pprof/internal/binutils
 cmd/vendor/github.com/google/pprof/internal/report
-cmd/go/internal/modfetch
-cmd/go/internal/modinfo
 cmd/go/internal/vcweb/vcstest
 cmd/vendor/github.com/google/pprof/internal/symbolz
 cmd/vendor/github.com/google/pprof/internal/symbolizer
 cmd/vendor/github.com/google/pprof/internal/transport
+cmd/go/internal/modfetch
+cmd/go/internal/modinfo
 net/http/pprof
-cmd/vendor/golang.org/x/tools/go/analysis
-cmd/vendor/github.com/google/pprof/internal/driver
 cmd/vendor/golang.org/x/tools/go/analysis/internal/analysisflags
+cmd/vendor/github.com/google/pprof/internal/driver
 cmd/trace
-cmd/vendor/golang.org/x/tools/go/analysis/passes/internal/analysisutil
 cmd/vendor/golang.org/x/tools/go/analysis/passes/asmdecl
-cmd/go/internal/modload
-cmd/vendor/golang.org/x/tools/internal/typeparams
 cmd/vendor/golang.org/x/tools/go/ast/inspector
+cmd/go/internal/modload
 cmd/vendor/golang.org/x/tools/go/analysis/passes/inspect
 cmd/vendor/golang.org/x/tools/go/analysis/passes/assign
-cmd/vendor/github.com/google/pprof/driver
 cmd/vendor/golang.org/x/tools/go/analysis/passes/atomic
-cmd/pprof
 cmd/vendor/golang.org/x/tools/go/analysis/passes/bools
 cmd/vendor/golang.org/x/tools/go/analysis/passes/buildtag
+cmd/vendor/github.com/google/pprof/driver
 cmd/vendor/golang.org/x/tools/go/analysis/passes/cgocall
+cmd/pprof
 cmd/vendor/golang.org/x/tools/go/analysis/passes/composite
 cmd/vendor/golang.org/x/tools/go/analysis/passes/copylock
 cmd/vendor/golang.org/x/tools/go/ast/astutil
-cmd/vendor/golang.org/x/tools/go/analysis/passes/directive
-cmd/vendor/golang.org/x/tools/go/analysis/passes/framepointer
-cmd/go/internal/load
-cmd/go/internal/help
 cmd/vendor/golang.org/x/tools/go/types/typeutil
-cmd/vendor/golang.org/x/tools/go/analysis/passes/httpresponse
 cmd/vendor/golang.org/x/tools/go/analysis/passes/ctrlflow
+cmd/vendor/golang.org/x/tools/go/analysis/passes/directive
 cmd/vendor/golang.org/x/tools/go/analysis/passes/errorsas
+cmd/vendor/golang.org/x/tools/go/analysis/passes/framepointer
+cmd/vendor/golang.org/x/tools/go/analysis/passes/httpresponse
 cmd/vendor/golang.org/x/tools/go/analysis/passes/ifaceassert
 cmd/vendor/golang.org/x/tools/go/analysis/passes/loopclosure
 cmd/vendor/golang.org/x/tools/go/analysis/passes/lostcancel
+cmd/go/internal/load
+cmd/go/internal/help
 cmd/vendor/golang.org/x/tools/go/analysis/passes/nilfunc
 cmd/vendor/golang.org/x/tools/go/analysis/passes/printf
 cmd/vendor/golang.org/x/tools/go/analysis/passes/shift
@@ -4268,8 +4268,6 @@ cmd/vendor/golang.org/x/tools/go/analysis/passes/structtag
 cmd/vendor/golang.org/x/tools/go/analysis/passes/testinggoroutine
 cmd/vendor/golang.org/x/tools/go/analysis/passes/tests
 cmd/vendor/golang.org/x/tools/go/analysis/passes/timeformat
-cmd/go/internal/work
-cmd/go/internal/fmtcmd
 cmd/vendor/golang.org/x/tools/go/analysis/passes/unmarshal
 cmd/vendor/golang.org/x/tools/go/analysis/passes/unreachable
 cmd/vendor/golang.org/x/tools/go/analysis/passes/unsafeptr
@@ -4277,22 +4275,24 @@ cmd/vendor/golang.org/x/tools/go/analysis/passes/unusedresult
 go/internal/gccgoimporter
 go/internal/gcimporter
 go/internal/srcimporter
+cmd/go/internal/work
+cmd/go/internal/fmtcmd
 cmd/vendor/golang.org/x/tools/go/types/objectpath
-cmd/vendor/golang.org/x/tools/internal/facts
 go/importer
+cmd/vendor/golang.org/x/tools/internal/facts
 cmd/vendor/golang.org/x/tools/go/analysis/unitchecker
 cmd/vet
 cmd/go/internal/envcmd
-cmd/go/internal/fix
 cmd/go/internal/clean
+cmd/go/internal/fix
 cmd/go/internal/generate
 cmd/go/internal/get
-cmd/go/internal/bug
 cmd/go/internal/list
+cmd/go/internal/bug
 cmd/go/internal/run
 cmd/go/internal/test
-cmd/go/internal/toolchain
 cmd/go/internal/vet
+cmd/go/internal/toolchain
 cmd/go/internal/modcmd
 cmd/go/internal/modget
 cmd/go/internal/workcmd
@@ -4339,7 +4339,7 @@ mkdir -p /home/runner/work/Zzz/Zzz/openwrt/staging_dir/hostpkg/stamp
 touch /home/runner/work/Zzz/Zzz/openwrt/build_dir/hostpkg/go-1.21.4/.built
 touch /home/runner/work/Zzz/Zzz/openwrt/staging_dir/hostpkg/stamp/.golang_installed
 make[2]: Leaving directory '/home/runner/work/Zzz/Zzz/openwrt/feeds/packages/lang/golang/golang'
-time: package/feeds/packages/golang/host-compile#682.79#72.50#249.02
+time: package/feeds/packages/golang/host-compile#676.68#70.99#249.71
 make[2]: Entering directory '/home/runner/work/Zzz/Zzz/openwrt/feeds/kiddin9/adguardhome'
 mkdir -p /home/runner/work/Zzz/Zzz/openwrt/dl
 SHELL= flock /home/runner/work/Zzz/Zzz/openwrt/tmp/.adguardhome-frontend-0.107.41.tar.gz.flock -c '  	/home/runner/work/Zzz/Zzz/openwrt/scripts/download.pl "/home/runner/work/Zzz/Zzz/openwrt/dl" "adguardhome-frontend-0.107.41.tar.gz" "skip" "AdGuardHome_frontend.tar.gz" "https://github.com/AdguardTeam/AdGuardHome/releases/download/v0.107.41/"    '
@@ -4347,14 +4347,14 @@ SHELL= flock /home/runner/work/Zzz/Zzz/openwrt/tmp/.adguardhome-frontend-0.107.4
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
-100 2695k  100 2695k    0     0  10.1M      0 --:--:-- --:--:-- --:--:-- 10.1M
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 2695k  100 2695k    0     0  7226k      0 --:--:-- --:--:-- --:--:-- 21.2M
 mkdir -p /home/runner/work/Zzz/Zzz/openwrt/dl
 SHELL= flock /home/runner/work/Zzz/Zzz/openwrt/tmp/.adguardhome-0.107.41.tar.gz.flock -c '  	/home/runner/work/Zzz/Zzz/openwrt/scripts/download.pl "/home/runner/work/Zzz/Zzz/openwrt/dl" "adguardhome-0.107.41.tar.gz" "e31cde9bc1849def3d54cd10bb6ddae778dfaf28b88d789f664a1a64cc086dd1" "" "https://codeload.github.com/AdguardTeam/AdGuardHome/tar.gz/v0.107.41?"    '
 + curl -f --connect-timeout 20 --retry 5 --location https://codeload.github.com/AdguardTeam/AdGuardHome/tar.gz/v0.107.41?/adguardhome-0.107.41.tar.gz
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 2135k  100 2135k    0     0  6996k      0 --:--:-- --:--:-- --:--:-- 7001k
-touch /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-i386_pentium4_musl/adguardhome-0.107.41/.prepared_cddac34099b15aa04d41d793b3e496b9_6664517399ebbbc92a37c5bb081b5c53_check
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 2135k    0 2135k    0     0  4852k      0 --:--:-- --:--:-- --:--:-- 4853k
+touch /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-i386_pentium4_musl/adguardhome-0.107.41/.prepared_2d4bc43b5a28134ee95970f10d86c831_6664517399ebbbc92a37c5bb081b5c53_check
 . /home/runner/work/Zzz/Zzz/openwrt/include/shell.sh; gzip -dc /home/runner/work/Zzz/Zzz/openwrt/dl/adguardhome-0.107.41.tar.gz | tar -C /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-i386_pentium4_musl/adguardhome-0.107.41/.. -xf -
 [ ! -d ./src/ ] || cp -fpR ./src/. /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-i386_pentium4_musl/adguardhome-0.107.41
 
@@ -4378,9 +4378,9 @@ The text leading up to this was:
 No file to patch.  Skipping patch.
 8 out of 8 hunks ignored
 Patch failed!  Please fix ./patches/010-go-mod-tidy.patch!
-make[2]: *** [Makefile:88: /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-i386_pentium4_musl/adguardhome-0.107.41/.prepared_cddac34099b15aa04d41d793b3e496b9_6664517399ebbbc92a37c5bb081b5c53] Error 1
+make[2]: *** [Makefile:88: /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-i386_pentium4_musl/adguardhome-0.107.41/.prepared_2d4bc43b5a28134ee95970f10d86c831_6664517399ebbbc92a37c5bb081b5c53] Error 1
 make[2]: Leaving directory '/home/runner/work/Zzz/Zzz/openwrt/feeds/kiddin9/adguardhome'
-time: package/feeds/kiddin9/adguardhome/compile#0.43#0.20#0.95
+time: package/feeds/kiddin9/adguardhome/compile#0.38#0.25#1.20
     ERROR: package/feeds/kiddin9/adguardhome failed to build.
 make[1]: *** [package/Makefile:120: package/feeds/kiddin9/adguardhome/compile] Error 1
 make[1]: Leaving directory '/home/runner/work/Zzz/Zzz/openwrt'

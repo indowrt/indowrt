@@ -9,7 +9,7 @@ echo "libc" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-arm_xscale_m
 echo "libgcc" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-arm_xscale_musl_eabi/pkginfo/toolchain.default.install
 echo "libpthread" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-arm_xscale_musl_eabi/pkginfo/toolchain.default.install
 make[2]: Leaving directory '/home/runner/work/Zzz/Zzz/openwrt/package/toolchain'
-time: package/toolchain/compile#0.20#0.10#0.30
+time: package/toolchain/compile#0.22#0.09#0.30
 make[2]: Entering directory '/home/runner/work/Zzz/Zzz/openwrt/feeds/base/package/libs/libmnl'
 make[2]: Entering directory '/home/runner/work/Zzz/Zzz/openwrt/feeds/base/package/firmware/linux-firmware'
 make[2]: Entering directory '/home/runner/work/Zzz/Zzz/openwrt/feeds/base/package/firmware/prism54-firmware'
@@ -18,15 +18,15 @@ echo "libmnl" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-arm_xscale
 make[2]: Leaving directory '/home/runner/work/Zzz/Zzz/openwrt/feeds/base/package/libs/libmnl'
 time: package/feeds/base/libmnl/compile#0.18#0.10#0.30
 make[2]: Leaving directory '/home/runner/work/Zzz/Zzz/openwrt/feeds/base/package/libs/libpcap'
-time: package/feeds/base/libpcap/compile#0.18#0.11#0.31
+time: package/feeds/base/libpcap/compile#0.17#0.12#0.31
 make[2]: Entering directory '/home/runner/work/Zzz/Zzz/openwrt/feeds/base/package/libs/libnftnl'
 make[2]: Leaving directory '/home/runner/work/Zzz/Zzz/openwrt/feeds/base/package/firmware/prism54-firmware'
-time: package/feeds/base/prism54-firmware/compile#0.19#0.12#0.32
+time: package/feeds/base/prism54-firmware/compile#0.18#0.13#0.32
 echo "libnftnl" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-arm_xscale_musl_eabi/pkginfo/libnftnl.default.install
 make[2]: Leaving directory '/home/runner/work/Zzz/Zzz/openwrt/feeds/base/package/libs/libnftnl'
-time: package/feeds/base/libnftnl/compile#0.14#0.11#0.22
+time: package/feeds/base/libnftnl/compile#0.16#0.09#0.22
 make[2]: Leaving directory '/home/runner/work/Zzz/Zzz/openwrt/feeds/base/package/firmware/linux-firmware'
-time: package/feeds/base/linux-firmware/compile#1.29#0.20#1.48
+time: package/feeds/base/linux-firmware/compile#1.33#0.16#1.49
 make[2]: Entering directory '/home/runner/work/Zzz/Zzz/openwrt/package/kernel/linux'
 echo "kernel" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-arm_xscale_musl_eabi/pkginfo/linux.default.install
 echo "kmod-crypto-crc32c" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-arm_xscale_musl_eabi/pkginfo/linux.default.install
@@ -76,7 +76,7 @@ echo "kmod-usb-ehci" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-arm
 echo "kmod-usb2" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-arm_xscale_musl_eabi/pkginfo/linux.default.install
 WARNING: kmod-net-prism54 is not available in the kernel config - generating empty package
 make[2]: Leaving directory '/home/runner/work/Zzz/Zzz/openwrt/package/kernel/linux'
-time: package/kernel/linux/compile#1.64#0.29#1.92
+time: package/kernel/linux/compile#1.61#0.33#1.92
 make[2]: Entering directory '/home/runner/work/Zzz/Zzz/openwrt/feeds/base/package/network/utils/iptables'
 make[2]: Leaving directory '/home/runner/work/Zzz/Zzz/openwrt/feeds/base/package/network/utils/iptables'
 time: package/feeds/base/iptables/compile#0.15#0.10#0.23
@@ -106,7 +106,7 @@ Turn off this advice by setting config variable advice.detachedHead to false
 
 HEAD is now at 2c3fd8d4 Merge branch 'github.dev' into flow_info-4
 Packing checkout...
-touch /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_xscale_musl_eabi/linux-kirkwood/ndpi-netfilter-04282023-flow_info-4/.prepared_a7501563508822d03269e2bdf2ac9038_6664517399ebbbc92a37c5bb081b5c53_check
+touch /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_xscale_musl_eabi/linux-kirkwood/ndpi-netfilter-04282023-flow_info-4/.prepared_1fef4ef51c635d6ed3702928822837b1_6664517399ebbbc92a37c5bb081b5c53_check
 . /home/runner/work/Zzz/Zzz/openwrt/include/shell.sh; bzcat /home/runner/work/Zzz/Zzz/openwrt/dl/ndpi-netfilter-04282023-flow_info-4.tar.bz2 | tar -C /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_xscale_musl_eabi/linux-kirkwood/ndpi-netfilter-04282023-flow_info-4/.. -xf -
 [ ! -d ./src/ ] || cp -fpR ./src/. /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_xscale_musl_eabi/linux-kirkwood/ndpi-netfilter-04282023-flow_info-4
 
@@ -117,7 +117,7 @@ Hunk #1 succeeded at 4 with fuzz 1 (offset -1 lines).
 Applying ./patches/0002-skbuff-check_fix.patch using plaintext: 
 patching file ndpi-netfilter/src/Makefile
 Hunk #1 succeeded at 17 (offset 4 lines).
-touch /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_xscale_musl_eabi/linux-kirkwood/ndpi-netfilter-04282023-flow_info-4/.prepared_a7501563508822d03269e2bdf2ac9038_6664517399ebbbc92a37c5bb081b5c53
+touch /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_xscale_musl_eabi/linux-kirkwood/ndpi-netfilter-04282023-flow_info-4/.prepared_1fef4ef51c635d6ed3702928822837b1_6664517399ebbbc92a37c5bb081b5c53
 rm -f /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_xscale_musl_eabi/linux-kirkwood/ndpi-netfilter-04282023-flow_info-4/.configured_*
 rm -f /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-arm_xscale_musl_eabi/stamp/.ndpi-netfilter_installed
 (cd /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_xscale_musl_eabi/linux-kirkwood/ndpi-netfilter-04282023-flow_info-4/./; if [ -x ./autogen.sh ]; then find /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_xscale_musl_eabi/linux-kirkwood/ndpi-netfilter-04282023-flow_info-4/ -name config.guess | xargs -r chmod u+w; find /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_xscale_musl_eabi/linux-kirkwood/ndpi-netfilter-04282023-flow_info-4/ -name config.guess | xargs -r -n1 cp --remove-destination /home/runner/work/Zzz/Zzz/openwrt/scripts/config.guess; find /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_xscale_musl_eabi/linux-kirkwood/ndpi-netfilter-04282023-flow_info-4/ -name config.sub | xargs -r chmod u+w; find /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_xscale_musl_eabi/linux-kirkwood/ndpi-netfilter-04282023-flow_info-4/ -name config.sub | xargs -r -n1 cp --remove-destination /home/runner/work/Zzz/Zzz/openwrt/scripts/config.sub; AR="arm-openwrt-linux-muslgnueabi-gcc-ar" AS="arm-openwrt-linux-muslgnueabi-gcc -c -Os -pipe -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -mfloat-abi=soft -ffile-prefix-map=/home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_xscale_musl_eabi/linux-kirkwood/ndpi-netfilter-04282023-flow_info-4=ndpi-netfilter-04282023-flow_info-4 -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro" LD=arm-openwrt-linux-muslgnueabi-ld NM="arm-openwrt-linux-muslgnueabi-gcc-nm" CC="arm-openwrt-linux-muslgnueabi-gcc" GCC="arm-openwrt-linux-muslgnueabi-gcc" CXX="arm-openwrt-linux-muslgnueabi-g++" RANLIB="arm-openwrt-linux-muslgnueabi-gcc-ranlib" STRIP=arm-openwrt-linux-muslgnueabi-strip OBJCOPY=arm-openwrt-linux-muslgnueabi-objcopy OBJDUMP=arm-openwrt-linux-muslgnueabi-objdump SIZE=arm-openwrt-linux-muslgnueabi-size CFLAGS="-Os -pipe -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -mfloat-abi=soft -ffile-prefix-map=/home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_xscale_musl_eabi/linux-kirkwood/ndpi-netfilter-04282023-flow_info-4=ndpi-netfilter-04282023-flow_info-4 -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro " CXXFLAGS="-Os -pipe -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -mfloat-abi=soft -ffile-prefix-map=/home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_xscale_musl_eabi/linux-kirkwood/ndpi-netfilter-04282023-flow_info-4=ndpi-netfilter-04282023-flow_info-4 -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro " CPPFLAGS="-I/home/runner/work/Zzz/Zzz/openwrt/staging_dir/toolchain-arm_xscale_gcc-11.2.0_musl_eabi/usr/include -I/home/runner/work/Zzz/Zzz/openwrt/staging_dir/toolchain-arm_xscale_gcc-11.2.0_musl_eabi/include/fortify -I/home/runner/work/Zzz/Zzz/openwrt/staging_dir/toolchain-arm_xscale_gcc-11.2.0_musl_eabi/include " LDFLAGS="-L/home/runner/work/Zzz/Zzz/openwrt/staging_dir/toolchain-arm_xscale_gcc-11.2.0_musl_eabi/usr/lib -L/home/runner/work/Zzz/Zzz/openwrt/staging_dir/toolchain-arm_xscale_gcc-11.2.0_musl_eabi/lib -znow -zrelro "   ./autogen.sh --target=arm-openwrt-linux --host=arm-openwrt-linux --build=x86_64-pc-linux-gnu --program-prefix="" --program-suffix="" --prefix=/usr --exec-prefix=/usr --bindir=/usr/bin --sbindir=/usr/sbin --libexecdir=/usr/lib --sysconfdir=/etc --datadir=/usr/share --localstatedir=/var --mandir=/usr/man --infodir=/usr/info --disable-nls  --with-pic ; fi; )
@@ -556,7 +556,7 @@ make[3]: *** [Makefile:3: all] Error 2
 make[3]: Leaving directory '/home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_xscale_musl_eabi/linux-kirkwood/ndpi-netfilter-04282023-flow_info-4/ndpi-netfilter'
 make[2]: *** [Makefile:93: /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_xscale_musl_eabi/linux-kirkwood/ndpi-netfilter-04282023-flow_info-4/.built] Error 2
 make[2]: Leaving directory '/home/runner/work/Zzz/Zzz/openwrt/feeds/kiddin9/ndpi-netfilter'
-time: package/feeds/kiddin9/ndpi-netfilter/compile#66.62#14.62#76.62
+time: package/feeds/kiddin9/ndpi-netfilter/compile#66.67#14.28#78.06
     ERROR: package/feeds/kiddin9/ndpi-netfilter failed to build.
 make[1]: *** [package/Makefile:120: package/feeds/kiddin9/ndpi-netfilter/compile] Error 1
 make[1]: Leaving directory '/home/runner/work/Zzz/Zzz/openwrt'

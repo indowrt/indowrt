@@ -11,13 +11,13 @@ echo "libgcc" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-x86_64_mus
 echo "libpthread" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-x86_64_musl/pkginfo/toolchain.default.install
 echo "librt" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-x86_64_musl/pkginfo/toolchain.default.install
 make[2]: Leaving directory '/home/runner/work/Zzz/Zzz/openwrt/package/toolchain'
-time: package/toolchain/compile#0.22#0.11#0.31
+time: package/toolchain/compile#0.24#0.08#0.31
 make[2]: Entering directory '/home/runner/work/Zzz/Zzz/openwrt/feeds/base/package/system/ca-certificates'
 echo "ca-bundle" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-x86_64_musl/pkginfo/ca-certificates.default.install
 make[2]: Leaving directory '/home/runner/work/Zzz/Zzz/openwrt/feeds/base/package/system/ca-certificates'
-time: package/feeds/base/ca-certificates/compile#0.16#0.07#0.20
+time: package/feeds/base/ca-certificates/compile#0.14#0.08#0.20
 make[2]: Leaving directory '/home/runner/work/Zzz/Zzz/openwrt/feeds/packages/lang/golang/golang'
-time: package/feeds/packages/golang/host-compile#0.60#0.34#0.69
+time: package/feeds/packages/golang/host-compile#0.52#0.37#0.67
 make[2]: Entering directory '/home/runner/work/Zzz/Zzz/openwrt/feeds/kiddin9/sagernet-core'
 mkdir -p /home/runner/work/Zzz/Zzz/openwrt/dl
 SHELL= flock /home/runner/work/Zzz/Zzz/openwrt/tmp/.LibSagerNetCore-2022-06-10-9ef7ab1d.tar.xz.flock -c '  	/home/runner/work/Zzz/Zzz/openwrt/scripts/download.pl "/home/runner/work/Zzz/Zzz/openwrt/dl" "LibSagerNetCore-2022-06-10-9ef7ab1d.tar.xz" "9420189c45d5fbe682acee1da0b8f727cc5ea8c847ceeff5b026cd71ce60cf0f" "" || (  /home/runner/work/Zzz/Zzz/openwrt/scripts/dl_github_archive.py --dl-dir="/home/runner/work/Zzz/Zzz/openwrt/dl" --url="https://github.com/SagerNet/LibSagerNetCore.git" --version="9ef7ab1de7604ab959222d4de8ab6152a402e432" --subdir="LibSagerNetCore" --source="LibSagerNetCore-2022-06-10-9ef7ab1d.tar.xz" --hash="9420189c45d5fbe682acee1da0b8f727cc5ea8c847ceeff5b026cd71ce60cf0f" || ( 	echo "Checking out files from the git repository..."; mkdir -p /home/runner/work/Zzz/Zzz/openwrt/tmp/dl && cd /home/runner/work/Zzz/Zzz/openwrt/tmp/dl && rm -rf LibSagerNetCore && [ \! -d LibSagerNetCore ] && git clone  https://github.com/SagerNet/LibSagerNetCore.git LibSagerNetCore && (cd LibSagerNetCore && git checkout 9ef7ab1de7604ab959222d4de8ab6152a402e432 && git submodule update --init --recursive) && echo "Packing checkout..." && export TAR_TIMESTAMP=`cd LibSagerNetCore && git log -1 --format='\''@%ct'\''` && rm -rf LibSagerNetCore/.git && 	tar --numeric-owner --owner=0 --group=0 --mode=a-s --sort=name ${TAR_TIMESTAMP:+--mtime="$TAR_TIMESTAMP"} -c LibSagerNetCore | 	xz -zc -7e > /home/runner/work/Zzz/Zzz/openwrt/tmp/dl/LibSagerNetCore-2022-06-10-9ef7ab1d.tar.xz && mv /home/runner/work/Zzz/Zzz/openwrt/tmp/dl/LibSagerNetCore-2022-06-10-9ef7ab1d.tar.xz /home/runner/work/Zzz/Zzz/openwrt/dl/ && rm -rf LibSagerNetCore; );  )    '
@@ -30,7 +30,7 @@ Download failed.
 + curl -f --connect-timeout 20 --retry 5 --location https://sources.openwrt.org/LibSagerNetCore-2022-06-10-9ef7ab1d.tar.xz
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0   169    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0   169    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
 curl: (22) The requested URL returned error: 404
 Download failed.
 + curl -f --connect-timeout 20 --retry 5 --location https://mirror2.openwrt.org/sources/LibSagerNetCore-2022-06-10-9ef7ab1d.tar.xz
@@ -61,7 +61,7 @@ Download failed.
 curl: (22) The requested URL returned error: 404
 Download failed.
 No more mirrors to try - giving up.
-touch /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-x86_64_musl/sagernet-core-5.0.17-2022-07-30-26e36b1c/.prepared_1c38c58a53ed1526d096b1e305fc47a8_6664517399ebbbc92a37c5bb081b5c53_check
+touch /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-x86_64_musl/sagernet-core-5.0.17-2022-07-30-26e36b1c/.prepared_0d3e386d170d76608966bd4d2d7c99e6_6664517399ebbbc92a37c5bb081b5c53_check
 . /home/runner/work/Zzz/Zzz/openwrt/include/shell.sh; xzcat /home/runner/work/Zzz/Zzz/openwrt/dl/sagernet-core-5.0.17-2022-07-30-26e36b1c.tar.xz | tar -C /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-x86_64_musl/sagernet-core-5.0.17-2022-07-30-26e36b1c/.. -xf -
 [ ! -d ./src/ ] || cp -fpR ./src/. /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-x86_64_musl/sagernet-core-5.0.17-2022-07-30-26e36b1c
 
@@ -74,7 +74,7 @@ xzcat /home/runner/work/Zzz/Zzz/openwrt/dl/LibSagerNetCore-2022-06-10-9ef7ab1d.t
 cp -fpR /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-x86_64_musl/sagernet-core-5.0.17-2022-07-30-26e36b1c/LibSagerNetCore/{obfs,ssr}.go /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-x86_64_musl/sagernet-core-5.0.17-2022-07-30-26e36b1c/proxy/shadowsocks/plugin/self/
 /home/runner/work/Zzz/Zzz/openwrt/staging_dir/host/bin/sed -i -e '/plugin\/self/d' -e 's/self.ParsePluginOptions/ParsePluginOptions/g' /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-x86_64_musl/sagernet-core-5.0.17-2022-07-30-26e36b1c/proxy/shadowsocks/plugin/self/obfs.go
 /home/runner/work/Zzz/Zzz/openwrt/staging_dir/host/bin/sed -i -e 's/package libcore/package self/g' /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-x86_64_musl/sagernet-core-5.0.17-2022-07-30-26e36b1c/proxy/shadowsocks/plugin/self/{obfs,ssr}.go
-touch /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-x86_64_musl/sagernet-core-5.0.17-2022-07-30-26e36b1c/.prepared_1c38c58a53ed1526d096b1e305fc47a8_6664517399ebbbc92a37c5bb081b5c53
+touch /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-x86_64_musl/sagernet-core-5.0.17-2022-07-30-26e36b1c/.prepared_0d3e386d170d76608966bd4d2d7c99e6_6664517399ebbbc92a37c5bb081b5c53
 rm -f /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-x86_64_musl/sagernet-core-5.0.17-2022-07-30-26e36b1c/.configured_*
 rm -f /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-x86_64_musl/stamp/.sagernet-core_installed
 CONFIG_GOLANG_MOD_CACHE_WORLD_READABLE="" GO_BUILD_CACHE_DIR="/home/runner/work/Zzz/Zzz/openwrt/tmp/go-build" GO_MOD_CACHE_DIR="/home/runner/work/Zzz/Zzz/openwrt/dl/go-mod-cache" GO_MOD_ARGS="-modcacherw" GO_PKG="github.com/v2fly/v2ray-core/v5" GO_INSTALL_EXTRA="" GO_INSTALL_ALL="" GO_SOURCE_ONLY="" GO_BUILD_PKG="github.com/v2fly/v2ray-core/v5/main" GO_EXCLUDES="" GO_GO_GENERATE="" GO_INSTALL_BIN_PATH="/usr/bin" BUILD_DIR="/home/runner/work/Zzz/Zzz/openwrt/build_dir/target-x86_64_musl/sagernet-core-5.0.17-2022-07-30-26e36b1c" GO_BUILD_DIR="/home/runner/work/Zzz/Zzz/openwrt/build_dir/target-x86_64_musl/sagernet-core-5.0.17-2022-07-30-26e36b1c/.go_work/build" GO_BUILD_BIN_DIR="/home/runner/work/Zzz/Zzz/openwrt/build_dir/target-x86_64_musl/sagernet-core-5.0.17-2022-07-30-26e36b1c/.go_work/build/bin" GO_BUILD_DEPENDS_PATH="/usr/share/gocode" GO_BUILD_DEPENDS_SRC="/home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-x86_64_musl/usr/share/gocode/src" /usr/bin/env bash /home/runner/work/Zzz/Zzz/openwrt/feeds/packages/lang/golang//golang-build.sh configure
@@ -1162,10 +1162,10 @@ v2ray.go
 v2ray_test.go
 
 Symlinking directories from /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-x86_64_musl/usr/share/gocode/src into /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-x86_64_musl/sagernet-core-5.0.17-2022-07-30-26e36b1c/.go_work/build/src
-.../github.com/alist-org
 .../github.com/filebrowser
-.../github.com/apernet
 .../github.com/ginuerzh
+.../github.com/alist-org
+.../github.com/apernet
 .../github.com/txthinking
 
 touch /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-x86_64_musl/sagernet-core-5.0.17-2022-07-30-26e36b1c/.configured_1cd727ac7b9ebbe4ee453b5ddb8504b3
@@ -1173,8 +1173,8 @@ rm -f /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-x86_64_musl/sagernet-co
 touch /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-x86_64_musl/sagernet-core-5.0.17-2022-07-30-26e36b1c/.built_check
 CONFIG_GOLANG_MOD_CACHE_WORLD_READABLE="" GO_BUILD_CACHE_DIR="/home/runner/work/Zzz/Zzz/openwrt/tmp/go-build" GO_MOD_CACHE_DIR="/home/runner/work/Zzz/Zzz/openwrt/dl/go-mod-cache" GO_MOD_ARGS="-modcacherw" GO_PKG="github.com/v2fly/v2ray-core/v5" GO_INSTALL_EXTRA="" GO_INSTALL_ALL="" GO_SOURCE_ONLY="" GO_BUILD_PKG="github.com/v2fly/v2ray-core/v5/main" GO_EXCLUDES="" GO_GO_GENERATE="" GO_INSTALL_BIN_PATH="/usr/bin" BUILD_DIR="/home/runner/work/Zzz/Zzz/openwrt/build_dir/target-x86_64_musl/sagernet-core-5.0.17-2022-07-30-26e36b1c" GO_BUILD_DIR="/home/runner/work/Zzz/Zzz/openwrt/build_dir/target-x86_64_musl/sagernet-core-5.0.17-2022-07-30-26e36b1c/.go_work/build" GO_BUILD_BIN_DIR="/home/runner/work/Zzz/Zzz/openwrt/build_dir/target-x86_64_musl/sagernet-core-5.0.17-2022-07-30-26e36b1c/.go_work/build/bin" GO_BUILD_DEPENDS_PATH="/usr/share/gocode" GO_BUILD_DEPENDS_SRC="/home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-x86_64_musl/usr/share/gocode/src" GOOS="linux" GOARCH="amd64" GO386="" GOAMD64="v1" GOARM="" GOMIPS="" GOMIPS64="" GOPPC64="" CGO_ENABLED=1 CC="x86_64-openwrt-linux-musl-gcc" CXX="x86_64-openwrt-linux-musl-g++" CGO_CFLAGS="-Os -pipe -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -ffile-prefix-map=/home/runner/work/Zzz/Zzz/openwrt/build_dir/target-x86_64_musl/sagernet-core-5.0.17-2022-07-30-26e36b1c=sagernet-core-5.0.17-2022-07-30-26e36b1c -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro" CGO_CPPFLAGS="-I/home/runner/work/Zzz/Zzz/openwrt/staging_dir/toolchain-x86_64_gcc-11.2.0_musl/usr/include -I/home/runner/work/Zzz/Zzz/openwrt/staging_dir/toolchain-x86_64_gcc-11.2.0_musl/include/fortify -I/home/runner/work/Zzz/Zzz/openwrt/staging_dir/toolchain-x86_64_gcc-11.2.0_musl/include" CGO_CXXFLAGS="-Os -pipe -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -ffile-prefix-map=/home/runner/work/Zzz/Zzz/openwrt/build_dir/target-x86_64_musl/sagernet-core-5.0.17-2022-07-30-26e36b1c=sagernet-core-5.0.17-2022-07-30-26e36b1c -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro" CGO_LDFLAGS="-L/home/runner/work/Zzz/Zzz/openwrt/staging_dir/toolchain-x86_64_gcc-11.2.0_musl/usr/lib -L/home/runner/work/Zzz/Zzz/openwrt/staging_dir/toolchain-x86_64_gcc-11.2.0_musl/lib -znow -zrelro" GOPATH="/home/runner/work/Zzz/Zzz/openwrt/build_dir/target-x86_64_musl/sagernet-core-5.0.17-2022-07-30-26e36b1c/.go_work/build" GOCACHE="/home/runner/work/Zzz/Zzz/openwrt/tmp/go-build" GOMODCACHE="/home/runner/work/Zzz/Zzz/openwrt/dl/go-mod-cache" GOENV=off GOTOOLCHAIN=local /usr/bin/env bash /home/runner/work/Zzz/Zzz/openwrt/feeds/packages/lang/golang//golang-build.sh build -v -buildvcs=false -trimpath -ldflags "all=-buildid '1700042442' -linkmode external -extldflags '-L/home/runner/work/Zzz/Zzz/openwrt/staging_dir/toolchain-x86_64_gcc-11.2.0_musl/usr/lib -L/home/runner/work/Zzz/Zzz/openwrt/staging_dir/toolchain-x86_64_gcc-11.2.0_musl/lib -Wl,-z,now -Wl,-z,relro'"        -ldflags " -X github.com/v2fly/v2ray-core/v5.build=OpenWrt -X github.com/v2fly/v2ray-core/v5.version=5.0.17 -buildid '1700042442' -linkmode external -extldflags '-L/home/runner/work/Zzz/Zzz/openwrt/staging_dir/toolchain-x86_64_gcc-11.2.0_musl/usr/lib -L/home/runner/work/Zzz/Zzz/openwrt/staging_dir/toolchain-x86_64_gcc-11.2.0_musl/lib -Wl,-z,now -Wl,-z,relro'"  
 Finding targets
-go: downloading google.golang.org/protobuf v1.28.0
 go: downloading google.golang.org/grpc v1.48.0
+go: downloading google.golang.org/protobuf v1.28.0
 go: downloading github.com/sagernet/sing v0.0.0-20220726034811-bc109486f14e
 go: downloading github.com/lucas-clemente/quic-go v0.28.1
 go: downloading golang.org/x/net v0.0.0-20220728030405-41545e8bf201
@@ -1189,17 +1189,17 @@ go: downloading github.com/sagernet/sing-shadowsocks v0.0.0-20220726034922-ebbaa
 go: downloading github.com/dgryski/go-camellia v0.0.0-20191119043421-69a8a13fb23d
 go: downloading github.com/dgryski/go-idea v0.0.0-20170306091226-d2fb45a411fb
 go: downloading github.com/dgryski/go-rc2 v0.0.0-20150621095337-8a9021637152
-go: downloading github.com/Dreamacro/clash v1.11.4
 go: downloading github.com/geeksbaek/seed v0.0.0-20180909040025-2a7f5fb92e22
 go: downloading github.com/kierdavis/cfb8 v0.0.0-20180105024805-3a17c36ee2f8
 go: downloading golang.org/x/crypto v0.0.0-20220722155217-630584e8d5aa
-go: downloading golang.org/x/sys v0.0.0-20220728004956-3c1f35247d10
+go: downloading github.com/Dreamacro/clash v1.11.4
 go: downloading github.com/xtls/go v0.0.0-20210920065950-d4af136d3672
+go: downloading golang.org/x/sys v0.0.0-20220728004956-3c1f35247d10
+go: downloading google.golang.org/genproto v0.0.0-20220322021311-435b647f9ef2
 go: downloading github.com/marten-seemann/qtls-go1-18 v0.1.2
 go: downloading github.com/pires/go-proxyproto v0.6.2
-go: downloading google.golang.org/genproto v0.0.0-20220322021311-435b647f9ef2
-go: downloading github.com/sagernet/gvisor v0.0.0-20220402114650-763d12dc953e
 go: downloading github.com/cheekybits/genny v1.0.0
+go: downloading github.com/sagernet/gvisor v0.0.0-20220402114650-763d12dc953e
 go: downloading github.com/go-playground/universal-translator v0.18.0
 go: downloading github.com/leodido/go-urn v1.2.1
 go: downloading golang.org/x/text v0.3.7
@@ -1211,13 +1211,13 @@ go: downloading github.com/klauspost/cpuid v1.2.3
 go: downloading github.com/go-playground/locales v0.14.0
 go: downloading github.com/google/btree v1.0.1
 go: downloading github.com/jhump/protoreflect v1.12.0
-go: downloading github.com/sirupsen/logrus v1.8.1
 go: downloading github.com/dgryski/go-metro v0.0.0-20211217172704-adc40b04c140
 go: downloading go4.org/unsafe/assume-no-moving-gc v0.0.0-20220617031537-928513b29760
+go: downloading github.com/sirupsen/logrus v1.8.1
 go: downloading github.com/marten-seemann/qtls-go1-19 v0.1.0-beta.1
+go: downloading github.com/ebfe/bcrypt_pbkdf v0.0.0-20140212075826-3c8d2dcb253a
 go: downloading github.com/v2fly/BrowserBridge v0.0.0-20210430233438-0570fc1d7d08
 go: downloading golang.zx2c4.com/wireguard v0.0.0-20220703234212-c31a7b1ab478
-go: downloading github.com/ebfe/bcrypt_pbkdf v0.0.0-20140212075826-3c8d2dcb253a
 go: downloading github.com/xtaci/smux v1.5.16
 go: downloading golang.org/x/time v0.0.0-20220411224347-583f2d630306
 go: downloading github.com/lunixbochs/struc v0.0.0-20200707160740-784aaebc1d40
@@ -1234,7 +1234,7 @@ package github.com/v2fly/v2ray-core/v5/main
 
 make[2]: *** [Makefile:148: /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-x86_64_musl/sagernet-core-5.0.17-2022-07-30-26e36b1c/.built] Error 1
 make[2]: Leaving directory '/home/runner/work/Zzz/Zzz/openwrt/feeds/kiddin9/sagernet-core'
-time: package/feeds/kiddin9/sagernet-core/compile#8.41#2.93#13.06
+time: package/feeds/kiddin9/sagernet-core/compile#8.18#3.10#13.01
     ERROR: package/feeds/kiddin9/sagernet-core failed to build.
 make[1]: *** [package/Makefile:120: package/feeds/kiddin9/sagernet-core/compile] Error 1
 make[1]: Leaving directory '/home/runner/work/Zzz/Zzz/openwrt'

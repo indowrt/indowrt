@@ -9,10 +9,10 @@ echo "libc" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-mips_24kc_mu
 echo "libgcc" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-mips_24kc_musl/pkginfo/toolchain.default.install
 echo "libpthread" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-mips_24kc_musl/pkginfo/toolchain.default.install
 make[2]: Leaving directory '/home/runner/work/Zzz/Zzz/openwrt/package/toolchain'
-time: package/toolchain/compile#0.25#0.13#0.33
+time: package/toolchain/compile#0.23#0.15#0.34
 make[2]: Entering directory '/home/runner/work/Zzz/Zzz/openwrt/feeds/kiddin9/ookla-speedtest'
-touch /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mips_24kc_musl/ookla-speedtest-1.2.0/.prepared_8f9e91bfdff26f5b8e02d066f4e862f3_6664517399ebbbc92a37c5bb081b5c53_check
-touch /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mips_24kc_musl/ookla-speedtest-1.2.0/.prepared_8f9e91bfdff26f5b8e02d066f4e862f3_6664517399ebbbc92a37c5bb081b5c53
+touch /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mips_24kc_musl/ookla-speedtest-1.2.0/.prepared_bd6f8f0569fd31675054157f28cda951_6664517399ebbbc92a37c5bb081b5c53_check
+touch /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mips_24kc_musl/ookla-speedtest-1.2.0/.prepared_bd6f8f0569fd31675054157f28cda951_6664517399ebbbc92a37c5bb081b5c53
 rm -f /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mips_24kc_musl/ookla-speedtest-1.2.0/.configured_*
 rm -f /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-mips_24kc_musl/stamp/.ookla-speedtest_installed
 touch /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mips_24kc_musl/ookla-speedtest-1.2.0/.configured_68b329da9893e34099c7d8ad5cb9c940
@@ -26,7 +26,7 @@ cp -fpR /speedtest /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mips_24kc_
 cp: cannot stat '/speedtest': No such file or directory
 make[2]: *** [Makefile:52: /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mips_24kc_musl/ookla-speedtest-1.2.0/.pkgdir/ookla-speedtest.installed] Error 1
 make[2]: Leaving directory '/home/runner/work/Zzz/Zzz/openwrt/feeds/kiddin9/ookla-speedtest'
-time: package/feeds/kiddin9/ookla-speedtest/compile#0.16#0.09#0.22
+time: package/feeds/kiddin9/ookla-speedtest/compile#0.14#0.12#0.22
     ERROR: package/feeds/kiddin9/ookla-speedtest failed to build.
 make[1]: *** [package/Makefile:120: package/feeds/kiddin9/ookla-speedtest/compile] Error 1
 make[1]: Leaving directory '/home/runner/work/Zzz/Zzz/openwrt'

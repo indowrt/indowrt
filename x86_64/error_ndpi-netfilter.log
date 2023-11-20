@@ -10,24 +10,24 @@ echo "libgcc" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-x86_64_mus
 echo "libpthread" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-x86_64_musl/pkginfo/toolchain.default.install
 echo "librt" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-x86_64_musl/pkginfo/toolchain.default.install
 make[2]: Leaving directory '/home/runner/work/Zzz/Zzz/openwrt/package/toolchain'
-time: package/toolchain/compile#0.22#0.10#0.31
+time: package/toolchain/compile#0.24#0.07#0.30
 make[2]: Entering directory '/home/runner/work/Zzz/Zzz/openwrt/feeds/base/package/libs/libmnl'
 make[2]: Entering directory '/home/runner/work/Zzz/Zzz/openwrt/feeds/base/package/firmware/linux-firmware'
 make[2]: Entering directory '/home/runner/work/Zzz/Zzz/openwrt/feeds/base/package/firmware/prism54-firmware'
 make[2]: Entering directory '/home/runner/work/Zzz/Zzz/openwrt/feeds/base/package/libs/libpcap'
 echo "libmnl" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-x86_64_musl/pkginfo/libmnl.default.install
 make[2]: Leaving directory '/home/runner/work/Zzz/Zzz/openwrt/feeds/base/package/libs/libmnl'
-time: package/feeds/base/libmnl/compile#0.18#0.11#0.30
+time: package/feeds/base/libmnl/compile#0.17#0.12#0.30
 make[2]: Leaving directory '/home/runner/work/Zzz/Zzz/openwrt/feeds/base/package/libs/libpcap'
-time: package/feeds/base/libpcap/compile#0.17#0.12#0.32
+time: package/feeds/base/libpcap/compile#0.17#0.12#0.31
 make[2]: Entering directory '/home/runner/work/Zzz/Zzz/openwrt/feeds/base/package/libs/libnftnl'
 make[2]: Leaving directory '/home/runner/work/Zzz/Zzz/openwrt/feeds/base/package/firmware/prism54-firmware'
-time: package/feeds/base/prism54-firmware/compile#0.21#0.10#0.34
+time: package/feeds/base/prism54-firmware/compile#0.18#0.13#0.32
 echo "libnftnl" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-x86_64_musl/pkginfo/libnftnl.default.install
 make[2]: Leaving directory '/home/runner/work/Zzz/Zzz/openwrt/feeds/base/package/libs/libnftnl'
-time: package/feeds/base/libnftnl/compile#0.15#0.10#0.22
+time: package/feeds/base/libnftnl/compile#0.17#0.08#0.22
 make[2]: Leaving directory '/home/runner/work/Zzz/Zzz/openwrt/feeds/base/package/firmware/linux-firmware'
-time: package/feeds/base/linux-firmware/compile#1.30#0.21#1.50
+time: package/feeds/base/linux-firmware/compile#1.32#0.18#1.49
 make[2]: Entering directory '/home/runner/work/Zzz/Zzz/openwrt/package/kernel/linux'
 echo "kernel" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-x86_64_musl/pkginfo/linux.default.install
 WARNING: kmod-block2mtd is not available in the kernel config - generating empty package
@@ -73,10 +73,10 @@ WARNING: kmod-thermal is not available in the kernel config - generating empty p
 WARNING: kmod-backlight-pwm is not available in the kernel config - generating empty package
 WARNING: kmod-net-prism54 is not available in the kernel config - generating empty package
 make[2]: Leaving directory '/home/runner/work/Zzz/Zzz/openwrt/package/kernel/linux'
-time: package/kernel/linux/compile#1.58#0.33#1.89
+time: package/kernel/linux/compile#1.60#0.29#1.88
 make[2]: Entering directory '/home/runner/work/Zzz/Zzz/openwrt/feeds/base/package/network/utils/iptables'
 make[2]: Leaving directory '/home/runner/work/Zzz/Zzz/openwrt/feeds/base/package/network/utils/iptables'
-time: package/feeds/base/iptables/compile#0.17#0.09#0.24
+time: package/feeds/base/iptables/compile#0.16#0.10#0.23
 make[2]: Entering directory '/home/runner/work/Zzz/Zzz/openwrt/feeds/kiddin9/ndpi-netfilter'
 mkdir -p /home/runner/work/Zzz/Zzz/openwrt/dl
 SHELL= flock /home/runner/work/Zzz/Zzz/openwrt/tmp/.ndpi-netfilter-04282023-flow_info-4.tar.bz2.flock -c '  	 /home/runner/work/Zzz/Zzz/openwrt/scripts/dl_github_archive.py --dl-dir="/home/runner/work/Zzz/Zzz/openwrt/dl" --url="https://github.com/vel21ripn/nDPI.git" --version="2c3fd8d4af7e4420a6a08105ea9a490a8e39a474" --subdir="ndpi-netfilter-04282023-flow_info-4" --source="ndpi-netfilter-04282023-flow_info-4.tar.bz2" --hash="x" || ( 	echo "Checking out files from the git repository..."; mkdir -p /home/runner/work/Zzz/Zzz/openwrt/tmp/dl && cd /home/runner/work/Zzz/Zzz/openwrt/tmp/dl && rm -rf ndpi-netfilter-04282023-flow_info-4 && [ \! -d ndpi-netfilter-04282023-flow_info-4 ] && git clone  https://github.com/vel21ripn/nDPI.git ndpi-netfilter-04282023-flow_info-4 && (cd ndpi-netfilter-04282023-flow_info-4 && git checkout 2c3fd8d4af7e4420a6a08105ea9a490a8e39a474 && git submodule update --init --recursive) && echo "Packing checkout..." && export TAR_TIMESTAMP=`cd ndpi-netfilter-04282023-flow_info-4 && git log -1 --format='\''@%ct'\''` && rm -rf ndpi-netfilter-04282023-flow_info-4/.git && 	tar --numeric-owner --owner=0 --group=0 --mode=a-s --sort=name ${TAR_TIMESTAMP:+--mtime="$TAR_TIMESTAMP"} -c ndpi-netfilter-04282023-flow_info-4 | 	bzip2 -c > /home/runner/work/Zzz/Zzz/openwrt/tmp/dl/ndpi-netfilter-04282023-flow_info-4.tar.bz2 && mv /home/runner/work/Zzz/Zzz/openwrt/tmp/dl/ndpi-netfilter-04282023-flow_info-4.tar.bz2 /home/runner/work/Zzz/Zzz/openwrt/dl/ && rm -rf ndpi-netfilter-04282023-flow_info-4; );     '
@@ -103,7 +103,7 @@ Turn off this advice by setting config variable advice.detachedHead to false
 
 HEAD is now at 2c3fd8d4 Merge branch 'github.dev' into flow_info-4
 Packing checkout...
-touch /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-x86_64_musl/linux-x86_64/ndpi-netfilter-04282023-flow_info-4/.prepared_f91a317e4f703b1746810350d442cc1a_6664517399ebbbc92a37c5bb081b5c53_check
+touch /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-x86_64_musl/linux-x86_64/ndpi-netfilter-04282023-flow_info-4/.prepared_1403c1b25581ef5de4c475e9196daf49_6664517399ebbbc92a37c5bb081b5c53_check
 . /home/runner/work/Zzz/Zzz/openwrt/include/shell.sh; bzcat /home/runner/work/Zzz/Zzz/openwrt/dl/ndpi-netfilter-04282023-flow_info-4.tar.bz2 | tar -C /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-x86_64_musl/linux-x86_64/ndpi-netfilter-04282023-flow_info-4/.. -xf -
 [ ! -d ./src/ ] || cp -fpR ./src/. /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-x86_64_musl/linux-x86_64/ndpi-netfilter-04282023-flow_info-4
 
@@ -114,7 +114,7 @@ Hunk #1 succeeded at 4 with fuzz 1 (offset -1 lines).
 Applying ./patches/0002-skbuff-check_fix.patch using plaintext: 
 patching file ndpi-netfilter/src/Makefile
 Hunk #1 succeeded at 17 (offset 4 lines).
-touch /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-x86_64_musl/linux-x86_64/ndpi-netfilter-04282023-flow_info-4/.prepared_f91a317e4f703b1746810350d442cc1a_6664517399ebbbc92a37c5bb081b5c53
+touch /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-x86_64_musl/linux-x86_64/ndpi-netfilter-04282023-flow_info-4/.prepared_1403c1b25581ef5de4c475e9196daf49_6664517399ebbbc92a37c5bb081b5c53
 rm -f /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-x86_64_musl/linux-x86_64/ndpi-netfilter-04282023-flow_info-4/.configured_*
 rm -f /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-x86_64_musl/stamp/.ndpi-netfilter_installed
 (cd /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-x86_64_musl/linux-x86_64/ndpi-netfilter-04282023-flow_info-4/./; if [ -x ./autogen.sh ]; then find /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-x86_64_musl/linux-x86_64/ndpi-netfilter-04282023-flow_info-4/ -name config.guess | xargs -r chmod u+w; find /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-x86_64_musl/linux-x86_64/ndpi-netfilter-04282023-flow_info-4/ -name config.guess | xargs -r -n1 cp --remove-destination /home/runner/work/Zzz/Zzz/openwrt/scripts/config.guess; find /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-x86_64_musl/linux-x86_64/ndpi-netfilter-04282023-flow_info-4/ -name config.sub | xargs -r chmod u+w; find /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-x86_64_musl/linux-x86_64/ndpi-netfilter-04282023-flow_info-4/ -name config.sub | xargs -r -n1 cp --remove-destination /home/runner/work/Zzz/Zzz/openwrt/scripts/config.sub; AR="x86_64-openwrt-linux-musl-gcc-ar" AS="x86_64-openwrt-linux-musl-gcc -c -Os -pipe -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -ffile-prefix-map=/home/runner/work/Zzz/Zzz/openwrt/build_dir/target-x86_64_musl/linux-x86_64/ndpi-netfilter-04282023-flow_info-4=ndpi-netfilter-04282023-flow_info-4 -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro" LD=x86_64-openwrt-linux-musl-ld NM="x86_64-openwrt-linux-musl-gcc-nm" CC="x86_64-openwrt-linux-musl-gcc" GCC="x86_64-openwrt-linux-musl-gcc" CXX="x86_64-openwrt-linux-musl-g++" RANLIB="x86_64-openwrt-linux-musl-gcc-ranlib" STRIP=x86_64-openwrt-linux-musl-strip OBJCOPY=x86_64-openwrt-linux-musl-objcopy OBJDUMP=x86_64-openwrt-linux-musl-objdump SIZE=x86_64-openwrt-linux-musl-size CFLAGS="-Os -pipe -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -ffile-prefix-map=/home/runner/work/Zzz/Zzz/openwrt/build_dir/target-x86_64_musl/linux-x86_64/ndpi-netfilter-04282023-flow_info-4=ndpi-netfilter-04282023-flow_info-4 -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro " CXXFLAGS="-Os -pipe -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -ffile-prefix-map=/home/runner/work/Zzz/Zzz/openwrt/build_dir/target-x86_64_musl/linux-x86_64/ndpi-netfilter-04282023-flow_info-4=ndpi-netfilter-04282023-flow_info-4 -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro " CPPFLAGS="-I/home/runner/work/Zzz/Zzz/openwrt/staging_dir/toolchain-x86_64_gcc-11.2.0_musl/usr/include -I/home/runner/work/Zzz/Zzz/openwrt/staging_dir/toolchain-x86_64_gcc-11.2.0_musl/include/fortify -I/home/runner/work/Zzz/Zzz/openwrt/staging_dir/toolchain-x86_64_gcc-11.2.0_musl/include " LDFLAGS="-L/home/runner/work/Zzz/Zzz/openwrt/staging_dir/toolchain-x86_64_gcc-11.2.0_musl/usr/lib -L/home/runner/work/Zzz/Zzz/openwrt/staging_dir/toolchain-x86_64_gcc-11.2.0_musl/lib -znow -zrelro "   ./autogen.sh --target=x86_64-openwrt-linux --host=x86_64-openwrt-linux --build=x86_64-pc-linux-gnu --program-prefix="" --program-suffix="" --prefix=/usr --exec-prefix=/usr --bindir=/usr/bin --sbindir=/usr/sbin --libexecdir=/usr/lib --sysconfdir=/etc --datadir=/usr/share --localstatedir=/var --mandir=/usr/man --infodir=/usr/info --disable-nls  --with-pic ; fi; )
@@ -656,7 +656,7 @@ Package kmod-ipt-ndpi is missing dependencies for the following libraries:
 x_tables.ko
 make[2]: *** [Makefile:101: /home/runner/work/Zzz/Zzz/openwrt/bin/targets/x86/64/packages/kmod-ipt-ndpi_5.10.199+04282023-flow_info-4-1_x86_64.ipk] Error 1
 make[2]: Leaving directory '/home/runner/work/Zzz/Zzz/openwrt/feeds/kiddin9/ndpi-netfilter'
-time: package/feeds/kiddin9/ndpi-netfilter/compile#70.51#16.89#85.25
+time: package/feeds/kiddin9/ndpi-netfilter/compile#70.16#17.42#87.08
     ERROR: package/feeds/kiddin9/ndpi-netfilter failed to build.
 make[1]: *** [package/Makefile:120: package/feeds/kiddin9/ndpi-netfilter/compile] Error 1
 make[1]: Leaving directory '/home/runner/work/Zzz/Zzz/openwrt'
