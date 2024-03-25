@@ -1,24 +1,24 @@
-make[2]: Entering directory '/home/runner/work/compile-package/compile-package/openwrt/scripts/config'
+make[2]: Entering directory '/home/runner/work/Zzz/Zzz/openwrt/scripts/config'
 make[2]: 'conf' is up to date.
-make[2]: Leaving directory '/home/runner/work/compile-package/compile-package/openwrt/scripts/config'
-make[1]: Entering directory '/home/runner/work/compile-package/compile-package/openwrt'
-make[2]: Entering directory '/home/runner/work/compile-package/compile-package/openwrt/package/toolchain'
+make[2]: Leaving directory '/home/runner/work/Zzz/Zzz/openwrt/scripts/config'
+make[1]: Entering directory '/home/runner/work/Zzz/Zzz/openwrt'
+make[2]: Entering directory '/home/runner/work/Zzz/Zzz/openwrt/package/toolchain'
 Makefile:735: WARNING: skipping libgomp -- package has no install section
-echo "libc" >> /home/runner/work/compile-package/compile-package/openwrt/staging_dir/target-mipsel_24kc_musl/pkginfo/toolchain.default.install
-echo "libgcc" >> /home/runner/work/compile-package/compile-package/openwrt/staging_dir/target-mipsel_24kc_musl/pkginfo/toolchain.default.install
-echo "libpthread" >> /home/runner/work/compile-package/compile-package/openwrt/staging_dir/target-mipsel_24kc_musl/pkginfo/toolchain.default.install
-make[2]: Leaving directory '/home/runner/work/compile-package/compile-package/openwrt/package/toolchain'
-time: package/toolchain/compile#0.22#0.10#0.30
-make[2]: Entering directory '/home/runner/work/compile-package/compile-package/openwrt/feeds/jell/ookla-speedtest'
-rm -rf /home/runner/work/compile-package/compile-package/openwrt/build_dir/target-mipsel_24kc_musl/ookla-speedtest-1.2.0/.pkgdir/ookla-speedtest.installed /home/runner/work/compile-package/compile-package/openwrt/build_dir/target-mipsel_24kc_musl/ookla-speedtest-1.2.0/.pkgdir/ookla-speedtest
-mkdir -p /home/runner/work/compile-package/compile-package/openwrt/build_dir/target-mipsel_24kc_musl/ookla-speedtest-1.2.0/.pkgdir/ookla-speedtest
-install -d -m0755 /home/runner/work/compile-package/compile-package/openwrt/build_dir/target-mipsel_24kc_musl/ookla-speedtest-1.2.0/.pkgdir/ookla-speedtest/usr/bin
-cp -fpR /speedtest /home/runner/work/compile-package/compile-package/openwrt/build_dir/target-mipsel_24kc_musl/ookla-speedtest-1.2.0/.pkgdir/ookla-speedtest/usr/bin
+echo "libc" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-mipsel_24kc_musl/pkginfo/toolchain.default.install
+echo "libgcc" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-mipsel_24kc_musl/pkginfo/toolchain.default.install
+echo "libpthread" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-mipsel_24kc_musl/pkginfo/toolchain.default.install
+make[2]: Leaving directory '/home/runner/work/Zzz/Zzz/openwrt/package/toolchain'
+time: package/toolchain/compile#0.27#0.12#0.35
+make[2]: Entering directory '/home/runner/work/Zzz/Zzz/openwrt/feeds/jell/ookla-speedtest'
+rm -rf /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mipsel_24kc_musl/ookla-speedtest-1.2.0/.pkgdir/ookla-speedtest.installed /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mipsel_24kc_musl/ookla-speedtest-1.2.0/.pkgdir/ookla-speedtest
+mkdir -p /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mipsel_24kc_musl/ookla-speedtest-1.2.0/.pkgdir/ookla-speedtest
+install -d -m0755 /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mipsel_24kc_musl/ookla-speedtest-1.2.0/.pkgdir/ookla-speedtest/usr/bin
+cp -fpR /speedtest /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mipsel_24kc_musl/ookla-speedtest-1.2.0/.pkgdir/ookla-speedtest/usr/bin
 cp: cannot stat '/speedtest': No such file or directory
-make[2]: *** [Makefile:52: /home/runner/work/compile-package/compile-package/openwrt/build_dir/target-mipsel_24kc_musl/ookla-speedtest-1.2.0/.pkgdir/ookla-speedtest.installed] Error 1
-make[2]: Leaving directory '/home/runner/work/compile-package/compile-package/openwrt/feeds/jell/ookla-speedtest'
-time: package/feeds/jell/ookla-speedtest/compile#0.14#0.07#0.19
+make[2]: *** [Makefile:52: /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mipsel_24kc_musl/ookla-speedtest-1.2.0/.pkgdir/ookla-speedtest.installed] Error 1
+make[2]: Leaving directory '/home/runner/work/Zzz/Zzz/openwrt/feeds/jell/ookla-speedtest'
+time: package/feeds/jell/ookla-speedtest/compile#0.17#0.11#0.23
     ERROR: package/feeds/jell/ookla-speedtest failed to build.
 make[1]: *** [package/Makefile:129: package/feeds/jell/ookla-speedtest/compile] Error 1
-make[1]: Leaving directory '/home/runner/work/compile-package/compile-package/openwrt'
-make: *** [/home/runner/work/compile-package/compile-package/openwrt/include/toplevel.mk:224: package/ookla-speedtest/compile] Error 2
+make[1]: Leaving directory '/home/runner/work/Zzz/Zzz/openwrt'
+make: *** [/home/runner/work/Zzz/Zzz/openwrt/include/toplevel.mk:224: package/ookla-speedtest/compile] Error 2

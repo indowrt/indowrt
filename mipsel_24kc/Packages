@@ -3,10 +3,10 @@ Version: 20190418
 Depends: libc, comgt
 Section: net
 Architecture: all
-Installed-Size: 15820
+Installed-Size: 15818
 Filename: 3ginfo-lite_20190418_all.ipk
-Size: 16567
-SHA256sum: 72476d1349ee88dc227059f225c89aa17e169531bff1675ee12f489c61af5e5b
+Size: 16560
+SHA256sum: e1d6ef92d9ba8a62bdcce6c1dcf68841751bf88b71739bf75e299b907d9cf0ab
 Description:  Information about status of 3G/4G modem (lite version)
 
 Package: 3ginfo-qmisignal
@@ -14,10 +14,10 @@ Version: 20190418
 Depends: libc, uqmi
 Section: net
 Architecture: all
-Installed-Size: 2254
+Installed-Size: 2255
 Filename: 3ginfo-qmisignal_20190418_all.ipk
-Size: 3014
-SHA256sum: ac1d5215ef4c0a691a97185661be67b711f94d33e7de8a49eb4336eb3acd2996
+Size: 3020
+SHA256sum: 86b139b2e1ae0cd4d5148b2ce5fac5fe689b099e31c445493731f367c5ef8985
 Description:  Information about status of 3G/4G modem (qmi signal)
 
 Package: 3ginfo-text
@@ -27,8 +27,8 @@ Section: net
 Architecture: all
 Installed-Size: 23018
 Filename: 3ginfo-text_20190418_all.ipk
-Size: 23862
-SHA256sum: b2bbd3c6699d64180b6f26ebc1cfd019329c682afc1d9a2cfb2e217f64461752
+Size: 23872
+SHA256sum: ddf20ac6ed713a8b3891b7001603653c97775ca63b6f1383efd0c0884e192cd8
 Description:  Information about status of 3G/4G modem (text version)
 
 Package: 3ginfo
@@ -36,10 +36,10 @@ Version: 20190418
 Depends: libc, 3ginfo-text
 Section: net
 Architecture: all
-Installed-Size: 11263
+Installed-Size: 11266
 Filename: 3ginfo_20190418_all.ipk
-Size: 12002
-SHA256sum: 56999dc86098ffa4832308a0499a7362fc3bc8a75cd9927721dd80f23f9d26b1
+Size: 12007
+SHA256sum: 3fb7622243a0e1b69f5af9bd04293695fb566fe17ff679fa0e7570ec71aef68d
 Description:  Information about status of 3G/4G modem
 
 Package: 3proxy-common
@@ -48,10 +48,10 @@ Depends: libc, 3proxy
 License: GPLv2
 Section: opt
 Architecture: mipsel_24kc
-Installed-Size: 130143
+Installed-Size: 130132
 Filename: 3proxy-common_0.9.4_mipsel_24kc.ipk
-Size: 130891
-SHA256sum: 5fe2ce234e42640abda36aadc4adbbfc7cb18a3e3233c44f47cbf687e72f77dd
+Size: 130842
+SHA256sum: e38dbfb358bd416bff60c802a8bb17c4ef818224be1993dd665f6915799009f4
 Description:  3proxy addional servers
 
 Package: 3proxy-sql
@@ -62,8 +62,8 @@ Section: opt
 Architecture: all
 Installed-Size: 14012
 Filename: 3proxy-sql_0.9.4_all.ipk
-Size: 14622
-SHA256sum: c33ece7f435d7288d1cc37a7bede087af51e1ebce3c28027451974f9ad1ebda8
+Size: 14619
+SHA256sum: 12b666d4f8c03fafff31dea5650c1710a27507a1b5db980cee1c7283700b6876
 Description:  3proxy sql template
 
 Package: 3proxy
@@ -72,10 +72,10 @@ Depends: libc, libpthread, libopenssl3
 License: GPLv2
 Section: net
 Architecture: mipsel_24kc
-Installed-Size: 117980
+Installed-Size: 117976
 Filename: 3proxy_0.9.4_mipsel_24kc.ipk
-Size: 118693
-SHA256sum: ce77a446faf0e54cfd52077cc135d4307bf091810bfee59fa478a50816a68b39
+Size: 118695
+SHA256sum: b293055370c9197e6955dc77c7b8faf7b7b3bbd16a82f0d3b2afc2428e7e6174
 Description:  3APA3A 3proxy tiny proxy servers
 
 Package: atinout
@@ -84,10 +84,10 @@ Depends: libc
 License: GPLv2
 Section: net
 Architecture: mipsel_24kc
-Installed-Size: 3206
+Installed-Size: 3203
 Filename: atinout_0.9.1_mipsel_24kc.ipk
 Size: 3876
-SHA256sum: 3241d5926029f140d954573214360afcb1ba7ad713c2768c3d4a72a625356e3a
+SHA256sum: 25f12e2fd3ab437e0476dfeda1f832640d8b82d32dd8b04576c08a7b4b0d57ae
 Description:  Atinout is a program that will execute AT commands in sequence and
  capture the response from the modem.
 
@@ -96,10 +96,10 @@ Version: 1.999.130-1
 Depends: libc, librt, libpthread, libudev, libudev-zero, libnss, libopenssl3, coreutils, coreutils-stdbuf, openssl-util
 Section: net
 Architecture: mipsel_24kc
-Installed-Size: 103820
+Installed-Size: 103815
 Filename: badvpn_1.999.130-1_mipsel_24kc.ipk
-Size: 104599
-SHA256sum: ff0bd77ac8acbda854a5a3ceec05d8ed3eeb2aca7479574f8ab888b492d0032b
+Size: 104591
+SHA256sum: d823b0955fc917add523ac93e9cb83b04a520e2e8c875d716f7700e453fe47b7
 Description:  BadVPN
 
 Package: brook
@@ -108,10 +108,10 @@ Depends: libc, ca-bundle
 License: GPL-3.0
 Section: net
 Architecture: mipsel_24kc
-Installed-Size: 7076996
+Installed-Size: 7076917
 Filename: brook_20240404-1_mipsel_24kc.ipk
-Size: 6988977
-SHA256sum: 11c103a4654f5bb5dd9d176e3bc8ed3305de4b8d417dd37d177c306cdbb69357
+Size: 6988996
+SHA256sum: e0d49b369edb24cd3674bb5aa069a19f7e4ccfe8cd943ef3280f48fefb9b35cb
 Description:  Brook is a cross-platform strong encryption and not detectable proxy.
  Zero-Configuration.
 
@@ -120,22 +120,22 @@ Version: 0.0.1-1
 Depends: libc
 Section: opt
 Architecture: all
-Installed-Size: 1873
+Installed-Size: 1872
 Filename: cellled_0.0.1-1_all.ipk
-Size: 2585
-SHA256sum: 77737ba521b545b981bde4913de0167500e833bdb29c726494be1acf78cd24cc
+Size: 2586
+SHA256sum: 51ee7e0382b6967989780fc5cb9a6689c66253c72b89b6a3f19dfa9fdc13bec9
 Description:  Indicate LED cellular signal signal strength.
 
 Package: chinadns-ng
-Version: 2024.03.07-1
+Version: 2024.03.25-1
 Depends: libc, ipset
 License: AGPL-3.0-only
 Section: net
 Architecture: mipsel_24kc
-Installed-Size: 79718
-Filename: chinadns-ng_2024.03.07-1_mipsel_24kc.ipk
-Size: 80523
-SHA256sum: 131e7e675064f950872938a8625b9dac559d05f56d3441bb259348028570749b
+Installed-Size: 90732
+Filename: chinadns-ng_2024.03.25-1_mipsel_24kc.ipk
+Size: 91505
+SHA256sum: 548f4cc3ca92e9781bb626e585da6bad4a2d499ef5528b26014194f08f3b77ed
 Description:  ChinaDNS next generation, refactoring with epoll and ipset.
 
 Package: corkscrew
@@ -143,10 +143,10 @@ Version: 2.0-1
 Depends: libc
 Section: net
 Architecture: mipsel_24kc
-Installed-Size: 3126
+Installed-Size: 3125
 Filename: corkscrew_2.0-1_mipsel_24kc.ipk
-Size: 3736
-SHA256sum: a99476c0537696cb1ed357ac7337a4271faffa66d1d27d933500332bb0fd1dd4
+Size: 3735
+SHA256sum: 7f8aaca0096c4713cb488237f2c409a4bf2aeb0718d4854989ad428dff5d89a5
 Description:  Tunneling SSH through HTTP proxies.
 
 Package: dns2socks
@@ -155,10 +155,10 @@ Depends: libc, libpthread
 License: BSD-3-Clause
 Section: net
 Architecture: mipsel_24kc
-Installed-Size: 10917
+Installed-Size: 10916
 Filename: dns2socks_2.1-2_mipsel_24kc.ipk
-Size: 11548
-SHA256sum: 0a4d6012bf2742bef5f3b7500773175f255aab7ec222988c86086282a0efe0a8
+Size: 11552
+SHA256sum: 3832d1597734b51d1444b302427d883ad1fb66fc22ad58e7dd2ae251822272a3
 Description:  This is a command line utility to resolve DNS requests via
  a SOCKS tunnel like Tor or a HTTP proxy.
 
@@ -168,10 +168,10 @@ Depends: libc
 License: AGPL-3.0-only
 Section: net
 Architecture: mipsel_24kc
-Installed-Size: 11771
+Installed-Size: 11770
 Filename: dns2tcp_1.1.0-2_mipsel_24kc.ipk
-Size: 12399
-SHA256sum: 3c0a04a195094c95a9cf9468335291354f5bd50b3a1497af0d22dfbc8891ceec
+Size: 12392
+SHA256sum: 964467597ef8115708c14a4476a5c432d1614d059c78db71e75f3667dd29dfe9
 Description:  utility to convert dns query from udp to tcp
 
 Package: ethstatus
@@ -180,10 +180,10 @@ Depends: libc, libncurses6
 License: GPL-2.0-only
 Section: utils
 Architecture: mipsel_24kc
-Installed-Size: 7407
+Installed-Size: 7406
 Filename: ethstatus_0.4.9-1_mipsel_24kc.ipk
-Size: 8205
-SHA256sum: 7ac0515ff6a864c963948c00b18c572a6602a8e62b549b0818d97995d249db2f
+Size: 8201
+SHA256sum: a666995844638ee1a3b5c02c0ce52543ff782cae356d82892a0ec31e95db739b
 Description:  Ethstatus is a console-based monitoring utility for
  displaying statistical data of the ethernet interface
  on a quantity basis. It is similar to iptraf but is meant
@@ -195,10 +195,10 @@ Version: 0.0.1-3
 Depends: libc, comgt, kmod-usb-acm, kmod-usb-net-rndis
 Section: opt
 Architecture: all
-Installed-Size: 2446
+Installed-Size: 2447
 Filename: fm350-modem_0.0.1-3_all.ipk
-Size: 3177
-SHA256sum: ce3d79d76390d92aaa383fe6ca87f1429607d13a01373c5015de8da0b5c10493
+Size: 3179
+SHA256sum: c478775ad17f07284fd728cfc953824132ad731cf4c9b7a675e94a9d9a8d2276
 Description:  Simple connect to cellular for Fibocom FM350 module
 
 Package: hl-atcmd
@@ -207,22 +207,22 @@ Depends: libc
 License: GPLv2
 Section: net
 Architecture: mipsel_24kc
-Installed-Size: 2853
+Installed-Size: 2851
 Filename: hl-atcmd_1_mipsel_24kc.ipk
-Size: 3591
-SHA256sum: 87985dd23edc41a8a366fe0faeaad440379e58b4884a797cd09c1dfc6c4df4aa
+Size: 3593
+SHA256sum: 6e2e3cdbf65cea78220367e15d7caafb2a47c18871c8f615c0cd85d7c5816cac
 Description:  This simple command line tool for sending AT command to a serial device.
 
 Package: hysteria
-Version: 2.3.0-1
+Version: 2.4.0-1
 Depends: libc, ca-bundle
 License: MIT
 Section: net
 Architecture: mipsel_24kc
-Installed-Size: 5218295
-Filename: hysteria_2.3.0-1_mipsel_24kc.ipk
-Size: 5208533
-SHA256sum: 1278ff3b13c7ecdac16da145a0f20d289807c1a47f206a16009e6a0068f942cb
+Installed-Size: 5482363
+Filename: hysteria_2.4.0-1_mipsel_24kc.ipk
+Size: 5471240
+SHA256sum: dc15c37daf759304ca2cda5802cc1020b405559e4042da8f1d7d44a47904dd2b
 Description:  Hysteria is a feature-packed network utility optimized for networks
  of poor quality (e.g. satellite connections, congested public Wi-Fi,
  connecting from China to servers abroad) powered by a custom version
@@ -233,10 +233,10 @@ Version: 1
 Depends: libc
 Section: utils
 Architecture: mipsel_24kc
-Installed-Size: 1868
+Installed-Size: 1870
 Filename: imei_generator_1_mipsel_24kc.ipk
-Size: 2481
-SHA256sum: 8262596f7157081501ba92fd8f886a848c3e216ba9c04eef19653bace54b47d1
+Size: 2480
+SHA256sum: 67d7d2deb98ff6aa9b2f34b2fb738e4dba72171b0cfc5bd4fc66f869fd98dad1
 Description:  This package contains generate custom IMEI 
 
 Package: internet-detector-mod-email
@@ -244,10 +244,10 @@ Version: 1.3-0
 Depends: libc, internet-detector, mailsend
 Section: net
 Architecture: all
-Installed-Size: 1781
+Installed-Size: 1782
 Filename: internet-detector-mod-email_1.3-0_all.ipk
 Size: 2537
-SHA256sum: 26adee52e066f2d0a0ec90a603099f881b46a58b6fef6c8a837dbb71b584df3b
+SHA256sum: dfdb228d87a8893c4888717c60f29505a54b9c80d03dbb498312538f9626201b
 Description:  Email support for internet-detector.
 
 Package: internet-detector-mod-modem-restart
@@ -255,10 +255,10 @@ Version: 1.3-0
 Depends: libc, internet-detector, modemmanager
 Section: net
 Architecture: all
-Installed-Size: 1059
+Installed-Size: 1060
 Filename: internet-detector-mod-modem-restart_1.3-0_all.ipk
-Size: 1808
-SHA256sum: 77b2691dc4aca6d7f89e6b95c42fa04af7570c0668ca78878c3326e94fbe8f23
+Size: 1811
+SHA256sum: 31f0c871c57947fa46c2b806dc0f96d0fefadee10890069642229989b59dd524
 Description:  Support modem restart for internet detector.
 
 Package: internet-detector
@@ -266,10 +266,10 @@ Version: 1.3-0
 Depends: libc, lua, luaposix, libuci-lua
 Section: net
 Architecture: all
-Installed-Size: 10086
+Installed-Size: 10085
 Filename: internet-detector_1.3-0_all.ipk
-Size: 10962
-SHA256sum: e26d4ae2f33720a4d19114ca160f2c624f70ec4740cb8704aa612239e71daa15
+Size: 10952
+SHA256sum: bab7b98341e01a6908b101b61916a3896c764e9b784629447a18cae3979366b8
 Description:  Internet-detector is a small daemon
  for checking Internet availability.
  Written in Lua using the luaposix library.
@@ -280,10 +280,10 @@ Depends: libc, libpthread
 License: AGPL-3.0
 Section: net
 Architecture: mipsel_24kc
-Installed-Size: 27285
+Installed-Size: 27282
 Filename: ipt2socks_1.1.3-3_mipsel_24kc.ipk
-Size: 27938
-SHA256sum: ca21fcd707725236ae84eb2f21f68c7cd9cd6cff8b2caa431508406b1a9d404f
+Size: 27922
+SHA256sum: 82ae9fbfd42bcdbd095c51c638e0198cd2b4566bc2908a68a44d2c79c64687ac
 Description:  Utility for converting iptables (redirect/tproxy) to socks5.
 
 Package: iptables-mod-wgobfs
@@ -292,10 +292,10 @@ Depends: libc, iptables, kmod-ipt-wgobfs
 License: GPL-2.0
 Section: net
 Architecture: mipsel_24kc
-Installed-Size: 907
+Installed-Size: 905
 Filename: iptables-mod-wgobfs_0.4.1-1_mipsel_24kc.ipk
-Size: 1602
-SHA256sum: 1320ea86a25c41766f80b120f5838ce5207c0e5785eb10bfb97294401cb2e3e0
+Size: 1604
+SHA256sum: 60d7a9fe3e9a678e54b7cd027176d8b7f63f786649ef013a78e85096fe2fd282
 Description:  WireGuard obfuscation iptables extension
 
 Package: lib3proxy
@@ -304,10 +304,10 @@ Depends: libc, 3proxy
 License: GPLv2
 Section: opt
 Architecture: mipsel_24kc
-Installed-Size: 63714
+Installed-Size: 63716
 Filename: lib3proxy_0.9.4_mipsel_24kc.ipk
-Size: 64380
-SHA256sum: d662ffd2c89243ee9a8d8011332d2b9195ab6f0f6fbbe11da96af77e0a9ac449
+Size: 64405
+SHA256sum: 9734b5dc8f3e02162ffa98ed55a7c5d5368906c479eea905cb0a12d90dd9c3e4
 Description:  3proxy libraries
 
 Package: lua-maxminddb
@@ -316,10 +316,10 @@ Depends: libc, lua, libmaxminddb
 License: MIT
 Section: lang
 Architecture: mipsel_24kc
-Installed-Size: 2665
+Installed-Size: 2663
 Filename: lua-maxminddb_0.2-1_mipsel_24kc.ipk
-Size: 3230
-SHA256sum: 73a0cde3a4439c00ffe4b9f05b96f8e97f61a7e8b504f30ddea6ff61c72786b3
+Size: 3234
+SHA256sum: 5e24f3517915c6925da69679b1b16d50c1e962219332c45fa3d632684102a79b
 Description:  libmaxminddb bindings for lua
 
 Package: lua-neturl
@@ -328,10 +328,10 @@ Depends: libc, lua
 License: MIT
 Section: lang
 Architecture: all
-Installed-Size: 4532
+Installed-Size: 4528
 Filename: lua-neturl_1.1-1-3_all.ipk
-Size: 5314
-SHA256sum: 20fff354b7e898c66697b89e47604f19252c00205d49ce64740bc70c96dd3c63
+Size: 5317
+SHA256sum: 07eaf61369a9be9b377c6c6c3da9920f86ef61f9a95da5de948b54382e2d9946
 Description:  This small Lua library provides a few functions to parse URL with
  querystring and build new URL easily.
 
@@ -340,10 +340,10 @@ Version: 1.0.64-20240201
 Depends: libc, sms-tool, comgt, kmod-usb-serial-option
 Section: luci
 Architecture: all
-Installed-Size: 99628
+Installed-Size: 99622
 Filename: luci-app-3ginfo-lite_1.0.64-20240201_all.ipk
-Size: 100455
-SHA256sum: b13cb0ce1499ff933ab51eceef191b573570ec00fbd2a6eb6419ee75ca1a812c
+Size: 100440
+SHA256sum: 64fbf3df8320e469697c305dcf930d4d6f4e285c7cd357efab643b2a65d80b51
 Description:  LuCI JS interface for the 3ginfo-lite. The package allows you to view the parameters of the mobile internet connection.
 
 Package: luci-app-3ginfo
@@ -351,10 +351,10 @@ Version: 1.3.3
 Depends: libc, 3ginfo-text, luci-compat, luci-lua-runtime
 Section: luci
 Architecture: all
-Installed-Size: 62953
+Installed-Size: 62955
 Filename: luci-app-3ginfo_1.3.3_all.ipk
-Size: 63829
-SHA256sum: b3062a427323bf86eccc6a44622f6eff8baa48f46befef02f4ac3986fcc54573
+Size: 63824
+SHA256sum: c1dc0b17666fefa8e06d0052e9e94467b62e1b8cfbfc22f6f9ce1b16fff323bd
 Description:  LuCI panel for 3ginfo
 
 Package: luci-app-3proxy
@@ -363,10 +363,10 @@ Depends: libc, 3proxy
 License: GPLv3
 Section: luci
 Architecture: all
-Installed-Size: 1254
+Installed-Size: 1253
 Filename: luci-app-3proxy_0.1.0_all.ipk
-Size: 2075
-SHA256sum: 95541928eae6c3d3b6c941ebf5a21bfd8bd00fe805ce4a5ddf6c0563c8aec3eb
+Size: 2076
+SHA256sum: 23a69b52551eae71d06ede0bf4afc993618289ca7daa91df51c0f5be79d67655
 Description:  3proxy simple webUI
 
 Package: luci-app-argon-config
@@ -374,10 +374,10 @@ Version: 1.0
 Depends: libc, luci-theme-argon
 Section: luci
 Architecture: all
-Installed-Size: 4470
+Installed-Size: 4469
 Filename: luci-app-argon-config_1.0_all.ipk
-Size: 5316
-SHA256sum: 99d15ad9445c188060137639d3a60b30376832349eb0f7688b1351eddd188bc8
+Size: 5314
+SHA256sum: 31f86e5297b874b23a95451cb5a4877aed51719b024d7e8aa826b99435aaa44f
 Description:  LuCI app for Argon theme configuration
 
 Package: luci-app-atinout-mod
@@ -385,10 +385,10 @@ Version: 1.3.3-20220817
 Depends: libc, atinout, luci-compat, luci-lua-runtime
 Section: luci
 Architecture: all
-Installed-Size: 4269
+Installed-Size: 4266
 Filename: luci-app-atinout-mod_1.3.3-20220817_all.ipk
-Size: 5136
-SHA256sum: 91b406e3977888faa77a44cd60ae6598386430257f3ac717844ebeee20c10db5
+Size: 5126
+SHA256sum: e6bac471d707455ae7a05011de2d408e2124e01b18dbbe4acbfd6e712ae60a7a
 Description:  Web UI for atinout
 
 Package: luci-app-atinout
@@ -398,19 +398,19 @@ Section: luci
 Architecture: all
 Installed-Size: 3702
 Filename: luci-app-atinout_0.1.0-1_all.ipk
-Size: 4515
-SHA256sum: 59a36a6b4f6a155ed0bfcba64aea14d408fedbb864d95035ea751ebeab842e3b
+Size: 4519
+SHA256sum: d351d089a43b4337a2684ceee55c440e12adb52fa4edba915c672b8b129c8a05
 Description:  LuCI JS interface for the atinout.
 
 Package: luci-app-bypass
-Version: git-25.081.43887-405e343
+Version: git-25.084.42579-fd8ec52
 Depends: libc, ipset, kmod-ipt-nat, ip-full, iptables-mod-tproxy, lua-neturl, dnsmasq-full, smartdns, coreutils, coreutils-base64, curl, tcping, chinadns-ng, lua, luci-compat, luci-lib-ipkg, unzip, lua-maxminddb, shadowsocksr-libev-ssr-local, shadowsocksr-libev-ssr-redir, xray-core, microsocks, luci-lua-runtime
 Section: luci
 Architecture: all
-Installed-Size: 2652724
-Filename: luci-app-bypass_git-25.081.43887-405e343_all.ipk
-Size: 2471387
-SHA256sum: 4c9590568bdee864962844f5a4b6144569d3c72a81c9fce7a808e81328ce5293
+Installed-Size: 2652740
+Filename: luci-app-bypass_git-25.084.42579-fd8ec52_all.ipk
+Size: 2471343
+SHA256sum: eb7d7f880ae3e998ffdc1895e2d2170016e339f3137879ee7b81c8e8fc60853a
 Description:  SS/SSR/Xray/Trojan/NaiveProxy/Socks5/Tun LuCI interface
 
 Package: luci-app-cellled
@@ -420,20 +420,9 @@ Section: luci
 Architecture: all
 Installed-Size: 2504
 Filename: luci-app-cellled_0.1.0-2_all.ipk
-Size: 3308
-SHA256sum: ed8ea0b2d2c63e188b285e6478544bba5fe9c239fb76361f89faa8b21719721f
+Size: 3307
+SHA256sum: d9f341a5e6d6d6ecaae9a5b50f5d86d5a745ea0e680a9411dcef58d2ac534e40
 Description:  LuCI application for showing cellular RSSI LED
-
-Package: luci-app-freevpnsite
-Version: 1.4
-Depends: libc, php8, php8-cgi, php8-mod-session, luci-lua-runtime
-Section: luci
-Architecture: all
-Installed-Size: 35980
-Filename: luci-app-freevpnsite_1.4_all.ipk
-Size: 36814
-SHA256sum: 1c51ae4ef514684d8fe0bcb9a6e35c7c6d2c5a2c4e724f231276ed69fecc986b
-Description:  Provide you many VPN site lists, which used by Indonesian users.
 
 Package: luci-app-gpoint
 Version: 2.5.7
@@ -441,10 +430,10 @@ Depends: libc, lua, luci-compat, curl, lua-rs232, luasocket, iwinfo, libiwinfo-l
 License: GPLv3
 Section: luci
 Architecture: all
-Installed-Size: 48301
+Installed-Size: 48294
 Filename: luci-app-gpoint_2.5.7_all.ipk
-Size: 49342
-SHA256sum: 6df28c6cff487681461d6a93073a11a406923b9229ce5fb263e0f6b8f95e5424
+Size: 49337
+SHA256sum: 3a5f482199a5653890d463e6bbb2746e702c7f1e6bdd16b415291dce1919ad2f
 Description:  GNSS Information dashboard for 3G/LTE dongle
 
 Package: luci-app-internet-detector
@@ -452,43 +441,21 @@ Version: 1.3-0
 Depends: libc, internet-detector
 Section: luci
 Architecture: all
-Installed-Size: 8578
+Installed-Size: 8575
 Filename: luci-app-internet-detector_1.3-0_all.ipk
-Size: 9399
-SHA256sum: fcb1cb306dcda06e20b5f5979ca8e22bf5623b987938c974471f9aa0134bb13d
+Size: 9397
+SHA256sum: 3c1bb4e996a5be7ca9e107976cd825fcebe53199000e86f734e83823fd4fc169
 Description:  LuCI support for internet-detector
-
-Package: luci-app-libernet-bin
-Version: 2.0
-Depends: libc, coreutils, coreutils-stdbuf, jq, ip-full, kmod-tun, openssh-client, https-dns-proxy, php8, php8-cgi, php8-mod-session, python3, httping, stunnel, stubby, getdns, badvpn, corkscrew, simple-obfs, sshpass, trojan-go, v2ray-core, bash, curl, librt, libpthread, screen, shadowsocks-libev-ss-local, openvpn-openssl, luci-lua-runtime
-Section: luci
-Architecture: all
-Installed-Size: 649514
-Filename: luci-app-libernet-bin_2.0_all.ipk
-Size: 647247
-SHA256sum: 95afa867e38c9d6cfa2a043237729c937b7393da155ebe140a58528522881d19
-Description:  LuCI version of Libernet App, this is original version included libernet binaries.
-
-Package: luci-app-libernet-plus
-Version: 2.0
-Depends: libc, coreutils, coreutils-stdbuf, jq, ip-full, kmod-tun, openssh-client, https-dns-proxy, php8, php8-cgi, php8-mod-session, python3, httping, stunnel, stubby, getdns, badvpn, corkscrew, simple-obfs, sshpass, trojan-go, v2ray-core, bash, curl, librt, libpthread, screen, shadowsocks-libev-ss-local, openvpn-openssl, luci-lua-runtime
-Section: luci
-Architecture: all
-Installed-Size: 2076315
-Filename: luci-app-libernet-plus_2.0_all.ipk
-Size: 2072287
-SHA256sum: f7679b95f8eb1c2d672bf751eb946038a5764bcb3ec17302aa73740dbf277ea7
-Description:  LuCI version of Libernet, but with some mods and additions.
 
 Package: luci-app-libernet
 Version: 1.7
 Depends: libc, coreutils, coreutils-stdbuf, jq, ip-full, kmod-tun, openssh-client, https-dns-proxy, php8, php8-cgi, php8-mod-session, python3, httping, stunnel, stubby, getdns, badvpn, corkscrew, simple-obfs, sshpass, trojan-go, v2ray-core, bash, curl, librt, libpthread, screen, shadowsocks-libev-ss-local, openvpn-openssl, luci-lua-runtime
 Section: luci
 Architecture: all
-Installed-Size: 667
+Installed-Size: 666
 Filename: luci-app-libernet_1.7_all.ipk
-Size: 2107
-SHA256sum: d6a8c995e1c87d7a6c7f0e4eec70a07df24f35d2ddd313ca8485f45dfa6d8755
+Size: 2104
+SHA256sum: 5bb6c6d3b0489b5b61cd7de77a3aae40dbb6a5dc676962c8f417a63840ff494d
 Description:  LuCI version of Libernet App, this is original version without libernet binary.
 
 Package: luci-app-lite-watchdog
@@ -496,33 +463,11 @@ Version: 1.0.15-20240102
 Depends: libc, sms-tool, kmod-usb-serial, kmod-usb-serial-option, comgt
 Section: luci
 Architecture: all
-Installed-Size: 8566
+Installed-Size: 8569
 Filename: luci-app-lite-watchdog_1.0.15-20240102_all.ipk
-Size: 9463
-SHA256sum: 303dcf4661494473bf87118572c2db9b80b5f850f0aa43b659c1e152257d455d
+Size: 9467
+SHA256sum: 71fd85db4acc9be4d9ad432a1fd331a5732f4e234ae2356b486867857a4488d1
 Description:  LuCI JS interface for the lite-watchdog scripts.
-
-Package: luci-app-mikhmon4
-Version: 1.1
-Depends: libc, php8, php8-cgi, php8-mod-session, php8-fpm, php8-mod-curl, php8-mod-dom, php8-mod-filter, php8-mod-gettext, php8-mod-gmp, php8-mod-iconv, php8-mod-mbstring, php8-mod-opcache, php8-mod-pcntl, php8-mod-pdo, php8-mod-zip, zoneinfo-core, zoneinfo-simple, luci-lua-runtime
-Section: luci
-Architecture: all
-Installed-Size: 1536955
-Filename: luci-app-mikhmon4_1.1_all.ipk
-Size: 1537300
-SHA256sum: 792d8e250f371269c8a151d7df271f46416e4711fb9a83705ab15cbb4e505cc8
-Description:  Mikrotik monitor package for OpenWrt by laksa19.
-
-Package: luci-app-mikhmon
-Version: 1.6
-Depends: libc, php8, php8-cgi, php8-mod-session, php8-fpm, php8-mod-curl, php8-mod-dom, php8-mod-gettext, php8-mod-gmp, php8-mod-iconv, php8-mod-mbstring, php8-mod-opcache, php8-mod-pcntl, php8-mod-pdo, php8-mod-zip, zoneinfo-core, zoneinfo-simple, luci-lua-runtime
-Section: luci
-Architecture: all
-Installed-Size: 1057581
-Filename: luci-app-mikhmon_1.6_all.ipk
-Size: 1058468
-SHA256sum: 6251a851762b5003a90b8a85f67932e1c4df8af081eae62473d4edeb95c46102
-Description:  Mikrotik monitor package for OpenWrt by laksa19.
 
 Package: luci-app-mmconfig
 Version: 0.1.0-1
@@ -530,10 +475,10 @@ Depends: libc, luci-proto-modemmanager, luci-app-modeminfo
 License: GPLv3
 Section: luci
 Architecture: all
-Installed-Size: 2721
+Installed-Size: 2719
 Filename: luci-app-mmconfig_0.1.0-1_all.ipk
-Size: 3607
-SHA256sum: 89cb516bb846c99a4b6eb0573323bcac033a1aab22b89de020638850b905cb66
+Size: 3602
+SHA256sum: 5df78e790ae650eef046fcdf87447e3033225971cb567da6ceb58f77f19d7b99
 Description:  Configrure modem bands via mmcli utility
 
 Package: luci-app-modemband
@@ -541,10 +486,10 @@ Version: 1.0.24-20240121
 Depends: libc, sms-tool, modemband
 Section: luci
 Architecture: all
-Installed-Size: 8957
+Installed-Size: 8955
 Filename: luci-app-modemband_1.0.24-20240121_all.ipk
-Size: 9890
-SHA256sum: 44cceb6e42c68b56cc5101d83d1161b6e8d2bacd96321242bf6d00bb41f6aed0
+Size: 9877
+SHA256sum: d4492b271a723c5084b4cf42cb956fa24290d56729f0550868ade807039e4675
 Description:  LuCI JS interface for the modemband. The package allows set LTE/5G bands for selected 4G/5G modems.
 
 Package: luci-app-modeminfo
@@ -553,10 +498,10 @@ Depends: libc, modeminfo
 License: GPLv3
 Section: luci
 Architecture: all
-Installed-Size: 6823
+Installed-Size: 6821
 Filename: luci-app-modeminfo_0.4.0-5_all.ipk
-Size: 7689
-SHA256sum: 5370af778bf34641e09707a21c0dfdf27e531497688082b37427af803f901d03
+Size: 7691
+SHA256sum: 040ced7668416ff9014314f475e8af377cd00269ef753ebd16732a1228f82262
 Description:  Information dashboard for 3G/LTE dongle
 
 Package: luci-app-mosdns
@@ -567,74 +512,29 @@ Architecture: all
 Installed-Size: 79716
 Filename: luci-app-mosdns_1.5.18_all.ipk
 Size: 80715
-SHA256sum: bbf8a626c7840e68da74690585f6e9175f5b601ddc99efc83e3c0574f3d9944e
+SHA256sum: 17857e3cc4f5bee66ef2b06c05bcbc9ed6bd214d8dd5d77a77e2cf3a1f1f9d7a
 Description:  LuCI Support for mosdns
-
-Package: luci-app-mulimiter
-Version: 1.0
-Depends: libc, iptables-mod-hashlimit, iptables-mod-iprange, php8, php8-cgi, php8-mod-session, luci-lua-runtime
-Section: luci
-Architecture: all
-Installed-Size: 61099
-Filename: luci-app-mulimiter_1.0_all.ipk
-Size: 62127
-SHA256sum: 7927b9a12bb2fd7314a23bf438e3cab1ad7bb1ab131886e002eee91c4252763a
-Description:  LuCI version of MulImiter - OpenWrt bandwidth limiter through iptables firewall with PHP GUI.
-
-Package: luci-app-myxllite
-Version: 1.1
-Depends: libc, curl, php8, luci-lua-runtime
-Section: luci
-Architecture: all
-Installed-Size: 298342
-Filename: luci-app-myxllite_1.1_all.ipk
-Size: 298690
-SHA256sum: c71065083ed934c1a43a0873b62712656f1bab07e6f31c7176e268f99e4dab8d
-Description:  LuCI App for XL AXIATA quota checker and viewer (including unlimited FUP).
-
-Package: luci-app-netmon
-Version: 1.4
-Depends: libc, php8, php8-cgi, php8-mod-session, zoneinfo-core, zoneinfo-asia, luci-app-tinyfm, netdata, luci-lua-runtime
-Section: luci
-Architecture: all
-Installed-Size: 2990
-Filename: luci-app-netmon_1.4_all.ipk
-Size: 4324
-SHA256sum: 20b5edcdb0b36e2808af4a8dbc1e6098c00cc93bfcecc7be574f1d8dce160792
-Description:  LuCI Network Monitor
- Simple network monitor using netdata package, with some addition sites.
 
 Package: luci-app-openclash
 Version: 0.46.003-beta
 Depends: libc, dnsmasq-full, coreutils, coreutils-nohup, bash, curl, ca-bundle, ipset, ip-full, libcap, libcap-bin, libcap-bin, ruby, ruby-yaml, kmod-tun, unzip
 Section: opt
 Architecture: all
-Installed-Size: 5653101
+Installed-Size: 5653219
 Filename: luci-app-openclash_0.46.003-beta_all.ipk
-Size: 5630700
-SHA256sum: ff36af68a8bf12a1b3e78b6834f70b02da2c4f615d3bcec13f7352f53012c772
+Size: 5630653
+SHA256sum: 7c3767e22efcc699ca741e33ea2e7d0e6a312003d80fb7e34bd28516e8688982
 Description:  A LuCI support for clash
-
-Package: luci-app-openspeedtest
-Version: 1.3
-Depends: libc, luci-lua-runtime
-Section: luci
-Architecture: all
-Installed-Size: 620
-Filename: luci-app-openspeedtest_1.3_all.ipk
-Size: 1488
-SHA256sum: 55aa62bab341ad6beec0fd1fdec61d8b295128ca3703334c5ff91c0a8ec065a8
-Description:  LuCI version of OpenSpeedtest.org site.
 
 Package: luci-app-passwall2
 Version: 1.28-4
 Depends: libc, coreutils, coreutils-base64, coreutils-nohup, curl, ip-full, libuci-lua, lua, luci-compat, luci-lib-jsonc, resolveip, tcping, xray-core, v2ray-geoip, v2ray-geosite, unzip, luci-lua-runtime
 Section: luci
 Architecture: all
-Installed-Size: 239259
+Installed-Size: 239256
 Filename: luci-app-passwall2_1.28-4_all.ipk
-Size: 240350
-SHA256sum: 1e28113ad88db0f73b4287a662f23267c00c6013f56f4a10a41d6b394169bdee
+Size: 240272
+SHA256sum: b9f8178cf89467731379a4ebdfa5e58fdbd03b40c3269da3a50f1ea415901e94
 Description:  LuCI support for PassWall 2
 
 Package: luci-app-passwall
@@ -642,10 +542,10 @@ Version: 4.76-1
 Depends: libc, coreutils, coreutils-base64, coreutils-nohup, curl, chinadns-ng, dns2socks, dns2tcp, dnsmasq-full, ip-full, libuci-lua, lua, luci-compat, luci-lib-jsonc, microsocks, resolveip, tcping, luci-lua-runtime
 Section: luci
 Architecture: all
-Installed-Size: 678278
+Installed-Size: 678269
 Filename: luci-app-passwall_4.76-1_all.ipk
-Size: 678779
-SHA256sum: 3a05907baec73f47df9de7399bebf09d0bbf3f438355bb7750ae928ae799a53e
+Size: 678916
+SHA256sum: 71ec19f2ff1e1ccf61bf12c64cdce3afab9f5abe0737b33908c95690d4ce5b28
 Description:  LuCI support for PassWall
 
 Package: luci-app-pingcontrol
@@ -653,22 +553,11 @@ Version: 1
 Depends: libc, pingcontrol
 Section: luci
 Architecture: all
-Installed-Size: 1636
+Installed-Size: 1635
 Filename: luci-app-pingcontrol_1_all.ipk
-Size: 2456
-SHA256sum: 0b3e77547fa783e379a835ce24bd620c8173d177192e9bb8b2e99c08d256b1ae
+Size: 2455
+SHA256sum: 7777b92279cf3ca05a374900563113254ef9c02922b5308e7298d71606e6680b
 Description:  LuCI network interface control
-
-Package: luci-app-powermenu
-Version: 1.1
-Depends: libc, luci-lua-runtime
-Section: luci
-Architecture: all
-Installed-Size: 752
-Filename: luci-app-powermenu_1.1_all.ipk
-Size: 1628
-SHA256sum: 5274d848ba1855fcd313ca00c542eed472d86639625d499ddef250cbc40ec2e8
-Description:  Simple turn off your router with this app.
 
 Package: luci-app-rtorrent
 Version: 0.1.7
@@ -676,10 +565,10 @@ Depends: libc, rtorrent-rpc, luaexpat, luasocket, luasec, screen, luci-lua-runti
 License: GPLv3
 Section: luci
 Architecture: all
-Installed-Size: 40198
+Installed-Size: 40202
 Filename: luci-app-rtorrent_0.1.7_all.ipk
-Size: 41156
-SHA256sum: 3d31e96f6e7bce02b2daf37284b7771b53aacf8947f59eef504b192c66318e56
+Size: 41160
+SHA256sum: 09d429ea0474c2c96f2d72e162cae349df44b017af0aae28c427b99f952f2a7b
 Description:  rTorrent LuCI web interface
 
 Package: luci-app-sms-tool
@@ -687,10 +576,10 @@ Version: 1.9.6-20230501
 Depends: libc, sms-tool, kmod-usb-serial, kmod-usb-serial-option, comgt, luci-lua-runtime
 Section: luci
 Architecture: all
-Installed-Size: 22685
+Installed-Size: 22689
 Filename: luci-app-sms-tool_1.9.6-20230501_all.ipk
-Size: 23673
-SHA256sum: 1d52ddd7c70e40cf3958bb69b80cd49616db66f1a046a35ada312876c5a4742c
+Size: 23682
+SHA256sum: 594a4cb078303a58a2c6e2da626629337a2a2fbaacb0c07ed72a0e60b4a2d96a
 Description:  LuCI interface for the sms-tool. The user interface supports SMS/USSD Codes/AT Commands.
 
 Package: luci-app-smstools3
@@ -699,10 +588,10 @@ Depends: libc, smstools3, iconv
 License: GPLv3
 Section: luci
 Architecture: all
-Installed-Size: 9835
+Installed-Size: 9840
 Filename: luci-app-smstools3_0.1.0-1_all.ipk
-Size: 10707
-SHA256sum: 42771deb38a19b7b114fc3ba5a3098ffa264356dda488fc2ad7ef9b703573bfa
+Size: 10710
+SHA256sum: 83cf7b96eaad9511590647da75f935deb7f7ec9fc35836017a39217ee761808a
 Description:  Web UI for smstools3
 
 Package: luci-app-ssr-plus
@@ -710,10 +599,10 @@ Version: 188
 Depends: libc, coreutils, coreutils-base64, dns2socks, dns2tcp, dnsmasq-full, ipset, kmod-ipt-nat, ip-full, iptables, iptables-mod-tproxy, lua, lua-neturl, libuci-lua, microsocks, tcping, resolveip, shadowsocksr-libev-ssr-check, uclient-fetch, libustream-openssl20201210, chinadns-ng, shadowsocks-libev-ss-local, shadowsocks-libev-ss-redir, simple-obfs, shadowsocksr-libev-ssr-local, shadowsocksr-libev-ssr-redir, luci-lua-runtime
 Section: luci
 Architecture: all
-Installed-Size: 286721
+Installed-Size: 286712
 Filename: luci-app-ssr-plus_188_all.ipk
-Size: 286957
-SHA256sum: 2dda05c467a498e8acff92da93cb1a687a577582a2e80055a188378b1a69ca62
+Size: 286959
+SHA256sum: 2918614259ef56b2c6d39d3fb45c6919e65a44f496b637c26e92be555985dfee
 Description:  SS/SSR/V2Ray/Trojan/NaiveProxy/Tuic/ShadowTLS/Hysteria/Socks5/Tun LuCI interface
 
 Package: luci-app-telegrambot
@@ -722,10 +611,10 @@ Depends: libc, telegrambot
 License: GPLv3
 Section: luci
 Architecture: all
-Installed-Size: 1290
+Installed-Size: 1291
 Filename: luci-app-telegrambot_0.1.0-3_all.ipk
-Size: 2124
-SHA256sum: 02feaa87b908aa048cb6c1fa9d0135b9a19726031f688f43db963e40b20859c2
+Size: 2120
+SHA256sum: 5f7de1c40821ff0a26748886dfcf5987451708050308521013c3e6973c974c37
 Description:  TelegramBot simple webUI
 
 Package: luci-app-tinyfm
@@ -733,10 +622,10 @@ Version: 2.6
 Depends: libc, php8, php8-cgi, php8-mod-session, php8-mod-ctype, php8-mod-fileinfo, php8-mod-zip, php8-mod-iconv, php8-mod-mbstring, zoneinfo-asia, luci-lua-runtime
 Section: luci
 Architecture: all
-Installed-Size: 1826876
+Installed-Size: 1826853
 Filename: luci-app-tinyfm_2.6_all.ipk
-Size: 1735017
-SHA256sum: 5d44036b0b92bab77149996a1081c536f105f094b891aaf9949bfab07724ee48
+Size: 1735382
+SHA256sum: 84e9a020e5ca5c8e25030ccc4eb19e8e0910d2a36cd4955c3db69397319c755a
 Description:  This is Tiny File Manager, but for LuCI OpenWrt.
 
 Package: luci-app-ttl
@@ -745,65 +634,21 @@ Depends: libc, luci-app-firewall, iptables-mod-ipopt, kmod-ipt-ipopt
 License: Apache-2.0
 Section: luci
 Architecture: all
-Installed-Size: 3112
+Installed-Size: 3111
 Filename: luci-app-ttl_0.0.3-0_all.ipk
-Size: 4006
-SHA256sum: fca862f120f661684d86c4fb4a8ae71d8924443316aa927bcf557b5832edb1b4
+Size: 4005
+SHA256sum: d0ed7377fe7257f4eba65dc28377f910f0adc559c456b00d9821c9b0abf2e460
 Description:  Antitethering module for luci-app-firewall
-
-Package: luci-app-v2raya
-Version: 1.3
-Depends: libc, luci-lua-runtime
-Section: luci
-Architecture: all
-Installed-Size: 661
-Filename: luci-app-v2raya_1.3_all.ipk
-Size: 1578
-SHA256sum: 05c03cfd69dfa11b66c3cf153ad179c54f5039ed5946a9813724e196bb4205e2
-Description:  Simple v2rayA LuCI Version.
-
-Package: luci-app-wegare
-Version: 1.5
-Depends: libc, php8, php8-cgi, php8-mod-session, zoneinfo-core, zoneinfo-asia, sshpass, openvpn-openssl, ip-full, openssh-client, httping, screen, python3, coreutils-nohup, libevent2-7, redsocks, luci-lua-runtime
-Section: luci
-Architecture: all
-Installed-Size: 276278
-Filename: luci-app-wegare_1.5_all.ipk
-Size: 277376
-SHA256sum: 5e67a82488eda17b2ce2ef4aea4fdbe416b3997372f021455c669465c3589aab
-Description:  LuCI Wegare STL Tool GUI for OpenWrt.
-
-Package: luci-app-xderm-bin
-Version: 1.9
-Depends: libc, bash, screen, coreutils, coreutils-base64, coreutils-timeout, httping, v2ray-core, corkscrew, procps-ng, procps-ng-ps, git, curl, sshpass, python3-pip, python3, openssh-client, openssl-util, php8, php8-cgi, php8-mod-session, https-dns-proxy, badvpn, trojan, luci-lua-runtime
-Section: luci
-Architecture: all
-Installed-Size: 77495
-Filename: luci-app-xderm-bin_1.9_all.ipk
-Size: 79238
-SHA256sum: e89f1d39dffc071381d4d99ba7aaffedd56c910d38fd7def0b22a2d9e967a9e2
-Description:  LuCI version of Xderm Mini GUI with xderm binaries.
-
-Package: luci-app-xderm-limit
-Version: 1.8
-Depends: libc, bash, screen, coreutils, coreutils-base64, coreutils-timeout, httping, v2ray-core, corkscrew, procps-ng, procps-ng-ps, git, curl, sshpass, python3-pip, python3, openssh-client, openssl-util, php8, php8-cgi, php8-mod-session, https-dns-proxy, badvpn, trojan, luci-lua-runtime
-Section: luci
-Architecture: all
-Installed-Size: 3696
-Filename: luci-app-xderm-limit_1.8_all.ipk
-Size: 5103
-SHA256sum: d4017ee5850a7a7255d194cc741a07ade9abc331d1c1d1e2527bad42044c620a
-Description:  LuCI version of Xderm Limit with some additions.
 
 Package: luci-app-xderm
 Version: 1.5
 Depends: libc, bash, screen, coreutils, coreutils-base64, coreutils-timeout, httping, v2ray-core, corkscrew, procps-ng, procps-ng-ps, git, curl, sshpass, python3-pip, python3, openssh-client, openssl-util, php8, php8-cgi, php8-mod-session, https-dns-proxy, badvpn, trojan, luci-lua-runtime
 Section: luci
 Architecture: all
-Installed-Size: 674
+Installed-Size: 672
 Filename: luci-app-xderm_1.5_all.ipk
-Size: 2097
-SHA256sum: c0b14c261f1a84bdcecdd04976dbc2af7c827b81943295cc67895bdc356fe38a
+Size: 2098
+SHA256sum: 8ae6f998fd8d75d3557b109f6a0b1af95a65a24068e6874cf8e494cf94014bb7
 Description:  LuCI version of Xderm Mini GUI, with many additions.
 
 Package: luci-app-zerotier
@@ -811,32 +656,32 @@ Version: 1.0
 Depends: libc, zerotier, luci-lua-runtime
 Section: luci
 Architecture: all
-Installed-Size: 4666
+Installed-Size: 4669
 Filename: luci-app-zerotier_1.0_all.ipk
-Size: 5504
-SHA256sum: 9cb769eb3b44b5879b1326029d8371d10ae587a2385f9fd1f9e3803a0ca63db4
+Size: 5503
+SHA256sum: 99dce5d4d4db97b8de3572ff16afe4e0954e9e7ef13e797f8f6c7b9887e2baf6
 Description:  LuCI for Zerotier
 
 Package: luci-proto-fm350
-Version: git-25.081.43887-405e343
+Version: git-25.084.42579-fd8ec52
 Depends: libc, fm350-modem
 Section: luci
 Architecture: all
 Installed-Size: 1350
-Filename: luci-proto-fm350_git-25.081.43887-405e343_all.ipk
-Size: 2180
-SHA256sum: 5187326e30d5a7106709b489d9a988b984dcc78697a27fac2f2d68c9d89c0341
+Filename: luci-proto-fm350_git-25.084.42579-fd8ec52_all.ipk
+Size: 2174
+SHA256sum: e9a494f1e3e0dd34e78d51b1d707d7545211bfac1620adc8f05e01a484602753
 Description:  Support for Fibocom FM350
 
 Package: luci-proto-xmm
-Version: git-25.081.43887-405e343
+Version: git-25.084.42579-fd8ec52
 Depends: libc, xmm-modem
 Section: luci
 Architecture: all
-Installed-Size: 1427
-Filename: luci-proto-xmm_git-25.081.43887-405e343_all.ipk
-Size: 2254
-SHA256sum: dc06446d8da35691d1b86aaa691aa552a5bb08ad40d35c905d35e748fd638870
+Installed-Size: 1426
+Filename: luci-proto-xmm_git-25.084.42579-fd8ec52_all.ipk
+Size: 2246
+SHA256sum: 791fdb54fc07ccec9b078c47690844e6f08e3726456b1584c688224dcf25fdab
 Description:  Support for Intel XMM
 
 Package: luci-theme-alpha
@@ -844,10 +689,10 @@ Version: 3.9.4-beta-9
 Depends: libc
 Section: luci
 Architecture: all
-Installed-Size: 2789921
+Installed-Size: 2789912
 Filename: luci-theme-alpha_3.9.4-beta-9_all.ipk
-Size: 2790980
-SHA256sum: 7c3e025e09cd62af2344a59ea1c2ea148459d7876b70b2e8badb1e41579a762a
+Size: 2790944
+SHA256sum: 457a4a9401d1366bb5f4be9ec12c9d83c01e0d25c83bc85fa8333d47b4768191
 Description:  LuCi Theme For OpenWrt And Alpha OS ONLY - Alpha
 
 Package: luci-theme-argon
@@ -855,22 +700,22 @@ Version: 2.3.1
 Depends: libc, curl, jsonfilter, luci-lua-runtime
 Section: luci
 Architecture: all
-Installed-Size: 390302
+Installed-Size: 390304
 Filename: luci-theme-argon_2.3.1_all.ipk
-Size: 390948
-SHA256sum: b4d5766bc6e6e2b3b6d86395ade2cb867d71691f5903b8f34b08e09416531e49
+Size: 390941
+SHA256sum: 86564cf06d829b86ff54120750917bc3d1a36de9ff3c44f22419dfb2e703a250
 Description:  Argon Theme
 
 Package: luci-theme-lightblue
-Version: git-25.081.43887-405e343
+Version: git-25.084.42579-fd8ec52
 Depends: libc, luci-lua-runtime
 License: Apache-2.0
 Section: luci
 Architecture: all
-Installed-Size: 77821
-Filename: luci-theme-lightblue_git-25.081.43887-405e343_all.ipk
-Size: 78729
-SHA256sum: d9fcfc60d2fcea0af982f03ccc681dab7d8d553cb109fb1cad68bd863c7edc19
+Installed-Size: 77817
+Filename: luci-theme-lightblue_git-25.084.42579-fd8ec52_all.ipk
+Size: 78723
+SHA256sum: d233dc15b94aff818ac5e994734a8dc655b85e6da50dde7074e60500c7da5d6a
 Description:  Bootstrap lightblue Theme
 
 Package: luci-theme-neobird
@@ -878,34 +723,23 @@ Version: 2.0
 Depends: libc, luci-lua-runtime
 Section: luci
 Architecture: all
-Installed-Size: 310150
+Installed-Size: 310148
 Filename: luci-theme-neobird_2.0_all.ipk
-Size: 311016
-SHA256sum: 9ba68ab1b8d9de1e32340bbb976d0eaaf492889aeb4e62f2b876c893c0e9e57b
+Size: 311021
+SHA256sum: 485dc8f04f3010c323844845b8d487f77d63244ad05eadc6af93d2527d092b99
 Description:  Neobird Theme
 
 Package: luci-theme-teleofis
-Version: git-25.081.43887-405e343
+Version: git-25.084.42579-fd8ec52
 Depends: libc, luci-lua-runtime
 License: Apache-2.0
 Section: luci
 Architecture: all
 Installed-Size: 23407
-Filename: luci-theme-teleofis_git-25.081.43887-405e343_all.ipk
-Size: 24272
-SHA256sum: 195f8033b74f804c15b9b48c77c098fef9b278ec46ffa0b2f4827725c50f6a1b
+Filename: luci-theme-teleofis_git-25.084.42579-fd8ec52_all.ipk
+Size: 24267
+SHA256sum: 9a3153091de75b501b787d411402bbbed8730a958159b842c904fe0ce0eb704f
 Description:  Bootstrap Teleofis Theme
-
-Package: mactoiface
-Version: 1.0-1
-Depends: libc, bash
-Section: net
-Architecture: all
-Installed-Size: 701
-Filename: mactoiface_1.0-1_all.ipk
-Size: 1590
-SHA256sum: f431305b6597673dd85f301d24c1ed2ed4e3e01c6b0f65e7265d6568ad206f86
-Description:  Lock OpenWrt mac address to preferred interface.
 
 Package: microsocks
 Version: 1.0.4-1
@@ -913,10 +747,10 @@ Depends: libc, libpthread
 License: MIT
 Section: net
 Architecture: mipsel_24kc
-Installed-Size: 4935
+Installed-Size: 4934
 Filename: microsocks_1.0.4-1_mipsel_24kc.ipk
-Size: 5622
-SHA256sum: 223c923bfca7fc47af41a3011b27d2b41f8cf3756fc8fe1625eadff75da3bcbc
+Size: 5624
+SHA256sum: 79f47e76a521b80496fcd0b12a0e1811fcfadd3d5427f005e9ed1cfbf853112d
 Description:  A SOCKS5 service that you can run on your remote boxes to tunnel connections
  through them, if for some reason SSH doesn't cut it for you.
 
@@ -925,10 +759,10 @@ Version: 20240204
 Depends: libc, sms-tool
 Section: net
 Architecture: all
-Installed-Size: 5885
+Installed-Size: 5888
 Filename: modemband_20240204_all.ipk
-Size: 6615
-SHA256sum: 283673168dfc32488c898eac8540c634d9000a737eea31e0831b1581d5d75eec
+Size: 6612
+SHA256sum: 2ec46b0bb7044ba8e4b8dd746893ed09b431f5fb2045a49670e24173969c3d60
 Description:  Setting LTE/5G bands for selected modems
 
 Package: modeminfo-qmi
@@ -938,8 +772,8 @@ Section: net
 Architecture: all
 Installed-Size: 2377
 Filename: modeminfo-qmi_0.4.0-8_all.ipk
-Size: 3093
-SHA256sum: be777a8f49b67a47075b80702f35245d2c27cd01e1deda380bf738af910aaf4c
+Size: 3094
+SHA256sum: e78440e1b9cf517e970166644f0d834d7b11974e9fa6d7a5acd0e3878493ee70
 Description:  QMI addon for modeminfo
 
 Package: modeminfo-serial-dell
@@ -949,8 +783,8 @@ Section: net
 Architecture: all
 Installed-Size: 1215
 Filename: modeminfo-serial-dell_0.4.0-8_all.ipk
-Size: 1985
-SHA256sum: d4d4e6b9bf46e8dba070188ea1898568781d5422c698615e8e137f1d8b5b1a6f
+Size: 1980
+SHA256sum: 708160504f1a79586292475ddc0310ced5c344030f2fb3428518cf23544c1c02
 Description:  Dell DW5821e serial addon for modeminfo
 
 Package: modeminfo-serial-fibocom
@@ -958,10 +792,10 @@ Version: 0.4.0-8
 Depends: libc, modeminfo, kmod-usb-serial-option, atinout
 Section: net
 Architecture: all
-Installed-Size: 2018
+Installed-Size: 2019
 Filename: modeminfo-serial-fibocom_0.4.0-8_all.ipk
-Size: 2776
-SHA256sum: cf63a14613f978e97185c54531cab171265fac75221f9e99dace645e1247ec46
+Size: 2780
+SHA256sum: 1d3ce30a7943c90be73742938c8d6f889a7141b4375ee3988de258d16ccb4415
 Description:  FIBOCOM NL668/678 serial addon for modeminfo
 
 Package: modeminfo-serial-fm350
@@ -969,10 +803,10 @@ Version: 0.4.0-8
 Depends: libc, modeminfo, kmod-usb-acm, atinout
 Section: net
 Architecture: all
-Installed-Size: 1428
+Installed-Size: 1430
 Filename: modeminfo-serial-fm350_0.4.0-8_all.ipk
-Size: 2193
-SHA256sum: a310e0b9e27435f4e94deeb45768f6e324f854e0065ccea5fc8b513b5748facb
+Size: 2197
+SHA256sum: 1e6c19b21128fde8c4ec00f355f2ddaf258bdff8df79d8165a5513047ece10ea
 Description:  FIBOCOM FM350 serial addon for modeminfo
 
 Package: modeminfo-serial-gosun
@@ -980,10 +814,10 @@ Version: 0.4.0-8
 Depends: libc, modeminfo, kmod-usb-serial-option, atinout
 Section: net
 Architecture: all
-Installed-Size: 955
+Installed-Size: 956
 Filename: modeminfo-serial-gosun_0.4.0-8_all.ipk
-Size: 1714
-SHA256sum: 37d3f0ce557d83dea54f21d0110c8766fa1cf2efadf4ab2e8a7716ce5a99eabe
+Size: 1718
+SHA256sum: 5aa7428f7898621e804fcaccc6bd49f720fa2e79086bf7ff36b5b2ea27e2cd33
 Description:  Gosuncnwelink GM510 serial addon for modeminfo
 
 Package: modeminfo-serial-huawei
@@ -991,10 +825,10 @@ Version: 0.4.0-8
 Depends: libc, modeminfo, kmod-usb-serial-option, atinout
 Section: net
 Architecture: all
-Installed-Size: 1319
+Installed-Size: 1318
 Filename: modeminfo-serial-huawei_0.4.0-8_all.ipk
-Size: 2090
-SHA256sum: 61826cf39e6fa76d855ee9fa566f9f01527014f09e5d4a0226ba5e6a8e8427e7
+Size: 2087
+SHA256sum: e61761d6779fe934ce38dd5949c06cf3af0f64c5473300c5d68dda5434823c55
 Description:  HUAWEI serial addon for modeminfo
 
 Package: modeminfo-serial-meig
@@ -1002,10 +836,10 @@ Version: 0.4.0-8
 Depends: libc, modeminfo, kmod-usb-serial-option, atinout
 Section: net
 Architecture: all
-Installed-Size: 1258
+Installed-Size: 1259
 Filename: modeminfo-serial-meig_0.4.0-8_all.ipk
-Size: 2032
-SHA256sum: bb73f05b2fcc54adbf2157805961be88e523c15156163f673c9a650c37c8c5b6
+Size: 2038
+SHA256sum: d92397ab5e50659a889872d38fd5e0827ca7927e3e36ae422051dad72efd541b
 Description:  MEIGLink SLM750-R2/SLM820/SLM828 serial addon for modeminfo
 
 Package: modeminfo-serial-mikrotik
@@ -1013,10 +847,10 @@ Version: 0.4.0-8
 Depends: libc, modeminfo, kmod-usb-acm, atinout
 Section: net
 Architecture: all
-Installed-Size: 1430
+Installed-Size: 1428
 Filename: modeminfo-serial-mikrotik_0.4.0-8_all.ipk
-Size: 2203
-SHA256sum: 7f648c46790e6bc2c8627a70217cbe3d055533626a28099c87b1fb95b63ff684
+Size: 2200
+SHA256sum: 24e2ad83b0aed657e0b260dec492fddec0f4ec05378c0f833219fccf5ff36bd5
 Description:  MikroTik R11e-LTE/R11e-LTE6 serial addon for modeminfo
 
 Package: modeminfo-serial-quectel
@@ -1024,10 +858,10 @@ Version: 0.4.0-8
 Depends: libc, modeminfo, kmod-usb-serial-option, atinout
 Section: net
 Architecture: all
-Installed-Size: 1358
+Installed-Size: 1361
 Filename: modeminfo-serial-quectel_0.4.0-8_all.ipk
-Size: 2130
-SHA256sum: 0d3bd21d5c7eba1e832420c44fff9581eb86163c4d12c56d773ac0b01e6343b3
+Size: 2132
+SHA256sum: 32e68ed42d71ba3b454484e895a3173a5451e20e51646145e30949768567c17e
 Description:  QUECTEL serial addon for modeminfo
 
 Package: modeminfo-serial-sierra
@@ -1037,8 +871,8 @@ Section: net
 Architecture: all
 Installed-Size: 1195
 Filename: modeminfo-serial-sierra_0.4.0-8_all.ipk
-Size: 1970
-SHA256sum: ec44e7262a1d20b2b7636b9a675fdfc99e9028556b71a48fafa15d1e5a637c90
+Size: 1971
+SHA256sum: dc737512262a7b5cd342d35c38d2c29d3aa52038fd0e3f8df73b7fe232d4844b
 Description:  Sierra Wireless EM7455 serial addon for modeminfo
 
 Package: modeminfo-serial-simcom-a7xxx
@@ -1048,8 +882,8 @@ Section: net
 Architecture: all
 Installed-Size: 1151
 Filename: modeminfo-serial-simcom-a7xxx_0.4.0-8_all.ipk
-Size: 1930
-SHA256sum: 83752c67ea42ab1c464f7d5f84674cda0281ce565da563ca09c87198b4e2d574
+Size: 1934
+SHA256sum: a7d5c56fc3c158732d682bd4f2917da0e325601d7fa74a19a5bd421e850bd14d
 Description:  SIMCOM A7600/A7906 serial addon for modeminfo
 
 Package: modeminfo-serial-simcom
@@ -1059,8 +893,8 @@ Section: net
 Architecture: all
 Installed-Size: 1230
 Filename: modeminfo-serial-simcom_0.4.0-8_all.ipk
-Size: 2014
-SHA256sum: 350e7960a2f8a9f16cf6737fe7ae5cdc77efba2cad71049c45c2fe263dbefbef
+Size: 2006
+SHA256sum: be2cfb3cea378ed8e8b5030225f7dcc6c7d20cae621efd6570d4fe53565a4a1e
 Description:  SIMCOM SIM7600/SIM7906/SIM7912 serial addon for modeminfo
 
 Package: modeminfo-serial-styx
@@ -1068,10 +902,10 @@ Version: 0.4.0-8
 Depends: libc, modeminfo, kmod-usb-serial-option, atinout
 Section: net
 Architecture: all
-Installed-Size: 928
+Installed-Size: 929
 Filename: modeminfo-serial-styx_0.4.0-8_all.ipk
-Size: 1687
-SHA256sum: b70705c9aed31fd98bf482a1cda7444a4c0ea243c5ac95f746fe0073834988ed
+Size: 1697
+SHA256sum: 5e483d0a5181f1326cdd5bd3c3b4560593422e989c3597d7de2423212f1b283e
 Description:  STYX MG8224 serial addon for modeminfo
 
 Package: modeminfo-serial-telit
@@ -1081,8 +915,8 @@ Section: net
 Architecture: all
 Installed-Size: 1134
 Filename: modeminfo-serial-telit_0.4.0-8_all.ipk
-Size: 1919
-SHA256sum: 7e3c06dac5412e8f60f25346cd247f7ebbe67948e6acec22b2007c6658050ede
+Size: 1916
+SHA256sum: 45732885da26af09c81c99397815eae9d0915a11182ea0b871426066a4e15326
 Description:  TELIT LN940/T77W678/HP4220 serial addon for modeminfo
 
 Package: modeminfo-serial-tw
@@ -1090,10 +924,10 @@ Version: 0.4.0-8
 Depends: libc, modeminfo, kmod-usb-serial-option, atinout
 Section: net
 Architecture: all
-Installed-Size: 1011
+Installed-Size: 1010
 Filename: modeminfo-serial-tw_0.4.0-8_all.ipk
-Size: 1776
-SHA256sum: c57cc2528c1cc001224ab7390fa2621e1bebe488081c84f53b8a36149e01d9bc
+Size: 1775
+SHA256sum: 1f4a8ba8ebe90adedce415ed6375174baded3b682e52c0e7fa20db879c970f53
 Description:  ThinkWill ML7820+ serial addon for modeminfo
 
 Package: modeminfo-serial-xmm
@@ -1101,10 +935,10 @@ Version: 0.4.0-8
 Depends: libc, modeminfo, kmod-usb-acm, atinout
 Section: net
 Architecture: all
-Installed-Size: 1525
+Installed-Size: 1524
 Filename: modeminfo-serial-xmm_0.4.0-8_all.ipk
-Size: 2317
-SHA256sum: ee7847960f77aca6c7918d9181c9b28629f49753b92be2cbc04455d37ee57b99
+Size: 2310
+SHA256sum: fe4aaabce557dd4de9d924f268839f1de36c1911b8dd7c477b5055283538a14d
 Description:  FIBOCOM L850/L860 Intel XMM chips serial addon for modeminfo
 
 Package: modeminfo-serial-yuge
@@ -1112,10 +946,10 @@ Version: 0.4.0-8
 Depends: libc, modeminfo, kmod-usb-serial-option, atinout
 Section: net
 Architecture: all
-Installed-Size: 950
+Installed-Size: 951
 Filename: modeminfo-serial-yuge_0.4.0-8_all.ipk
 Size: 1712
-SHA256sum: 7f3b95aec85fef738177b6c2deb2996122bbb82cca2985b64939ed0d89203680
+SHA256sum: 5d4b09838f8f8f1ea1a8d6e29ac8d8d31ed3caa4d188e539bf5aae141d62f70a
 Description:  Yuge CLM920 serial addon for modeminfo
 
 Package: modeminfo-serial-zte
@@ -1125,8 +959,8 @@ Section: net
 Architecture: all
 Installed-Size: 894
 Filename: modeminfo-serial-zte_0.4.0-8_all.ipk
-Size: 1650
-SHA256sum: 75d2fa118bf4cab856ac366f53f197ea2e011fbbc57cca1fe9d3ff894fffde3a
+Size: 1648
+SHA256sum: c68aa6e211d4906b5116e1a4b8d6888ee136b62a87612963243b0afdbe069f4d
 Description:  ZTE MF823/MF823D serial addon for modeminfo
 
 Package: modeminfo
@@ -1134,10 +968,10 @@ Version: 0.4.0-8
 Depends: libc, comgt
 Section: net
 Architecture: all
-Installed-Size: 4127
+Installed-Size: 4128
 Filename: modeminfo_0.4.0-8_all.ipk
-Size: 4870
-SHA256sum: afacd25be5a4ed56b679894562cc3ed3229566e86536c40b810a4f7a23b078b5
+Size: 4869
+SHA256sum: f8f8c5ecd68c1d32bb21f90c1e11cb02a26ff338e88a295cfafa48a2a6d77c13
 Description:  Signal information for 3G/LTE dongle
 
 Package: mosdns
@@ -1146,10 +980,10 @@ Depends: libc, ca-bundle
 License: GPL-3.0
 Section: net
 Architecture: mipsel_24kc
-Installed-Size: 5736162
+Installed-Size: 5736138
 Filename: mosdns_5.3.1-1_mipsel_24kc.ipk
-Size: 5724068
-SHA256sum: 51eeba7a67d3e3f6b00466a203ff7d638e42ce5f8b20ff46fab246e3e6e46121
+Size: 5724230
+SHA256sum: 316c06a46ce60cdd07f1f5af1a98c9f5e148563971302e8376847a94be4864ed
 Description:  A plug-in DNS forwarder/splitter
 
 Package: mrtg
@@ -1157,10 +991,10 @@ Version: 2.17.10-1
 Depends: libc, libgd, libpng, zlib, perl, perlbase-essential, perlbase-findbin, perlbase-cwd, perlbase-config, perlbase-file, perlbase-getopt, perlbase-math, perlbase-integer, perlbase-xsloader, perlbase-pod, perlbase-universal, perlbase-socket, perlbase-posix, perlbase-autoloader, perlbase-fcntl, perlbase-tie, perlbase-io, perlbase-symbol, perlbase-selectsaver, perlbase-errno, perlbase-scalar, perlbase-list, perlbase-base, perlbase-storable
 Section: net
 Architecture: mipsel_24kc
-Installed-Size: 545418
+Installed-Size: 545402
 Filename: mrtg_2.17.10-1_mipsel_24kc.ipk
-Size: 545920
-SHA256sum: 2574903f6b3263509a8ebbb16e8577fccf8f3d096b10822ca3c0657daed4ce22
+Size: 545992
+SHA256sum: 75fe260a0fd0c08f27c9823309243165103b12b590de4a24aceae89f5a7c7841
 Description:  The Multi Router Traffic Grapher, or just simply MRTG, is free software for
  monitoring and measuring the traffic load on network links. It allows the
  user to see traffic load on a network over time in graphical form. It was
@@ -1174,10 +1008,10 @@ Depends: libc, libatomic1
 License: BSD 3-Clause
 Section: net
 Architecture: mipsel_24kc
-Installed-Size: 3413872
+Installed-Size: 3413865
 Filename: naiveproxy_122.0.6261.43-2-1_mipsel_24kc.ipk
-Size: 3405435
-SHA256sum: 63c6b8cdf291c41d4fd154808394f43e8d19d635446763bb1c7048b98996de48
+Size: 3405327
+SHA256sum: c79699914e7aca82db6484b22eb91ccd325bba9d8f38b31aa193590c3ba14cb5
 Description:  NaïveProxy uses Chrome's network stack to camouflage traffic with strong
  censorship resistance and low detectability. Reusing Chrome's stack also
  ensures best practices in performance and security.
@@ -1188,10 +1022,10 @@ Depends: libc, libncurses6, libstdcpp6
 License: LICENSE
 Section: net
 Architecture: mipsel_24kc
-Installed-Size: 36831
+Installed-Size: 36830
 Filename: nload_0.7.4-1_mipsel_24kc.ipk
-Size: 37318
-SHA256sum: b49ed6dc45a893f0ba9a47550fe8165b5ad46d192629d82d56f246f173cd1e69
+Size: 37304
+SHA256sum: 8c70898c253f06afef8f3ee23fddd5c143ade40c7edbecbee2b431c08010f5d3
 Description:  nload is a console application which monitors network traffic and bandwidth usage in real time.
  It visualizes the in- and outgoing traffic using two graphs and provides additional info like total amount of transfered data and min/max network usage.
 
@@ -1203,7 +1037,7 @@ Architecture: all
 Installed-Size: 1061
 Filename: openvpn-dns-hotplug_0.0.1-2_all.ipk
 Size: 1825
-SHA256sum: 2f9dfef69d5cf7c53f524917b378ed2376411a898fe3ca5d37bd4a724385a45c
+SHA256sum: 032c8a71abf0419552da7a56cb65c69fbaf524bff8a1f2f78cb57a4117923709
 Description:  Hotplug script to get NS attribytes: DNS and domain search.
 
 Package: pdnsd-alt
@@ -1211,10 +1045,10 @@ Version: 1.2.9b-par-3
 Depends: libc, libpthread
 Section: net
 Architecture: mipsel_24kc
-Installed-Size: 78877
+Installed-Size: 78875
 Filename: pdnsd-alt_1.2.9b-par-3_mipsel_24kc.ipk
-Size: 79553
-SHA256sum: d97dd274fe4acb46ef67f4eacbdea31d709a4ed691862c15b570ae04957cdf2c
+Size: 79554
+SHA256sum: 8263d845bf6be831091730d3c9800bb0488d95e13de28316afd2a2fb7c19974b
 Description:  pdnsd, is an IPv6 capable proxy DNS server with permanent caching (the cache
  contents are written to hard disk on exit) that is designed to cope with
  unreachable or down DNS servers (for example in dial-in networking).
@@ -1228,10 +1062,10 @@ Version: 1-1
 Depends: libc
 Section: utils
 Architecture: all
-Installed-Size: 1618
+Installed-Size: 1616
 Filename: pingcontrol_1-1_all.ipk
-Size: 2349
-SHA256sum: 0b6d5885625dbeec928427828d230fe44784dd15d1c8b574fa1974cac853cb18
+Size: 2341
+SHA256sum: eb2bc0cce3c07d0c23b5a88811c628c364d7e5ec127b1cf6d6fffe38fd6197d8
 Description:  This package contains a utility for managing the interface using ping requests.
 
 Package: qtools
@@ -1240,10 +1074,10 @@ Depends: libc, libreadline8, libncurses6
 License: LICENSE
 Section: telephony
 Architecture: mipsel_24kc
-Installed-Size: 150662
+Installed-Size: 150623
 Filename: qtools_0.0.1-0~cross_mipsel_24kc.ipk
-Size: 148639
-SHA256sum: 970b8f67535f477d6bf5ec6167cab30f82c8c564bc13ea29f91560b029f03155
+Size: 148320
+SHA256sum: 8373d16eef2701a52b56ab2c87ea0ed63d35dcdb6d4777689dad7649755a2327
 Description:  A set of tools for working with flash modems based on the Qualcom chipset The set consists of a package of utilities and a set of patched loaders.
 
 Package: redsocks2
@@ -1252,10 +1086,10 @@ Depends: libc, libevent2-7, libopenssl3
 License: Apache-2.0
 Section: net
 Architecture: mipsel_24kc
-Installed-Size: 50856
+Installed-Size: 50854
 Filename: redsocks2_release-test4-1_mipsel_24kc.ipk
-Size: 51647
-SHA256sum: c73f4ff966eb1562a5a4bed33578647a909d65dfc1d595e759a0862ba676ef38
+Size: 51642
+SHA256sum: c54f36ec25a5c34a1fb1d82276842c9616b6c0e9e27c2e9971bbfb599abcdea0
 Description:  This is a modified version of original redsocks.
  Transparent redirector of any TCP/UDP connection to proxy.
 
@@ -1264,10 +1098,10 @@ Version: 0.0.1-1
 Depends: libc, umdns
 Section: opt
 Architecture: all
-Installed-Size: 1916
+Installed-Size: 1915
 Filename: rrm-nr-distributor_0.0.1-1_all.ipk
-Size: 2636
-SHA256sum: 0ad3ca78d63f202b0f96e719297a9c4fbb34c88bf0a26b9cdfdf8ecd72aa0443
+Size: 2638
+SHA256sum: e9cb68d86cc5639b2dab8f6f0cfcc310924ba89a38a1054ffcd074aefc3b2e8f
 Description:  802.11k Neighbor Report distributor daemon
 
 Package: shadowsocks-rust-sslocal
@@ -1276,10 +1110,10 @@ Depends: libc
 License: MIT
 Section: net
 Architecture: mipsel_24kc
-Installed-Size: 3643440
+Installed-Size: 3643444
 Filename: shadowsocks-rust-sslocal_1.18.2-1_mipsel_24kc.ipk
-Size: 3615707
-SHA256sum: 64c40e1a5724763226de6870ce0436a37a79886f190cb4a11d9ed358842266ea
+Size: 3615515
+SHA256sum: bac5fb66a963a1c13fef3f22e5c58f98f7dd0e0e6f93175a6fd7a21271e995e2
 Description:  shadowsocks-rust sslocal
 
 Package: shadowsocks-rust-ssmanager
@@ -1290,8 +1124,8 @@ Section: net
 Architecture: mipsel_24kc
 Installed-Size: 2921232
 Filename: shadowsocks-rust-ssmanager_1.18.2-1_mipsel_24kc.ipk
-Size: 2899314
-SHA256sum: 69c54ca1ba4ac71abe7bf7206f320ba8bca746d076d5e33f1c9ad9349ec44b26
+Size: 2900205
+SHA256sum: 6b42384a3acb71cec88bcd8540610b275e777d83cac29bcd2c7d1ba894d16d3d
 Description:  shadowsocks-rust ssmanager
 
 Package: shadowsocks-rust-ssserver
@@ -1300,10 +1134,10 @@ Depends: libc
 License: MIT
 Section: net
 Architecture: mipsel_24kc
-Installed-Size: 2829720
+Installed-Size: 2829722
 Filename: shadowsocks-rust-ssserver_1.18.2-1_mipsel_24kc.ipk
-Size: 2808504
-SHA256sum: 6f9a66fc60306842e1e1033e2fe2fc081b7e5aa2f0db50b5565a54be37624178
+Size: 2808636
+SHA256sum: e1c1310a777974b47ea34a65b5e8020c3670ce3384952237b7c81ef99617de3e
 Description:  shadowsocks-rust ssserver
 
 Package: shadowsocks-rust-ssservice
@@ -1312,10 +1146,10 @@ Depends: libc
 License: MIT
 Section: net
 Architecture: mipsel_24kc
-Installed-Size: 4011961
+Installed-Size: 4011966
 Filename: shadowsocks-rust-ssservice_1.18.2-1_mipsel_24kc.ipk
-Size: 3983703
-SHA256sum: 9594abb6b7a98a1abe9ffa94099c96df7edfcf5e3b8481ff3f2c2ad79d776d47
+Size: 3983779
+SHA256sum: bcaf213972b53faf5da5f3c9ba3420c925e87aa22ec1c9639646337da0e7d0b8
 Description:  shadowsocks-rust ssservice
 
 Package: shadowsocks-rust-ssurl
@@ -1324,10 +1158,10 @@ Depends: libc
 License: MIT
 Section: net
 Architecture: mipsel_24kc
-Installed-Size: 1288145
+Installed-Size: 1288142
 Filename: shadowsocks-rust-ssurl_1.18.2-1_mipsel_24kc.ipk
-Size: 1272929
-SHA256sum: 62089c631bb8b7b27159a8e1599473c3892bdb76ec361bcebfd8361c7aea87f0
+Size: 1272866
+SHA256sum: 34aa7ce32d2f9eeb5a59b1d73630fea88498a08e43d59147c49af4a6f85e04fd
 Description:  shadowsocks-rust ssurl
 
 Package: shadowsocksr-libev-ssr-check
@@ -1336,10 +1170,10 @@ Depends: libc, libev, libsodium, libopenssl3, libpthread, libpcre, libudns, zlib
 License: GPL-3.0
 Section: net
 Architecture: mipsel_24kc
-Installed-Size: 2415
+Installed-Size: 2414
 Filename: shadowsocksr-libev-ssr-check_2.5.6-10_mipsel_24kc.ipk
-Size: 3041
-SHA256sum: abfe5c050e7507116a977fb864f5fb92833393287e9cdf49f358581c2e08a80e
+Size: 3037
+SHA256sum: 7bf87c847e9e37ce1004ce022a2f91407b353bb8a0777872be7f23d352f5d4f5
 Description:  shadowsocksr-libev ssr-check
 
 Package: shadowsocksr-libev-ssr-local
@@ -1348,10 +1182,10 @@ Depends: libc, libev, libsodium, libopenssl3, libpthread, libpcre, libudns, zlib
 License: GPL-3.0
 Section: net
 Architecture: mipsel_24kc
-Installed-Size: 58190
+Installed-Size: 58188
 Filename: shadowsocksr-libev-ssr-local_2.5.6-10_mipsel_24kc.ipk
-Size: 58628
-SHA256sum: 0016698cda0fe06cf8a4c3c19902934a1e040defc735473a86f56142cdffded3
+Size: 58621
+SHA256sum: f1bc6081f65cf436039e1cea1ea2517b300ed707177edd01fed5f4bc74907c74
 Description:  shadowsocksr-libev ssr-local
 
 Package: shadowsocksr-libev-ssr-nat
@@ -1362,8 +1196,8 @@ Section: net
 Architecture: mipsel_24kc
 Installed-Size: 2230
 Filename: shadowsocksr-libev-ssr-nat_2.5.6-10_mipsel_24kc.ipk
-Size: 2991
-SHA256sum: 44b0c99e342de0a919fe512d0f128bd687a368523fd0182629bd878dea9ad6f2
+Size: 2983
+SHA256sum: cfb1702269ce4bc6026f53b0b4da51833d96eda591ef04d16323ca64ea54575a
 Description:  shadowsocksr-libev ssr-nat
 
 Package: shadowsocksr-libev-ssr-redir
@@ -1372,10 +1206,10 @@ Depends: libc, libev, libsodium, libopenssl3, libpthread, libpcre, libudns, zlib
 License: GPL-3.0
 Section: net
 Architecture: mipsel_24kc
-Installed-Size: 52518
+Installed-Size: 52519
 Filename: shadowsocksr-libev-ssr-redir_2.5.6-10_mipsel_24kc.ipk
-Size: 52987
-SHA256sum: 1981fdd41cf46a34657fe9f6da2e2c32d9cd92cb695473ada86f0e0101cce0aa
+Size: 52980
+SHA256sum: 10c2ad353153e93beefbaca6f0940f17c4858856278e4fd137bfed9b474d4dc7
 Description:  shadowsocksr-libev ssr-redir
 
 Package: shadowsocksr-libev-ssr-server
@@ -1384,10 +1218,10 @@ Depends: libc, libev, libsodium, libopenssl3, libpthread, libpcre, libudns, zlib
 License: GPL-3.0
 Section: net
 Architecture: mipsel_24kc
-Installed-Size: 60705
+Installed-Size: 60704
 Filename: shadowsocksr-libev-ssr-server_2.5.6-10_mipsel_24kc.ipk
 Size: 61257
-SHA256sum: 861dd316865b9cdb20d08352b3074795f78a91b2f8aa56878f9074105e95fb3c
+SHA256sum: 31c2652c90b4106e52eb1797c0b082f2e71400aecd90dc2a7e1a6ce8f8e4d46d
 Description:  shadowsocksr-libev ssr-server
 
 Package: shc
@@ -1397,8 +1231,8 @@ Section: utils
 Architecture: mipsel_24kc
 Installed-Size: 10824
 Filename: shc_3.8.9b_mipsel_24kc.ipk
-Size: 11590
-SHA256sum: 398c1dc5e7b49ad613ea2795fbd47a6df11e0b90b85c240c60d151f771858e67
+Size: 11592
+SHA256sum: 58eb9ec4bf72ab964e9ec39221ceb3156fd6f95fcdbc240accf472da0fb8bd6c
 Description:  This tool generates a stripped binary executable version of the script specified at command line
 
 Package: simple-obfs-client
@@ -1408,10 +1242,10 @@ Provides: simple-obfs
 License: GPL-3.0-or-later
 Section: net
 Architecture: mipsel_24kc
-Installed-Size: 24193
+Installed-Size: 24191
 Filename: simple-obfs-client_0.0.5-1_mipsel_24kc.ipk
-Size: 24838
-SHA256sum: 75971be0c54bfdccce96a25ba094633ff386f2629248e81f859592debc4f4fcd
+Size: 24839
+SHA256sum: 634c0c988d48c04ada94d68d9f7ce64bfbc3e1ccbc1457de8954b276b6bae10f
 Description:  Simple-obfs is a simple obfusacting tool, designed as plugin server of shadowsocks.
 
 Package: simple-obfs-server
@@ -1420,10 +1254,10 @@ Depends: libc, libpthread, libev
 License: GPL-3.0-or-later
 Section: net
 Architecture: mipsel_24kc
-Installed-Size: 26024
+Installed-Size: 26022
 Filename: simple-obfs-server_0.0.5-1_mipsel_24kc.ipk
-Size: 26733
-SHA256sum: b94b61d6017b93d48bdc4391e2fe54c3e33370aedafca30bb6d8e6c43698a0fa
+Size: 26732
+SHA256sum: 3b315843819631afd4e1aee3ce2ee9fa77d6a612a5f6e02cbc1ca44862d65991
 Description:  Simple-obfs is a simple obfusacting tool, designed as plugin server of shadowsocks.
 
 Package: simpleproxy
@@ -1432,23 +1266,23 @@ Depends: libc
 License: GPLv2
 Section: net
 Architecture: mipsel_24kc
-Installed-Size: 9484
+Installed-Size: 9487
 Filename: simpleproxy_3.5_mipsel_24kc.ipk
-Size: 10158
-SHA256sum: d62eff981388a533b09e1ed069ec506f29d551d87702c0d6f01da62e5e15dd38
+Size: 10168
+SHA256sum: 6aee29294719ffb837ba1d2b630c6b34d07c98b022becb3c121e165b8ca98f7a
 Description:  Simpleproxy is a simple TCP proxy. It accepts connections on a local
  TCP port and forward them to anoter port on a remote host via TCP.
 
 Package: sing-box
-Version: 1.8.9-1
+Version: 1.8.10-1
 Depends: libc, ca-bundle, kmod-inet-diag, kmod-netlink-diag, kmod-tun
 License: GPL-3.0-or-later
 Section: net
 Architecture: mipsel_24kc
-Installed-Size: 9190614
-Filename: sing-box_1.8.9-1_mipsel_24kc.ipk
-Size: 9171794
-SHA256sum: 6549433b64c4885e3c61ff94599592b433dc2adfab2e5a542a3367bb27401ca1
+Installed-Size: 9192320
+Filename: sing-box_1.8.10-1_mipsel_24kc.ipk
+Size: 9173825
+SHA256sum: 1f04f5951fb693f689ea169ea9d25c42d0652c305685c836278a8e5a41181d40
 Description:  Sing-box is a universal proxy platform which supports hysteria, SOCKS,
  Shadowsocks, ShadowTLS, Tor, trojan, VLess, VMess, WireGuard and so on.
 
@@ -1457,10 +1291,10 @@ Version: 2022-03-21-f07699ab-1
 Depends: libc
 Section: utils
 Architecture: mipsel_24kc
-Installed-Size: 7584
+Installed-Size: 7583
 Filename: sms-tool_2022-03-21-f07699ab-1_mipsel_24kc.ipk
-Size: 8222
-SHA256sum: 293c1214603a6654780ad99ebfd4991e1ff51a1504618d82d55d317df341c077
+Size: 8219
+SHA256sum: bc28d4dd69aa6dce79863b13591ca41b828535ee544a0dc9ada3f4792581410b
 Description:  SMS Tool for 3G/4G modem
 
 Package: speedtestpp
@@ -1469,10 +1303,10 @@ Depends: libc, libcurl4, libxml2, libopenssl3, libstdcpp6
 License: MIT
 Section: net
 Architecture: mipsel_24kc
-Installed-Size: 24492
+Installed-Size: 24491
 Filename: speedtestpp_1.14-1_mipsel_24kc.ipk
-Size: 25106
-SHA256sum: 806f75363c0c29979bfa9de339c358ec050009e84b021fc5658040346d8ce4fb
+Size: 25112
+SHA256sum: f53651d4e6bcf0516db4586948e748882ec5fa871880b705f0c54427fd34b2d4
 Description:  Yet another unofficial speedtest.net client cli interface
 
 Package: ssocks
@@ -1481,10 +1315,10 @@ Depends: libc, libopenssl3
 License: MIT
 Section: net
 Architecture: mipsel_24kc
-Installed-Size: 11354
+Installed-Size: 11352
 Filename: ssocks_0.0.14-3_mipsel_24kc.ipk
-Size: 12062
-SHA256sum: e1272786fddb2d16c732d76301ef4011b96ecb8d0aa198b99e4ad76f0c74ae72
+Size: 12057
+SHA256sum: 00a883d9769b45e0d1f75af0a6965eaeb48e6cdec7294b2e969ccdd8a49f86c6
 Description:  sSocks is a package which contains: a socks5 server implements RFC 1928 (SOCKS V5) and
  RFC 1929 (Authentication for SOCKS V5), a reverse socks server and client, a netcat like tool
  and a socks5 relay.
@@ -1495,10 +1329,10 @@ Depends: libc, libopenssl3
 License: MIT
 Section: net
 Architecture: mipsel_24kc
-Installed-Size: 11457
+Installed-Size: 11456
 Filename: ssocksd_0.0.14-3_mipsel_24kc.ipk
-Size: 12162
-SHA256sum: be0f1dc7a322aa84833a6bc4fe0cf2ea5aaf4674a9f0449d687dd8c827326d98
+Size: 12161
+SHA256sum: b658ef03e80729e2bb7d75b08d87afa6923a00cd63f52e68da3519652cc0fd32
 Description:  sSocks is a package which contains: a socks5 server implements RFC 1928 (SOCKS V5) and
  RFC 1929 (Authentication for SOCKS V5), a reverse socks server and client, a netcat like tool
  and a socks5 relay.
@@ -1509,10 +1343,10 @@ Depends: libc
 License: GPL-2.0-only
 Section: net
 Architecture: mipsel_24kc
-Installed-Size: 3557
+Installed-Size: 3556
 Filename: tcping_0.3-1_mipsel_24kc.ipk
-Size: 4126
-SHA256sum: a69fec477eafc0987b8027ec9e6d2a82b49bceb393ad738b7142f9514d73ffd0
+Size: 4109
+SHA256sum: 7e3fc49f42458045771bf7aa3b04989b18f5ed50f9cb6ce8d0332d6f71edff6e
 Description:  tcping measures the latency of a tcp-connection
 
 Package: telegrambot
@@ -1520,10 +1354,10 @@ Version: 0.0.4-3
 Depends: libc, curl
 Section: opt
 Architecture: all
-Installed-Size: 5639
+Installed-Size: 5638
 Filename: telegrambot_0.0.4-3_all.ipk
-Size: 6405
-SHA256sum: 74282bc8f80b3b6c238dbe8ae453aab9affdc3b36af5ab2b58ad15beb0bbe02b
+Size: 6404
+SHA256sum: 5eee934c673d9872775f7b064d7daed55acf7da14a42b45e79e047ccd56852e9
 Description:  Telegram bot for router with firmware Lede/Openwrt.
 
 Package: totd
@@ -1532,10 +1366,10 @@ Depends: libc
 License: LICENSE
 Section: net
 Architecture: mipsel_24kc
-Installed-Size: 26978
+Installed-Size: 26976
 Filename: totd_1.5.3-1_mipsel_24kc.ipk
-Size: 27771
-SHA256sum: 1418dcb77dce6f8f4e811c5569a3c1f82565fa980d4e3b4960128a631a2e1f9c
+Size: 27769
+SHA256sum: 1409d04577df86f399416e1d7dc9878b291b6ee252d965cff2f4babb3ef98c30
 Description:  Totd is a small DNS64 proxy nameserver that supports IPv6 only hosts/networks
  that communicate with the IPv4 world using some translation mechanism. 
 
@@ -1545,10 +1379,10 @@ Depends: libc, ca-bundle
 License: GPL-3.0-only
 Section: net
 Architecture: mipsel_24kc
-Installed-Size: 4856223
+Installed-Size: 4856301
 Filename: trojan-go_0.10.6-1_mipsel_24kc.ipk
-Size: 4846848
-SHA256sum: d276973ab7ba2110d5aedba8b68bd5abdd83a4ba8f604973027349d28a151a4d
+Size: 4846977
+SHA256sum: 59383a719e11ef51a054e1317325b25aff4fa6abd3394d8544dd0d26fccbcac6
 Description:  Trojan features multiple protocols over TLS to avoid both
  active/passive detections and ISP QoS limitations.
 
@@ -1558,10 +1392,10 @@ Depends: libc, libpthread, libstdcpp6, libopenssl3, boost, boost-system, boost-p
 License: GPL-3.0
 Section: net
 Architecture: mipsel_24kc
-Installed-Size: 378214
+Installed-Size: 378174
 Filename: trojan-plus_10.0.3-2_mipsel_24kc.ipk
-Size: 378921
-SHA256sum: 1190a059cd88425044f69fece700658d7209e45d80bd93ca13bfcc4c9b2bc3ad
+Size: 378601
+SHA256sum: 9f4f917c6e4892cf9854cf956bcc3a3becc3a0fca148f8dc7b663d597151b692
 Description:  An unidentifiable mechanism that helps you bypass GFW. It's compatible with original trojan with experimental features.
 
 Package: trojan
@@ -1570,10 +1404,10 @@ Depends: libc, libpthread, libstdcpp6, libopenssl3, boost, boost-system, boost-p
 License: GPL-3.0
 Section: net
 Architecture: mipsel_24kc
-Installed-Size: 267127
+Installed-Size: 267197
 Filename: trojan_1.16.0-2_mipsel_24kc.ipk
-Size: 267585
-SHA256sum: d639bfa2e9e2c7ecd54a0046fea9ae7fe6fb6bdedc6e3d7c92aa16697ba208a7
+Size: 267509
+SHA256sum: 812ca54edce46d93b8fef10cab7498a5ce73d9124f32daa0500592c9a7985f62
 Description:  An unidentifiable mechanism that helps you bypass GFW
 
 Package: ttymux
@@ -1582,10 +1416,10 @@ Depends: libc, libpthread, libstdcpp6
 License: GPL-2.0
 Section: net
 Architecture: mipsel_24kc
-Installed-Size: 4451
+Installed-Size: 4449
 Filename: ttymux_1_mipsel_24kc.ipk
-Size: 5208
-SHA256sum: 6310b6108e8e64c1b1b9548f80a619151c46e673ff2602845504a3cb5577dced
+Size: 5204
+SHA256sum: 8c8105a3ef301ab8de7f2862f394ca8c1bf897e198f1e51d6f36b500077ffcb9
 Description:  Is a serial multiplexer and demultiplexer protocol for Linux and a microcontroller.
 
 Package: v2dat
@@ -1594,10 +1428,10 @@ Depends: libc
 License: GPL-3.0
 Section: utils
 Architecture: mipsel_24kc
-Installed-Size: 2598471
+Installed-Size: 2598476
 Filename: v2dat_2022-12-15-47b8ee51-1_mipsel_24kc.ipk
-Size: 2593213
-SHA256sum: 0bbbb609bc373c3221981e033e3e4fd6d956aa59fd5fbd7034751b05713542eb
+Size: 2593211
+SHA256sum: a6239298fde415d5a5cfc32e3a54d8eda9f092ad88761570a0c51b7256927034
 Description:  V2ray geo/ip data unpack tools
 
 Package: v2ray-core
@@ -1606,10 +1440,10 @@ Depends: libc, ca-bundle
 License: MIT
 Section: net
 Architecture: mipsel_24kc
-Installed-Size: 10363032
+Installed-Size: 10363039
 Filename: v2ray-core_5.15.1-1_mipsel_24kc.ipk
-Size: 10334456
-SHA256sum: f6c1bee9df509b6140f34ac363c469a36e488a3dc0d0e0fdc66bc5c9b58cd62b
+Size: 10334536
+SHA256sum: 4dd7027ad2416f36f386542e5730f1aacb3dcdfacfd984efd29c20e0d4f197e6
 Description:  Project V is a set of network tools that help you to build your own computer network.
  It secures your network connections and thus protects your privacy.
 
@@ -1621,8 +1455,8 @@ Section: net
 Architecture: all
 Installed-Size: 298636
 Filename: v2ray-extra_5.15.1-1_all.ipk
-Size: 299345
-SHA256sum: 2b73bcdd3d728cbd9cef8413d6d12fd4d3d2c9dcc56b157bb6ca823da0dcc528
+Size: 299346
+SHA256sum: 1a3acb8bd5b9d53626b200dbc364ee513bbb0089774ae8f7a00ce099df9392e3
 Description:  Project V is a set of network tools that help you to build your own computer network.
  It secures your network connections and thus protects your privacy.
  
@@ -1634,35 +1468,35 @@ Depends: libc
 License: CC-BY-SA-4.0
 Section: net
 Architecture: all
-Installed-Size: 2616741
+Installed-Size: 2616742
 Filename: v2ray-geoip_202403210039-1_all.ipk
-Size: 2396407
-SHA256sum: 339f8a260a082512d17d26e1f52d3ebe12ee76d325e1235beb06d78662efb7bd
+Size: 2396238
+SHA256sum: de028733b84f52ead6407b347b9a6738181cf0f7dca119d3a098e01e63a0c320
 Description:  GeoIP List for V2Ray
 
 Package: v2ray-geosite-ir
-Version: 202403180026-1
+Version: 202403250026-1
 Depends: libc
 Provides: xray-geosite-ir
 License: MIT
 Section: net
 Architecture: all
-Installed-Size: 1019876
-Filename: v2ray-geosite-ir_202403180026-1_all.ipk
-Size: 1020852
-SHA256sum: d375b2bb90ae2f99c938e0bee9fddd3515c0df3a0c369fe493fc491a8a6e551b
+Installed-Size: 1019931
+Filename: v2ray-geosite-ir_202403250026-1_all.ipk
+Size: 1020943
+SHA256sum: 5dc466977fed30c6f4ced98acab96c12b9e7b00fb011dc846df30c40180fda6b
 Description:  Iran Geosite List for V2Ray
 
 Package: v2ray-geosite
-Version: 20240316051411-1
+Version: 20240324094850-1
 Depends: libc
 License: MIT
 Section: net
 Architecture: all
-Installed-Size: 490338
-Filename: v2ray-geosite_20240316051411-1_all.ipk
-Size: 490172
-SHA256sum: d1182fab418c11b131bb6019a0aa94c8427be9bb8b2266b6ea0b19160f298fe3
+Installed-Size: 490884
+Filename: v2ray-geosite_20240324094850-1_all.ipk
+Size: 490808
+SHA256sum: 450d3742f71b6086742124d4a480ffc35c1d865ee9c98fcf19d40b14bd4444bf
 Description:  Geosite List for V2Ray
 
 Package: v2ray-plugin
@@ -1671,10 +1505,10 @@ Depends: libc, ca-bundle
 License: MIT
 Section: net
 Architecture: mipsel_24kc
-Installed-Size: 4646811
+Installed-Size: 4646801
 Filename: v2ray-plugin_5.15.1-1_mipsel_24kc.ipk
-Size: 4638017
-SHA256sum: 38cafb92556aed9fe43a2b9f8884ab72adcbc6cdb61ae3ef0be5a6468468092c
+Size: 4637993
+SHA256sum: 2465d51bcea6579c4022eb5d7af3f446b86de20db854370088aa9f88238d9d2b
 Description:  SIP003 plugin for shadowsocks, based on v2ray
 
 Package: v2raya
@@ -1683,10 +1517,10 @@ Depends: libc, ca-bundle, kmod-nft-tproxy, xray-core
 License: AGPL-3.0-only
 Section: net
 Architecture: mipsel_24kc
-Installed-Size: 10289460
+Installed-Size: 10289461
 Filename: v2raya_2.2.5.1-1_mipsel_24kc.ipk
-Size: 10269596
-SHA256sum: e78cdb6bd9b296bdb8cef4bdfe67d24f5d99026a6de03bcfcdce0360515934f8
+Size: 10269767
+SHA256sum: 2b71e929ea630fa6d12c8f8dbeed2dc02cbd158f25984ea58d88d22f06eb7a9d
 Description:  v2rayA is a V2Ray Linux client supporting global transparent proxy,
  compatible with SS, SSR, Trojan(trojan-go), PingTunnel protocols.
 
@@ -1695,10 +1529,10 @@ Version: 0.1.2-0
 Depends: libc, comgt, kmod-usb-acm, kmod-usb-net-cdc-ncm
 Section: opt
 Architecture: all
-Installed-Size: 2409
+Installed-Size: 2408
 Filename: xmm-modem_0.1.2-0_all.ipk
-Size: 3194
-SHA256sum: 8ba8eefaaddfbff9993acc60496a74ccf4ad5118a8887406d08d624b49360bfb
+Size: 3198
+SHA256sum: 2dbf1607b58229858b1e34eac638a24113d5b14faebc3a55f46f9b4623c8c274
 Description:  Simple connect to cellular for Fibocom L850/L860 module (Intel XMM LTE-A 7360/7560)
 
 Package: xray-core
@@ -1707,10 +1541,10 @@ Depends: libc, ca-bundle
 License: MPL-2.0
 Section: net
 Architecture: mipsel_24kc
-Installed-Size: 9112523
+Installed-Size: 9112530
 Filename: xray-core_1.8.9-1_mipsel_24kc.ipk
-Size: 9091469
-SHA256sum: 1a37fe23b399d562e090424a6a5fcaf21edfe3906fd0962a691352b6739eb1f4
+Size: 9091882
+SHA256sum: 247188eab0db85cad395aa4ec11e6ce96df9eb62a1459e0964c4995a59825125
 Description:  Xray, Penetrates Everything. It helps you to build your own computer network.
  It secures your network connections and thus protects your privacy.
 
@@ -1720,9 +1554,9 @@ Depends: libc, ca-bundle
 License: MIT
 Section: net
 Architecture: mipsel_24kc
-Installed-Size: 6069593
+Installed-Size: 6069597
 Filename: xray-plugin_1.8.9-1_mipsel_24kc.ipk
-Size: 6055353
-SHA256sum: a8ef4580176448af55e13ac922036cf91d3bc14ef34f51b0d364eff1414e8c0a
+Size: 6055457
+SHA256sum: 0f579f69630868e06e9c86d1d843de82cdb39f9653496a2ba3b396cbaeb264ee
 Description:  SIP003 plugin for Shadowsocks, based on Xray
 

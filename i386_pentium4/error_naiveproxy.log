@@ -1,23 +1,23 @@
-make[2]: Entering directory '/home/runner/work/compile-package/compile-package/openwrt/scripts/config'
+make[2]: Entering directory '/home/runner/work/Zzz/Zzz/openwrt/scripts/config'
 make[2]: 'conf' is up to date.
-make[2]: Leaving directory '/home/runner/work/compile-package/compile-package/openwrt/scripts/config'
-make[1]: Entering directory '/home/runner/work/compile-package/compile-package/openwrt'
-make[2]: Entering directory '/home/runner/work/compile-package/compile-package/openwrt/package/toolchain'
+make[2]: Leaving directory '/home/runner/work/Zzz/Zzz/openwrt/scripts/config'
+make[1]: Entering directory '/home/runner/work/Zzz/Zzz/openwrt'
+make[2]: Entering directory '/home/runner/work/Zzz/Zzz/openwrt/package/toolchain'
 Makefile:735: WARNING: skipping libgomp -- package has no install section
-echo "libc" >> /home/runner/work/compile-package/compile-package/openwrt/staging_dir/target-i386_pentium4_musl/pkginfo/toolchain.default.install
-echo "libgcc" >> /home/runner/work/compile-package/compile-package/openwrt/staging_dir/target-i386_pentium4_musl/pkginfo/toolchain.default.install
-echo "libpthread" >> /home/runner/work/compile-package/compile-package/openwrt/staging_dir/target-i386_pentium4_musl/pkginfo/toolchain.default.install
-echo "librt" >> /home/runner/work/compile-package/compile-package/openwrt/staging_dir/target-i386_pentium4_musl/pkginfo/toolchain.default.install
-make[2]: Leaving directory '/home/runner/work/compile-package/compile-package/openwrt/package/toolchain'
-time: package/toolchain/compile#0.26#0.14#0.35
-make[2]: Entering directory '/home/runner/work/compile-package/compile-package/openwrt/feeds/jell/naiveproxy'
-mkdir -p /home/runner/work/compile-package/compile-package/openwrt/dl
-SHELL= flock /home/runner/work/compile-package/compile-package/openwrt/tmp/.naiveproxy-v122.0.6261.43-2-openwrt-i386_pentium4.tar.xz.flock -c '  	/home/runner/work/compile-package/compile-package/openwrt/scripts/download.pl "/home/runner/work/compile-package/compile-package/openwrt/dl" "naiveproxy-v122.0.6261.43-2-openwrt-i386_pentium4.tar.xz" "dummy" "" "https://github.com/klzgrad/naiveproxy/releases/download/v122.0.6261.43-2/"    '
+echo "libc" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-i386_pentium4_musl/pkginfo/toolchain.default.install
+echo "libgcc" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-i386_pentium4_musl/pkginfo/toolchain.default.install
+echo "libpthread" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-i386_pentium4_musl/pkginfo/toolchain.default.install
+echo "librt" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-i386_pentium4_musl/pkginfo/toolchain.default.install
+make[2]: Leaving directory '/home/runner/work/Zzz/Zzz/openwrt/package/toolchain'
+time: package/toolchain/compile#0.26#0.12#0.33
+make[2]: Entering directory '/home/runner/work/Zzz/Zzz/openwrt/feeds/jell/naiveproxy'
+mkdir -p /home/runner/work/Zzz/Zzz/openwrt/dl
+SHELL= flock /home/runner/work/Zzz/Zzz/openwrt/tmp/.naiveproxy-v122.0.6261.43-2-openwrt-i386_pentium4.tar.xz.flock -c '  	/home/runner/work/Zzz/Zzz/openwrt/scripts/download.pl "/home/runner/work/Zzz/Zzz/openwrt/dl" "naiveproxy-v122.0.6261.43-2-openwrt-i386_pentium4.tar.xz" "dummy" "" "https://github.com/klzgrad/naiveproxy/releases/download/v122.0.6261.43-2/"    '
 Cannot find appropriate hash command, ensure the provided hash is either a MD5 or SHA256 checksum.
-make[2]: *** [Makefile:99: /home/runner/work/compile-package/compile-package/openwrt/dl/naiveproxy-v122.0.6261.43-2-openwrt-i386_pentium4.tar.xz] Error 255
-make[2]: Leaving directory '/home/runner/work/compile-package/compile-package/openwrt/feeds/jell/naiveproxy'
-time: package/feeds/jell/naiveproxy/compile#0.17#0.10#0.22
+make[2]: *** [Makefile:99: /home/runner/work/Zzz/Zzz/openwrt/dl/naiveproxy-v122.0.6261.43-2-openwrt-i386_pentium4.tar.xz] Error 255
+make[2]: Leaving directory '/home/runner/work/Zzz/Zzz/openwrt/feeds/jell/naiveproxy'
+time: package/feeds/jell/naiveproxy/compile#0.17#0.09#0.22
     ERROR: package/feeds/jell/naiveproxy failed to build.
 make[1]: *** [package/Makefile:129: package/feeds/jell/naiveproxy/compile] Error 1
-make[1]: Leaving directory '/home/runner/work/compile-package/compile-package/openwrt'
-make: *** [/home/runner/work/compile-package/compile-package/openwrt/include/toplevel.mk:224: package/naiveproxy/compile] Error 2
+make[1]: Leaving directory '/home/runner/work/Zzz/Zzz/openwrt'
+make: *** [/home/runner/work/Zzz/Zzz/openwrt/include/toplevel.mk:224: package/naiveproxy/compile] Error 2

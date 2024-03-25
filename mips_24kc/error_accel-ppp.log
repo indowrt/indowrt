@@ -1,15 +1,15 @@
-make[2]: Entering directory '/home/runner/work/compile-package/compile-package/openwrt/scripts/config'
+make[2]: Entering directory '/home/runner/work/Zzz/Zzz/openwrt/scripts/config'
 make[2]: 'conf' is up to date.
-make[2]: Leaving directory '/home/runner/work/compile-package/compile-package/openwrt/scripts/config'
-make[1]: Entering directory '/home/runner/work/compile-package/compile-package/openwrt'
-make[2]: Entering directory '/home/runner/work/compile-package/compile-package/openwrt/package/toolchain'
+make[2]: Leaving directory '/home/runner/work/Zzz/Zzz/openwrt/scripts/config'
+make[1]: Entering directory '/home/runner/work/Zzz/Zzz/openwrt'
+make[2]: Entering directory '/home/runner/work/Zzz/Zzz/openwrt/package/toolchain'
 Makefile:735: WARNING: skipping libgomp -- package has no install section
-echo "libc" >> /home/runner/work/compile-package/compile-package/openwrt/staging_dir/target-mips_24kc_musl/pkginfo/toolchain.default.install
-echo "libgcc" >> /home/runner/work/compile-package/compile-package/openwrt/staging_dir/target-mips_24kc_musl/pkginfo/toolchain.default.install
-echo "libpthread" >> /home/runner/work/compile-package/compile-package/openwrt/staging_dir/target-mips_24kc_musl/pkginfo/toolchain.default.install
-make[2]: Leaving directory '/home/runner/work/compile-package/compile-package/openwrt/package/toolchain'
-time: package/toolchain/compile#0.21#0.10#0.30
-make[2]: Entering directory '/home/runner/work/compile-package/compile-package/openwrt/feeds/base/package/libs/openssl'
+echo "libc" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-mips_24kc_musl/pkginfo/toolchain.default.install
+echo "libgcc" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-mips_24kc_musl/pkginfo/toolchain.default.install
+echo "libpthread" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-mips_24kc_musl/pkginfo/toolchain.default.install
+make[2]: Leaving directory '/home/runner/work/Zzz/Zzz/openwrt/package/toolchain'
+time: package/toolchain/compile#0.21#0.10#0.29
+make[2]: Entering directory '/home/runner/work/Zzz/Zzz/openwrt/feeds/base/package/libs/openssl'
 Package/openssl/add-module 1='provider'; 2='legacy'; 3='/usr/lib/ossl-modules' 4=''
 MOD_TYPE='provider'; MOD_NAME='legacy'; MOD_DIR='/usr/lib/ossl-modules' OSSL_PKG='libopenssl-legacy'
 Package/openssl/add-module 1='engine'; 2='afalg'; 3='/usr/lib/engines-3' 4=''
@@ -18,14 +18,14 @@ Package/openssl/add-module 1='engine'; 2='devcrypto'; 3='/usr/lib/engines-3' 4='
 MOD_TYPE='engine'; MOD_NAME='devcrypto'; MOD_DIR='/usr/lib/engines-3' OSSL_PKG='libopenssl-devcrypto'
 Package/openssl/add-module 1='engine'; 2='padlock'; 3='/usr/lib/engines-3' 4=''
 MOD_TYPE='engine'; MOD_NAME='padlock'; MOD_DIR='/usr/lib/engines-3' OSSL_PKG='libopenssl-padlock'
-make[2]: Leaving directory '/home/runner/work/compile-package/compile-package/openwrt/feeds/base/package/libs/openssl'
-time: package/feeds/base/openssl/compile#0.23#0.11#0.29
-make[2]: Entering directory '/home/runner/work/compile-package/compile-package/openwrt/feeds/packages/libs/pcre'
-make[2]: Leaving directory '/home/runner/work/compile-package/compile-package/openwrt/feeds/packages/libs/pcre'
-time: package/feeds/packages/pcre/compile#0.21#0.08#0.25
-make[2]: Entering directory '/home/runner/work/compile-package/compile-package/openwrt/feeds/jell/accel-ppp'
-mkdir -p /home/runner/work/compile-package/compile-package/openwrt/dl
-SHELL= flock /home/runner/work/compile-package/compile-package/openwrt/tmp/.accel-ppp-1.11.2.tar.xz.flock -c '  	 /home/runner/work/compile-package/compile-package/openwrt/scripts/dl_github_archive.py --dl-dir="/home/runner/work/compile-package/compile-package/openwrt/dl" --url="https://github.com/xebd/accel-ppp.git" --version="04aaeb9bb66c7150bcfea7aadf48663624676316" --subdir="accel-ppp-1.11.2" --source="accel-ppp-1.11.2.tar.xz" --hash="x" || ( 	echo "Checking out files from the git repository..."; mkdir -p /home/runner/work/compile-package/compile-package/openwrt/tmp/dl && cd /home/runner/work/compile-package/compile-package/openwrt/tmp/dl && rm -rf accel-ppp-1.11.2 && [ \! -d accel-ppp-1.11.2 ] && git clone  https://github.com/xebd/accel-ppp.git accel-ppp-1.11.2 && (cd accel-ppp-1.11.2 && git checkout 04aaeb9bb66c7150bcfea7aadf48663624676316 && git submodule update --init --recursive) && echo "Packing checkout..." && export TAR_TIMESTAMP=`cd accel-ppp-1.11.2 && git log -1 --format='\''@%ct'\''` && rm -rf accel-ppp-1.11.2/.git && 	tar --numeric-owner --owner=0 --group=0 --mode=a-s --sort=name ${TAR_TIMESTAMP:+--mtime="$TAR_TIMESTAMP"} -c accel-ppp-1.11.2 | 	xz -zc -7e > /home/runner/work/compile-package/compile-package/openwrt/tmp/dl/accel-ppp-1.11.2.tar.xz && mv /home/runner/work/compile-package/compile-package/openwrt/tmp/dl/accel-ppp-1.11.2.tar.xz /home/runner/work/compile-package/compile-package/openwrt/dl/ && rm -rf accel-ppp-1.11.2; );     '
+make[2]: Leaving directory '/home/runner/work/Zzz/Zzz/openwrt/feeds/base/package/libs/openssl'
+time: package/feeds/base/openssl/compile#0.21#0.12#0.28
+make[2]: Entering directory '/home/runner/work/Zzz/Zzz/openwrt/feeds/packages/libs/pcre'
+make[2]: Leaving directory '/home/runner/work/Zzz/Zzz/openwrt/feeds/packages/libs/pcre'
+time: package/feeds/packages/pcre/compile#0.18#0.09#0.24
+make[2]: Entering directory '/home/runner/work/Zzz/Zzz/openwrt/feeds/jell/accel-ppp'
+mkdir -p /home/runner/work/Zzz/Zzz/openwrt/dl
+SHELL= flock /home/runner/work/Zzz/Zzz/openwrt/tmp/.accel-ppp-1.11.2.tar.xz.flock -c '  	 /home/runner/work/Zzz/Zzz/openwrt/scripts/dl_github_archive.py --dl-dir="/home/runner/work/Zzz/Zzz/openwrt/dl" --url="https://github.com/xebd/accel-ppp.git" --version="04aaeb9bb66c7150bcfea7aadf48663624676316" --subdir="accel-ppp-1.11.2" --source="accel-ppp-1.11.2.tar.xz" --hash="x" || ( 	echo "Checking out files from the git repository..."; mkdir -p /home/runner/work/Zzz/Zzz/openwrt/tmp/dl && cd /home/runner/work/Zzz/Zzz/openwrt/tmp/dl && rm -rf accel-ppp-1.11.2 && [ \! -d accel-ppp-1.11.2 ] && git clone  https://github.com/xebd/accel-ppp.git accel-ppp-1.11.2 && (cd accel-ppp-1.11.2 && git checkout 04aaeb9bb66c7150bcfea7aadf48663624676316 && git submodule update --init --recursive) && echo "Packing checkout..." && export TAR_TIMESTAMP=`cd accel-ppp-1.11.2 && git log -1 --format='\''@%ct'\''` && rm -rf accel-ppp-1.11.2/.git && 	tar --numeric-owner --owner=0 --group=0 --mode=a-s --sort=name ${TAR_TIMESTAMP:+--mtime="$TAR_TIMESTAMP"} -c accel-ppp-1.11.2 | 	xz -zc -7e > /home/runner/work/Zzz/Zzz/openwrt/tmp/dl/accel-ppp-1.11.2.tar.xz && mv /home/runner/work/Zzz/Zzz/openwrt/tmp/dl/accel-ppp-1.11.2.tar.xz /home/runner/work/Zzz/Zzz/openwrt/dl/ && rm -rf accel-ppp-1.11.2; );     '
 accel-ppp-1.11.2.tar.xz: Download from https://github.com/xebd/accel-ppp.git failed
 accel-ppp-1.11.2.tar.xz: Requires sha256sum for verification
 Checking out files from the git repository...
@@ -49,9 +49,9 @@ Turn off this advice by setting config variable advice.detachedHead to false
 
 HEAD is now at 04aaeb9 1.11.2 release
 Packing checkout...
-touch /home/runner/work/compile-package/compile-package/openwrt/build_dir/target-mips_24kc_musl/accel-ppp-1.11.2/.prepared_172b82070aaacd8e2edebeb0f66dc145_6664517399ebbbc92a37c5bb081b5c53_check
-. /home/runner/work/compile-package/compile-package/openwrt/include/shell.sh; xzcat /home/runner/work/compile-package/compile-package/openwrt/dl/accel-ppp-1.11.2.tar.xz | tar -C /home/runner/work/compile-package/compile-package/openwrt/build_dir/target-mips_24kc_musl/accel-ppp-1.11.2/.. -xf -
-[ ! -d ./src/ ] || cp -fpR ./src/. /home/runner/work/compile-package/compile-package/openwrt/build_dir/target-mips_24kc_musl/accel-ppp-1.11.2
+touch /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mips_24kc_musl/accel-ppp-1.11.2/.prepared_473d46250548238061561b10edea6f23_6664517399ebbbc92a37c5bb081b5c53_check
+. /home/runner/work/Zzz/Zzz/openwrt/include/shell.sh; xzcat /home/runner/work/Zzz/Zzz/openwrt/dl/accel-ppp-1.11.2.tar.xz | tar -C /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mips_24kc_musl/accel-ppp-1.11.2/.. -xf -
+[ ! -d ./src/ ] || cp -fpR ./src/. /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mips_24kc_musl/accel-ppp-1.11.2
 
 Applying ./patches/0001-cmakefile.patch using plaintext: 
 patching file CMakeLists.txt
@@ -66,11 +66,11 @@ patching file accel-pppd/session_backup.c
 
 Applying ./patches/0003-l2tp-session.patch using plaintext: 
 patching file accel-pppd/ctrl/l2tp/l2tp.c
-touch /home/runner/work/compile-package/compile-package/openwrt/build_dir/target-mips_24kc_musl/accel-ppp-1.11.2/.prepared_172b82070aaacd8e2edebeb0f66dc145_6664517399ebbbc92a37c5bb081b5c53
-rm -f /home/runner/work/compile-package/compile-package/openwrt/build_dir/target-mips_24kc_musl/accel-ppp-1.11.2/.configured_*
-rm -f /home/runner/work/compile-package/compile-package/openwrt/staging_dir/target-mips_24kc_musl/stamp/.accel-ppp_installed
-mkdir -p /home/runner/work/compile-package/compile-package/openwrt/build_dir/target-mips_24kc_musl/accel-ppp-1.11.2
-(cd /home/runner/work/compile-package/compile-package/openwrt/build_dir/target-mips_24kc_musl/accel-ppp-1.11.2; CFLAGS="-Os -pipe -mno-branch-likely -mips32r2 -mtune=24kc -fno-caller-saves -fno-plt -fhonour-copts -msoft-float -ffile-prefix-map=/home/runner/work/compile-package/compile-package/openwrt/build_dir/target-mips_24kc_musl/accel-ppp-1.11.2=accel-ppp-1.11.2 -mips16 -minterlink-mips16 -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -I/home/runner/work/compile-package/compile-package/openwrt/staging_dir/target-mips_24kc_musl/opt/include -D_GNU_SOURCE -g -O2 -Wno-incompatible-pointer-types " CXXFLAGS="-Os -pipe -mno-branch-likely -mips32r2 -mtune=24kc -fno-caller-saves -fno-plt -fhonour-copts -msoft-float -ffile-prefix-map=/home/runner/work/compile-package/compile-package/openwrt/build_dir/target-mips_24kc_musl/accel-ppp-1.11.2=accel-ppp-1.11.2 -mips16 -minterlink-mips16 -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -I/home/runner/work/compile-package/compile-package/openwrt/staging_dir/target-mips_24kc_musl/opt/include -D_GNU_SOURCE -g -O2 -Wno-incompatible-pointer-types -mips16 -minterlink-mips16 " LDFLAGS="-L/home/runner/work/compile-package/compile-package/openwrt/staging_dir/toolchain-mips_24kc_gcc-12.3.0_musl/usr/lib -L/home/runner/work/compile-package/compile-package/openwrt/staging_dir/toolchain-mips_24kc_gcc-12.3.0_musl/lib -znow -zrelro -lpthread -latomic " cmake -DCMAKE_SYSTEM_NAME=Linux -DCMAKE_SYSTEM_VERSION=1 -DCMAKE_SYSTEM_PROCESSOR=mips -DCMAKE_BUILD_TYPE=Release -DCMAKE_C_FLAGS_RELEASE="-DNDEBUG" -DCMAKE_CXX_FLAGS_RELEASE="-DNDEBUG" -DCMAKE_C_COMPILER_LAUNCHER="" -DCMAKE_C_COMPILER="/home/runner/work/compile-package/compile-package/openwrt/staging_dir/toolchain-mips_24kc_gcc-12.3.0_musl/bin/mips-openwrt-linux-musl-gcc" -DCMAKE_CXX_COMPILER_LAUNCHER="" -DCMAKE_CXX_COMPILER="/home/runner/work/compile-package/compile-package/openwrt/staging_dir/toolchain-mips_24kc_gcc-12.3.0_musl/bin/mips-openwrt-linux-musl-g++" -DCMAKE_ASM_COMPILER_LAUNCHER="" -DCMAKE_ASM_COMPILER="/home/runner/work/compile-package/compile-package/openwrt/staging_dir/toolchain-mips_24kc_gcc-12.3.0_musl/bin/mips-openwrt-linux-musl-gcc" -DCMAKE_EXE_LINKER_FLAGS:STRING="-L/home/runner/work/compile-package/compile-package/openwrt/staging_dir/toolchain-mips_24kc_gcc-12.3.0_musl/usr/lib -L/home/runner/work/compile-package/compile-package/openwrt/staging_dir/toolchain-mips_24kc_gcc-12.3.0_musl/lib -znow -zrelro -lpthread -latomic" -DCMAKE_MODULE_LINKER_FLAGS:STRING="-L/home/runner/work/compile-package/compile-package/openwrt/staging_dir/toolchain-mips_24kc_gcc-12.3.0_musl/usr/lib -L/home/runner/work/compile-package/compile-package/openwrt/staging_dir/toolchain-mips_24kc_gcc-12.3.0_musl/lib -znow -zrelro -lpthread -latomic -Wl,-Bsymbolic-functions" -DCMAKE_SHARED_LINKER_FLAGS:STRING="-L/home/runner/work/compile-package/compile-package/openwrt/staging_dir/toolchain-mips_24kc_gcc-12.3.0_musl/usr/lib -L/home/runner/work/compile-package/compile-package/openwrt/staging_dir/toolchain-mips_24kc_gcc-12.3.0_musl/lib -znow -zrelro -lpthread -latomic -Wl,-Bsymbolic-functions" -DCMAKE_AR="/home/runner/work/compile-package/compile-package/openwrt/staging_dir/toolchain-mips_24kc_gcc-12.3.0_musl/bin/mips-openwrt-linux-musl-gcc-ar" -DCMAKE_NM="/home/runner/work/compile-package/compile-package/openwrt/staging_dir/toolchain-mips_24kc_gcc-12.3.0_musl/bin/mips-openwrt-linux-musl-gcc-nm" -DCMAKE_RANLIB="/home/runner/work/compile-package/compile-package/openwrt/staging_dir/toolchain-mips_24kc_gcc-12.3.0_musl/bin/mips-openwrt-linux-musl-gcc-ranlib" -DCMAKE_FIND_ROOT_PATH="/home/runner/work/compile-package/compile-package/openwrt/staging_dir/target-mips_24kc_musl/usr;/home/runner/work/compile-package/compile-package/openwrt/staging_dir/toolchain-mips_24kc_gcc-12.3.0_musl" -DCMAKE_FIND_ROOT_PATH_MODE_PROGRAM=BOTH -DCMAKE_FIND_ROOT_PATH_MODE_LIBRARY=ONLY -DCMAKE_FIND_ROOT_PATH_MODE_INCLUDE=ONLY -DCMAKE_STRIP=: -DCMAKE_INSTALL_PREFIX=/usr -DDL_LIBRARY=/home/runner/work/compile-package/compile-package/openwrt/staging_dir/target-mips_24kc_musl -DCMAKE_PREFIX_PATH=/home/runner/work/compile-package/compile-package/openwrt/staging_dir/target-mips_24kc_musl -DCMAKE_SKIP_RPATH=TRUE -DCMAKE_EXPORT_PACKAGE_REGISTRY=FALSE -DCMAKE_EXPORT_NO_PACKAGE_REGISTRY=TRUE -DCMAKE_FIND_USE_PACKAGE_REGISTRY=FALSE -DCMAKE_FIND_PACKAGE_NO_PACKAGE_REGISTRY=TRUE -DCMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY=FALSE -DCMAKE_FIND_PACKAGE_NO_SYSTEM_PACKAGE_REGISTRY=TRUE -DCMAKE_GENERATOR="Ninja" -DBUILD_DRIVER=FALSE -DKDIR= -DCMAKE_INSTALL_PREFIX=/usr -DCMAKE_BUILD_TYPE=Release -DLOG_PGSQL=FALSE -DSHAPER=TRUE -DRADIUS=TRUE -DNETSNMP=FALSE -DLOG_FILE=TRUE -DLIB_SUFFIX=  /home/runner/work/compile-package/compile-package/openwrt/build_dir/target-mips_24kc_musl/accel-ppp-1.11.2 )
+touch /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mips_24kc_musl/accel-ppp-1.11.2/.prepared_473d46250548238061561b10edea6f23_6664517399ebbbc92a37c5bb081b5c53
+rm -f /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mips_24kc_musl/accel-ppp-1.11.2/.configured_*
+rm -f /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-mips_24kc_musl/stamp/.accel-ppp_installed
+mkdir -p /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mips_24kc_musl/accel-ppp-1.11.2
+(cd /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mips_24kc_musl/accel-ppp-1.11.2; CFLAGS="-Os -pipe -mno-branch-likely -mips32r2 -mtune=24kc -fno-caller-saves -fno-plt -fhonour-copts -msoft-float -ffile-prefix-map=/home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mips_24kc_musl/accel-ppp-1.11.2=accel-ppp-1.11.2 -mips16 -minterlink-mips16 -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -I/home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-mips_24kc_musl/opt/include -D_GNU_SOURCE -g -O2 -Wno-incompatible-pointer-types " CXXFLAGS="-Os -pipe -mno-branch-likely -mips32r2 -mtune=24kc -fno-caller-saves -fno-plt -fhonour-copts -msoft-float -ffile-prefix-map=/home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mips_24kc_musl/accel-ppp-1.11.2=accel-ppp-1.11.2 -mips16 -minterlink-mips16 -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -I/home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-mips_24kc_musl/opt/include -D_GNU_SOURCE -g -O2 -Wno-incompatible-pointer-types -mips16 -minterlink-mips16 " LDFLAGS="-L/home/runner/work/Zzz/Zzz/openwrt/staging_dir/toolchain-mips_24kc_gcc-12.3.0_musl/usr/lib -L/home/runner/work/Zzz/Zzz/openwrt/staging_dir/toolchain-mips_24kc_gcc-12.3.0_musl/lib -znow -zrelro -lpthread -latomic " cmake -DCMAKE_SYSTEM_NAME=Linux -DCMAKE_SYSTEM_VERSION=1 -DCMAKE_SYSTEM_PROCESSOR=mips -DCMAKE_BUILD_TYPE=Release -DCMAKE_C_FLAGS_RELEASE="-DNDEBUG" -DCMAKE_CXX_FLAGS_RELEASE="-DNDEBUG" -DCMAKE_C_COMPILER_LAUNCHER="" -DCMAKE_C_COMPILER="/home/runner/work/Zzz/Zzz/openwrt/staging_dir/toolchain-mips_24kc_gcc-12.3.0_musl/bin/mips-openwrt-linux-musl-gcc" -DCMAKE_CXX_COMPILER_LAUNCHER="" -DCMAKE_CXX_COMPILER="/home/runner/work/Zzz/Zzz/openwrt/staging_dir/toolchain-mips_24kc_gcc-12.3.0_musl/bin/mips-openwrt-linux-musl-g++" -DCMAKE_ASM_COMPILER_LAUNCHER="" -DCMAKE_ASM_COMPILER="/home/runner/work/Zzz/Zzz/openwrt/staging_dir/toolchain-mips_24kc_gcc-12.3.0_musl/bin/mips-openwrt-linux-musl-gcc" -DCMAKE_EXE_LINKER_FLAGS:STRING="-L/home/runner/work/Zzz/Zzz/openwrt/staging_dir/toolchain-mips_24kc_gcc-12.3.0_musl/usr/lib -L/home/runner/work/Zzz/Zzz/openwrt/staging_dir/toolchain-mips_24kc_gcc-12.3.0_musl/lib -znow -zrelro -lpthread -latomic" -DCMAKE_MODULE_LINKER_FLAGS:STRING="-L/home/runner/work/Zzz/Zzz/openwrt/staging_dir/toolchain-mips_24kc_gcc-12.3.0_musl/usr/lib -L/home/runner/work/Zzz/Zzz/openwrt/staging_dir/toolchain-mips_24kc_gcc-12.3.0_musl/lib -znow -zrelro -lpthread -latomic -Wl,-Bsymbolic-functions" -DCMAKE_SHARED_LINKER_FLAGS:STRING="-L/home/runner/work/Zzz/Zzz/openwrt/staging_dir/toolchain-mips_24kc_gcc-12.3.0_musl/usr/lib -L/home/runner/work/Zzz/Zzz/openwrt/staging_dir/toolchain-mips_24kc_gcc-12.3.0_musl/lib -znow -zrelro -lpthread -latomic -Wl,-Bsymbolic-functions" -DCMAKE_AR="/home/runner/work/Zzz/Zzz/openwrt/staging_dir/toolchain-mips_24kc_gcc-12.3.0_musl/bin/mips-openwrt-linux-musl-gcc-ar" -DCMAKE_NM="/home/runner/work/Zzz/Zzz/openwrt/staging_dir/toolchain-mips_24kc_gcc-12.3.0_musl/bin/mips-openwrt-linux-musl-gcc-nm" -DCMAKE_RANLIB="/home/runner/work/Zzz/Zzz/openwrt/staging_dir/toolchain-mips_24kc_gcc-12.3.0_musl/bin/mips-openwrt-linux-musl-gcc-ranlib" -DCMAKE_FIND_ROOT_PATH="/home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-mips_24kc_musl/usr;/home/runner/work/Zzz/Zzz/openwrt/staging_dir/toolchain-mips_24kc_gcc-12.3.0_musl" -DCMAKE_FIND_ROOT_PATH_MODE_PROGRAM=BOTH -DCMAKE_FIND_ROOT_PATH_MODE_LIBRARY=ONLY -DCMAKE_FIND_ROOT_PATH_MODE_INCLUDE=ONLY -DCMAKE_STRIP=: -DCMAKE_INSTALL_PREFIX=/usr -DDL_LIBRARY=/home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-mips_24kc_musl -DCMAKE_PREFIX_PATH=/home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-mips_24kc_musl -DCMAKE_SKIP_RPATH=TRUE -DCMAKE_EXPORT_PACKAGE_REGISTRY=FALSE -DCMAKE_EXPORT_NO_PACKAGE_REGISTRY=TRUE -DCMAKE_FIND_USE_PACKAGE_REGISTRY=FALSE -DCMAKE_FIND_PACKAGE_NO_PACKAGE_REGISTRY=TRUE -DCMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY=FALSE -DCMAKE_FIND_PACKAGE_NO_SYSTEM_PACKAGE_REGISTRY=TRUE -DCMAKE_GENERATOR="Ninja" -DBUILD_DRIVER=FALSE -DKDIR= -DCMAKE_INSTALL_PREFIX=/usr -DCMAKE_BUILD_TYPE=Release -DLOG_PGSQL=FALSE -DSHAPER=TRUE -DRADIUS=TRUE -DNETSNMP=FALSE -DLOG_FILE=TRUE -DLIB_SUFFIX=  /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mips_24kc_musl/accel-ppp-1.11.2 )
 CMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
   Compatibility with CMake < 2.8.12 will be removed from a future version of
   CMake.
@@ -92,7 +92,7 @@ CMake Deprecation Warning at CMakeLists.txt:3 (cmake_policy):
 -- The C compiler identification is GNU 12.3.0
 -- Detecting C compiler ABI info
 -- Detecting C compiler ABI info - done
--- Check for working C compiler: /home/runner/work/compile-package/compile-package/openwrt/staging_dir/toolchain-mips_24kc_gcc-12.3.0_musl/bin/mips-openwrt-linux-musl-gcc - skipped
+-- Check for working C compiler: /home/runner/work/Zzz/Zzz/openwrt/staging_dir/toolchain-mips_24kc_gcc-12.3.0_musl/bin/mips-openwrt-linux-musl-gcc - skipped
 -- Detecting C compile features
 -- Detecting C compile features - done
 -- Looking for timerfd_create
@@ -120,12 +120,12 @@ CMake Warning:
     KDIR
 
 
--- Build files have been written to: /home/runner/work/compile-package/compile-package/openwrt/build_dir/target-mips_24kc_musl/accel-ppp-1.11.2
-touch /home/runner/work/compile-package/compile-package/openwrt/build_dir/target-mips_24kc_musl/accel-ppp-1.11.2/.configured_68b329da9893e34099c7d8ad5cb9c940
-rm -f /home/runner/work/compile-package/compile-package/openwrt/build_dir/target-mips_24kc_musl/accel-ppp-1.11.2/.built
-touch /home/runner/work/compile-package/compile-package/openwrt/build_dir/target-mips_24kc_musl/accel-ppp-1.11.2/.built_check
-MAKEFLAGS="" /home/runner/work/compile-package/compile-package/openwrt/staging_dir/host/bin/ninja  -j1 -C /home/runner/work/compile-package/compile-package/openwrt/build_dir/target-mips_24kc_musl/accel-ppp-1.11.2 
-ninja: Entering directory `/home/runner/work/compile-package/compile-package/openwrt/build_dir/target-mips_24kc_musl/accel-ppp-1.11.2'
+-- Build files have been written to: /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mips_24kc_musl/accel-ppp-1.11.2
+touch /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mips_24kc_musl/accel-ppp-1.11.2/.configured_68b329da9893e34099c7d8ad5cb9c940
+rm -f /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mips_24kc_musl/accel-ppp-1.11.2/.built
+touch /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mips_24kc_musl/accel-ppp-1.11.2/.built_check
+MAKEFLAGS="" /home/runner/work/Zzz/Zzz/openwrt/staging_dir/host/bin/ninja  -j1 -C /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mips_24kc_musl/accel-ppp-1.11.2 
+ninja: Entering directory `/home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mips_24kc_musl/accel-ppp-1.11.2'
 [1/119] Building C object accel-pppd/CMakeFiles/accel-pppd.dir/memdebug.c.o
 [2/119] Building C object accel-pppd/CMakeFiles/accel-pppd.dir/session.c.o
 [3/119] Building C object accel-pppd/CMakeFiles/accel-pppd.dir/session_backup.c.o
@@ -135,17 +135,17 @@ ninja: Entering directory `/home/runner/work/compile-package/compile-package/ope
 [7/119] Building C object accel-pppd/CMakeFiles/accel-pppd.dir/ppp/ppp.c.o
 [8/119] Building C object accel-pppd/CMakeFiles/accel-pppd.dir/ppp/ppp_fsm.c.o
 [9/119] Building C object accel-pppd/CMakeFiles/accel-pppd.dir/ppp/ppp_lcp.c.o
-/home/runner/work/compile-package/compile-package/openwrt/build_dir/target-mips_24kc_musl/accel-ppp-1.11.2/accel-pppd/ppp/ppp_lcp.c: In function 'lcp_recv':
-/home/runner/work/compile-package/compile-package/openwrt/build_dir/target-mips_24kc_musl/accel-ppp-1.11.2/accel-pppd/ppp/ppp_lcp.c:820:25: warning: this 'else' clause does not guard... [-Wmisleading-indentation]
+/home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mips_24kc_musl/accel-ppp-1.11.2/accel-pppd/ppp/ppp_lcp.c: In function 'lcp_recv':
+/home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mips_24kc_musl/accel-ppp-1.11.2/accel-pppd/ppp/ppp_lcp.c:820:25: warning: this 'else' clause does not guard... [-Wmisleading-indentation]
   820 |                         else
       |                         ^~~~
-/home/runner/work/compile-package/compile-package/openwrt/build_dir/target-mips_24kc_musl/accel-ppp-1.11.2/accel-pppd/ppp/ppp_lcp.c:823:33: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'else'
+/home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mips_24kc_musl/accel-ppp-1.11.2/accel-pppd/ppp/ppp_lcp.c:823:33: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'else'
   823 |                                 ppp_fsm_recv_conf_ack(&lcp->fsm);
       |                                 ^~~~~~~~~~~~~~~~~~~~~
-/home/runner/work/compile-package/compile-package/openwrt/build_dir/target-mips_24kc_musl/accel-ppp-1.11.2/accel-pppd/ppp/ppp_lcp.c:834:25: warning: this 'else' clause does not guard... [-Wmisleading-indentation]
+/home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mips_24kc_musl/accel-ppp-1.11.2/accel-pppd/ppp/ppp_lcp.c:834:25: warning: this 'else' clause does not guard... [-Wmisleading-indentation]
   834 |                         else
       |                         ^~~~
-/home/runner/work/compile-package/compile-package/openwrt/build_dir/target-mips_24kc_musl/accel-ppp-1.11.2/accel-pppd/ppp/ppp_lcp.c:837:33: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'else'
+/home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mips_24kc_musl/accel-ppp-1.11.2/accel-pppd/ppp/ppp_lcp.c:837:33: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'else'
   837 |                                 ppp_fsm_recv_conf_rej(&lcp->fsm);
       |                                 ^~~~~~~~~~~~~~~~~~~~~
 [10/119] Building C object accel-pppd/CMakeFiles/accel-pppd.dir/ppp/lcp_opt_mru.c.o
@@ -163,11 +163,11 @@ ninja: Entering directory `/home/runner/work/compile-package/compile-package/ope
 [22/119] Building C object accel-pppd/CMakeFiles/accel-pppd.dir/ppp/ccp_mppe.c.o
 [23/119] Building C object accel-pppd/CMakeFiles/accel-pppd.dir/cli/std_cmd.c.o
 [24/119] Building C object accel-pppd/CMakeFiles/accel-pppd.dir/cli/show_sessions.c.o
-/home/runner/work/compile-package/compile-package/openwrt/build_dir/target-mips_24kc_musl/accel-ppp-1.11.2/accel-pppd/cli/show_sessions.c: In function 'print_uptime':
-/home/runner/work/compile-package/compile-package/openwrt/build_dir/target-mips_24kc_musl/accel-ppp-1.11.2/accel-pppd/cli/show_sessions.c:442:58: warning: 'snprintf' output may be truncated before the last format character [-Wformat-truncation=]
+/home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mips_24kc_musl/accel-ppp-1.11.2/accel-pppd/cli/show_sessions.c: In function 'print_uptime':
+/home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mips_24kc_musl/accel-ppp-1.11.2/accel-pppd/cli/show_sessions.c:442:58: warning: 'snprintf' output may be truncated before the last format character [-Wformat-truncation=]
   442 |                 snprintf(time_str, 13, "%i.%02i:%02i:%02i", day, hour, min, sec);
       |                                                          ^
-/home/runner/work/compile-package/compile-package/openwrt/build_dir/target-mips_24kc_musl/accel-ppp-1.11.2/accel-pppd/cli/show_sessions.c:442:17: note: 'snprintf' output between 11 and 24 bytes into a destination of size 13
+/home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mips_24kc_musl/accel-ppp-1.11.2/accel-pppd/cli/show_sessions.c:442:17: note: 'snprintf' output between 11 and 24 bytes into a destination of size 13
   442 |                 snprintf(time_str, 13, "%i.%02i:%02i:%02i", day, hour, min, sec);
       |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 [25/119] Building C object accel-pppd/CMakeFiles/accel-pppd.dir/cli/telnet.c.o
@@ -181,37 +181,37 @@ ninja: Entering directory `/home/runner/work/compile-package/compile-package/ope
 [33/119] Building C object accel-pppd/CMakeFiles/accel-pppd.dir/ipdb.c.o
 [34/119] Building C object accel-pppd/CMakeFiles/accel-pppd.dir/iprange.c.o
 In function 'parse_iprange',
-    inlined from 'load_ranges' at /home/runner/work/compile-package/compile-package/openwrt/build_dir/target-mips_24kc_musl/accel-ppp-1.11.2/accel-pppd/iprange.c:181:7,
-    inlined from 'iprange_load_config' at /home/runner/work/compile-package/compile-package/openwrt/build_dir/target-mips_24kc_musl/accel-ppp-1.11.2/accel-pppd/iprange.c:262:12:
-/home/runner/work/compile-package/compile-package/openwrt/build_dir/target-mips_24kc_musl/accel-ppp-1.11.2/accel-pppd/iprange.c:71:9: warning: 'strncpy' specified bound 23 equals destination size [-Wstringop-truncation]
+    inlined from 'load_ranges' at /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mips_24kc_musl/accel-ppp-1.11.2/accel-pppd/iprange.c:181:7,
+    inlined from 'iprange_load_config' at /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mips_24kc_musl/accel-ppp-1.11.2/accel-pppd/iprange.c:262:12:
+/home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mips_24kc_musl/accel-ppp-1.11.2/accel-pppd/iprange.c:71:9: warning: 'strncpy' specified bound 23 equals destination size [-Wstringop-truncation]
    71 |         strncpy(ipstr, str, CIDR_MAXLEN + 1);
       |         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 [35/119] Building C object accel-pppd/CMakeFiles/accel-pppd.dir/utils.c.o
 [36/119] Building C object accel-pppd/CMakeFiles/accel-pppd.dir/rbtree.c.o
 [37/119] Building C object accel-pppd/CMakeFiles/accel-pppd.dir/log.c.o
-/home/runner/work/compile-package/compile-package/openwrt/build_dir/target-mips_24kc_musl/accel-ppp-1.11.2/accel-pppd/log.c: In function 'do_log':
-/home/runner/work/compile-package/compile-package/openwrt/build_dir/target-mips_24kc_musl/accel-ppp-1.11.2/accel-pppd/log.c:81:17: warning: '<unknown>' may be used uninitialized [-Wmaybe-uninitialized]
+/home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mips_24kc_musl/accel-ppp-1.11.2/accel-pppd/log.c: In function 'do_log':
+/home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mips_24kc_musl/accel-ppp-1.11.2/accel-pppd/log.c:81:17: warning: '<unknown>' may be used uninitialized [-Wmaybe-uninitialized]
    81 |                 pthread_setspecific(stat_buf_key, stat_buf);
       |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-In file included from /home/runner/work/compile-package/compile-package/openwrt/build_dir/target-mips_24kc_musl/accel-ppp-1.11.2/accel-pppd/include/ppp.h:6,
-                 from /home/runner/work/compile-package/compile-package/openwrt/build_dir/target-mips_24kc_musl/accel-ppp-1.11.2/accel-pppd/log.c:13:
-/home/runner/work/compile-package/compile-package/openwrt/staging_dir/toolchain-mips_24kc_gcc-12.3.0_musl/include/pthread.h:147:5: note: by argument 2 of type 'const void *' to 'pthread_setspecific' declared here
+In file included from /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mips_24kc_musl/accel-ppp-1.11.2/accel-pppd/include/ppp.h:6,
+                 from /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mips_24kc_musl/accel-ppp-1.11.2/accel-pppd/log.c:13:
+/home/runner/work/Zzz/Zzz/openwrt/staging_dir/toolchain-mips_24kc_gcc-12.3.0_musl/include/pthread.h:147:5: note: by argument 2 of type 'const void *' to 'pthread_setspecific' declared here
   147 | int pthread_setspecific(pthread_key_t, const void *);
       |     ^~~~~~~~~~~~~~~~~~~
 [38/119] Building C object accel-pppd/CMakeFiles/accel-pppd.dir/main.c.o
-/home/runner/work/compile-package/compile-package/openwrt/build_dir/target-mips_24kc_musl/accel-ppp-1.11.2/accel-pppd/main.c: In function '__core_restart':
-/home/runner/work/compile-package/compile-package/openwrt/build_dir/target-mips_24kc_musl/accel-ppp-1.11.2/accel-pppd/main.c:152:23: warning: passing argument 2 to 'restrict'-qualified parameter aliases with argument 1 [-Wrestrict]
+/home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mips_24kc_musl/accel-ppp-1.11.2/accel-pppd/main.c: In function '__core_restart':
+/home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mips_24kc_musl/accel-ppp-1.11.2/accel-pppd/main.c:152:23: warning: passing argument 2 to 'restrict'-qualified parameter aliases with argument 1 [-Wrestrict]
   152 |         readlink(exe, exe, PATH_MAX);
       |                  ~~~  ^~~
-/home/runner/work/compile-package/compile-package/openwrt/build_dir/target-mips_24kc_musl/accel-ppp-1.11.2/accel-pppd/main.c: In function 'sigsegv':
-/home/runner/work/compile-package/compile-package/openwrt/build_dir/target-mips_24kc_musl/accel-ppp-1.11.2/accel-pppd/main.c:208:37: warning: passing argument 2 to 'restrict'-qualified parameter aliases with argument 1 [-Wrestrict]
+/home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mips_24kc_musl/accel-ppp-1.11.2/accel-pppd/main.c: In function 'sigsegv':
+/home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mips_24kc_musl/accel-ppp-1.11.2/accel-pppd/main.c:208:37: warning: passing argument 2 to 'restrict'-qualified parameter aliases with argument 1 [-Wrestrict]
   208 |                 readlink(exec_file, exec_file, PATH_MAX);
       |                          ~~~~~~~~~  ^~~~~~~~~
-/home/runner/work/compile-package/compile-package/openwrt/build_dir/target-mips_24kc_musl/accel-ppp-1.11.2/accel-pppd/main.c: At top level:
-/home/runner/work/compile-package/compile-package/openwrt/build_dir/target-mips_24kc_musl/accel-ppp-1.11.2/accel-pppd/main.c:55:13: warning: 'ssl_lock' defined but not used [-Wunused-function]
+/home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mips_24kc_musl/accel-ppp-1.11.2/accel-pppd/main.c: At top level:
+/home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mips_24kc_musl/accel-ppp-1.11.2/accel-pppd/main.c:55:13: warning: 'ssl_lock' defined but not used [-Wunused-function]
    55 | static void ssl_lock(int mode, int type, const char *file, int line)
       |             ^~~~~~~~
-/home/runner/work/compile-package/compile-package/openwrt/build_dir/target-mips_24kc_musl/accel-ppp-1.11.2/accel-pppd/main.c:50:22: warning: 'ssl_thread_id' defined but not used [-Wunused-function]
+/home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mips_24kc_musl/accel-ppp-1.11.2/accel-pppd/main.c:50:22: warning: 'ssl_thread_id' defined but not used [-Wunused-function]
    50 | static unsigned long ssl_thread_id(void)
       |                      ^~~~~~~~~~~~~
 [39/119] Building C object accel-pppd/radius/CMakeFiles/radius.dir/stat_accm.c.o
@@ -219,287 +219,287 @@ In file included from /home/runner/work/compile-package/compile-package/openwrt/
 [41/119] Building C object accel-pppd/radius/CMakeFiles/radius.dir/req.c.o
 [42/119] Building C object accel-pppd/radius/CMakeFiles/radius.dir/packet.c.o
 [43/119] Building C object accel-pppd/radius/CMakeFiles/radius.dir/auth.c.o
-/home/runner/work/compile-package/compile-package/openwrt/build_dir/target-mips_24kc_musl/accel-ppp-1.11.2/accel-pppd/radius/auth.c: In function 'decrypt_chap_mppe_keys':
-/home/runner/work/compile-package/compile-package/openwrt/build_dir/target-mips_24kc_musl/accel-ppp-1.11.2/accel-pppd/radius/auth.c:33:9: warning: 'MD5_Init' is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
+/home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mips_24kc_musl/accel-ppp-1.11.2/accel-pppd/radius/auth.c: In function 'decrypt_chap_mppe_keys':
+/home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mips_24kc_musl/accel-ppp-1.11.2/accel-pppd/radius/auth.c:33:9: warning: 'MD5_Init' is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
    33 |         MD5_Init(&md5_ctx);
       |         ^~~~~~~~
-In file included from /home/runner/work/compile-package/compile-package/openwrt/build_dir/target-mips_24kc_musl/accel-ppp-1.11.2/accel-pppd/include/crypto.h:7,
-                 from /home/runner/work/compile-package/compile-package/openwrt/build_dir/target-mips_24kc_musl/accel-ppp-1.11.2/accel-pppd/radius/auth.c:4:
-/home/runner/work/compile-package/compile-package/openwrt/staging_dir/target-mips_24kc_musl/usr/include/openssl/md5.h:49:27: note: declared here
+In file included from /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mips_24kc_musl/accel-ppp-1.11.2/accel-pppd/include/crypto.h:7,
+                 from /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mips_24kc_musl/accel-ppp-1.11.2/accel-pppd/radius/auth.c:4:
+/home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-mips_24kc_musl/usr/include/openssl/md5.h:49:27: note: declared here
    49 | OSSL_DEPRECATEDIN_3_0 int MD5_Init(MD5_CTX *c);
       |                           ^~~~~~~~
-/home/runner/work/compile-package/compile-package/openwrt/build_dir/target-mips_24kc_musl/accel-ppp-1.11.2/accel-pppd/radius/auth.c:34:9: warning: 'MD5_Update' is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
+/home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mips_24kc_musl/accel-ppp-1.11.2/accel-pppd/radius/auth.c:34:9: warning: 'MD5_Update' is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
    34 |         MD5_Update(&md5_ctx, req->serv->secret, strlen(req->serv->secret));
       |         ^~~~~~~~~~
-/home/runner/work/compile-package/compile-package/openwrt/staging_dir/target-mips_24kc_musl/usr/include/openssl/md5.h:50:27: note: declared here
+/home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-mips_24kc_musl/usr/include/openssl/md5.h:50:27: note: declared here
    50 | OSSL_DEPRECATEDIN_3_0 int MD5_Update(MD5_CTX *c, const void *data, size_t len);
       |                           ^~~~~~~~~~
-/home/runner/work/compile-package/compile-package/openwrt/build_dir/target-mips_24kc_musl/accel-ppp-1.11.2/accel-pppd/radius/auth.c:35:9: warning: 'MD5_Update' is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
+/home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mips_24kc_musl/accel-ppp-1.11.2/accel-pppd/radius/auth.c:35:9: warning: 'MD5_Update' is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
    35 |         MD5_Update(&md5_ctx, req->pack->buf + 4, 16);
       |         ^~~~~~~~~~
-/home/runner/work/compile-package/compile-package/openwrt/staging_dir/target-mips_24kc_musl/usr/include/openssl/md5.h:50:27: note: declared here
+/home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-mips_24kc_musl/usr/include/openssl/md5.h:50:27: note: declared here
    50 | OSSL_DEPRECATEDIN_3_0 int MD5_Update(MD5_CTX *c, const void *data, size_t len);
       |                           ^~~~~~~~~~
-/home/runner/work/compile-package/compile-package/openwrt/build_dir/target-mips_24kc_musl/accel-ppp-1.11.2/accel-pppd/radius/auth.c:36:9: warning: 'MD5_Final' is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
+/home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mips_24kc_musl/accel-ppp-1.11.2/accel-pppd/radius/auth.c:36:9: warning: 'MD5_Final' is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
    36 |         MD5_Final(md5, &md5_ctx);
       |         ^~~~~~~~~
-/home/runner/work/compile-package/compile-package/openwrt/staging_dir/target-mips_24kc_musl/usr/include/openssl/md5.h:51:27: note: declared here
+/home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-mips_24kc_musl/usr/include/openssl/md5.h:51:27: note: declared here
    51 | OSSL_DEPRECATEDIN_3_0 int MD5_Final(unsigned char *md, MD5_CTX *c);
       |                           ^~~~~~~~~
-/home/runner/work/compile-package/compile-package/openwrt/build_dir/target-mips_24kc_musl/accel-ppp-1.11.2/accel-pppd/radius/auth.c:41:9: warning: 'MD5_Init' is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
+/home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mips_24kc_musl/accel-ppp-1.11.2/accel-pppd/radius/auth.c:41:9: warning: 'MD5_Init' is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
    41 |         MD5_Init(&md5_ctx);
       |         ^~~~~~~~
-/home/runner/work/compile-package/compile-package/openwrt/staging_dir/target-mips_24kc_musl/usr/include/openssl/md5.h:49:27: note: declared here
+/home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-mips_24kc_musl/usr/include/openssl/md5.h:49:27: note: declared here
    49 | OSSL_DEPRECATEDIN_3_0 int MD5_Init(MD5_CTX *c);
       |                           ^~~~~~~~
-/home/runner/work/compile-package/compile-package/openwrt/build_dir/target-mips_24kc_musl/accel-ppp-1.11.2/accel-pppd/radius/auth.c:42:9: warning: 'MD5_Update' is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
+/home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mips_24kc_musl/accel-ppp-1.11.2/accel-pppd/radius/auth.c:42:9: warning: 'MD5_Update' is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
    42 |         MD5_Update(&md5_ctx, req->serv->secret, strlen(req->serv->secret));
       |         ^~~~~~~~~~
-/home/runner/work/compile-package/compile-package/openwrt/staging_dir/target-mips_24kc_musl/usr/include/openssl/md5.h:50:27: note: declared here
+/home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-mips_24kc_musl/usr/include/openssl/md5.h:50:27: note: declared here
    50 | OSSL_DEPRECATEDIN_3_0 int MD5_Update(MD5_CTX *c, const void *data, size_t len);
       |                           ^~~~~~~~~~
-/home/runner/work/compile-package/compile-package/openwrt/build_dir/target-mips_24kc_musl/accel-ppp-1.11.2/accel-pppd/radius/auth.c:43:9: warning: 'MD5_Update' is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
+/home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mips_24kc_musl/accel-ppp-1.11.2/accel-pppd/radius/auth.c:43:9: warning: 'MD5_Update' is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
    43 |         MD5_Update(&md5_ctx, attr->val.octets, 16);
       |         ^~~~~~~~~~
-/home/runner/work/compile-package/compile-package/openwrt/staging_dir/target-mips_24kc_musl/usr/include/openssl/md5.h:50:27: note: declared here
+/home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-mips_24kc_musl/usr/include/openssl/md5.h:50:27: note: declared here
    50 | OSSL_DEPRECATEDIN_3_0 int MD5_Update(MD5_CTX *c, const void *data, size_t len);
       |                           ^~~~~~~~~~
-/home/runner/work/compile-package/compile-package/openwrt/build_dir/target-mips_24kc_musl/accel-ppp-1.11.2/accel-pppd/radius/auth.c:44:9: warning: 'MD5_Final' is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
+/home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mips_24kc_musl/accel-ppp-1.11.2/accel-pppd/radius/auth.c:44:9: warning: 'MD5_Final' is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
    44 |         MD5_Final(md5, &md5_ctx);
       |         ^~~~~~~~~
-/home/runner/work/compile-package/compile-package/openwrt/staging_dir/target-mips_24kc_musl/usr/include/openssl/md5.h:51:27: note: declared here
+/home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-mips_24kc_musl/usr/include/openssl/md5.h:51:27: note: declared here
    51 | OSSL_DEPRECATEDIN_3_0 int MD5_Final(unsigned char *md, MD5_CTX *c);
       |                           ^~~~~~~~~
-/home/runner/work/compile-package/compile-package/openwrt/build_dir/target-mips_24kc_musl/accel-ppp-1.11.2/accel-pppd/radius/auth.c:49:9: warning: 'SHA1_Init' is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
+/home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mips_24kc_musl/accel-ppp-1.11.2/accel-pppd/radius/auth.c:49:9: warning: 'SHA1_Init' is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
    49 |         SHA1_Init(&sha1_ctx);
       |         ^~~~~~~~~
-In file included from /home/runner/work/compile-package/compile-package/openwrt/build_dir/target-mips_24kc_musl/accel-ppp-1.11.2/accel-pppd/include/crypto.h:8:
-/home/runner/work/compile-package/compile-package/openwrt/staging_dir/target-mips_24kc_musl/usr/include/openssl/sha.h:49:27: note: declared here
+In file included from /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mips_24kc_musl/accel-ppp-1.11.2/accel-pppd/include/crypto.h:8:
+/home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-mips_24kc_musl/usr/include/openssl/sha.h:49:27: note: declared here
    49 | OSSL_DEPRECATEDIN_3_0 int SHA1_Init(SHA_CTX *c);
       |                           ^~~~~~~~~
-/home/runner/work/compile-package/compile-package/openwrt/build_dir/target-mips_24kc_musl/accel-ppp-1.11.2/accel-pppd/radius/auth.c:50:9: warning: 'SHA1_Update' is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
+/home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mips_24kc_musl/accel-ppp-1.11.2/accel-pppd/radius/auth.c:50:9: warning: 'SHA1_Update' is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
    50 |         SHA1_Update(&sha1_ctx, plain + 8, 16);
       |         ^~~~~~~~~~~
-/home/runner/work/compile-package/compile-package/openwrt/staging_dir/target-mips_24kc_musl/usr/include/openssl/sha.h:50:27: note: declared here
+/home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-mips_24kc_musl/usr/include/openssl/sha.h:50:27: note: declared here
    50 | OSSL_DEPRECATEDIN_3_0 int SHA1_Update(SHA_CTX *c, const void *data, size_t len);
       |                           ^~~~~~~~~~~
-/home/runner/work/compile-package/compile-package/openwrt/build_dir/target-mips_24kc_musl/accel-ppp-1.11.2/accel-pppd/radius/auth.c:51:9: warning: 'SHA1_Update' is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
+/home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mips_24kc_musl/accel-ppp-1.11.2/accel-pppd/radius/auth.c:51:9: warning: 'SHA1_Update' is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
    51 |         SHA1_Update(&sha1_ctx, plain + 8, 16);
       |         ^~~~~~~~~~~
-/home/runner/work/compile-package/compile-package/openwrt/staging_dir/target-mips_24kc_musl/usr/include/openssl/sha.h:50:27: note: declared here
+/home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-mips_24kc_musl/usr/include/openssl/sha.h:50:27: note: declared here
    50 | OSSL_DEPRECATEDIN_3_0 int SHA1_Update(SHA_CTX *c, const void *data, size_t len);
       |                           ^~~~~~~~~~~
-/home/runner/work/compile-package/compile-package/openwrt/build_dir/target-mips_24kc_musl/accel-ppp-1.11.2/accel-pppd/radius/auth.c:52:9: warning: 'SHA1_Update' is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
+/home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mips_24kc_musl/accel-ppp-1.11.2/accel-pppd/radius/auth.c:52:9: warning: 'SHA1_Update' is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
    52 |         SHA1_Update(&sha1_ctx, challenge, 8);
       |         ^~~~~~~~~~~
-/home/runner/work/compile-package/compile-package/openwrt/staging_dir/target-mips_24kc_musl/usr/include/openssl/sha.h:50:27: note: declared here
+/home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-mips_24kc_musl/usr/include/openssl/sha.h:50:27: note: declared here
    50 | OSSL_DEPRECATEDIN_3_0 int SHA1_Update(SHA_CTX *c, const void *data, size_t len);
       |                           ^~~~~~~~~~~
-/home/runner/work/compile-package/compile-package/openwrt/build_dir/target-mips_24kc_musl/accel-ppp-1.11.2/accel-pppd/radius/auth.c:53:9: warning: 'SHA1_Final' is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
+/home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mips_24kc_musl/accel-ppp-1.11.2/accel-pppd/radius/auth.c:53:9: warning: 'SHA1_Final' is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
    53 |         SHA1_Final(sha1, &sha1_ctx);
       |         ^~~~~~~~~~
-/home/runner/work/compile-package/compile-package/openwrt/staging_dir/target-mips_24kc_musl/usr/include/openssl/sha.h:51:27: note: declared here
+/home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-mips_24kc_musl/usr/include/openssl/sha.h:51:27: note: declared here
    51 | OSSL_DEPRECATEDIN_3_0 int SHA1_Final(unsigned char *md, SHA_CTX *c);
       |                           ^~~~~~~~~~
-/home/runner/work/compile-package/compile-package/openwrt/build_dir/target-mips_24kc_musl/accel-ppp-1.11.2/accel-pppd/radius/auth.c: In function 'decrypt_mppe_key':
-/home/runner/work/compile-package/compile-package/openwrt/build_dir/target-mips_24kc_musl/accel-ppp-1.11.2/accel-pppd/radius/auth.c:77:9: warning: 'MD5_Init' is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
+/home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mips_24kc_musl/accel-ppp-1.11.2/accel-pppd/radius/auth.c: In function 'decrypt_mppe_key':
+/home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mips_24kc_musl/accel-ppp-1.11.2/accel-pppd/radius/auth.c:77:9: warning: 'MD5_Init' is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
    77 |         MD5_Init(&md5_ctx);
       |         ^~~~~~~~
-/home/runner/work/compile-package/compile-package/openwrt/staging_dir/target-mips_24kc_musl/usr/include/openssl/md5.h:49:27: note: declared here
+/home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-mips_24kc_musl/usr/include/openssl/md5.h:49:27: note: declared here
    49 | OSSL_DEPRECATEDIN_3_0 int MD5_Init(MD5_CTX *c);
       |                           ^~~~~~~~
-/home/runner/work/compile-package/compile-package/openwrt/build_dir/target-mips_24kc_musl/accel-ppp-1.11.2/accel-pppd/radius/auth.c:78:9: warning: 'MD5_Update' is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
+/home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mips_24kc_musl/accel-ppp-1.11.2/accel-pppd/radius/auth.c:78:9: warning: 'MD5_Update' is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
    78 |         MD5_Update(&md5_ctx, req->serv->secret, strlen(req->serv->secret));
       |         ^~~~~~~~~~
-/home/runner/work/compile-package/compile-package/openwrt/staging_dir/target-mips_24kc_musl/usr/include/openssl/md5.h:50:27: note: declared here
+/home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-mips_24kc_musl/usr/include/openssl/md5.h:50:27: note: declared here
    50 | OSSL_DEPRECATEDIN_3_0 int MD5_Update(MD5_CTX *c, const void *data, size_t len);
       |                           ^~~~~~~~~~
-/home/runner/work/compile-package/compile-package/openwrt/build_dir/target-mips_24kc_musl/accel-ppp-1.11.2/accel-pppd/radius/auth.c:79:9: warning: 'MD5_Update' is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
+/home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mips_24kc_musl/accel-ppp-1.11.2/accel-pppd/radius/auth.c:79:9: warning: 'MD5_Update' is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
    79 |         MD5_Update(&md5_ctx, req->pack->buf + 4, 16);
       |         ^~~~~~~~~~
-/home/runner/work/compile-package/compile-package/openwrt/staging_dir/target-mips_24kc_musl/usr/include/openssl/md5.h:50:27: note: declared here
+/home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-mips_24kc_musl/usr/include/openssl/md5.h:50:27: note: declared here
    50 | OSSL_DEPRECATEDIN_3_0 int MD5_Update(MD5_CTX *c, const void *data, size_t len);
       |                           ^~~~~~~~~~
-/home/runner/work/compile-package/compile-package/openwrt/build_dir/target-mips_24kc_musl/accel-ppp-1.11.2/accel-pppd/radius/auth.c:80:9: warning: 'MD5_Update' is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
+/home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mips_24kc_musl/accel-ppp-1.11.2/accel-pppd/radius/auth.c:80:9: warning: 'MD5_Update' is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
    80 |         MD5_Update(&md5_ctx, attr->val.octets, 2);
       |         ^~~~~~~~~~
-/home/runner/work/compile-package/compile-package/openwrt/staging_dir/target-mips_24kc_musl/usr/include/openssl/md5.h:50:27: note: declared here
+/home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-mips_24kc_musl/usr/include/openssl/md5.h:50:27: note: declared here
    50 | OSSL_DEPRECATEDIN_3_0 int MD5_Update(MD5_CTX *c, const void *data, size_t len);
       |                           ^~~~~~~~~~
-/home/runner/work/compile-package/compile-package/openwrt/build_dir/target-mips_24kc_musl/accel-ppp-1.11.2/accel-pppd/radius/auth.c:81:9: warning: 'MD5_Final' is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
+/home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mips_24kc_musl/accel-ppp-1.11.2/accel-pppd/radius/auth.c:81:9: warning: 'MD5_Final' is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
    81 |         MD5_Final(md5, &md5_ctx);
       |         ^~~~~~~~~
-/home/runner/work/compile-package/compile-package/openwrt/staging_dir/target-mips_24kc_musl/usr/include/openssl/md5.h:51:27: note: declared here
+/home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-mips_24kc_musl/usr/include/openssl/md5.h:51:27: note: declared here
    51 | OSSL_DEPRECATEDIN_3_0 int MD5_Final(unsigned char *md, MD5_CTX *c);
       |                           ^~~~~~~~~
-/home/runner/work/compile-package/compile-package/openwrt/build_dir/target-mips_24kc_musl/accel-ppp-1.11.2/accel-pppd/radius/auth.c:93:9: warning: 'MD5_Init' is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
+/home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mips_24kc_musl/accel-ppp-1.11.2/accel-pppd/radius/auth.c:93:9: warning: 'MD5_Init' is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
    93 |         MD5_Init(&md5_ctx);
       |         ^~~~~~~~
-/home/runner/work/compile-package/compile-package/openwrt/staging_dir/target-mips_24kc_musl/usr/include/openssl/md5.h:49:27: note: declared here
+/home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-mips_24kc_musl/usr/include/openssl/md5.h:49:27: note: declared here
    49 | OSSL_DEPRECATEDIN_3_0 int MD5_Init(MD5_CTX *c);
       |                           ^~~~~~~~
-/home/runner/work/compile-package/compile-package/openwrt/build_dir/target-mips_24kc_musl/accel-ppp-1.11.2/accel-pppd/radius/auth.c:94:9: warning: 'MD5_Update' is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
+/home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mips_24kc_musl/accel-ppp-1.11.2/accel-pppd/radius/auth.c:94:9: warning: 'MD5_Update' is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
    94 |         MD5_Update(&md5_ctx, req->serv->secret, strlen(req->serv->secret));
       |         ^~~~~~~~~~
-/home/runner/work/compile-package/compile-package/openwrt/staging_dir/target-mips_24kc_musl/usr/include/openssl/md5.h:50:27: note: declared here
+/home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-mips_24kc_musl/usr/include/openssl/md5.h:50:27: note: declared here
    50 | OSSL_DEPRECATEDIN_3_0 int MD5_Update(MD5_CTX *c, const void *data, size_t len);
       |                           ^~~~~~~~~~
-/home/runner/work/compile-package/compile-package/openwrt/build_dir/target-mips_24kc_musl/accel-ppp-1.11.2/accel-pppd/radius/auth.c:95:9: warning: 'MD5_Update' is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
+/home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mips_24kc_musl/accel-ppp-1.11.2/accel-pppd/radius/auth.c:95:9: warning: 'MD5_Update' is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
    95 |         MD5_Update(&md5_ctx, attr->val.octets + 2, 16);
       |         ^~~~~~~~~~
-/home/runner/work/compile-package/compile-package/openwrt/staging_dir/target-mips_24kc_musl/usr/include/openssl/md5.h:50:27: note: declared here
+/home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-mips_24kc_musl/usr/include/openssl/md5.h:50:27: note: declared here
    50 | OSSL_DEPRECATEDIN_3_0 int MD5_Update(MD5_CTX *c, const void *data, size_t len);
       |                           ^~~~~~~~~~
-/home/runner/work/compile-package/compile-package/openwrt/build_dir/target-mips_24kc_musl/accel-ppp-1.11.2/accel-pppd/radius/auth.c:96:9: warning: 'MD5_Final' is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
+/home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mips_24kc_musl/accel-ppp-1.11.2/accel-pppd/radius/auth.c:96:9: warning: 'MD5_Final' is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
    96 |         MD5_Final(md5, &md5_ctx);
       |         ^~~~~~~~~
-/home/runner/work/compile-package/compile-package/openwrt/staging_dir/target-mips_24kc_musl/usr/include/openssl/md5.h:51:27: note: declared here
+/home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-mips_24kc_musl/usr/include/openssl/md5.h:51:27: note: declared here
    51 | OSSL_DEPRECATEDIN_3_0 int MD5_Final(unsigned char *md, MD5_CTX *c);
       |                           ^~~~~~~~~
-/home/runner/work/compile-package/compile-package/openwrt/build_dir/target-mips_24kc_musl/accel-ppp-1.11.2/accel-pppd/radius/auth.c: In function 'encrypt_password':
-/home/runner/work/compile-package/compile-package/openwrt/build_dir/target-mips_24kc_musl/accel-ppp-1.11.2/accel-pppd/radius/auth.c:131:17: warning: 'MD5_Init' is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
+/home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mips_24kc_musl/accel-ppp-1.11.2/accel-pppd/radius/auth.c: In function 'encrypt_password':
+/home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mips_24kc_musl/accel-ppp-1.11.2/accel-pppd/radius/auth.c:131:17: warning: 'MD5_Init' is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
   131 |                 MD5_Init(&ctx);
       |                 ^~~~~~~~
-/home/runner/work/compile-package/compile-package/openwrt/staging_dir/target-mips_24kc_musl/usr/include/openssl/md5.h:49:27: note: declared here
+/home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-mips_24kc_musl/usr/include/openssl/md5.h:49:27: note: declared here
    49 | OSSL_DEPRECATEDIN_3_0 int MD5_Init(MD5_CTX *c);
       |                           ^~~~~~~~
-/home/runner/work/compile-package/compile-package/openwrt/build_dir/target-mips_24kc_musl/accel-ppp-1.11.2/accel-pppd/radius/auth.c:132:17: warning: 'MD5_Update' is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
+/home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mips_24kc_musl/accel-ppp-1.11.2/accel-pppd/radius/auth.c:132:17: warning: 'MD5_Update' is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
   132 |                 MD5_Update(&ctx, secret, strlen(secret));
       |                 ^~~~~~~~~~
-/home/runner/work/compile-package/compile-package/openwrt/staging_dir/target-mips_24kc_musl/usr/include/openssl/md5.h:50:27: note: declared here
+/home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-mips_24kc_musl/usr/include/openssl/md5.h:50:27: note: declared here
    50 | OSSL_DEPRECATEDIN_3_0 int MD5_Update(MD5_CTX *c, const void *data, size_t len);
       |                           ^~~~~~~~~~
-/home/runner/work/compile-package/compile-package/openwrt/build_dir/target-mips_24kc_musl/accel-ppp-1.11.2/accel-pppd/radius/auth.c:133:17: warning: 'MD5_Update' is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
+/home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mips_24kc_musl/accel-ppp-1.11.2/accel-pppd/radius/auth.c:133:17: warning: 'MD5_Update' is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
   133 |                 MD5_Update(&ctx, c, 16);
       |                 ^~~~~~~~~~
-/home/runner/work/compile-package/compile-package/openwrt/staging_dir/target-mips_24kc_musl/usr/include/openssl/md5.h:50:27: note: declared here
+/home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-mips_24kc_musl/usr/include/openssl/md5.h:50:27: note: declared here
    50 | OSSL_DEPRECATEDIN_3_0 int MD5_Update(MD5_CTX *c, const void *data, size_t len);
       |                           ^~~~~~~~~~
-/home/runner/work/compile-package/compile-package/openwrt/build_dir/target-mips_24kc_musl/accel-ppp-1.11.2/accel-pppd/radius/auth.c:134:17: warning: 'MD5_Final' is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
+/home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mips_24kc_musl/accel-ppp-1.11.2/accel-pppd/radius/auth.c:134:17: warning: 'MD5_Final' is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
   134 |                 MD5_Final(b, &ctx);
       |                 ^~~~~~~~~
-/home/runner/work/compile-package/compile-package/openwrt/staging_dir/target-mips_24kc_musl/usr/include/openssl/md5.h:51:27: note: declared here
+/home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-mips_24kc_musl/usr/include/openssl/md5.h:51:27: note: declared here
    51 | OSSL_DEPRECATEDIN_3_0 int MD5_Final(unsigned char *md, MD5_CTX *c);
       |                           ^~~~~~~~~
 [44/119] Building C object accel-pppd/radius/CMakeFiles/radius.dir/acct.c.o
-/home/runner/work/compile-package/compile-package/openwrt/build_dir/target-mips_24kc_musl/accel-ppp-1.11.2/accel-pppd/radius/acct.c: In function 'req_set_RA':
-/home/runner/work/compile-package/compile-package/openwrt/build_dir/target-mips_24kc_musl/accel-ppp-1.11.2/accel-pppd/radius/acct.c:30:9: warning: 'MD5_Init' is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
+/home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mips_24kc_musl/accel-ppp-1.11.2/accel-pppd/radius/acct.c: In function 'req_set_RA':
+/home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mips_24kc_musl/accel-ppp-1.11.2/accel-pppd/radius/acct.c:30:9: warning: 'MD5_Init' is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
    30 |         MD5_Init(&ctx);
       |         ^~~~~~~~
-In file included from /home/runner/work/compile-package/compile-package/openwrt/build_dir/target-mips_24kc_musl/accel-ppp-1.11.2/accel-pppd/include/crypto.h:7,
-                 from /home/runner/work/compile-package/compile-package/openwrt/build_dir/target-mips_24kc_musl/accel-ppp-1.11.2/accel-pppd/radius/acct.c:10:
-/home/runner/work/compile-package/compile-package/openwrt/staging_dir/target-mips_24kc_musl/usr/include/openssl/md5.h:49:27: note: declared here
+In file included from /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mips_24kc_musl/accel-ppp-1.11.2/accel-pppd/include/crypto.h:7,
+                 from /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mips_24kc_musl/accel-ppp-1.11.2/accel-pppd/radius/acct.c:10:
+/home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-mips_24kc_musl/usr/include/openssl/md5.h:49:27: note: declared here
    49 | OSSL_DEPRECATEDIN_3_0 int MD5_Init(MD5_CTX *c);
       |                           ^~~~~~~~
-/home/runner/work/compile-package/compile-package/openwrt/build_dir/target-mips_24kc_musl/accel-ppp-1.11.2/accel-pppd/radius/acct.c:31:9: warning: 'MD5_Update' is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
+/home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mips_24kc_musl/accel-ppp-1.11.2/accel-pppd/radius/acct.c:31:9: warning: 'MD5_Update' is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
    31 |         MD5_Update(&ctx, req->pack->buf, req->pack->len);
       |         ^~~~~~~~~~
-/home/runner/work/compile-package/compile-package/openwrt/staging_dir/target-mips_24kc_musl/usr/include/openssl/md5.h:50:27: note: declared here
+/home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-mips_24kc_musl/usr/include/openssl/md5.h:50:27: note: declared here
    50 | OSSL_DEPRECATEDIN_3_0 int MD5_Update(MD5_CTX *c, const void *data, size_t len);
       |                           ^~~~~~~~~~
-/home/runner/work/compile-package/compile-package/openwrt/build_dir/target-mips_24kc_musl/accel-ppp-1.11.2/accel-pppd/radius/acct.c:32:9: warning: 'MD5_Update' is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
+/home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mips_24kc_musl/accel-ppp-1.11.2/accel-pppd/radius/acct.c:32:9: warning: 'MD5_Update' is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
    32 |         MD5_Update(&ctx, secret, strlen(secret));
       |         ^~~~~~~~~~
-/home/runner/work/compile-package/compile-package/openwrt/staging_dir/target-mips_24kc_musl/usr/include/openssl/md5.h:50:27: note: declared here
+/home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-mips_24kc_musl/usr/include/openssl/md5.h:50:27: note: declared here
    50 | OSSL_DEPRECATEDIN_3_0 int MD5_Update(MD5_CTX *c, const void *data, size_t len);
       |                           ^~~~~~~~~~
-/home/runner/work/compile-package/compile-package/openwrt/build_dir/target-mips_24kc_musl/accel-ppp-1.11.2/accel-pppd/radius/acct.c:33:9: warning: 'MD5_Final' is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
+/home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mips_24kc_musl/accel-ppp-1.11.2/accel-pppd/radius/acct.c:33:9: warning: 'MD5_Final' is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
    33 |         MD5_Final(req->pack->buf + 4, &ctx);
       |         ^~~~~~~~~
-/home/runner/work/compile-package/compile-package/openwrt/staging_dir/target-mips_24kc_musl/usr/include/openssl/md5.h:51:27: note: declared here
+/home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-mips_24kc_musl/usr/include/openssl/md5.h:51:27: note: declared here
    51 | OSSL_DEPRECATEDIN_3_0 int MD5_Final(unsigned char *md, MD5_CTX *c);
       |                           ^~~~~~~~~
 [45/119] Building C object accel-pppd/radius/CMakeFiles/radius.dir/serv.c.o
-/home/runner/work/compile-package/compile-package/openwrt/build_dir/target-mips_24kc_musl/accel-ppp-1.11.2/accel-pppd/radius/serv.c: In function 'req_set_RA':
-/home/runner/work/compile-package/compile-package/openwrt/build_dir/target-mips_24kc_musl/accel-ppp-1.11.2/accel-pppd/radius/serv.c:340:9: warning: 'MD5_Init' is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
+/home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mips_24kc_musl/accel-ppp-1.11.2/accel-pppd/radius/serv.c: In function 'req_set_RA':
+/home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mips_24kc_musl/accel-ppp-1.11.2/accel-pppd/radius/serv.c:340:9: warning: 'MD5_Init' is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
   340 |         MD5_Init(&ctx);
       |         ^~~~~~~~
-In file included from /home/runner/work/compile-package/compile-package/openwrt/build_dir/target-mips_24kc_musl/accel-ppp-1.11.2/accel-pppd/include/crypto.h:7,
-                 from /home/runner/work/compile-package/compile-package/openwrt/build_dir/target-mips_24kc_musl/accel-ppp-1.11.2/accel-pppd/radius/serv.c:20:
-/home/runner/work/compile-package/compile-package/openwrt/staging_dir/target-mips_24kc_musl/usr/include/openssl/md5.h:49:27: note: declared here
+In file included from /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mips_24kc_musl/accel-ppp-1.11.2/accel-pppd/include/crypto.h:7,
+                 from /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mips_24kc_musl/accel-ppp-1.11.2/accel-pppd/radius/serv.c:20:
+/home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-mips_24kc_musl/usr/include/openssl/md5.h:49:27: note: declared here
    49 | OSSL_DEPRECATEDIN_3_0 int MD5_Init(MD5_CTX *c);
       |                           ^~~~~~~~
-/home/runner/work/compile-package/compile-package/openwrt/build_dir/target-mips_24kc_musl/accel-ppp-1.11.2/accel-pppd/radius/serv.c:341:9: warning: 'MD5_Update' is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
+/home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mips_24kc_musl/accel-ppp-1.11.2/accel-pppd/radius/serv.c:341:9: warning: 'MD5_Update' is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
   341 |         MD5_Update(&ctx, req->pack->buf, req->pack->len);
       |         ^~~~~~~~~~
-/home/runner/work/compile-package/compile-package/openwrt/staging_dir/target-mips_24kc_musl/usr/include/openssl/md5.h:50:27: note: declared here
+/home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-mips_24kc_musl/usr/include/openssl/md5.h:50:27: note: declared here
    50 | OSSL_DEPRECATEDIN_3_0 int MD5_Update(MD5_CTX *c, const void *data, size_t len);
       |                           ^~~~~~~~~~
-/home/runner/work/compile-package/compile-package/openwrt/build_dir/target-mips_24kc_musl/accel-ppp-1.11.2/accel-pppd/radius/serv.c:342:9: warning: 'MD5_Update' is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
+/home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mips_24kc_musl/accel-ppp-1.11.2/accel-pppd/radius/serv.c:342:9: warning: 'MD5_Update' is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
   342 |         MD5_Update(&ctx, secret, strlen(secret));
       |         ^~~~~~~~~~
-/home/runner/work/compile-package/compile-package/openwrt/staging_dir/target-mips_24kc_musl/usr/include/openssl/md5.h:50:27: note: declared here
+/home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-mips_24kc_musl/usr/include/openssl/md5.h:50:27: note: declared here
    50 | OSSL_DEPRECATEDIN_3_0 int MD5_Update(MD5_CTX *c, const void *data, size_t len);
       |                           ^~~~~~~~~~
-/home/runner/work/compile-package/compile-package/openwrt/build_dir/target-mips_24kc_musl/accel-ppp-1.11.2/accel-pppd/radius/serv.c:343:9: warning: 'MD5_Final' is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
+/home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mips_24kc_musl/accel-ppp-1.11.2/accel-pppd/radius/serv.c:343:9: warning: 'MD5_Final' is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
   343 |         MD5_Final(req->pack->buf + 4, &ctx);
       |         ^~~~~~~~~
-/home/runner/work/compile-package/compile-package/openwrt/staging_dir/target-mips_24kc_musl/usr/include/openssl/md5.h:51:27: note: declared here
+/home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-mips_24kc_musl/usr/include/openssl/md5.h:51:27: note: declared here
    51 | OSSL_DEPRECATEDIN_3_0 int MD5_Final(unsigned char *md, MD5_CTX *c);
       |                           ^~~~~~~~~
 [46/119] Building C object accel-pppd/radius/CMakeFiles/radius.dir/dm_coa.c.o
-/home/runner/work/compile-package/compile-package/openwrt/build_dir/target-mips_24kc_musl/accel-ppp-1.11.2/accel-pppd/radius/dm_coa.c: In function 'dm_coa_check_RA':
-/home/runner/work/compile-package/compile-package/openwrt/build_dir/target-mips_24kc_musl/accel-ppp-1.11.2/accel-pppd/radius/dm_coa.c:40:9: warning: 'MD5_Init' is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
+/home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mips_24kc_musl/accel-ppp-1.11.2/accel-pppd/radius/dm_coa.c: In function 'dm_coa_check_RA':
+/home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mips_24kc_musl/accel-ppp-1.11.2/accel-pppd/radius/dm_coa.c:40:9: warning: 'MD5_Init' is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
    40 |         MD5_Init(&ctx);
       |         ^~~~~~~~
-In file included from /home/runner/work/compile-package/compile-package/openwrt/build_dir/target-mips_24kc_musl/accel-ppp-1.11.2/accel-pppd/include/crypto.h:7,
-                 from /home/runner/work/compile-package/compile-package/openwrt/build_dir/target-mips_24kc_musl/accel-ppp-1.11.2/accel-pppd/radius/dm_coa.c:13:
-/home/runner/work/compile-package/compile-package/openwrt/staging_dir/target-mips_24kc_musl/usr/include/openssl/md5.h:49:27: note: declared here
+In file included from /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mips_24kc_musl/accel-ppp-1.11.2/accel-pppd/include/crypto.h:7,
+                 from /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mips_24kc_musl/accel-ppp-1.11.2/accel-pppd/radius/dm_coa.c:13:
+/home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-mips_24kc_musl/usr/include/openssl/md5.h:49:27: note: declared here
    49 | OSSL_DEPRECATEDIN_3_0 int MD5_Init(MD5_CTX *c);
       |                           ^~~~~~~~
-/home/runner/work/compile-package/compile-package/openwrt/build_dir/target-mips_24kc_musl/accel-ppp-1.11.2/accel-pppd/radius/dm_coa.c:41:9: warning: 'MD5_Update' is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
+/home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mips_24kc_musl/accel-ppp-1.11.2/accel-pppd/radius/dm_coa.c:41:9: warning: 'MD5_Update' is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
    41 |         MD5_Update(&ctx, pack->buf, 4);
       |         ^~~~~~~~~~
-/home/runner/work/compile-package/compile-package/openwrt/staging_dir/target-mips_24kc_musl/usr/include/openssl/md5.h:50:27: note: declared here
+/home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-mips_24kc_musl/usr/include/openssl/md5.h:50:27: note: declared here
    50 | OSSL_DEPRECATEDIN_3_0 int MD5_Update(MD5_CTX *c, const void *data, size_t len);
       |                           ^~~~~~~~~~
-/home/runner/work/compile-package/compile-package/openwrt/build_dir/target-mips_24kc_musl/accel-ppp-1.11.2/accel-pppd/radius/dm_coa.c:42:9: warning: 'MD5_Update' is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
+/home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mips_24kc_musl/accel-ppp-1.11.2/accel-pppd/radius/dm_coa.c:42:9: warning: 'MD5_Update' is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
    42 |         MD5_Update(&ctx, RA, 16);
       |         ^~~~~~~~~~
-/home/runner/work/compile-package/compile-package/openwrt/staging_dir/target-mips_24kc_musl/usr/include/openssl/md5.h:50:27: note: declared here
+/home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-mips_24kc_musl/usr/include/openssl/md5.h:50:27: note: declared here
    50 | OSSL_DEPRECATEDIN_3_0 int MD5_Update(MD5_CTX *c, const void *data, size_t len);
       |                           ^~~~~~~~~~
-/home/runner/work/compile-package/compile-package/openwrt/build_dir/target-mips_24kc_musl/accel-ppp-1.11.2/accel-pppd/radius/dm_coa.c:43:9: warning: 'MD5_Update' is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
+/home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mips_24kc_musl/accel-ppp-1.11.2/accel-pppd/radius/dm_coa.c:43:9: warning: 'MD5_Update' is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
    43 |         MD5_Update(&ctx, pack->buf + 20, pack->len - 20);
       |         ^~~~~~~~~~
-/home/runner/work/compile-package/compile-package/openwrt/staging_dir/target-mips_24kc_musl/usr/include/openssl/md5.h:50:27: note: declared here
+/home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-mips_24kc_musl/usr/include/openssl/md5.h:50:27: note: declared here
    50 | OSSL_DEPRECATEDIN_3_0 int MD5_Update(MD5_CTX *c, const void *data, size_t len);
       |                           ^~~~~~~~~~
-/home/runner/work/compile-package/compile-package/openwrt/build_dir/target-mips_24kc_musl/accel-ppp-1.11.2/accel-pppd/radius/dm_coa.c:44:9: warning: 'MD5_Update' is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
+/home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mips_24kc_musl/accel-ppp-1.11.2/accel-pppd/radius/dm_coa.c:44:9: warning: 'MD5_Update' is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
    44 |         MD5_Update(&ctx, secret, strlen(secret));
       |         ^~~~~~~~~~
-/home/runner/work/compile-package/compile-package/openwrt/staging_dir/target-mips_24kc_musl/usr/include/openssl/md5.h:50:27: note: declared here
+/home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-mips_24kc_musl/usr/include/openssl/md5.h:50:27: note: declared here
    50 | OSSL_DEPRECATEDIN_3_0 int MD5_Update(MD5_CTX *c, const void *data, size_t len);
       |                           ^~~~~~~~~~
-/home/runner/work/compile-package/compile-package/openwrt/build_dir/target-mips_24kc_musl/accel-ppp-1.11.2/accel-pppd/radius/dm_coa.c:45:9: warning: 'MD5_Final' is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
+/home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mips_24kc_musl/accel-ppp-1.11.2/accel-pppd/radius/dm_coa.c:45:9: warning: 'MD5_Final' is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
    45 |         MD5_Final(RA, &ctx);
       |         ^~~~~~~~~
-/home/runner/work/compile-package/compile-package/openwrt/staging_dir/target-mips_24kc_musl/usr/include/openssl/md5.h:51:27: note: declared here
+/home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-mips_24kc_musl/usr/include/openssl/md5.h:51:27: note: declared here
    51 | OSSL_DEPRECATEDIN_3_0 int MD5_Final(unsigned char *md, MD5_CTX *c);
       |                           ^~~~~~~~~
-/home/runner/work/compile-package/compile-package/openwrt/build_dir/target-mips_24kc_musl/accel-ppp-1.11.2/accel-pppd/radius/dm_coa.c: In function 'dm_coa_set_RA':
-/home/runner/work/compile-package/compile-package/openwrt/build_dir/target-mips_24kc_musl/accel-ppp-1.11.2/accel-pppd/radius/dm_coa.c:54:9: warning: 'MD5_Init' is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
+/home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mips_24kc_musl/accel-ppp-1.11.2/accel-pppd/radius/dm_coa.c: In function 'dm_coa_set_RA':
+/home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mips_24kc_musl/accel-ppp-1.11.2/accel-pppd/radius/dm_coa.c:54:9: warning: 'MD5_Init' is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
    54 |         MD5_Init(&ctx);
       |         ^~~~~~~~
-/home/runner/work/compile-package/compile-package/openwrt/staging_dir/target-mips_24kc_musl/usr/include/openssl/md5.h:49:27: note: declared here
+/home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-mips_24kc_musl/usr/include/openssl/md5.h:49:27: note: declared here
    49 | OSSL_DEPRECATEDIN_3_0 int MD5_Init(MD5_CTX *c);
       |                           ^~~~~~~~
-/home/runner/work/compile-package/compile-package/openwrt/build_dir/target-mips_24kc_musl/accel-ppp-1.11.2/accel-pppd/radius/dm_coa.c:55:9: warning: 'MD5_Update' is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
+/home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mips_24kc_musl/accel-ppp-1.11.2/accel-pppd/radius/dm_coa.c:55:9: warning: 'MD5_Update' is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
    55 |         MD5_Update(&ctx, pack->buf, pack->len);
       |         ^~~~~~~~~~
-/home/runner/work/compile-package/compile-package/openwrt/staging_dir/target-mips_24kc_musl/usr/include/openssl/md5.h:50:27: note: declared here
+/home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-mips_24kc_musl/usr/include/openssl/md5.h:50:27: note: declared here
    50 | OSSL_DEPRECATEDIN_3_0 int MD5_Update(MD5_CTX *c, const void *data, size_t len);
       |                           ^~~~~~~~~~
-/home/runner/work/compile-package/compile-package/openwrt/build_dir/target-mips_24kc_musl/accel-ppp-1.11.2/accel-pppd/radius/dm_coa.c:56:9: warning: 'MD5_Update' is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
+/home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mips_24kc_musl/accel-ppp-1.11.2/accel-pppd/radius/dm_coa.c:56:9: warning: 'MD5_Update' is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
    56 |         MD5_Update(&ctx, secret, strlen(secret));
       |         ^~~~~~~~~~
-/home/runner/work/compile-package/compile-package/openwrt/staging_dir/target-mips_24kc_musl/usr/include/openssl/md5.h:50:27: note: declared here
+/home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-mips_24kc_musl/usr/include/openssl/md5.h:50:27: note: declared here
    50 | OSSL_DEPRECATEDIN_3_0 int MD5_Update(MD5_CTX *c, const void *data, size_t len);
       |                           ^~~~~~~~~~
-/home/runner/work/compile-package/compile-package/openwrt/build_dir/target-mips_24kc_musl/accel-ppp-1.11.2/accel-pppd/radius/dm_coa.c:57:9: warning: 'MD5_Final' is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
+/home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mips_24kc_musl/accel-ppp-1.11.2/accel-pppd/radius/dm_coa.c:57:9: warning: 'MD5_Final' is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
    57 |         MD5_Final(pack->buf + 4, &ctx);
       |         ^~~~~~~~~
-/home/runner/work/compile-package/compile-package/openwrt/staging_dir/target-mips_24kc_musl/usr/include/openssl/md5.h:51:27: note: declared here
+/home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-mips_24kc_musl/usr/include/openssl/md5.h:51:27: note: declared here
    51 | OSSL_DEPRECATEDIN_3_0 int MD5_Final(unsigned char *md, MD5_CTX *c);
       |                           ^~~~~~~~~
 [47/119] Building C object accel-pppd/radius/CMakeFiles/radius.dir/radius.c.o
@@ -515,15 +515,15 @@ In file included from /home/runner/work/compile-package/compile-package/openwrt/
 [57/119] Linking C shared library accel-pppd/triton/libtriton.so
 [58/119] Linking C executable accel-pppd/accel-pppd
 FAILED: accel-pppd/accel-pppd 
-: && /home/runner/work/compile-package/compile-package/openwrt/staging_dir/toolchain-mips_24kc_gcc-12.3.0_musl/bin/mips-openwrt-linux-musl-gcc -Os -pipe -mno-branch-likely -mips32r2 -mtune=24kc -fno-caller-saves -fno-plt -fhonour-copts -msoft-float -ffile-prefix-map=/home/runner/work/compile-package/compile-package/openwrt/build_dir/target-mips_24kc_musl/accel-ppp-1.11.2=accel-ppp-1.11.2 -mips16 -minterlink-mips16 -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -I/home/runner/work/compile-package/compile-package/openwrt/staging_dir/target-mips_24kc_musl/opt/include -D_GNU_SOURCE -g -O2 -Wno-incompatible-pointer-types -Wall -fno-strict-aliasing -D_GNU_SOURCE -fPIC -rdynamic -fvisibility=hidden -DNDEBUG -L/home/runner/work/compile-package/compile-package/openwrt/staging_dir/toolchain-mips_24kc_gcc-12.3.0_musl/usr/lib -L/home/runner/work/compile-package/compile-package/openwrt/staging_dir/toolchain-mips_24kc_gcc-12.3.0_musl/lib -znow -zrelro -lpthread -latomic   -rdynamic accel-pppd/CMakeFiles/accel-pppd.dir/memdebug.c.o accel-pppd/CMakeFiles/accel-pppd.dir/session.c.o accel-pppd/CMakeFiles/accel-pppd.dir/session_backup.c.o accel-pppd/CMakeFiles/accel-pppd.dir/ifcfg.c.o accel-pppd/CMakeFiles/accel-pppd.dir/net.c.o accel-pppd/CMakeFiles/accel-pppd.dir/backup/backup.c.o accel-pppd/CMakeFiles/accel-pppd.dir/ppp/ppp.c.o accel-pppd/CMakeFiles/accel-pppd.dir/ppp/ppp_fsm.c.o accel-pppd/CMakeFiles/accel-pppd.dir/ppp/ppp_lcp.c.o accel-pppd/CMakeFiles/accel-pppd.dir/ppp/lcp_opt_mru.c.o accel-pppd/CMakeFiles/accel-pppd.dir/ppp/lcp_opt_magic.c.o accel-pppd/CMakeFiles/accel-pppd.dir/ppp/lcp_opt_pcomp.c.o accel-pppd/CMakeFiles/accel-pppd.dir/ppp/lcp_opt_accomp.c.o accel-pppd/CMakeFiles/accel-pppd.dir/ppp/ppp_auth.c.o accel-pppd/CMakeFiles/accel-pppd.dir/ppp/ppp_ipcp.c.o accel-pppd/CMakeFiles/accel-pppd.dir/ppp/ipcp_opt_ipaddr.c.o accel-pppd/CMakeFiles/accel-pppd.dir/ppp/ipcp_opt_dns.c.o accel-pppd/CMakeFiles/accel-pppd.dir/ppp/ipcp_opt_wins.c.o accel-pppd/CMakeFiles/accel-pppd.dir/ppp/ipv6cp_opt_intfid.c.o accel-pppd/CMakeFiles/accel-pppd.dir/ppp/ppp_ipv6cp.c.o accel-pppd/CMakeFiles/accel-pppd.dir/ppp/ppp_ccp.c.o accel-pppd/CMakeFiles/accel-pppd.dir/ppp/ccp_mppe.c.o accel-pppd/CMakeFiles/accel-pppd.dir/cli/std_cmd.c.o accel-pppd/CMakeFiles/accel-pppd.dir/cli/show_sessions.c.o accel-pppd/CMakeFiles/accel-pppd.dir/cli/telnet.c.o accel-pppd/CMakeFiles/accel-pppd.dir/cli/tcp.c.o accel-pppd/CMakeFiles/accel-pppd.dir/cli/cli.c.o accel-pppd/CMakeFiles/accel-pppd.dir/libnetlink/libnetlink.c.o accel-pppd/CMakeFiles/accel-pppd.dir/libnetlink/iputils.c.o accel-pppd/CMakeFiles/accel-pppd.dir/libnetlink/genl.c.o accel-pppd/CMakeFiles/accel-pppd.dir/libnetlink/ipset.c.o accel-pppd/CMakeFiles/accel-pppd.dir/pwdb.c.o accel-pppd/CMakeFiles/accel-pppd.dir/ipdb.c.o accel-pppd/CMakeFiles/accel-pppd.dir/iprange.c.o accel-pppd/CMakeFiles/accel-pppd.dir/utils.c.o accel-pppd/CMakeFiles/accel-pppd.dir/rbtree.c.o accel-pppd/CMakeFiles/accel-pppd.dir/log.c.o accel-pppd/CMakeFiles/accel-pppd.dir/main.c.o -o accel-pppd/accel-pppd -L/home/runner/work/compile-package/compile-package/openwrt/build_dir/target-mips_24kc_musl/accel-ppp-1.11.2/accel-pppd/triton accel-pppd/triton/libtriton.so  -lrt  -lpthread  -lcrypto  -lssl  -lpcre  -ldl && :
-/home/runner/work/compile-package/compile-package/openwrt/staging_dir/toolchain-mips_24kc_gcc-12.3.0_musl/bin/../lib/gcc/mips-openwrt-linux-musl/12.3.0/../../../../mips-openwrt-linux-musl/bin/ld: accel-pppd/CMakeFiles/accel-pppd.dir/session.c.o: in function `generate_sessionid':
+: && /home/runner/work/Zzz/Zzz/openwrt/staging_dir/toolchain-mips_24kc_gcc-12.3.0_musl/bin/mips-openwrt-linux-musl-gcc -Os -pipe -mno-branch-likely -mips32r2 -mtune=24kc -fno-caller-saves -fno-plt -fhonour-copts -msoft-float -ffile-prefix-map=/home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mips_24kc_musl/accel-ppp-1.11.2=accel-ppp-1.11.2 -mips16 -minterlink-mips16 -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -I/home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-mips_24kc_musl/opt/include -D_GNU_SOURCE -g -O2 -Wno-incompatible-pointer-types -Wall -fno-strict-aliasing -D_GNU_SOURCE -fPIC -rdynamic -fvisibility=hidden -DNDEBUG -L/home/runner/work/Zzz/Zzz/openwrt/staging_dir/toolchain-mips_24kc_gcc-12.3.0_musl/usr/lib -L/home/runner/work/Zzz/Zzz/openwrt/staging_dir/toolchain-mips_24kc_gcc-12.3.0_musl/lib -znow -zrelro -lpthread -latomic   -rdynamic accel-pppd/CMakeFiles/accel-pppd.dir/memdebug.c.o accel-pppd/CMakeFiles/accel-pppd.dir/session.c.o accel-pppd/CMakeFiles/accel-pppd.dir/session_backup.c.o accel-pppd/CMakeFiles/accel-pppd.dir/ifcfg.c.o accel-pppd/CMakeFiles/accel-pppd.dir/net.c.o accel-pppd/CMakeFiles/accel-pppd.dir/backup/backup.c.o accel-pppd/CMakeFiles/accel-pppd.dir/ppp/ppp.c.o accel-pppd/CMakeFiles/accel-pppd.dir/ppp/ppp_fsm.c.o accel-pppd/CMakeFiles/accel-pppd.dir/ppp/ppp_lcp.c.o accel-pppd/CMakeFiles/accel-pppd.dir/ppp/lcp_opt_mru.c.o accel-pppd/CMakeFiles/accel-pppd.dir/ppp/lcp_opt_magic.c.o accel-pppd/CMakeFiles/accel-pppd.dir/ppp/lcp_opt_pcomp.c.o accel-pppd/CMakeFiles/accel-pppd.dir/ppp/lcp_opt_accomp.c.o accel-pppd/CMakeFiles/accel-pppd.dir/ppp/ppp_auth.c.o accel-pppd/CMakeFiles/accel-pppd.dir/ppp/ppp_ipcp.c.o accel-pppd/CMakeFiles/accel-pppd.dir/ppp/ipcp_opt_ipaddr.c.o accel-pppd/CMakeFiles/accel-pppd.dir/ppp/ipcp_opt_dns.c.o accel-pppd/CMakeFiles/accel-pppd.dir/ppp/ipcp_opt_wins.c.o accel-pppd/CMakeFiles/accel-pppd.dir/ppp/ipv6cp_opt_intfid.c.o accel-pppd/CMakeFiles/accel-pppd.dir/ppp/ppp_ipv6cp.c.o accel-pppd/CMakeFiles/accel-pppd.dir/ppp/ppp_ccp.c.o accel-pppd/CMakeFiles/accel-pppd.dir/ppp/ccp_mppe.c.o accel-pppd/CMakeFiles/accel-pppd.dir/cli/std_cmd.c.o accel-pppd/CMakeFiles/accel-pppd.dir/cli/show_sessions.c.o accel-pppd/CMakeFiles/accel-pppd.dir/cli/telnet.c.o accel-pppd/CMakeFiles/accel-pppd.dir/cli/tcp.c.o accel-pppd/CMakeFiles/accel-pppd.dir/cli/cli.c.o accel-pppd/CMakeFiles/accel-pppd.dir/libnetlink/libnetlink.c.o accel-pppd/CMakeFiles/accel-pppd.dir/libnetlink/iputils.c.o accel-pppd/CMakeFiles/accel-pppd.dir/libnetlink/genl.c.o accel-pppd/CMakeFiles/accel-pppd.dir/libnetlink/ipset.c.o accel-pppd/CMakeFiles/accel-pppd.dir/pwdb.c.o accel-pppd/CMakeFiles/accel-pppd.dir/ipdb.c.o accel-pppd/CMakeFiles/accel-pppd.dir/iprange.c.o accel-pppd/CMakeFiles/accel-pppd.dir/utils.c.o accel-pppd/CMakeFiles/accel-pppd.dir/rbtree.c.o accel-pppd/CMakeFiles/accel-pppd.dir/log.c.o accel-pppd/CMakeFiles/accel-pppd.dir/main.c.o -o accel-pppd/accel-pppd -L/home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mips_24kc_musl/accel-ppp-1.11.2/accel-pppd/triton accel-pppd/triton/libtriton.so  -lrt  -lpthread  -lcrypto  -lssl  -lpcre  -ldl && :
+/home/runner/work/Zzz/Zzz/openwrt/staging_dir/toolchain-mips_24kc_gcc-12.3.0_musl/bin/../lib/gcc/mips-openwrt-linux-musl/12.3.0/../../../../mips-openwrt-linux-musl/bin/ld: accel-pppd/CMakeFiles/accel-pppd.dir/session.c.o: in function `generate_sessionid':
 accel-ppp-1.11.2/accel-ppp-1.11.2/accel-pppd/session.c:333: undefined reference to `__sync_add_and_fetch_8'
 collect2: error: ld returned 1 exit status
 ninja: build stopped: subcommand failed.
-make[2]: *** [Makefile:99: /home/runner/work/compile-package/compile-package/openwrt/build_dir/target-mips_24kc_musl/accel-ppp-1.11.2/.built] Error 1
-make[2]: Leaving directory '/home/runner/work/compile-package/compile-package/openwrt/feeds/jell/accel-ppp'
-time: package/feeds/jell/accel-ppp/compile#9.97#1.65#10.93
+make[2]: *** [Makefile:99: /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mips_24kc_musl/accel-ppp-1.11.2/.built] Error 1
+make[2]: Leaving directory '/home/runner/work/Zzz/Zzz/openwrt/feeds/jell/accel-ppp'
+time: package/feeds/jell/accel-ppp/compile#9.61#1.67#10.49
     ERROR: package/feeds/jell/accel-ppp failed to build.
 make[1]: *** [package/Makefile:129: package/feeds/jell/accel-ppp/compile] Error 1
-make[1]: Leaving directory '/home/runner/work/compile-package/compile-package/openwrt'
-make: *** [/home/runner/work/compile-package/compile-package/openwrt/include/toplevel.mk:224: package/accel-ppp/compile] Error 2
+make[1]: Leaving directory '/home/runner/work/Zzz/Zzz/openwrt'
+make: *** [/home/runner/work/Zzz/Zzz/openwrt/include/toplevel.mk:224: package/accel-ppp/compile] Error 2
